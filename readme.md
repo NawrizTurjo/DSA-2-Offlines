@@ -1,8 +1,8 @@
 # DSA-II Offline Code Implementations
 
-Welcome to my repository containing implementations of Data Structures and Algorithms (DSA-II) in offline mode. In this collection, you'll find code snippets and solutions for various DSA problems that I've encountered and implemented.
+Welcome to my repository containing implementations of Data Structures and Algorithms (DSA-II) of CSE 208 Offline problems. In this collection, you'll find code snippets and solutions for various DSA problems that I've encountered and implemented.
 
-Feel free to explore the organized folders and files to find implementations of different data structures such as arrays, linked lists, trees, graphs, and algorithms like sorting, searching, and dynamic programming.
+Feel free to navigate through the well-organized folders and files to discover implementations covering a range of data structures, including Minimum Spanning Tree (MST), Single Source Shortest Path (SSSP) and more to come.
 
 ## Table of Contents
 
