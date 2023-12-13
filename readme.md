@@ -10,6 +10,8 @@ Feel free to navigate through the well-organized folders and files to discover i
    - Various algorithms for MST.
 2. [Single Source Shortest Path (SSSP)](./Offline-2%20SSSP)
    - Problems regarding SSSP using Djikstra and Bellman-Ford algorithms.
+2. [All Pair Shortest Path (APSP)](./Offline-3%20APSP)
+   - Problems regarding APSP using Floyd-Warshall algorithm.
 
 ## How to Use
 
