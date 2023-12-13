@@ -129,7 +129,7 @@ int main()
                 cout << "impossible" << endl;
             }
         }
-        else if (distance > rangeMin && distance < rangeMax)
+        else if (distance >= rangeMin && distance <= rangeMax)
         {
             ans = distance + sourceDist + destDist;
             if (ans < initialDist)

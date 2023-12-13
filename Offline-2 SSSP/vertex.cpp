@@ -13,7 +13,7 @@ class vertex
     int color;
     int distance;
     int index;
-    int wt;
+    // int wt;
     vertex *parent;
 
 public:

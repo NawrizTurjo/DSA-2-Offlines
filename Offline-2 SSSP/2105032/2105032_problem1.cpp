@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 #include "vertex.cpp"
 using namespace std;
-int djikstra(int s, int d, vector<vertex *> &graph) // O(V + ElogV) V = N*(C+1) AND E = M+C*N
+int djikstra(int s, int d, vector<vertex *> &graph) // O(ElogV) V = N*(C+1) AND E = M+C*N
 {
     graph[s]->setDistance(0);
     graph[s]->setColor(GRAY);
