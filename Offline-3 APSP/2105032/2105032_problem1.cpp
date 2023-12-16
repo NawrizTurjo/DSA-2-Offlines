@@ -50,12 +50,11 @@ int main()
         }
         if (costs[i] < mini)
             mini = costs[i];
-        // cout << endl;
     }
 
-    for (int i = 0;i<V;i++)
+    for (int i = 0; i < V; i++)
         if (costs[i] == mini)
-            cout << i+1 << " ";
+            cout << i + 1 << " ";
     return 0;
 }
 /*
