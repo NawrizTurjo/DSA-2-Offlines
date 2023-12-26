@@ -134,5 +134,6 @@ int main()
     // }
 
     minCut(graph, 0, V1 + V2 + 1, flowOut);
+    for(auto i:graph)   delete i;
     return 0;
 }

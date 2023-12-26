@@ -151,6 +151,6 @@ int main()
     vector<int> flowOut(V + 1, 0);
 
     minCut(graph, s, t, flowOut);
-
+    for(auto i:graph)   delete i;
     return 0;
 }

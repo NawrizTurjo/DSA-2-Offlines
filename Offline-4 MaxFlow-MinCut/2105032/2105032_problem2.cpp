@@ -60,18 +60,6 @@ void minCut(vector<vertex *> &graph, int s, int t, vector<int> &flowOut)
             flowOut[u->getIndex()] += flow;
         }
     }
-    // for (auto i : graph)
-    // {
-    //     cout << i->getIndex() << "-->";
-    //     i->printAdj();
-    //     cout << endl;
-    // }
-
-    // for (auto i : flowOut)
-    // {
-    //     cout << i << " ";
-    // }
-    // cout << endl;
     cout << flowOut[0] << endl;
 }
 int main()
@@ -126,13 +114,8 @@ int main()
         graph[V1 + i + 1]->addEdge(graph[V1 + V2 + 1], 1);
     }
 
-    // for (auto i : graph)
-    // {
-    //     cout << i->getIndex() << "-->";
-    //     i->printAdj();
-    //     cout << endl;
-    // }
-
     minCut(graph, 0, V1 + V2 + 1, flowOut);
+    for(auto i:graph)   delete i;
+
     return 0;
 }

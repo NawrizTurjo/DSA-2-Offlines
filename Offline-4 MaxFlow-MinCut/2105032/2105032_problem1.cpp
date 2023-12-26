@@ -110,8 +110,6 @@ void minCut(vector<vertex *> &graph, int s, int t, vector<int> &flowOut)
             vertex *u = graph[v]->getParent().first;
             int wt = graph[v]->getParent().second;
             flowOut[u->getIndex()] += flow;
-            // cout << u->getIndex() << endl;
-            // cout << flowOut[u->getIndex()] << endl;
         }
     }
     int maxi = INT_MIN;
@@ -151,6 +149,7 @@ int main()
     vector<int> flowOut(V + 1, 0);
 
     minCut(graph, s, t, flowOut);
+    for(auto i:graph)   delete i;
 
     return 0;
 }
