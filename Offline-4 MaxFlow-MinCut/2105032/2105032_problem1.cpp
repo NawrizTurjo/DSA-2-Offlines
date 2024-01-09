@@ -123,7 +123,9 @@ void minCut(vector<vertex *> &graph, int s, int t, vector<int> &flowOut)
         }
     }
     cout << index << " " << maxi << endl;
+    
     dfs(graph, s);
+    cout<<endl<<flowOut[s]<<endl;
 }
 int main()
 {
