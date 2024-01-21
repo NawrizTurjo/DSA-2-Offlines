@@ -24,8 +24,8 @@ private:
     {
         node->data = 0;
         node->parent = parent;
-        node->left = nullptr;
-        node->right = nullptr;
+        node->left = TNULL;
+        node->right = TNULL;
         node->color = 0;
     }
 
@@ -154,7 +154,7 @@ private:
 
     void rbTransplant(NodePtr u, NodePtr v)
     {
-        if (u->parent == nullptr)
+        if (u->parent == TNULL)
         {
             root = v;
         }
@@ -295,32 +295,67 @@ private:
         root->color = 0;
     }
 
-    void printHelper(NodePtr root, string indent, bool last)
-    {
-        if (root != TNULL)
-        {
-            cout << indent;
-            if (last)
-            {
-                cout << "R----";
-                indent += "   ";
-            }
-            else
-            {
-                cout << "L----";
-                indent += "|  ";
-            }
+    // void printHelper(NodePtr curr, string indent, bool last)
+    // {
+    //     if (curr != TNULL)
+    //     {
+    //         // cout << indent;
+    //         // if (last)
+    //         // {
+    //         //     cout << "R----";
+    //         //     indent += "   ";
+    //         // }
+    //         // else
+    //         // {
+    //         //     cout << "L----";
+    //         //     indent += "|  ";
+    //         // }
+    //         if(curr != root){}
 
-            string sColor = root->color ? "RED" : "BLACK";
+    //         string sColor = curr->color ? "RED" : "BLACK";
+    //         if (sColor == "RED")
+    //             cout << hue::red << curr->data << "_" << curr->value;
+    //         // cout << dye::red(sColor);
+    //         else
+    //             cout << hue::black << curr->data << "_" << curr->value;
+    //         // cout << dye::black(sColor);
+    //         cout<<"(";
+    //         printHelper(curr->left, indent, false);
+    //         cout<<",";
+    //         printHelper(curr->right, indent, true);
+    //         cout << ")";
+    //     }
+    // }
+
+    void printHelper(Node* curr, string indent ,bool last) {
+        if (curr != TNULL) {
+            string sColor = curr->color ? "RED" : "BLACK";
             if (sColor == "RED")
-                cout << hue::red<<root->data<<"_"<<root->value;
-                // cout << dye::red(sColor);
+                cout << hue::red << curr->data << "_" << curr->value;
+            // cout << dye::red(sColor);
             else
-                cout << hue::black<<root->data<<"_"<<root->value;
-                // cout << dye::black(sColor);
-            cout<< endl;
-            printHelper(root->left, indent, false);
-            printHelper(root->right, indent, true);
+                cout << hue::black << curr->data << "_" << curr->value;
+            // cout << dye::black(sColor);
+
+            if (curr->left != TNULL || curr->right != TNULL) {
+                cout << "(";
+
+                if (curr->left != nullptr) {
+                    printHelper(curr->left,indent, false);
+                }
+
+                cout << ",";
+
+                if (curr->right != TNULL) {
+                    printHelper(curr->right, indent, true);
+                }
+
+                cout << ")";
+            }
+            
+            // if (last) {
+            //     cout << ")";
+            // }
         }
     }
 
@@ -329,8 +364,8 @@ public:
     {
         TNULL = new Node;
         TNULL->color = 0;
-        TNULL->left = nullptr;
-        TNULL->right = nullptr;
+        TNULL->left = TNULL;
+        TNULL->right = TNULL;
         root = TNULL;
     }
 
@@ -414,7 +449,7 @@ public:
             y->left->parent = x;
         }
         y->parent = x->parent;
-        if (x->parent == nullptr)
+        if (x->parent == TNULL)
         {
             this->root = y;
         }
@@ -439,7 +474,7 @@ public:
             y->right->parent = x;
         }
         y->parent = x->parent;
-        if (x->parent == nullptr)
+        if (x->parent == TNULL)
         {
             this->root = y;
         }
@@ -456,17 +491,23 @@ public:
     }
 
     // Inserting a node
-    void insert(int key,string val)
+    void insert(int key, string val)
     {
+        NodePtr res = searchTreeHelper(root, key);
+        if (res != TNULL)
+        {
+            res->value = val;
+            return;
+        }
         NodePtr node = new Node;
-        node->parent = nullptr;
+        node->parent = TNULL;
         node->data = key;
         node->left = TNULL;
         node->right = TNULL;
         node->value = val;
         node->color = 1;
 
-        NodePtr y = nullptr;
+        NodePtr y = TNULL;
         NodePtr x = this->root;
 
         while (x != TNULL)
@@ -483,7 +524,7 @@ public:
         }
 
         node->parent = y;
-        if (y == nullptr)
+        if (y == TNULL)
         {
             root = node;
         }
@@ -496,13 +537,13 @@ public:
             y->right = node;
         }
 
-        if (node->parent == nullptr)
+        if (node->parent == TNULL)
         {
             node->color = 0;
             return;
         }
 
-        if (node->parent->parent == nullptr)
+        if (node->parent->parent == TNULL)
         {
             return;
         }
@@ -532,37 +573,55 @@ public:
 int main()
 {
     RedBlackTree bst;
-    bst.insert(10,"Thors");
+    bst.insert(10, "Thors");
     bst.printTree();
-    bst.insert(34,"Canute");
+    cout << endl;
+    bst.insert(34, "Canute");
     bst.printTree();
-    bst.insert(43,"Olaf");
+    cout << endl;
+    bst.insert(43, "Olaf");
     bst.printTree();
-    bst.insert(15,"Einer");
+    cout << endl;
+    bst.insert(15, "Einer");
     bst.printTree();
-    bst.insert(40,"Olmar");
+    cout << endl;
+    bst.insert(40, "Olmar");
     bst.printTree();
-    bst.insert(45,"Estrid");
-    bst.printTree();
+    cout << endl;
+    // bst.insert(45,"Estrid");
+    // bst.printTree();cout<<endl;
     bst.insert(53, "Floki");
     bst.printTree();
-    bst.insert(90 ,"Thorfinn");
+    cout << endl;
+    bst.insert(90, "Thorfinn");
     bst.printTree();
-    bst.insert(78, "Askeladd");
-    bst.printTree();
+    cout << endl;
     bst.insert(12, "Snake");
     bst.printTree();
+    cout << endl;
+    bst.insert(78, "Askeladd");
+    bst.printTree();
+    cout << endl;
 
     // cout << endl
     //      << "After deleting" << endl;
     bst.deleteNode(40);
     bst.printTree();
+    cout << endl;
     bst.deleteNode(78);
     bst.printTree();
+    cout << endl;
     bst.deleteNode(12);
     bst.printTree();
+    cout << endl;
     bst.deleteNode(43);
     bst.printTree();
+    cout << endl;
     bst.deleteNode(56);
     bst.printTree();
+    cout << endl;
+
+    bst.insert(15, "Ymir");
+    bst.printTree();
+    cout << endl;
 }
