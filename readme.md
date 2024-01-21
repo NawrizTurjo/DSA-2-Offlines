@@ -14,6 +14,8 @@ Feel free to navigate through the well-organized folders and files to discover i
    - Problems regarding APSP using Floyd-Warshall algorithm.
 4. [Maximum flow Minimum Cut (MaxFlow-MinCut)](./Offline-4%20MaxFlow-MinCut)
    - Solved Problems regarding Maximum flow and its application, Maximum bipartite matching
+5. [Red Black Tree](./Offline-5%20Red%20Black%20Tree)
+   - Implementation of Red Black Tree using Binary Search Tree
 
 ## How to Use
 
