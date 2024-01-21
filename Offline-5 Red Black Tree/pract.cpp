@@ -542,15 +542,15 @@ int main()
     bst.printTree();
     bst.insert(40,"Olmar");
     bst.printTree();
-    bst.insert(45,"Estrid");
-    bst.printTree();
+    // bst.insert(45,"Estrid");
+    // bst.printTree();
     bst.insert(53, "Floki");
     bst.printTree();
     bst.insert(90 ,"Thorfinn");
     bst.printTree();
-    bst.insert(78, "Askeladd");
-    bst.printTree();
     bst.insert(12, "Snake");
+    bst.printTree();
+    bst.insert(78, "Askeladd");
     bst.printTree();
 
     // cout << endl
