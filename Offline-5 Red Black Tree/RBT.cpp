@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 #include "color.hpp"
 using namespace std;
 #define BLACK 0
@@ -14,7 +14,7 @@ public:
     Node *right;
     int color;
 
-    Node(int data,string value,Node *parent, Node*left,Node*right)
+    Node(int data, string value, Node *parent, Node *left, Node *right)
     {
         this->data = data;
         this->value = value;
@@ -24,7 +24,7 @@ public:
         color = BLACK;
     }
 
-    Node(int data,string value,Node *parent, Node*left,Node*right,int color)
+    Node(int data, string value, Node *parent, Node *left, Node *right, int color)
     {
         this->data = data;
         this->value = value;
@@ -43,108 +43,110 @@ public:
     //     this->right = NULL;
     //     color = RED;
     // }
+
+    Node()
+    {
+        this->data = 0;
+        this->value = "";
+        this->parent = NULL;
+        this->left = NULL;
+        this->right = NULL;
+        color = BLACK;
+    }
 };
 
-class RedBlackTree{
+class RedBlackTree
+{
 public:
     Node *root;
     Node *NIL;
     RedBlackTree()
     {
-        this->NIL = new Node(0, "", NIL, NIL, NIL, BLACK);
+        this->NIL = new Node();
         this->root = NIL;
     }
 
     void leftRotate(Node *x)
-{
-    Node *y = x->right;
-    x->right = y->left;
-
-    if (y->left != NIL)
     {
-        y->left->parent = x;
-    }
+        Node *y = x->right;
+        x->right = y->left;
 
-    y->parent = x->parent;
+        if (y->left != NIL)
+        {
+            y->left->parent = x;
+        }
 
-    if (x->parent == NIL)
-    {
-        root = y;
-    }
-    else if (x == x->parent->left)
-    {
-        x->parent->left = y;
-    }
-    else
-    {
-        x->parent->right = y;
-    }
+        y->parent = x->parent;
 
-    y->left = x;
-    x->parent = y;
-}
+        if (x->parent == NULL)
+        {
+            root = y;
+        }
+        else if (x == x->parent->left)
+        {
+            x->parent->left = y;
+        }
+        else
+        {
+            x->parent->right = y;
+        }
 
+        y->left = x;
+        x->parent = y;
+    }
 
     void rightRotate(Node *x)
     {
         Node *y = x->left;
-        x->left=y->right;
+        x->left = y->right;
 
-        if(y->right != NIL)
+        if (y->right != NIL)
         {
             y->right->parent = x;
         }
 
         y->parent = x->parent;
 
-        if(x->parent == NIL)
+        if (x->parent == NULL)
         {
             root = y;
         }
 
-        else if(x==x->parent->right)
+        else if (x == x->parent->right)
         {
             x->parent->right = y;
         }
 
         else
             x->parent->left = y;
-            
+
         y->right = x;
         x->parent = y;
     }
 
-    Node * search(Node *curr,int key)
+    Node *search(Node *curr, int key)
     {
-        if(curr->data == key)
+        if (curr->data == key || curr==NIL)
         {
             return curr;
         }
 
-        else if(curr == NIL)
+        else if (curr->data < key)
         {
-            return NIL;
+            return search(curr->right, key);
         }
 
-        else if(curr->data < key)
-        {
-            return search(curr->right,key);
-        }
-
-        else
-        {
-            return search(curr->left,key);
-        }
+        return search(curr->left, key);
     }
 
     void insertFix(Node *z)
     {
-        while(z->parent->color == RED)
+        while (z->parent->color == RED)
         {
-            if(z->parent == z->parent->parent->left)    // parent is left child of grandparent
+            if (z->parent == z->parent->parent->left) // parent is left child of grandparent
             {
                 Node *y = z->parent->parent->right; // sibling y
-                if(y->color == RED)
+                if (y->color == RED)
                 {
                     z->parent->color = BLACK;
                     y->color = BLACK;
@@ -153,10 +155,10 @@ public:
                 }
                 else
                 {
-                    if(z == z->parent->parent->right)    // L-R
+                    if (z == z->parent->right) // L-R
                     {
                         z = z->parent;
-                        leftRotate(z->parent->parent);
+                        leftRotate(z);
                     }
                     // R-R
                     z->parent->color = BLACK;
@@ -165,10 +167,10 @@ public:
                 }
             }
 
-            else    // parent is right child of grandparent
+            else // parent is right child of grandparent
             {
                 Node *y = z->parent->parent->left; // sibling y
-                if(y->color == RED)
+                if (y->color == RED)
                 {
                     z->parent->color = BLACK;
                     y->color = BLACK;
@@ -177,10 +179,10 @@ public:
                 }
                 else
                 {
-                    if(z == z->parent->parent->left)    // R-L
+                    if (z == z->parent->left) // R-L
                     {
                         z = z->parent;
-                        rightRotate(z->parent->parent);
+                        rightRotate(z);
                     }
                     // L-L
                     z->parent->color = BLACK;
@@ -188,57 +190,71 @@ public:
                     leftRotate(z->parent->parent);
                 }
             }
+            if(z == root)
+            {
+                break;
+            }
         }
+        root->color = BLACK;
     }
 
-    void insert(int key,string val)
+    void insert(int key, string val)
     {
-        Node * temp = search(root,key);
-        if(temp != NIL)
+        Node *temp = search(root, key);
+        if (temp != NIL)
         {
             temp->value = val;
             return;
         }
 
-        Node * z = new Node(key,val,NIL,NIL,NIL,RED);
+        Node *z = new Node(key, val, NIL, NIL, NIL, RED);
 
-        Node * x = root;
-        Node * y = z;
+        Node *y = NIL;
+        Node *x = root;
 
-        while(x != NIL)
+        while (x != NIL)
         {
-            y=x;
-            if(z->data<x->data)
+            y = x;
+            if (z->data < x->data)
             {
-                x=x->left;
+                x = x->left;
             }
             else
             {
-                x=x->right;
+                x = x->right;
             }
         }
 
         z->parent = y;
 
-        if(y==NIL)
+        if (y == NIL)
         {
             root = z;
         }
 
-        else if(z->data < y->data)
+        else if (z->data < y->data)
         {
             y->left = z;
         }
 
-        else 
+        else
         {
             y->right = z;
         }
 
-        z->left = NIL;
-        z->right = NIL;
+        // z->left = NIL;
+        // z->right = NIL;
 
-        z->color = RED;
+        if(z->parent == NIL)
+        {
+            z->color = BLACK;
+            return;
+        }
+
+        if(z->parent->parent == NIL)
+        {
+            return;
+        }
 
         insertFix(z);
     }
@@ -248,7 +264,7 @@ public:
         return root == NIL;
     }
 
-    void printHelper(Node* curr, string indent, bool last)
+    void printHelper(Node *curr, string indent, bool last)
     {
         if (curr != NIL)
         {
@@ -266,22 +282,56 @@ public:
 
             string sColor = curr->color ? "RED" : "BLACK";
             if (sColor == "RED")
-                cout << hue::red<<curr->data<<"_"<<curr->value;
-                // cout << dye::red(sColor);
+                cout << hue::red << curr->data << "_" << curr->value;
+            // cout << dye::red(sColor);
             else
-                cout << hue::black<<curr->data<<"_"<<curr->value;
-                // cout << dye::black(sColor);
-            cout<< endl;
+                cout << hue::black << curr->data << "_" << curr->value;
+            // cout << dye::black(sColor);
+            cout << endl;
             printHelper(curr->left, indent, false);
             printHelper(curr->right, indent, true);
         }
     }
 
+    void transplant(Node *u, Node *v)
+    {
+        if(u->parent == NIL)
+        {
+            root = v;
+        }
+        else if (u==u->parent->left)
+        {
+            u->parent->left = v;
+        }
+        else
+            u->parent->right = v;
+        v->parent = u->parent;
+    }
+
+    void erase(Node *z)
+    {
+        Node *x;
+        Node * y = z;
+        int ogColor = y->color;
+
+        if(z->left == NIL)
+        {
+            x = z->right;
+            transplant(z,z->right);
+        }
+
+        else if(z->right == NIL)
+        {
+            x = z->left;
+            transplant(z,z->left);
+        }
+    }
+
     void printTree()
     {
-        if(root)
+        if (root)
         {
-            printHelper(root,"",true);
+            printHelper(root, "", true);
         }
     }
 };
@@ -290,18 +340,18 @@ int main()
 {
     RedBlackTree bst;
     bst.printTree();
-    bst.insert(10,"Thors");
+    bst.insert(10, "Thors");
     bst.printTree();
-    // bst.insert(34,"Canute");
-    // bst.printTree();
-    // bst.insert(43,"Olaf");
-    // bst.printTree();
+    bst.insert(34,"Canute");
+    bst.printTree();
+    bst.insert(43,"Olaf");
+    bst.printTree();
     // bst.insert(15,"Einer");
     // bst.printTree();
     // bst.insert(40,"Olmar");
     // bst.printTree();
-    // // bst.insert(45,"Estrid");
-    // // bst.printTree();
+    // bst.insert(45,"Estrid");
+    // bst.printTree();
     // bst.insert(53, "Floki");
     // bst.printTree();
     // bst.insert(90 ,"Thorfinn");

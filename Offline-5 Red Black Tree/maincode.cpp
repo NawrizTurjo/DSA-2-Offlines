@@ -210,25 +210,24 @@ private:
         }
         else
         {
-            y = maximum(z->left);
+            y = minimum(z->right);
             y_original_color = y->color;
-            x = y->left;
+            x = y->right;
             if (y->parent == z)
             {
                 x->parent = y;
             }
             else
             {
-                rbTransplant(y, y->left);
-                y->left = z->left;
-                y->left->parent = y;
+                rbTransplant(y, y->right);
+                y->right = z->right;
+                y->right->parent = y;
             }
 
             rbTransplant(z, y);
-            y->right = z->right;
-            y->right->parent = y;
+            y->left = z->left;
+            y->left->parent = y;
             y->color = z->color;
-
         }
         delete z;
         if (y_original_color == 0)
@@ -545,25 +544,25 @@ int main()
     bst.printTree();
     bst.insert(43,"Olaf");
     bst.printTree();
-    bst.insert(15,"Einer");
-    bst.printTree();
-    bst.insert(40,"Olmar");
-    bst.printTree();
-    bst.insert(45,"Estrid");
-    bst.printTree();
-    bst.insert(53, "Floki");
-    bst.printTree();
-    bst.insert(90 ,"Thorfinn");
-    bst.printTree();
-    bst.insert(12, "Snake");
-    bst.printTree();
-    bst.insert(78, "Askeladd");
-    bst.printTree();
+    // bst.insert(15,"Einer");
+    // bst.printTree();
+    // bst.insert(40,"Olmar");
+    // bst.printTree();
+    // bst.insert(45,"Estrid");
+    // bst.printTree();
+    // bst.insert(53, "Floki");
+    // bst.printTree();
+    // bst.insert(90 ,"Thorfinn");
+    // bst.printTree();
+    // bst.insert(12, "Snake");
+    // bst.printTree();
+    // bst.insert(78, "Askeladd");
+    // bst.printTree();
 
     // // cout << endl
     // //      << "After deleting" << endl;
-    bst.deleteNode(40);
-    bst.printTree();
+    // bst.deleteNode(40);
+    // bst.printTree();
     // bst.deleteNode(78);
     // bst.printTree();
     // bst.deleteNode(12);

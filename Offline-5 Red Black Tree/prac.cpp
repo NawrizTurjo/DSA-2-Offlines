@@ -228,7 +228,6 @@ private:
             y->right = z->right;
             y->right->parent = y;
             y->color = z->color;
-
         }
         delete z;
         if (y_original_color == 0)
@@ -298,6 +297,40 @@ private:
 
     void printHelper(NodePtr root, string indent, bool last)
     {
+        if (root != TNULL)
+        {
+            cout << indent;
+            if (last)
+            {
+                cout << "R----";
+                indent += "   ";
+            }
+            else
+            {
+                cout << "L----";
+                indent += "|  ";
+            }
+
+            string sColor = root->color ? "RED" : "BLACK";
+            if (sColor == "RED")
+                cout << hue::red<<root->data<<"_"<<root->value;
+                // cout << dye::red(sColor);
+            else
+                cout << hue::black<<root->data<<"_"<<root->value;
+                // cout << dye::black(sColor);
+            cout<< endl;
+            printHelper(root->left, indent, false);
+            printHelper(root->right, indent, true);
+        }
+    }
+
+    void printHelper2(NodePtr root, string indent, bool last)
+    {
+        if(root ==this->root)
+        {
+            cout<<hue::black<<root->data<<"_"<<root->value<<endl;
+            return;
+        }
         if (root != TNULL)
         {
             cout << indent;
@@ -560,8 +593,8 @@ int main()
     bst.insert(78, "Askeladd");
     bst.printTree();
 
-    // // cout << endl
-    // //      << "After deleting" << endl;
+    // cout << endl
+    //      << "After deleting" << endl;
     bst.deleteNode(40);
     bst.printTree();
     // bst.deleteNode(78);
