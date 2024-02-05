@@ -1,0 +1,11 @@
+insert 10 nodes for heap1 and heap2 with unique values
+
+heap1==>
+    extract max such that tree 1-->2-->4
+    delete child,grandchild,rootList er ekta elemment
+
+.._5ta
+
+heap2==>
+    Increase_key
+        linear type er root marked thake

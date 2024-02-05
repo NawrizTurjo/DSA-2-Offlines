@@ -91,6 +91,13 @@ public:
 
 class FibHeap
 {
+  void clear()
+  {
+    while(!is_empty())
+    {
+      extract_max();
+    }
+  }
 public:
   int size;
   Node *root; // also stores the max node
@@ -106,6 +113,11 @@ public:
     
   }
 
+  // ~FibHeap()
+  // {
+  //   clear();
+  // }
+
   FibHeap(Node *root, int size)
   {
     this->root = root;
@@ -116,7 +128,7 @@ public:
     Node *node = NULL;
     return node;
   }
-  bool is_empty()
+  bool  is_empty()
   {
     return size == 0;
   }
@@ -411,6 +423,7 @@ public:
     }
     size--;
     map.erase(z->value);
+    // delete(z);
     return mainRoot;
   }
 
@@ -596,197 +609,4 @@ public:
     } while (curr != mainRoot);
   }
 
-  // void print_fibonacci_heap(bool print_marked = false)
-  //   {
-  //       deque<Node *> unvisited;
-  //       vector<pair<int, int>> root_list;
-  //       vector<pair<int, int>> marked_nodes;
-
-  //       if (this->root)
-  //       {
-  //           Node *current = this->root;
-  //           do
-  //           {
-  //               root_list.push_back(make_pair(current->key, current->value));
-  //               unvisited.push_back(current);
-  //               current = current->right;
-  //           } while (current != this->root);
-  //       }
-
-  //       std::cout << "--------------------" << std::endl;
-  //       std::cout << "-- Fibonacci Heap --" << std::endl;
-  //       std::cout << "--------------------" << std::endl;
-  //       std::cout << "Total nodes: " << size << std::endl;
-  //       std::cout << "Maximum: (" << root->key << ", " << root->value << ")" << std::endl;
-  //       std::cout << "Root list: ";
-  //       for (auto kv : root_list)
-  //       {
-  //           std::cout << "(" << kv.first << ", " << kv.second << ") ";
-  //       }
-  //       std::cout << std::endl;
-
-  //       while (!unvisited.empty())
-  //       {
-  //           Node *node = unvisited.front();
-  //           unvisited.pop_front();
-  //           if (node->mark && (std::find(marked_nodes.begin(), marked_nodes.end(), make_pair(node->key, node->value)) == marked_nodes.end()))
-  //           {
-  //               marked_nodes.push_back(make_pair(node->key, node->value));
-  //           }
-  //           if (node->child)
-  //           {
-  //               std::vector<pair<int, int>> children;
-  //               Node *child = node->child;
-  //               do
-  //               {
-  //                   children.push_back(make_pair(child->key, child->value));
-  //                   if (child->child)
-  //                   {
-  //                       unvisited.push_back(child);
-  //                   }
-  //                   if (child->mark && (std::find(marked_nodes.begin(), marked_nodes.end(), make_pair(child->key, child->value)) == marked_nodes.end()))
-  //                   {
-  //                       marked_nodes.push_back(make_pair(child->key, child->value));
-  //                   }
-  //                   child = child->right;
-  //               } while (child != node->child);
-  //               std::cout << "Children of (" << node->key << ", " << node->value << "): ";
-  //               for (auto kv : children)
-  //               {
-  //                   std::cout << "(" << kv.first << ", " << kv.second << ") ";
-  //               }
-  //               std::cout << std::endl;
-  //           }
-  //       }
-  //       if (print_marked)
-  //       {
-  //           std::cout << "Marked nodes: ";
-  //           for (auto kv : marked_nodes)
-  //           {
-  //               std::cout << "(" << kv.first << ", " << kv.second << ") ";
-  //           }
-  //           std::cout << std::endl;
-  //       }
-  //       std::cout << "--------------------" << std::endl
-  //                 << std::endl;
-  //   }
 };
-// # insert ok
-// # meld ok
-// # extract_max ok
-// # increase_key not ok
-// # deleteNode ok
-// # find_max ok
-// int main()
-// {
-//   // FibHeap *fH = new FibHeap();
-//   // fH->insert(1,1);
-//   // fH->insert(2,2);
-//   // fH->insert(3,3);
-//   // fH->insert(4,4);
-//   // fH->insert(5,5);
-//   // fH->insert(6,6);
-//   // fH->insert(7,7);
-
-//   // fH->Display();
-
-//   // cout<<endl;
-//   // fH->deleteNode(2);
-//   // cout<<"After deleting 2..."<<endl;
-//   // fH->print_fibonacci_heap();
-
-//   // cout<<endl;
-//   // fH->increase_key(4,10);
-//   // cout<<"After increase_key 4 to 10..."<<endl;
-//   // fH->print_fibonacci_heap();
-
-//   // cout<<endl;
-//   // fH->increase_key(5,12);
-//   // cout<<"After increase_key 5 to 12..."<<endl;
-//   // fH->print_fibonacci_heap();
-
-//   // cout<<endl;
-//   // fH->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH->Display();
-
-//   // cout<<endl;
-//   // int temp = 1;
-//   // fH->deleteNode(temp);
-//   // cout<<"After deleting "<<temp<<" .."<<endl;
-//   // fH->Display();
-
-//   //meld check
-
-//   // FibHeap *fH1 = new FibHeap();
-//   // fH1->insert(1,1);
-//   // fH1->insert(2,2);
-//   // fH1->insert(3,3);
-//   // fH1->insert(4,4);
-//   // fH1->insert(5,5);
-
-//   // FibHeap *fH2 = new FibHeap();
-//   // fH2->insert(6,6);
-//   // fH2->insert(7,7);
-//   // fH2->insert(8,8);
-//   // fH2->insert(9,9);
-//   // fH2->insert(10,10);
-
-//   // fH1->Display();
-//   // cout<<endl;
-//   // fH1->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH1->Display();
-
-//   // cout<<endl;
-//   // fH1->increase_key(3,20);
-//   // cout<<"After increasing 3 20.."<<endl;
-//   // fH1->Display();
-
-//   // FibHeap *fH3 = fH1->meld(fH1, fH2);
-
-//   // cout<<endl;
-//   // cout<<"After melding fH1 and fH2.."<<endl;
-//   // fH3->Display();
-
-//   // cout<<endl;
-//   // fH3->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH3->Display();
-
-//   // cout<<endl;
-//   // fH3->increase_key(3,20);
-//   // cout<<"After increasing 3 to 20.."<<endl;
-//   // fH3->Display();
-//   // cout<<endl;
-//   // fH->deleteNode(3);
-//   // cout<<"After deleting 2.."<<endl;
-//   // fH->Display();
-
-//   // cout<<endl;
-//   // fH->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH->Display();
-
-//   // cout<<endl;
-//   // fH->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH->Display();
-
-//   // cout<<endl;
-//   // fH->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH->Display();
-
-//   // cout<<endl;
-//   // fH->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH->Display();
-
-//   // cout<<endl;
-//   // fH->extract_max();
-//   // cout<<"After extract max"<<endl;
-//   // fH->Display();
-
-//   // fH->Display();
-// }
