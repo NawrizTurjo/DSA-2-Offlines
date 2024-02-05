@@ -596,80 +596,80 @@ public:
     } while (curr != mainRoot);
   }
 
-  void print_fibonacci_heap(bool print_marked = false)
-    {
-        deque<Node *> unvisited;
-        vector<pair<int, int>> root_list;
-        vector<pair<int, int>> marked_nodes;
+  // void print_fibonacci_heap(bool print_marked = false)
+  //   {
+  //       deque<Node *> unvisited;
+  //       vector<pair<int, int>> root_list;
+  //       vector<pair<int, int>> marked_nodes;
 
-        if (this->root)
-        {
-            Node *current = this->root;
-            do
-            {
-                root_list.push_back(make_pair(current->key, current->value));
-                unvisited.push_back(current);
-                current = current->right;
-            } while (current != this->root);
-        }
+  //       if (this->root)
+  //       {
+  //           Node *current = this->root;
+  //           do
+  //           {
+  //               root_list.push_back(make_pair(current->key, current->value));
+  //               unvisited.push_back(current);
+  //               current = current->right;
+  //           } while (current != this->root);
+  //       }
 
-        std::cout << "--------------------" << std::endl;
-        std::cout << "-- Fibonacci Heap --" << std::endl;
-        std::cout << "--------------------" << std::endl;
-        std::cout << "Total nodes: " << size << std::endl;
-        std::cout << "Maximum: (" << root->key << ", " << root->value << ")" << std::endl;
-        std::cout << "Root list: ";
-        for (auto kv : root_list)
-        {
-            std::cout << "(" << kv.first << ", " << kv.second << ") ";
-        }
-        std::cout << std::endl;
+  //       std::cout << "--------------------" << std::endl;
+  //       std::cout << "-- Fibonacci Heap --" << std::endl;
+  //       std::cout << "--------------------" << std::endl;
+  //       std::cout << "Total nodes: " << size << std::endl;
+  //       std::cout << "Maximum: (" << root->key << ", " << root->value << ")" << std::endl;
+  //       std::cout << "Root list: ";
+  //       for (auto kv : root_list)
+  //       {
+  //           std::cout << "(" << kv.first << ", " << kv.second << ") ";
+  //       }
+  //       std::cout << std::endl;
 
-        while (!unvisited.empty())
-        {
-            Node *node = unvisited.front();
-            unvisited.pop_front();
-            if (node->mark && (std::find(marked_nodes.begin(), marked_nodes.end(), make_pair(node->key, node->value)) == marked_nodes.end()))
-            {
-                marked_nodes.push_back(make_pair(node->key, node->value));
-            }
-            if (node->child)
-            {
-                std::vector<pair<int, int>> children;
-                Node *child = node->child;
-                do
-                {
-                    children.push_back(make_pair(child->key, child->value));
-                    if (child->child)
-                    {
-                        unvisited.push_back(child);
-                    }
-                    if (child->mark && (std::find(marked_nodes.begin(), marked_nodes.end(), make_pair(child->key, child->value)) == marked_nodes.end()))
-                    {
-                        marked_nodes.push_back(make_pair(child->key, child->value));
-                    }
-                    child = child->right;
-                } while (child != node->child);
-                std::cout << "Children of (" << node->key << ", " << node->value << "): ";
-                for (auto kv : children)
-                {
-                    std::cout << "(" << kv.first << ", " << kv.second << ") ";
-                }
-                std::cout << std::endl;
-            }
-        }
-        if (print_marked)
-        {
-            std::cout << "Marked nodes: ";
-            for (auto kv : marked_nodes)
-            {
-                std::cout << "(" << kv.first << ", " << kv.second << ") ";
-            }
-            std::cout << std::endl;
-        }
-        std::cout << "--------------------" << std::endl
-                  << std::endl;
-    }
+  //       while (!unvisited.empty())
+  //       {
+  //           Node *node = unvisited.front();
+  //           unvisited.pop_front();
+  //           if (node->mark && (std::find(marked_nodes.begin(), marked_nodes.end(), make_pair(node->key, node->value)) == marked_nodes.end()))
+  //           {
+  //               marked_nodes.push_back(make_pair(node->key, node->value));
+  //           }
+  //           if (node->child)
+  //           {
+  //               std::vector<pair<int, int>> children;
+  //               Node *child = node->child;
+  //               do
+  //               {
+  //                   children.push_back(make_pair(child->key, child->value));
+  //                   if (child->child)
+  //                   {
+  //                       unvisited.push_back(child);
+  //                   }
+  //                   if (child->mark && (std::find(marked_nodes.begin(), marked_nodes.end(), make_pair(child->key, child->value)) == marked_nodes.end()))
+  //                   {
+  //                       marked_nodes.push_back(make_pair(child->key, child->value));
+  //                   }
+  //                   child = child->right;
+  //               } while (child != node->child);
+  //               std::cout << "Children of (" << node->key << ", " << node->value << "): ";
+  //               for (auto kv : children)
+  //               {
+  //                   std::cout << "(" << kv.first << ", " << kv.second << ") ";
+  //               }
+  //               std::cout << std::endl;
+  //           }
+  //       }
+  //       if (print_marked)
+  //       {
+  //           std::cout << "Marked nodes: ";
+  //           for (auto kv : marked_nodes)
+  //           {
+  //               std::cout << "(" << kv.first << ", " << kv.second << ") ";
+  //           }
+  //           std::cout << std::endl;
+  //       }
+  //       std::cout << "--------------------" << std::endl
+  //                 << std::endl;
+  //   }
 };
 // # insert ok
 // # meld ok

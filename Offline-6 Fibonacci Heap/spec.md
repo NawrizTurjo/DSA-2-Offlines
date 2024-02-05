@@ -55,7 +55,7 @@ Tree 2: (24, 7) -> (5, 10)
 
 ## <font color = "cyan">10. test()</font>
    - Tests all the functionalities of the implemented priority queue for all possible scenarios.
-   - Prints "passed" if all test cases are passed, otherwise prints "not passed".
+   - Prints <font color="grgreen">"passed"</font> if all test cases are passed, otherwise prints <font color="red">"not passed"</font>.
 
 
 
