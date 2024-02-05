@@ -2,14 +2,59 @@
 #include "Fibonacci-Heap.cpp"
 using namespace std;
 
-class priority_queue
+class Priority_queue
 {
-    FibHeap *heap;
+    // FibHeap *heap;
 
 public:
-    priority_queue()
+    // priority_queue()
+    // {
+    //     heap = new FibHeap();
+    // }
+
+    FibHeap* make_heap()
     {
-        heap = new FibHeap();
+        return new FibHeap();
+    }
+
+    bool is_empty(FibHeap *heap)
+    {
+        return heap->is_empty();
+    }
+
+    void insert(FibHeap *heap, int key, int value)
+    {
+        heap->insert(key, value);
+    }
+
+    Node *extract_max(FibHeap *heap)
+    {
+        return heap->extract_max();
+    }
+
+    void increase_key(FibHeap *heap, int value, int new_key)
+    {
+        heap->increase_key(value, new_key);
+    }
+
+    void Delete(FibHeap *heap, int value)
+    {
+        heap->deleteNode(value);
+    }
+
+    FibHeap* meld(FibHeap *heap1, FibHeap *heap2)
+    {
+        return heap1->meld(heap1,heap2);
+    }
+
+    Node* find_max(FibHeap *heap)
+    {
+        return heap->find_max();
+    }
+
+    void print_heap(FibHeap *heap)
+    {
+        heap->Display();
     }
     void test()
     {

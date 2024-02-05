@@ -72,7 +72,10 @@ public:
     value = 0;
     rank = 0;
     mark = false;
-    parent = left = right = child = NULL;
+    parent = NULL;
+    left = NULL;
+    right = NULL;
+    child = NULL;
   }
 
   Node(int key, int value)
@@ -98,6 +101,7 @@ public:
   {
     size = 0;
     root = make_heap();
+    map = unordered_map<int, Node *>();
     // hashMap = vector<Node *>(1000000, NULL);
     
   }
@@ -145,8 +149,6 @@ public:
       }
     }
     map.insert({v, x});
-    // map.insert({v, x});
-    // map.emplace(v, x);
     // insert done
     // increase size
     size++;
@@ -236,7 +238,8 @@ public:
     {
       z->child = y;
     }
-    z->rank++;
+    z->rank += 1;
+    // z->rank ++;
     // cout<<"After loop"<<endl;Display();
   }
 
@@ -244,9 +247,11 @@ public:
   {
     int d, i;
     float f = ceil(1.0 * log2(size));
+    // cout<<f<<endl;
+    // Display();
     int D = f;
 
-    Node *A[D];
+    Node* A[D];
 
     for (int i = 0; i < D; i++)
     {
@@ -255,6 +260,7 @@ public:
     Node *x = root;
     Node *y;
     Node *tmp;
+    bool flag = false;
     // Node * r = x;
 
     do
@@ -265,6 +271,7 @@ public:
       while (A[d] != NULL)
       {
         y = A[d];
+        flag = true;
         if (x->key < y->key)
         {
           // swap x,y
@@ -278,7 +285,16 @@ public:
           root = x;
         }
 
-        Fib_link(y, x);
+
+        // cout<<"Before Fib_link --y ("<<y->key<<","<<y->value<<")"<<endl;
+        // cout<<"Before Fib_link --x ("<<x->key<<","<<x->value<<")"<<endl;
+        // Display();
+        // if(map.find(y->key) != map.end() && map.find(x->key) != map.end())
+        if(!(y->key == x->key && y->value == x->value))
+          Fib_link(y, x);
+        // cout<<"After Fib_link --y ("<<y->key<<","<<y->value<<")"<<endl;
+        // cout<<"After Fib_link --x ("<<x->key<<","<<x->value<<")"<<endl;
+        // Display();
 
         if (x->right == x)
         {
@@ -370,6 +386,7 @@ public:
     root = z->right;
 
     // only one node in heap
+    // Display();
     if (z == z->right && z->child == NULL)
     {
       root = NULL;
@@ -378,9 +395,12 @@ public:
     else
     {
       root = z->right;
+      // Display();
       consolidate();
+      // Display();
     }
     size--;
+    map.erase(z->value);
     return mainRoot;
   }
 
@@ -489,9 +509,9 @@ public:
     {
       cout << "Error: delete is not possible" << endl;
     }
-    // Display();
-    increase_key(v, 100000);
-    // Display();
+    Display();
+    increase_key(v, root->key + 1);
+    Display();
 
     extract_max();
   }
@@ -638,118 +658,116 @@ public:
 // # increase_key not ok
 // # deleteNode ok
 // # find_max ok
-int main()
-{
-  // FibHeap *fH = new FibHeap();
-  // fH->insert(1,1);
-  // fH->insert(2,2);
-  // fH->insert(3,3);
-  // fH->insert(4,4);
-  // fH->insert(5,5);
-  // fH->insert(6,6);
-  // fH->insert(7,7);
+// int main()
+// {
+//   // FibHeap *fH = new FibHeap();
+//   // fH->insert(1,1);
+//   // fH->insert(2,2);
+//   // fH->insert(3,3);
+//   // fH->insert(4,4);
+//   // fH->insert(5,5);
+//   // fH->insert(6,6);
+//   // fH->insert(7,7);
 
-  // fH->Display();
+//   // fH->Display();
 
-  // cout<<endl;
-  // fH->deleteNode(2);
-  // cout<<"After deleting 2..."<<endl;
-  // fH->print_fibonacci_heap();
+//   // cout<<endl;
+//   // fH->deleteNode(2);
+//   // cout<<"After deleting 2..."<<endl;
+//   // fH->print_fibonacci_heap();
 
-  // cout<<endl;
-  // fH->increase_key(4,10);
-  // cout<<"After increase_key 4 to 10..."<<endl;
-  // fH->print_fibonacci_heap();
+//   // cout<<endl;
+//   // fH->increase_key(4,10);
+//   // cout<<"After increase_key 4 to 10..."<<endl;
+//   // fH->print_fibonacci_heap();
 
-  // cout<<endl;
-  // fH->increase_key(5,12);
-  // cout<<"After increase_key 5 to 12..."<<endl;
-  // fH->print_fibonacci_heap();
+//   // cout<<endl;
+//   // fH->increase_key(5,12);
+//   // cout<<"After increase_key 5 to 12..."<<endl;
+//   // fH->print_fibonacci_heap();
 
-  // cout<<endl;
-  // fH->extract_max();
-  // cout<<"After extract max"<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // fH->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH->Display();
 
-  // cout<<endl;
-  // int temp = 1;
-  // fH->deleteNode(temp);
-  // cout<<"After deleting "<<temp<<" .."<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // int temp = 1;
+//   // fH->deleteNode(temp);
+//   // cout<<"After deleting "<<temp<<" .."<<endl;
+//   // fH->Display();
 
-  //meld check
+//   //meld check
 
-  FibHeap *fH1 = new FibHeap();
-  fH1->insert(1,1);
-  fH1->insert(2,2);
-  fH1->insert(3,3);
-  fH1->insert(4,4);
-  fH1->insert(5,5);
+//   // FibHeap *fH1 = new FibHeap();
+//   // fH1->insert(1,1);
+//   // fH1->insert(2,2);
+//   // fH1->insert(3,3);
+//   // fH1->insert(4,4);
+//   // fH1->insert(5,5);
 
-  FibHeap *fH2 = new FibHeap();
-  fH2->insert(6,6);
-  fH2->insert(7,7);
-  fH2->insert(8,8);
-  fH2->insert(9,9);
-  fH2->insert(10,10);
+//   // FibHeap *fH2 = new FibHeap();
+//   // fH2->insert(6,6);
+//   // fH2->insert(7,7);
+//   // fH2->insert(8,8);
+//   // fH2->insert(9,9);
+//   // fH2->insert(10,10);
 
-  // fH1->Display();
-  // cout<<endl;
-  // fH1->extract_max();
-  // cout<<"After extract max"<<endl;
-  // fH1->Display();
+//   // fH1->Display();
+//   // cout<<endl;
+//   // fH1->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH1->Display();
 
-  // cout<<endl;
-  // fH1->increase_key(3,20);
-  // cout<<"After increasing 3 20.."<<endl;
-  // fH1->Display();
+//   // cout<<endl;
+//   // fH1->increase_key(3,20);
+//   // cout<<"After increasing 3 20.."<<endl;
+//   // fH1->Display();
 
-  FibHeap *fH3 = fH1->meld(fH1, fH2);
+//   // FibHeap *fH3 = fH1->meld(fH1, fH2);
 
-  cout<<endl;
-  cout<<"After melding fH1 and fH2.."<<endl;
-  fH3->Display();
+//   // cout<<endl;
+//   // cout<<"After melding fH1 and fH2.."<<endl;
+//   // fH3->Display();
 
-  cout<<endl;
-  fH3->extract_max();
-  cout<<"After extract max"<<endl;
-  fH3->Display();
+//   // cout<<endl;
+//   // fH3->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH3->Display();
 
-  cout<<endl;
-  fH3->increase_key(3,20);
-  cout<<"After increasing 3 to 20.."<<endl;
-  fH3->Display();
-  cout<<endl;
-  // fH->deleteNode(3);
-  // cout<<"After deleting 2.."<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // fH3->increase_key(3,20);
+//   // cout<<"After increasing 3 to 20.."<<endl;
+//   // fH3->Display();
+//   // cout<<endl;
+//   // fH->deleteNode(3);
+//   // cout<<"After deleting 2.."<<endl;
+//   // fH->Display();
 
-  // cout<<endl;
-  // fH->extract_max();
-  // cout<<"After extract max"<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // fH->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH->Display();
 
-  // cout<<endl;
-  // fH->extract_max();
-  // cout<<"After extract max"<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // fH->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH->Display();
 
-  // cout<<endl;
-  // fH->extract_max();
-  // cout<<"After extract max"<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // fH->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH->Display();
 
-  // cout<<endl;
-  // fH->extract_max();
-  // cout<<"After extract max"<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // fH->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH->Display();
 
-  // cout<<endl;
-  // fH->extract_max();
-  // cout<<"After extract max"<<endl;
-  // fH->Display();
+//   // cout<<endl;
+//   // fH->extract_max();
+//   // cout<<"After extract max"<<endl;
+//   // fH->Display();
 
-  
-
-  // fH->Display();
-}
+//   // fH->Display();
+// }
