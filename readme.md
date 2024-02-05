@@ -16,6 +16,8 @@ Feel free to navigate through the well-organized folders and files to discover i
    - Solved Problems regarding Maximum flow and its application, Maximum bipartite matching
 5. [Red Black Tree](./Offline-5%20Red%20Black%20Tree)
    - Implementation of Red Black Tree using Binary Search Tree
+6. [Fibonacci Heap](./Offline-6%20Fibonacci%20Heap)
+   - Implementation of Fibonacci Heap and its application(specs in the folder)
 
 ## How to Use
 
