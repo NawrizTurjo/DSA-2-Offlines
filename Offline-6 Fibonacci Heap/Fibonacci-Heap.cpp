@@ -247,10 +247,12 @@ public:
   {
     int d, i;
     float f = ceil(1.0 * log2(size));
+    
+
     // cout<<f<<endl;
     // Display();
-    int D = f;
-
+    int D = f+1;
+    // cout<<"D"<<D<<endl;
     Node* A[D];
 
     for (int i = 0; i < D; i++)
@@ -291,7 +293,7 @@ public:
         // Display();
         // if(map.find(y->key) != map.end() && map.find(x->key) != map.end())
         if(!(y->key == x->key && y->value == x->value))
-          Fib_link(y, x);
+          {Fib_link(y, x);}
         // cout<<"After Fib_link --y ("<<y->key<<","<<y->value<<")"<<endl;
         // cout<<"After Fib_link --x ("<<x->key<<","<<x->value<<")"<<endl;
         // Display();
@@ -300,8 +302,14 @@ public:
         {
           root = x;
         }
+
         A[d] = NULL;
         d++;
+        // if(d>=D)
+        // {
+        //   break;
+        // }
+        // cout<<"d "<<d<<endl;
       }
       A[d] = x;
       x = x->right;
@@ -395,9 +403,11 @@ public:
     else
     {
       root = z->right;
-      // Display();
+    //   cout<<"Before consolidate"<<endl;
+    //   Display();
       consolidate();
-      // Display();
+    //     cout<<"After consolidate"<<endl;
+    //   Display();
     }
     size--;
     map.erase(z->value);
@@ -503,17 +513,26 @@ public:
 
   void deleteNode(int v)
   {
+    if(root == NULL)
+    {
+        cout<<"Heap is empty"<<endl;
+        return;
+    }
     Node *x = map[v];
+    // cout<<"x->key "<<x->key<<"x-> value"<<x->value<<endl;
     // Node *x = map.find(v)->second;
-    if (x == NULL || root == NULL)
+    if (x == NULL)
     {
       cout << "Error: delete is not possible" << endl;
+      return;
     }
-    Display();
+    // Display();
     increase_key(v, root->key + 1);
-    Display();
+    // cout<<"After inc"<<endl;
+    // Display();//kaj kore
 
     extract_max();
+    // Display();
   }
 
   void printHelper(Node *curr, string indent)
