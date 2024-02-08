@@ -130,7 +130,7 @@ public:
   }
   bool  is_empty()
   {
-    return size == 0;
+    return root == NULL;
   }
   Node *find_max()
   {
@@ -168,6 +168,14 @@ public:
 
   FibHeap *meld(FibHeap *heap1, FibHeap *heap2)
   {
+    if(heap1->root == NULL)
+    {
+      return heap2;
+    }
+    if(heap2->root == NULL)
+    {
+      return heap1;
+    }
     Node *H1 = heap1->root;
     Node *H2 = heap2->root;
     Node *temp;
@@ -205,6 +213,7 @@ public:
     // }
     // fH->hashMap = mergerdMap;
     // remove reference from H1 and H2
+    fH->size = heap1->size + heap2->size;
     heap1->root = NULL;
     heap2->root = NULL;
     heap1->size = 0;
@@ -258,12 +267,12 @@ public:
   void consolidate()
   {
     int d, i;
-    float f = ceil(1.0 * log2(size));
+    float f = ceil(1.0 * log(size));
     
 
     // cout<<f<<endl;
     // Display();
-    int D = f+1;
+    int D = f+10;
     // cout<<"D"<<D<<endl;
     Node* A[D];
 
@@ -540,9 +549,9 @@ public:
       return;
     }
     // Display();
-    increase_key(v, root->key + 1);
+    increase_key(v, root->key + 10);
     // cout<<"After inc"<<endl;
-    // Display();//kaj kore
+    // Display();
 
     extract_max();
     // Display();
@@ -587,6 +596,7 @@ public:
 
   void Display()
   {
+    // cout << "Heap size: " << size << endl;
     int cnt = 0;
     if (root == NULL)
     {

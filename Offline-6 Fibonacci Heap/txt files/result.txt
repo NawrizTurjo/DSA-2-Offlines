@@ -1,3 +1,0 @@
-Test File 0: Passed
-Test File 1: Passed
-Test File 2: Failed

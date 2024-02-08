@@ -18,6 +18,8 @@ Feel free to navigate through the well-organized folders and files to discover i
    - Implementation of Red Black Tree using Binary Search Tree
 6. [Fibonacci Heap](./Offline-6%20Fibonacci%20Heap)
    - Implementation of Fibonacci Heap and its application(specs in the folder)
+7. [Hashing](./Offline-7%20Hashing)
+   - Implementation of Hash Table and its application(specs in the folder)
 
 ## How to Use
 

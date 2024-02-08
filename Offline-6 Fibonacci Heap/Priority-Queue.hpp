@@ -199,69 +199,106 @@ public:
         {
             heap1->insert(i, i);
         }
+        cout<<"Initial Heap (heap1)"<<endl;
 
         print_heap(heap1);
 
+        cout<<"Extracting max from heap 1..."<<endl;
         extract_max(heap1);
         print_heap(heap1);
 
+        cout<<"Testing increase_key operation..."<<endl;
         increase_key(heap1, 1,8);
         print_heap(heap1);
 
+        cout<<"Testing increase_key operation..."<<endl;
         increase_key(heap1,3,13);
         print_heap(heap1);
 
+        cout<<"Testing increase_key operation..."<<endl;
         increase_key(heap1, 5,14);
         print_heap(heap1);
 
+        cout<<"Testing increase_key operation..."<<endl;
         increase_key(heap1, 2,12);
         print_heap(heap1);
 
+        cout<<"Delete operation..."<<endl;
         Delete(heap1,2);
         print_heap(heap1);
         //# marked node check
+
+
 
         FibHeap *heap2 = make_heap();
         for(int i=1;i<=18;i++)
         {
             insert(heap2, i+16, i+16);
         }
+        cout<<"Initial Heap (heap2)"<<endl;
         print_heap(heap2);
 
+        cout<<"Extracting max for 5 times from heap2...#1"<<endl;
         extract_max(heap2);
         print_heap(heap2);
         
+        cout<<"Extracting max for 5 times from heap2...#2"<<endl;
         extract_max(heap2);
         print_heap(heap2);
         
+        cout<<"Extracting max for 5 times from heap2...#3"<<endl;
         extract_max(heap2);
         print_heap(heap2);
         
+        cout<<"Extracting max for 5 times from heap2...#4"<<endl;
         extract_max(heap2);
         print_heap(heap2);
         
+        cout<<"Extracting max for 5 times from heap2...#5"<<endl;
         extract_max(heap2);
         print_heap(heap2);
-        
-        Delete(heap2,24);
+
+        cout<<endl;
+        cout<<"heap1"<<endl;
+        print_heap(heap1);
+        cout<<"heap2"<<endl;
         print_heap(heap2);
+        cout<<endl;
+
+        cout<<"Melding heap1 and heap2..."<<endl;
 
         FibHeap *meldHeap = meld(heap1, heap2);
         print_heap(meldHeap);
 
+        cout<<"Delete operation in meldHeap..."<<endl;
+
         Delete(meldHeap, 4);
         print_heap(meldHeap);
 
+        cout<<"Delete operation in meldHeap..."<<endl;
         Delete(meldHeap, 11);
         print_heap(meldHeap);
 
+        cout<<"Delete operation in meldHeap..."<<endl;
         Delete(meldHeap, 10);
         print_heap(meldHeap);
 
+        cout<<"Empty check for meldHeap..."<<endl;
         is_empty(meldHeap) ? cout << "Empty" << endl : cout << "Not Empty" << endl;
 
+        cout<<"Max Node Find operation..."<<endl;
         Node* maxNode = find_max(meldHeap);
         cout << "Max Node: " << maxNode->key << " " << maxNode->value << endl;
+
+        cout<<"clearing meld heap..."<<endl;
+
+        while(!(is_empty(meldHeap)))
+        {
+            extract_max(meldHeap);
+            print_heap(meldHeap);
+        }
+
+        cout<<"heap3..."<<endl;
 
         FibHeap *heap3 = new FibHeap();
         for (int i = 1; i <= 5; i++)
@@ -269,23 +306,26 @@ public:
             heap3->insert(i, i);
         }
 
+        cout<<"Emptying heap3..."<<endl;
         while(!(is_empty(heap3)))
         {
             extract_max(heap3);
             print_heap(heap3);
         }
 
+        cout<<"operation from empty heap (extract_max) : {expecting error message}"<<endl;
         extract_max(heap3);
         print_heap(heap3);
 
+        cout<<"operation from empty heap(delete_node) : {expecting error message}"<<endl;
         Delete(heap3, 1);
         print_heap(heap3);
 
-        // fflush(stdout);
+        fflush(stdout);
 
-        // fclose(stdout);
+        fclose(stdout);
 
-        // freopen("CON", "w", stdout);
+        freopen("CON", "w", stdout);
 
         // this_thread::sleep_for(chrono::milliseconds(2000));
 
@@ -301,15 +341,15 @@ public:
         //     cout << "Unsuccessful {;<}" << endl;
         // }
 
-        // if (compareFiles("heapOut.txt", "heapCheck.txt"))
-        // {
-        //     cout << "Successful" << endl;
-        // }
-        // else
-        // {
-        //     cout << "UnsuccessFul" << endl;
-        // }
+        if (compareFiles("heapOut.txt", "heapCheck.txt"))
+        {
+            cout << "Successful" << endl;
+        }
+        else
+        {
+            cout << "UnsuccessFul" << endl;
+        }
 
-        // cout << "Testing Completed" << endl;
+        cout << "Testing Completed" << endl;
     }
 };
