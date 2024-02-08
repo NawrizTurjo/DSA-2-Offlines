@@ -22,8 +22,9 @@
 
 
 
-# 1) Problem Specification
 <a id="section-1"></a>
+
+# 1) Problem Specification
 
 You need to implement a _**HashTable**_ class for this assignment. The requirements are as follows:
 
@@ -33,8 +34,9 @@ You need to implement a _**HashTable**_ class for this assignment. The requireme
 - You need to use randomly generated words of lengths 5 to 10 as keys for this table. Therefore, you need to implement a random word generator. The lengths of the words will be randomly determined as well. The words do not have to be meaningful. Using only lowercase alphabetical letters will suffice. The order of the incoming words will be used as their value (please see the example in [Section 2](#section-2) below). If your word generator produces duplicate words, you must only keep one instance of each, discarding the others. Use your _find_ function to ensure this.
 - Your hash table can have different collision resolution methods (see details in [Section 4](#section-4)). The collision resolution method of your hash table instance should be specifiable via the constructor.
 
-# 2) Example
 <a id="section-2"></a>
+
+# 2) Example
 
 
 Suppose your word generator has generated the following words:
@@ -69,14 +71,16 @@ The corresponding (key, value) pairs will be:
 
 Note that the second instance of the word "universe" has been discarded, and the value for "offline" has been set to 4 instead of 5.
 
-# 3) Hash Function
 <a id="section-3"></a>
+
+# 3) Hash Function
 
 
 You have to use two standard hash functions (_Hash1(k)_ and _Hash2(k)_) of your own, or from any good literature where you must try to avoid collisions as much as possible. We expect that 60% of the keys will have unique hash values (e.g., at least 60 unique hash values for 100 keys).
 
-# 4) Collision Resolution
 <a id="section-4"></a>
+
+# 4) Collision Resolution
 
 You need to implement the following three collision resolution methods:
 
@@ -100,8 +104,9 @@ Here, _Hash(k)_ is one of the hash functions described in [Section 3](#section-3
 
 Here _C<sub>1</sub>_ and _C<sub>2</sub>_ are two auxiliary constants of your choice. The other details are the same as the Double Hashing.
 
-# 5) Rehashing
 <a id="section-5"></a>
+
+# 5) Rehashing
 
 
 You need to implement rehashing for your chaining-based hash table. The rehashing criteria will be the **maximum chain length**.
@@ -116,8 +121,9 @@ Also, after every 100 deletions from your table, check whether the maximum chain
 
 Every time a rehash is triggered in your program, you need to print the average probe count, load factor, and maximum chain length of your table just before and immediately after the rehash. To calculate the average probe count, you may search for 10% of the elements randomly.
 
-# 6) Report Generation
 <a id="section-6"></a>
+
+# 6) Report Generation
 
 
 Generate 10000 unique words and insert them into the Hash Table. Using both hash functions (_Hash1(k)_ and _Hash2(k)_), list the number of collisions in a tabular format (see the table below). Among these 10000 generated words, randomly select 1000 words and search each of these selected words in the hash table. Report the average number of probes (i.e., the number of times you access the hash table) required to search these words. These results should be reported for both hash functions. The report should present the items in the following table. You also need to report the hash functions and the auxiliary hash functions that you have used.
