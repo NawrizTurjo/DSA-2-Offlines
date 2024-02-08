@@ -6,11 +6,15 @@
 
 ## CSE 208 (Data Structures and Algorithms II Sessional)
 
-### July 2023
+### **July 2023**
 
 **Offline 7: Hashing**
 
-**Deadline: August 19, 8:55 AM**
+<font color=RED> 
+
+**Deadline: February 12, 11:55 PM** 
+
+</font>
 
 </center>
 
@@ -81,7 +85,7 @@ You need to implement the following three collision resolution methods:
 1. **Double hashing:** For double hashing, use the following hashing function:
 <center>
 
-_doubleHash(k, i) = (Hash(k) + i × auxHash(k)) % N_
+**_doubleHash(k, i) = (Hash(k) + i × auxHash(k)) % N_**
 
 </center>
 
@@ -90,11 +94,11 @@ Here, _Hash(k)_ is one of the hash functions described in [Section 3](#section-3
 3. **Custom probing:** For custom probing, use the following hash function:
 <center>
 
-_customHash(k, i) = (Hash(k) + C__1_ _× i × auxHash(k) + C__2_ _× i __2__ ) % N_
+**_customHash(k, i) = (Hash(k) + C_<sub>1</sub> _× i × auxHash(k) + C_<sub>2</sub> _× i _<sup>2</sup>_ ) % N_**
 
 </center>
 
-Here _C1_ and _C2_ are two auxiliary constants of your choice. The other details are the same as the Double Hashing.
+Here _C<sub>1</sub>_ and _C<sub>2</sub>_ are two auxiliary constants of your choice. The other details are the same as the Double Hashing.
 
 # 5) Rehashing
 <a id="section-5"></a>
@@ -120,7 +124,7 @@ Generate 10000 unique words and insert them into the Hash Table. Using both hash
 
 To test [rehashing](#section-5), keep deleting the words afterward. You can stop deleting after you reach the lower size limit of your hash table.
 
-Generate your report for _N'_ = 5000, 10000, and 20000. If you cannot find any slot to insert a value into the hash table, you can simply ignore that insertion.
+Generate your report for _N'_ = 5000, 10000, and 20000. `If you cannot find any slot to insert a value into the hash table, you can simply ignore that insertion.`
 
 <table>
 <tr>
@@ -165,7 +169,7 @@ Note that, you may be asked to run your program during evaluation to show that t
 
 1. Create a directory with your 7-digit roll number as the name
 2. Put only the source files and the report in the mentioned directory
-3. Zip the directory in ".zip" format, rename it using your 7-digit roll number, and submit it on moodle within the mentioned deadline (<font color=red>August 19, 8:55 AM</font>).
+3. Zip the directory in ".zip" format, rename it using your 7-digit roll number, and submit it on moodle within the mentioned deadline (<font color=red>February 12, 11:55 PM</font>).
 4. <font color=red>Copying will result in -100% marks for both source and destination.</font>
 
 Failure to follow the above-mentioned instructions may result in up to 10% penalty.
