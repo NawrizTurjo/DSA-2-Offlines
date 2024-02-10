@@ -24,8 +24,8 @@ private:
     {
         node->data = 0;
         node->parent = parent;
-        node->left = nullptr;
-        node->right = nullptr;
+        node->left = TNULL;
+        node->right = TNULL;
         node->color = 0;
     }
 
@@ -154,7 +154,7 @@ private:
 
     void rbTransplant(NodePtr u, NodePtr v)
     {
-        if (u->parent == nullptr)
+        if (u->parent == TNULL)
         {
             root = v;
         }
@@ -210,24 +210,25 @@ private:
         }
         else
         {
-            y = minimum(z->right);
+            y = maximum(z->left);
             y_original_color = y->color;
-            x = y->right;
+            x = y->left;
             if (y->parent == z)
             {
                 x->parent = y;
             }
             else
             {
-                rbTransplant(y, y->right);
-                y->right = z->right;
-                y->right->parent = y;
+                rbTransplant(y, y->left);
+                y->left = z->left;
+                y->left->parent = y;
             }
 
             rbTransplant(z, y);
-            y->left = z->left;
-            y->left->parent = y;
+            y->right = z->right;
+            y->right->parent = y;
             y->color = z->color;
+
         }
         delete z;
         if (y_original_color == 0)
@@ -329,8 +330,8 @@ public:
     {
         TNULL = new Node;
         TNULL->color = 0;
-        TNULL->left = nullptr;
-        TNULL->right = nullptr;
+        TNULL->left = TNULL;
+        TNULL->right = TNULL;
         root = TNULL;
     }
 
@@ -414,7 +415,7 @@ public:
             y->left->parent = x;
         }
         y->parent = x->parent;
-        if (x->parent == nullptr)
+        if (x->parent == TNULL)
         {
             this->root = y;
         }
@@ -439,7 +440,7 @@ public:
             y->right->parent = x;
         }
         y->parent = x->parent;
-        if (x->parent == nullptr)
+        if (x->parent == TNULL)
         {
             this->root = y;
         }
@@ -458,15 +459,21 @@ public:
     // Inserting a node
     void insert(int key,string val)
     {
+        Node * res = searchTreeHelper(root,key);
+        if(res!=TNULL)
+        {
+            res->value = val;
+            return;
+        }
         NodePtr node = new Node;
-        node->parent = nullptr;
+        node->parent = TNULL;
         node->data = key;
         node->left = TNULL;
         node->right = TNULL;
         node->value = val;
         node->color = 1;
 
-        NodePtr y = nullptr;
+        NodePtr y = TNULL;
         NodePtr x = this->root;
 
         while (x != TNULL)
@@ -483,7 +490,7 @@ public:
         }
 
         node->parent = y;
-        if (y == nullptr)
+        if (y == TNULL)
         {
             root = node;
         }
@@ -496,13 +503,13 @@ public:
             y->right = node;
         }
 
-        if (node->parent == nullptr)
+        if (node->parent == TNULL)
         {
             node->color = 0;
             return;
         }
 
-        if (node->parent->parent == nullptr)
+        if (node->parent->parent == TNULL)
         {
             return;
         }
@@ -542,8 +549,8 @@ int main()
     bst.printTree();
     bst.insert(40,"Olmar");
     bst.printTree();
-    // bst.insert(45,"Estrid");
-    // bst.printTree();
+    bst.insert(45,"Estrid");
+    bst.printTree();
     bst.insert(53, "Floki");
     bst.printTree();
     bst.insert(90 ,"Thorfinn");
@@ -553,16 +560,16 @@ int main()
     bst.insert(78, "Askeladd");
     bst.printTree();
 
-    // cout << endl
-    //      << "After deleting" << endl;
+    // // cout << endl
+    // //      << "After deleting" << endl;
     bst.deleteNode(40);
     bst.printTree();
-    bst.deleteNode(78);
-    bst.printTree();
-    bst.deleteNode(12);
-    bst.printTree();
-    bst.deleteNode(43);
-    bst.printTree();
-    bst.deleteNode(56);
-    bst.printTree();
+    // bst.deleteNode(78);
+    // bst.printTree();
+    // bst.deleteNode(12);
+    // bst.printTree();
+    // bst.deleteNode(43);
+    // bst.printTree();
+    // bst.deleteNode(56);
+    // bst.printTree();
 }
