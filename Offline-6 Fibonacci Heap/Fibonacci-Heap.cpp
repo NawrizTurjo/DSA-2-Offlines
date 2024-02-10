@@ -267,12 +267,12 @@ public:
   void consolidate()
   {
     int d, i;
-    float f = ceil(1.0 * log(size));
+    float f = ceil(1.0 * log(size)/(1.0 * log(1.61)));
     
 
     // cout<<f<<endl;
     // Display();
-    int D = f+10;
+    int D = f;
     // cout<<"D"<<D<<endl;
     Node* A[D];
 

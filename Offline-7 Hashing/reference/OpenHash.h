@@ -129,8 +129,8 @@ void OpenHash::remove(string key) {
 
 void OpenHash::reHash(long long n){
     long long oldN = N, oldCollisions = collisions;
-    if(n == 1) N = nextPrime(N * 2);
-    else if(n == 2) nextPrime(N / 2);
+    if(n == 1) N = nextPrime(N * 2);//overload
+    else if(n == 2) nextPrime(N / 2);//underload
     Node **oldHashTable = hashTable;
     hashTable = new Node* [N];
 
