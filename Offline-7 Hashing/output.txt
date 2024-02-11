@@ -3,23 +3,23 @@ Total Collisions: 0
 Total Elements: 2
 Total Collisions: 0
 Total Elements: 3
-Total Collisions: 1
+Total Collisions: 0
 Total Elements: 4
-Total Collisions: 1
+Total Collisions: 0
 Total Elements: 5
-Total Collisions: 1
+Total Collisions: 0
 Total Elements: 6
-Total Collisions: 2
+Total Collisions: 0
 Total Elements: 7
-Total Collisions: 2
+Total Collisions: 1
 Total Elements: 8
 Total Collisions: 2
 Total Elements: 9
-Total Collisions: 2
+Total Collisions: 3
 Total Elements: 10
 Total Collisions: 3
 Total Elements: 11
-Total Collisions: 4
+Total Collisions: 3
 Total Elements: 12
 Total Collisions: 4
 Total Elements: 13
@@ -35,5039 +35,11514 @@ Total Collisions: 8
 Total Elements: 18
 Total Collisions: 9
 Total Elements: 19
-Total Collisions: 9
-Total Elements: 20
 Total Collisions: 10
+Total Elements: 20
+Total Collisions: 11
 Total Elements: 21
 Total Collisions: 11
-Total Elements: 22
-Total Collisions: 12
 Rehashing for Insertion
-Total Probes: 1972
-Avereage Probes: 1.972
+Total Probes: 1996
+Avereage Probes: 1.996
+Load Factor: 1.90909
+Maximum Chain Length: 3
+Total Elements: 22
+Total Collisions: 0
 Total Elements: 23
 Total Collisions: 1
 Total Elements: 24
 Total Collisions: 2
 Total Elements: 25
-Total Collisions: 3
+Total Collisions: 2
 Total Elements: 26
-Total Collisions: 4
+Total Collisions: 3
 Total Elements: 27
-Total Collisions: 5
+Total Collisions: 4
 Total Elements: 28
 Total Collisions: 5
 Total Elements: 29
-Total Collisions: 5
-Total Elements: 30
-Total Collisions: 5
-Total Elements: 31
 Total Collisions: 6
-Total Elements: 32
+Total Elements: 30
 Total Collisions: 7
-Total Elements: 33
+Total Elements: 31
 Total Collisions: 8
+Total Elements: 32
+Total Collisions: 9
+Total Elements: 33
+Total Collisions: 9
 Total Elements: 34
 Total Collisions: 9
 Total Elements: 35
-Total Collisions: 10
-Rehashing for Insertion
-Total Probes: 1954
-Avereage Probes: 1.954
+Total Collisions: 9
 Total Elements: 36
-Total Collisions: 0
+Total Collisions: 9
 Total Elements: 37
-Total Collisions: 1
+Total Collisions: 10
 Total Elements: 38
-Total Collisions: 1
+Total Collisions: 10
 Total Elements: 39
-Total Collisions: 2
+Total Collisions: 11
 Total Elements: 40
-Total Collisions: 2
+Total Collisions: 12
 Total Elements: 41
-Total Collisions: 3
-Total Elements: 42
-Total Collisions: 3
-Total Elements: 43
-Total Collisions: 4
+Total Collisions: 13
 Rehashing for Insertion
-Total Probes: 980
-Avereage Probes: 0.98
-Total Elements: 44
+Total Probes: 1990
+Avereage Probes: 1.99
+Load Factor: 1.78261
+Maximum Chain Length: 3
+Total Elements: 42
 Total Collisions: 0
+Total Elements: 43
+Total Collisions: 0
+Total Elements: 44
+Total Collisions: 1
 Total Elements: 45
 Total Collisions: 1
 Total Elements: 46
 Total Collisions: 1
 Total Elements: 47
 Total Collisions: 2
+Rehashing for Insertion
+Total Probes: 81
+Avereage Probes: 0.081
+Load Factor: 1
+Maximum Chain Length: 6
 Total Elements: 48
-Total Collisions: 2
+Total Collisions: 0
 Total Elements: 49
-Total Collisions: 2
+Total Collisions: 1
 Total Elements: 50
-Total Collisions: 3
+Total Collisions: 1
 Total Elements: 51
-Total Collisions: 3
+Total Collisions: 2
 Total Elements: 52
-Total Collisions: 4
+Total Collisions: 3
 Total Elements: 53
-Total Collisions: 5
+Total Collisions: 3
 Total Elements: 54
-Total Collisions: 5
+Total Collisions: 3
 Total Elements: 55
-Total Collisions: 5
+Total Collisions: 3
 Total Elements: 56
-Total Collisions: 6
+Total Collisions: 4
 Total Elements: 57
-Total Collisions: 6
+Total Collisions: 4
 Total Elements: 58
-Total Collisions: 6
+Total Collisions: 4
 Total Elements: 59
-Total Collisions: 6
+Total Collisions: 4
 Total Elements: 60
-Total Collisions: 7
+Total Collisions: 4
 Total Elements: 61
-Total Collisions: 8
+Total Collisions: 4
 Total Elements: 62
-Total Collisions: 8
+Total Collisions: 5
 Total Elements: 63
-Total Collisions: 8
+Total Collisions: 5
 Total Elements: 64
-Total Collisions: 8
+Total Collisions: 5
 Total Elements: 65
-Total Collisions: 9
+Total Collisions: 6
 Total Elements: 66
-Total Collisions: 10
+Total Collisions: 7
 Total Elements: 67
-Total Collisions: 11
+Total Collisions: 8
 Total Elements: 68
-Total Collisions: 11
+Total Collisions: 9
 Total Elements: 69
-Total Collisions: 11
+Total Collisions: 10
 Total Elements: 70
-Total Collisions: 12
+Total Collisions: 11
 Total Elements: 71
-Total Collisions: 13
+Total Collisions: 12
 Total Elements: 72
-Total Collisions: 14
+Total Collisions: 12
 Total Elements: 73
-Total Collisions: 14
+Total Collisions: 12
 Total Elements: 74
-Total Collisions: 15
+Total Collisions: 12
 Total Elements: 75
-Total Collisions: 15
+Total Collisions: 12
 Total Elements: 76
-Total Collisions: 16
+Total Collisions: 12
 Total Elements: 77
-Total Collisions: 16
+Total Collisions: 12
 Total Elements: 78
-Total Collisions: 16
+Total Collisions: 12
 Total Elements: 79
-Total Collisions: 17
+Total Collisions: 13
 Total Elements: 80
-Total Collisions: 18
+Total Collisions: 13
 Total Elements: 81
-Total Collisions: 18
+Total Collisions: 14
 Total Elements: 82
-Total Collisions: 18
+Total Collisions: 14
 Total Elements: 83
-Total Collisions: 19
+Total Collisions: 14
 Total Elements: 84
-Total Collisions: 20
+Total Collisions: 15
+Rehashing for Insertion
+Total Probes: 2862
+Avereage Probes: 2.862
+Load Factor: 0.865979
+Maximum Chain Length: 3
 Total Elements: 85
-Total Collisions: 20
+Total Collisions: 1
 Total Elements: 86
-Total Collisions: 21
+Total Collisions: 2
 Total Elements: 87
-Total Collisions: 22
-Rehashing for Insertion
-Total Probes: 38
-Avereage Probes: 0.038
+Total Collisions: 3
 Total Elements: 88
-Total Collisions: 0
+Total Collisions: 4
 Total Elements: 89
-Total Collisions: 1
+Total Collisions: 4
 Total Elements: 90
-Total Collisions: 2
+Total Collisions: 4
 Total Elements: 91
-Total Collisions: 2
+Total Collisions: 4
 Total Elements: 92
-Total Collisions: 2
+Total Collisions: 5
 Total Elements: 93
-Total Collisions: 2
+Total Collisions: 5
 Total Elements: 94
-Total Collisions: 2
+Total Collisions: 6
 Total Elements: 95
-Total Collisions: 2
+Total Collisions: 7
+Rehashing for Insertion
+Total Probes: 1929
+Avereage Probes: 1.929
+Load Factor: 0.482234
+Maximum Chain Length: 3
 Total Elements: 96
-Total Collisions: 2
+Total Collisions: 0
 Total Elements: 97
-Total Collisions: 2
+Total Collisions: 0
 Total Elements: 98
-Total Collisions: 3
+Total Collisions: 1
 Total Elements: 99
-Total Collisions: 4
+Total Collisions: 1
 Total Elements: 100
-Total Collisions: 4
+Total Collisions: 1
 Total Elements: 101
-Total Collisions: 5
+Total Collisions: 2
 Total Elements: 102
-Total Collisions: 6
+Total Collisions: 2
 Total Elements: 103
-Total Collisions: 7
+Total Collisions: 3
 Total Elements: 104
-Total Collisions: 8
+Total Collisions: 4
 Total Elements: 105
-Total Collisions: 9
+Total Collisions: 4
 Total Elements: 106
-Total Collisions: 9
+Total Collisions: 4
 Total Elements: 107
-Total Collisions: 9
+Total Collisions: 4
 Total Elements: 108
-Total Collisions: 10
+Total Collisions: 4
 Total Elements: 109
-Total Collisions: 10
+Total Collisions: 4
 Total Elements: 110
-Total Collisions: 10
+Total Collisions: 5
 Total Elements: 111
-Total Collisions: 10
+Total Collisions: 5
 Total Elements: 112
-Total Collisions: 10
+Total Collisions: 5
 Total Elements: 113
-Total Collisions: 10
+Total Collisions: 6
 Total Elements: 114
-Total Collisions: 11
+Total Collisions: 6
 Total Elements: 115
-Total Collisions: 12
+Total Collisions: 6
 Total Elements: 116
-Total Collisions: 12
+Total Collisions: 6
 Total Elements: 117
-Total Collisions: 13
+Total Collisions: 7
 Total Elements: 118
-Total Collisions: 13
+Total Collisions: 7
 Total Elements: 119
-Total Collisions: 14
+Total Collisions: 7
 Total Elements: 120
-Total Collisions: 15
+Total Collisions: 7
 Total Elements: 121
-Total Collisions: 16
+Total Collisions: 7
 Total Elements: 122
-Total Collisions: 16
+Total Collisions: 7
 Total Elements: 123
-Total Collisions: 17
+Total Collisions: 7
 Total Elements: 124
-Total Collisions: 18
+Total Collisions: 7
 Total Elements: 125
-Total Collisions: 19
+Total Collisions: 7
 Total Elements: 126
-Total Collisions: 19
+Total Collisions: 7
 Total Elements: 127
-Total Collisions: 20
+Total Collisions: 7
 Total Elements: 128
-Total Collisions: 20
+Total Collisions: 7
 Total Elements: 129
-Total Collisions: 20
+Total Collisions: 7
 Total Elements: 130
-Total Collisions: 21
+Total Collisions: 7
 Total Elements: 131
-Total Collisions: 22
+Total Collisions: 8
 Total Elements: 132
-Total Collisions: 22
+Total Collisions: 8
 Total Elements: 133
-Total Collisions: 22
+Total Collisions: 9
 Total Elements: 134
-Total Collisions: 23
+Total Collisions: 10
 Total Elements: 135
-Total Collisions: 23
+Total Collisions: 10
 Total Elements: 136
-Total Collisions: 24
+Total Collisions: 10
 Total Elements: 137
-Total Collisions: 24
+Total Collisions: 10
 Total Elements: 138
-Total Collisions: 24
+Total Collisions: 10
 Total Elements: 139
-Total Collisions: 25
+Total Collisions: 10
 Total Elements: 140
-Total Collisions: 26
+Total Collisions: 11
 Total Elements: 141
-Total Collisions: 27
+Total Collisions: 11
 Total Elements: 142
-Total Collisions: 27
+Total Collisions: 11
 Total Elements: 143
-Total Collisions: 28
+Total Collisions: 11
 Total Elements: 144
-Total Collisions: 29
+Total Collisions: 11
 Total Elements: 145
-Total Collisions: 30
+Total Collisions: 11
 Total Elements: 146
-Total Collisions: 30
+Total Collisions: 11
 Total Elements: 147
-Total Collisions: 30
+Total Collisions: 11
 Total Elements: 148
-Total Collisions: 30
+Total Collisions: 11
 Total Elements: 149
-Total Collisions: 31
+Total Collisions: 12
 Total Elements: 150
-Total Collisions: 32
+Total Collisions: 12
 Total Elements: 151
-Total Collisions: 32
+Total Collisions: 13
 Total Elements: 152
-Total Collisions: 33
+Total Collisions: 13
 Total Elements: 153
-Total Collisions: 34
+Total Collisions: 14
 Total Elements: 154
-Total Collisions: 35
+Total Collisions: 14
 Total Elements: 155
-Total Collisions: 36
+Total Collisions: 15
 Total Elements: 156
-Total Collisions: 36
+Total Collisions: 15
 Total Elements: 157
-Total Collisions: 36
+Total Collisions: 15
 Total Elements: 158
-Total Collisions: 36
+Total Collisions: 15
 Total Elements: 159
-Total Collisions: 37
+Total Collisions: 16
 Total Elements: 160
-Total Collisions: 38
+Total Collisions: 17
 Total Elements: 161
-Total Collisions: 39
+Total Collisions: 18
 Total Elements: 162
-Total Collisions: 39
+Total Collisions: 18
 Total Elements: 163
-Total Collisions: 39
+Total Collisions: 19
 Total Elements: 164
-Total Collisions: 40
+Total Collisions: 20
 Total Elements: 165
-Total Collisions: 40
+Total Collisions: 21
 Total Elements: 166
-Total Collisions: 40
+Total Collisions: 21
 Total Elements: 167
-Total Collisions: 40
+Total Collisions: 21
 Total Elements: 168
-Total Collisions: 41
+Total Collisions: 22
 Total Elements: 169
-Total Collisions: 41
+Total Collisions: 23
 Total Elements: 170
-Total Collisions: 42
+Total Collisions: 24
 Total Elements: 171
-Total Collisions: 42
+Total Collisions: 24
 Total Elements: 172
-Total Collisions: 42
+Total Collisions: 24
 Total Elements: 173
-Total Collisions: 43
+Total Collisions: 25
 Total Elements: 174
-Total Collisions: 44
+Total Collisions: 26
 Total Elements: 175
-Total Collisions: 44
+Total Collisions: 27
 Total Elements: 176
-Total Collisions: 45
+Total Collisions: 27
 Total Elements: 177
-Total Collisions: 46
+Total Collisions: 28
 Total Elements: 178
-Total Collisions: 46
+Total Collisions: 28
 Total Elements: 179
-Total Collisions: 46
-Rehashing for Insertion
-Total Probes: 1708
-Avereage Probes: 1.708
+Total Collisions: 28
 Total Elements: 180
-Total Collisions: 0
+Total Collisions: 28
 Total Elements: 181
-Total Collisions: 1
+Total Collisions: 29
 Total Elements: 182
-Total Collisions: 2
+Total Collisions: 29
 Total Elements: 183
-Total Collisions: 2
+Total Collisions: 29
 Total Elements: 184
-Total Collisions: 2
+Total Collisions: 30
 Total Elements: 185
-Total Collisions: 3
+Total Collisions: 30
 Total Elements: 186
-Total Collisions: 4
+Total Collisions: 31
 Total Elements: 187
-Total Collisions: 5
+Total Collisions: 31
 Total Elements: 188
-Total Collisions: 6
+Total Collisions: 31
 Total Elements: 189
-Total Collisions: 6
+Total Collisions: 32
 Total Elements: 190
-Total Collisions: 7
+Total Collisions: 32
 Total Elements: 191
-Total Collisions: 7
+Total Collisions: 32
 Total Elements: 192
-Total Collisions: 7
+Total Collisions: 32
 Total Elements: 193
-Total Collisions: 7
+Total Collisions: 32
 Total Elements: 194
-Total Collisions: 7
+Total Collisions: 32
 Total Elements: 195
-Total Collisions: 7
+Total Collisions: 32
 Total Elements: 196
-Total Collisions: 8
+Total Collisions: 33
 Total Elements: 197
-Total Collisions: 8
+Total Collisions: 34
 Total Elements: 198
-Total Collisions: 9
+Total Collisions: 34
 Total Elements: 199
-Total Collisions: 9
+Total Collisions: 34
 Total Elements: 200
-Total Collisions: 9
+Total Collisions: 34
 Total Elements: 201
-Total Collisions: 9
+Total Collisions: 34
 Total Elements: 202
-Total Collisions: 9
+Total Collisions: 34
 Total Elements: 203
-Total Collisions: 9
+Total Collisions: 35
 Total Elements: 204
-Total Collisions: 9
+Total Collisions: 35
 Total Elements: 205
-Total Collisions: 9
+Total Collisions: 35
 Total Elements: 206
-Total Collisions: 9
+Total Collisions: 36
 Total Elements: 207
-Total Collisions: 9
+Total Collisions: 37
 Total Elements: 208
-Total Collisions: 9
+Total Collisions: 37
 Total Elements: 209
-Total Collisions: 9
+Total Collisions: 38
+Rehashing for Insertion
+Total Probes: 259
+Avereage Probes: 0.259
+Load Factor: 0.526448
+Maximum Chain Length: 3
 Total Elements: 210
-Total Collisions: 10
+Total Collisions: 0
 Total Elements: 211
-Total Collisions: 10
+Total Collisions: 0
 Total Elements: 212
-Total Collisions: 10
+Total Collisions: 1
 Total Elements: 213
-Total Collisions: 11
+Total Collisions: 1
 Total Elements: 214
-Total Collisions: 12
+Total Collisions: 1
 Total Elements: 215
-Total Collisions: 12
+Total Collisions: 1
 Total Elements: 216
-Total Collisions: 12
+Total Collisions: 2
 Total Elements: 217
-Total Collisions: 12
+Total Collisions: 2
 Total Elements: 218
-Total Collisions: 12
+Total Collisions: 2
 Total Elements: 219
-Total Collisions: 12
+Total Collisions: 2
 Total Elements: 220
-Total Collisions: 12
+Total Collisions: 3
 Total Elements: 221
-Total Collisions: 13
+Total Collisions: 4
 Total Elements: 222
-Total Collisions: 14
+Total Collisions: 4
 Total Elements: 223
-Total Collisions: 14
+Total Collisions: 4
 Total Elements: 224
-Total Collisions: 14
+Total Collisions: 4
 Total Elements: 225
-Total Collisions: 14
+Total Collisions: 4
 Total Elements: 226
-Total Collisions: 14
+Total Collisions: 4
 Total Elements: 227
-Total Collisions: 15
+Total Collisions: 4
 Total Elements: 228
-Total Collisions: 15
+Total Collisions: 5
 Total Elements: 229
-Total Collisions: 15
+Total Collisions: 5
 Total Elements: 230
-Total Collisions: 16
+Total Collisions: 5
 Total Elements: 231
-Total Collisions: 16
+Total Collisions: 5
 Total Elements: 232
-Total Collisions: 17
+Total Collisions: 5
 Total Elements: 233
-Total Collisions: 17
+Total Collisions: 6
 Total Elements: 234
-Total Collisions: 18
+Total Collisions: 7
 Total Elements: 235
-Total Collisions: 19
+Total Collisions: 8
 Total Elements: 236
-Total Collisions: 19
+Total Collisions: 8
 Total Elements: 237
-Total Collisions: 19
+Total Collisions: 8
 Total Elements: 238
-Total Collisions: 20
+Total Collisions: 8
 Total Elements: 239
-Total Collisions: 20
+Total Collisions: 8
 Total Elements: 240
-Total Collisions: 21
+Total Collisions: 8
 Total Elements: 241
-Total Collisions: 22
+Total Collisions: 8
 Total Elements: 242
-Total Collisions: 22
+Total Collisions: 8
 Total Elements: 243
-Total Collisions: 23
+Total Collisions: 8
 Total Elements: 244
-Total Collisions: 23
+Total Collisions: 8
 Total Elements: 245
-Total Collisions: 24
+Total Collisions: 8
 Total Elements: 246
-Total Collisions: 25
+Total Collisions: 8
 Total Elements: 247
-Total Collisions: 26
+Total Collisions: 8
 Total Elements: 248
-Total Collisions: 26
+Total Collisions: 8
 Total Elements: 249
-Total Collisions: 27
+Total Collisions: 9
 Total Elements: 250
-Total Collisions: 27
+Total Collisions: 10
 Total Elements: 251
-Total Collisions: 28
+Total Collisions: 11
 Total Elements: 252
-Total Collisions: 28
+Total Collisions: 11
 Total Elements: 253
-Total Collisions: 29
+Total Collisions: 11
 Total Elements: 254
-Total Collisions: 29
+Total Collisions: 11
 Total Elements: 255
-Total Collisions: 29
+Total Collisions: 11
 Total Elements: 256
-Total Collisions: 30
+Total Collisions: 11
 Total Elements: 257
-Total Collisions: 31
+Total Collisions: 11
 Total Elements: 258
-Total Collisions: 32
+Total Collisions: 11
 Total Elements: 259
-Total Collisions: 33
+Total Collisions: 11
 Total Elements: 260
-Total Collisions: 33
+Total Collisions: 11
 Total Elements: 261
-Total Collisions: 34
+Total Collisions: 11
 Total Elements: 262
-Total Collisions: 34
+Total Collisions: 11
 Total Elements: 263
-Total Collisions: 35
+Total Collisions: 11
 Total Elements: 264
-Total Collisions: 36
+Total Collisions: 11
 Total Elements: 265
-Total Collisions: 36
+Total Collisions: 12
 Total Elements: 266
-Total Collisions: 36
+Total Collisions: 12
 Total Elements: 267
-Total Collisions: 37
+Total Collisions: 12
 Total Elements: 268
-Total Collisions: 38
+Total Collisions: 12
 Total Elements: 269
-Total Collisions: 38
+Total Collisions: 13
 Total Elements: 270
-Total Collisions: 39
+Total Collisions: 14
 Total Elements: 271
-Total Collisions: 39
+Total Collisions: 14
 Total Elements: 272
-Total Collisions: 40
+Total Collisions: 15
 Total Elements: 273
-Total Collisions: 40
+Total Collisions: 15
 Total Elements: 274
-Total Collisions: 40
+Total Collisions: 16
 Total Elements: 275
-Total Collisions: 40
+Total Collisions: 17
 Total Elements: 276
-Total Collisions: 41
+Total Collisions: 17
 Total Elements: 277
-Total Collisions: 42
+Total Collisions: 18
 Total Elements: 278
-Total Collisions: 42
+Total Collisions: 18
 Total Elements: 279
-Total Collisions: 43
+Total Collisions: 18
 Total Elements: 280
-Total Collisions: 44
+Total Collisions: 18
 Total Elements: 281
-Total Collisions: 44
+Total Collisions: 18
 Total Elements: 282
-Total Collisions: 44
+Total Collisions: 19
 Total Elements: 283
-Total Collisions: 44
+Total Collisions: 19
 Total Elements: 284
-Total Collisions: 45
+Total Collisions: 19
 Total Elements: 285
-Total Collisions: 46
+Total Collisions: 20
 Total Elements: 286
-Total Collisions: 47
+Total Collisions: 20
 Total Elements: 287
-Total Collisions: 48
-Rehashing for Insertion
-Total Probes: 1516
-Avereage Probes: 1.516
+Total Collisions: 20
 Total Elements: 288
-Total Collisions: 0
+Total Collisions: 20
 Total Elements: 289
-Total Collisions: 0
+Total Collisions: 20
 Total Elements: 290
-Total Collisions: 0
+Total Collisions: 20
 Total Elements: 291
-Total Collisions: 0
+Total Collisions: 20
 Total Elements: 292
-Total Collisions: 0
+Total Collisions: 20
 Total Elements: 293
-Total Collisions: 0
+Total Collisions: 21
 Total Elements: 294
-Total Collisions: 1
+Total Collisions: 21
 Total Elements: 295
-Total Collisions: 1
+Total Collisions: 21
 Total Elements: 296
-Total Collisions: 1
+Total Collisions: 22
 Total Elements: 297
-Total Collisions: 1
+Total Collisions: 23
 Total Elements: 298
-Total Collisions: 1
+Total Collisions: 23
 Total Elements: 299
-Total Collisions: 1
+Total Collisions: 23
 Total Elements: 300
-Total Collisions: 1
+Total Collisions: 23
 Total Elements: 301
-Total Collisions: 1
+Total Collisions: 23
 Total Elements: 302
-Total Collisions: 1
+Total Collisions: 24
 Total Elements: 303
-Total Collisions: 1
+Total Collisions: 24
 Total Elements: 304
-Total Collisions: 1
+Total Collisions: 25
 Total Elements: 305
-Total Collisions: 1
+Total Collisions: 25
 Total Elements: 306
-Total Collisions: 1
+Total Collisions: 25
 Total Elements: 307
-Total Collisions: 1
+Total Collisions: 26
 Total Elements: 308
-Total Collisions: 2
+Total Collisions: 27
 Total Elements: 309
-Total Collisions: 2
+Total Collisions: 27
 Total Elements: 310
-Total Collisions: 2
+Total Collisions: 28
 Total Elements: 311
-Total Collisions: 2
+Total Collisions: 28
 Total Elements: 312
-Total Collisions: 3
+Total Collisions: 28
 Total Elements: 313
-Total Collisions: 3
+Total Collisions: 28
 Total Elements: 314
-Total Collisions: 4
+Total Collisions: 28
 Total Elements: 315
-Total Collisions: 5
+Total Collisions: 28
 Total Elements: 316
-Total Collisions: 6
+Total Collisions: 28
 Total Elements: 317
-Total Collisions: 6
+Total Collisions: 28
+Rehashing for Insertion
+Total Probes: 1742
+Avereage Probes: 1.742
+Load Factor: 0.397742
+Maximum Chain Length: 3
 Total Elements: 318
-Total Collisions: 6
+Total Collisions: 1
 Total Elements: 319
-Total Collisions: 6
+Total Collisions: 1
 Total Elements: 320
-Total Collisions: 6
+Total Collisions: 1
 Total Elements: 321
-Total Collisions: 6
+Total Collisions: 2
 Total Elements: 322
-Total Collisions: 6
+Total Collisions: 3
 Total Elements: 323
-Total Collisions: 7
+Total Collisions: 3
 Total Elements: 324
-Total Collisions: 8
+Total Collisions: 3
 Total Elements: 325
-Total Collisions: 8
+Total Collisions: 3
 Total Elements: 326
-Total Collisions: 8
+Total Collisions: 3
 Total Elements: 327
-Total Collisions: 8
+Total Collisions: 3
 Total Elements: 328
-Total Collisions: 8
+Total Collisions: 4
 Total Elements: 329
-Total Collisions: 8
+Total Collisions: 5
 Total Elements: 330
-Total Collisions: 9
+Total Collisions: 5
 Total Elements: 331
-Total Collisions: 9
+Total Collisions: 5
 Total Elements: 332
-Total Collisions: 9
+Total Collisions: 5
 Total Elements: 333
-Total Collisions: 9
+Total Collisions: 6
 Total Elements: 334
-Total Collisions: 9
+Total Collisions: 6
 Total Elements: 335
-Total Collisions: 9
+Total Collisions: 6
 Total Elements: 336
-Total Collisions: 10
+Total Collisions: 6
 Total Elements: 337
-Total Collisions: 10
+Total Collisions: 6
 Total Elements: 338
-Total Collisions: 10
+Total Collisions: 6
 Total Elements: 339
-Total Collisions: 11
+Total Collisions: 6
 Total Elements: 340
-Total Collisions: 11
+Total Collisions: 6
 Total Elements: 341
-Total Collisions: 11
+Total Collisions: 6
 Total Elements: 342
-Total Collisions: 11
+Total Collisions: 7
 Total Elements: 343
-Total Collisions: 11
+Total Collisions: 7
 Total Elements: 344
-Total Collisions: 11
+Total Collisions: 8
 Total Elements: 345
-Total Collisions: 11
+Total Collisions: 8
 Total Elements: 346
-Total Collisions: 11
+Total Collisions: 8
 Total Elements: 347
-Total Collisions: 11
+Total Collisions: 8
 Total Elements: 348
-Total Collisions: 12
+Total Collisions: 9
 Total Elements: 349
-Total Collisions: 13
+Total Collisions: 9
 Total Elements: 350
-Total Collisions: 14
+Total Collisions: 9
 Total Elements: 351
-Total Collisions: 14
+Total Collisions: 9
 Total Elements: 352
-Total Collisions: 14
+Total Collisions: 9
 Total Elements: 353
-Total Collisions: 15
+Total Collisions: 9
 Total Elements: 354
-Total Collisions: 16
+Total Collisions: 9
 Total Elements: 355
-Total Collisions: 16
+Total Collisions: 9
 Total Elements: 356
-Total Collisions: 16
+Total Collisions: 10
 Total Elements: 357
-Total Collisions: 16
+Total Collisions: 10
 Total Elements: 358
-Total Collisions: 16
+Total Collisions: 10
 Total Elements: 359
-Total Collisions: 17
+Total Collisions: 10
 Total Elements: 360
-Total Collisions: 17
+Total Collisions: 10
 Total Elements: 361
-Total Collisions: 18
+Total Collisions: 10
 Total Elements: 362
-Total Collisions: 19
+Total Collisions: 10
 Total Elements: 363
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 364
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 365
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 366
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 367
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 368
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 369
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 370
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 371
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 372
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 373
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 374
-Total Collisions: 20
+Total Collisions: 10
 Total Elements: 375
-Total Collisions: 21
+Total Collisions: 10
 Total Elements: 376
-Total Collisions: 22
+Total Collisions: 10
 Total Elements: 377
-Total Collisions: 23
+Total Collisions: 10
 Total Elements: 378
-Total Collisions: 23
+Total Collisions: 11
 Total Elements: 379
-Total Collisions: 23
+Total Collisions: 11
 Total Elements: 380
-Total Collisions: 23
+Total Collisions: 12
 Total Elements: 381
-Total Collisions: 23
+Total Collisions: 12
 Total Elements: 382
-Total Collisions: 23
+Total Collisions: 12
 Total Elements: 383
-Total Collisions: 23
+Total Collisions: 12
 Total Elements: 384
-Total Collisions: 23
+Total Collisions: 12
 Total Elements: 385
-Total Collisions: 24
+Total Collisions: 12
 Total Elements: 386
-Total Collisions: 24
+Total Collisions: 12
 Total Elements: 387
-Total Collisions: 24
+Total Collisions: 12
 Total Elements: 388
-Total Collisions: 24
+Total Collisions: 12
 Total Elements: 389
-Total Collisions: 25
+Total Collisions: 13
 Total Elements: 390
-Total Collisions: 25
+Total Collisions: 13
 Total Elements: 391
-Total Collisions: 25
+Total Collisions: 13
 Total Elements: 392
-Total Collisions: 25
+Total Collisions: 13
 Total Elements: 393
-Total Collisions: 26
+Total Collisions: 13
 Total Elements: 394
-Total Collisions: 27
+Total Collisions: 14
 Total Elements: 395
-Total Collisions: 27
+Total Collisions: 14
 Total Elements: 396
-Total Collisions: 27
+Total Collisions: 14
 Total Elements: 397
-Total Collisions: 28
+Total Collisions: 15
 Total Elements: 398
-Total Collisions: 28
+Total Collisions: 15
 Total Elements: 399
-Total Collisions: 28
+Total Collisions: 15
 Total Elements: 400
-Total Collisions: 28
+Total Collisions: 15
 Total Elements: 401
-Total Collisions: 28
+Total Collisions: 15
 Total Elements: 402
-Total Collisions: 29
+Total Collisions: 15
 Total Elements: 403
-Total Collisions: 30
+Total Collisions: 15
 Total Elements: 404
-Total Collisions: 31
+Total Collisions: 15
 Total Elements: 405
-Total Collisions: 31
+Total Collisions: 15
 Total Elements: 406
-Total Collisions: 32
+Total Collisions: 16
 Total Elements: 407
-Total Collisions: 33
+Total Collisions: 16
 Total Elements: 408
-Total Collisions: 33
-Rehashing for Insertion
-Total Probes: 88
-Avereage Probes: 0.088
+Total Collisions: 17
 Total Elements: 409
-Total Collisions: 0
+Total Collisions: 17
 Total Elements: 410
-Total Collisions: 0
+Total Collisions: 18
 Total Elements: 411
-Total Collisions: 1
+Total Collisions: 18
 Total Elements: 412
-Total Collisions: 1
+Total Collisions: 19
 Total Elements: 413
-Total Collisions: 1
+Total Collisions: 19
 Total Elements: 414
-Total Collisions: 1
+Total Collisions: 19
 Total Elements: 415
-Total Collisions: 2
+Total Collisions: 20
 Total Elements: 416
-Total Collisions: 2
+Total Collisions: 20
 Total Elements: 417
-Total Collisions: 2
+Total Collisions: 20
 Total Elements: 418
-Total Collisions: 2
+Total Collisions: 20
 Total Elements: 419
-Total Collisions: 3
+Total Collisions: 20
 Total Elements: 420
-Total Collisions: 3
+Total Collisions: 20
 Total Elements: 421
-Total Collisions: 3
+Total Collisions: 20
 Total Elements: 422
-Total Collisions: 3
+Total Collisions: 20
 Total Elements: 423
-Total Collisions: 3
+Total Collisions: 21
 Total Elements: 424
-Total Collisions: 4
+Total Collisions: 21
 Total Elements: 425
-Total Collisions: 5
+Total Collisions: 21
 Total Elements: 426
-Total Collisions: 5
+Total Collisions: 21
 Total Elements: 427
-Total Collisions: 5
+Total Collisions: 22
 Total Elements: 428
-Total Collisions: 5
+Total Collisions: 22
 Total Elements: 429
-Total Collisions: 5
+Total Collisions: 22
 Total Elements: 430
-Total Collisions: 5
+Total Collisions: 22
 Total Elements: 431
-Total Collisions: 5
+Total Collisions: 22
 Total Elements: 432
-Total Collisions: 6
+Total Collisions: 23
 Total Elements: 433
-Total Collisions: 6
+Total Collisions: 23
 Total Elements: 434
-Total Collisions: 6
+Total Collisions: 23
 Total Elements: 435
-Total Collisions: 6
+Total Collisions: 23
 Total Elements: 436
-Total Collisions: 6
+Total Collisions: 23
 Total Elements: 437
-Total Collisions: 6
+Total Collisions: 23
 Total Elements: 438
-Total Collisions: 6
+Total Collisions: 23
 Total Elements: 439
-Total Collisions: 6
+Total Collisions: 24
 Total Elements: 440
-Total Collisions: 6
+Total Collisions: 24
 Total Elements: 441
-Total Collisions: 6
+Total Collisions: 24
 Total Elements: 442
-Total Collisions: 6
+Total Collisions: 24
 Total Elements: 443
-Total Collisions: 7
+Total Collisions: 25
 Total Elements: 444
-Total Collisions: 7
+Total Collisions: 25
 Total Elements: 445
-Total Collisions: 7
+Total Collisions: 26
 Total Elements: 446
-Total Collisions: 7
+Total Collisions: 26
 Total Elements: 447
-Total Collisions: 7
+Total Collisions: 26
 Total Elements: 448
-Total Collisions: 7
+Total Collisions: 26
 Total Elements: 449
-Total Collisions: 7
+Total Collisions: 26
 Total Elements: 450
-Total Collisions: 7
+Total Collisions: 27
 Total Elements: 451
-Total Collisions: 7
+Total Collisions: 27
 Total Elements: 452
-Total Collisions: 8
+Total Collisions: 27
 Total Elements: 453
-Total Collisions: 8
+Total Collisions: 27
 Total Elements: 454
-Total Collisions: 8
+Total Collisions: 27
 Total Elements: 455
-Total Collisions: 8
-Total Elements: 456
-Total Collisions: 8
-Total Elements: 457
-Total Collisions: 9
-Total Elements: 458
-Total Collisions: 10
-Total Elements: 459
-Total Collisions: 10
-Total Elements: 460
-Total Collisions: 10
-Total Elements: 461
-Total Collisions: 11
-Total Elements: 462
-Total Collisions: 11
-Total Elements: 463
-Total Collisions: 12
-Total Elements: 464
-Total Collisions: 13
-Total Elements: 465
-Total Collisions: 13
-Total Elements: 466
-Total Collisions: 13
-Total Elements: 467
-Total Collisions: 14
-Total Elements: 468
-Total Collisions: 15
-Total Elements: 469
-Total Collisions: 16
-Total Elements: 470
-Total Collisions: 16
-Total Elements: 471
-Total Collisions: 16
-Total Elements: 472
-Total Collisions: 16
-Total Elements: 473
-Total Collisions: 16
-Total Elements: 474
-Total Collisions: 17
-Total Elements: 475
-Total Collisions: 18
-Total Elements: 476
-Total Collisions: 18
-Total Elements: 477
-Total Collisions: 19
-Total Elements: 478
-Total Collisions: 20
-Total Elements: 479
-Total Collisions: 21
-Total Elements: 480
-Total Collisions: 21
-Total Elements: 481
-Total Collisions: 22
-Total Elements: 482
-Total Collisions: 22
-Total Elements: 483
-Total Collisions: 23
-Total Elements: 484
-Total Collisions: 23
-Total Elements: 485
-Total Collisions: 23
-Total Elements: 486
-Total Collisions: 23
-Total Elements: 487
-Total Collisions: 23
-Total Elements: 488
-Total Collisions: 23
-Total Elements: 489
-Total Collisions: 23
-Total Elements: 490
-Total Collisions: 23
-Total Elements: 491
-Total Collisions: 23
-Total Elements: 492
-Total Collisions: 23
-Total Elements: 493
-Total Collisions: 23
-Total Elements: 494
-Total Collisions: 24
-Total Elements: 495
-Total Collisions: 24
-Total Elements: 496
-Total Collisions: 24
-Total Elements: 497
-Total Collisions: 25
-Total Elements: 498
-Total Collisions: 25
-Total Elements: 499
-Total Collisions: 25
-Total Elements: 500
-Total Collisions: 25
-Total Elements: 501
-Total Collisions: 25
-Total Elements: 502
-Total Collisions: 26
-Total Elements: 503
-Total Collisions: 26
-Total Elements: 504
-Total Collisions: 27
-Total Elements: 505
-Total Collisions: 27
-Total Elements: 506
-Total Collisions: 27
-Total Elements: 507
 Total Collisions: 28
-Total Elements: 508
-Total Collisions: 28
-Total Elements: 509
-Total Collisions: 28
-Total Elements: 510
-Total Collisions: 29
-Total Elements: 511
-Total Collisions: 29
-Total Elements: 512
-Total Collisions: 29
-Total Elements: 513
-Total Collisions: 29
-Total Elements: 514
-Total Collisions: 30
-Total Elements: 515
-Total Collisions: 30
-Total Elements: 516
-Total Collisions: 31
-Total Elements: 517
-Total Collisions: 32
-Total Elements: 518
-Total Collisions: 32
-Total Elements: 519
-Total Collisions: 32
-Total Elements: 520
-Total Collisions: 32
-Total Elements: 521
-Total Collisions: 33
-Total Elements: 522
-Total Collisions: 34
-Total Elements: 523
-Total Collisions: 35
-Total Elements: 524
-Total Collisions: 35
-Total Elements: 525
-Total Collisions: 36
-Total Elements: 526
-Total Collisions: 36
-Total Elements: 527
-Total Collisions: 37
-Total Elements: 528
-Total Collisions: 38
-Total Elements: 529
-Total Collisions: 38
-Total Elements: 530
-Total Collisions: 39
-Total Elements: 531
-Total Collisions: 40
-Total Elements: 532
-Total Collisions: 40
-Total Elements: 533
-Total Collisions: 40
-Total Elements: 534
-Total Collisions: 41
-Total Elements: 535
-Total Collisions: 42
-Total Elements: 536
-Total Collisions: 42
-Total Elements: 537
-Total Collisions: 42
-Total Elements: 538
-Total Collisions: 42
-Total Elements: 539
-Total Collisions: 42
-Total Elements: 540
-Total Collisions: 43
-Total Elements: 541
-Total Collisions: 43
-Total Elements: 542
-Total Collisions: 43
-Total Elements: 543
-Total Collisions: 43
-Total Elements: 544
-Total Collisions: 43
-Total Elements: 545
-Total Collisions: 43
-Total Elements: 546
-Total Collisions: 43
-Total Elements: 547
-Total Collisions: 43
-Total Elements: 548
-Total Collisions: 43
-Total Elements: 549
-Total Collisions: 43
-Total Elements: 550
-Total Collisions: 43
-Total Elements: 551
-Total Collisions: 43
-Total Elements: 552
-Total Collisions: 44
-Total Elements: 553
-Total Collisions: 44
-Total Elements: 554
-Total Collisions: 44
-Total Elements: 555
-Total Collisions: 44
-Total Elements: 556
-Total Collisions: 45
-Total Elements: 557
-Total Collisions: 45
-Total Elements: 558
-Total Collisions: 46
-Total Elements: 559
-Total Collisions: 47
-Total Elements: 560
-Total Collisions: 47
-Total Elements: 561
-Total Collisions: 47
-Total Elements: 562
-Total Collisions: 47
-Total Elements: 563
-Total Collisions: 47
-Total Elements: 564
-Total Collisions: 47
-Total Elements: 565
-Total Collisions: 47
-Total Elements: 566
-Total Collisions: 47
-Total Elements: 567
-Total Collisions: 48
-Total Elements: 568
-Total Collisions: 48
-Total Elements: 569
-Total Collisions: 48
-Total Elements: 570
-Total Collisions: 49
-Total Elements: 571
-Total Collisions: 49
-Total Elements: 572
-Total Collisions: 49
-Total Elements: 573
-Total Collisions: 49
-Total Elements: 574
-Total Collisions: 49
-Total Elements: 575
-Total Collisions: 49
-Total Elements: 576
-Total Collisions: 49
-Total Elements: 577
-Total Collisions: 49
-Total Elements: 578
-Total Collisions: 49
-Total Elements: 579
-Total Collisions: 50
-Total Elements: 580
-Total Collisions: 50
-Total Elements: 581
-Total Collisions: 50
-Total Elements: 582
-Total Collisions: 50
-Total Elements: 583
-Total Collisions: 50
-Total Elements: 584
-Total Collisions: 50
-Total Elements: 585
-Total Collisions: 50
-Total Elements: 586
-Total Collisions: 50
-Total Elements: 587
-Total Collisions: 50
-Total Elements: 588
-Total Collisions: 50
-Total Elements: 589
-Total Collisions: 51
-Total Elements: 590
-Total Collisions: 51
-Total Elements: 591
-Total Collisions: 51
-Total Elements: 592
-Total Collisions: 51
-Total Elements: 593
-Total Collisions: 51
-Total Elements: 594
-Total Collisions: 51
-Total Elements: 595
-Total Collisions: 51
-Total Elements: 596
-Total Collisions: 51
-Total Elements: 597
-Total Collisions: 51
-Total Elements: 598
-Total Collisions: 51
-Total Elements: 599
-Total Collisions: 51
-Total Elements: 600
-Total Collisions: 52
-Total Elements: 601
-Total Collisions: 53
-Total Elements: 602
-Total Collisions: 53
-Total Elements: 603
-Total Collisions: 53
-Total Elements: 604
-Total Collisions: 53
-Total Elements: 605
-Total Collisions: 53
-Total Elements: 606
-Total Collisions: 54
-Total Elements: 607
-Total Collisions: 54
-Total Elements: 608
-Total Collisions: 54
-Total Elements: 609
-Total Collisions: 54
-Total Elements: 610
-Total Collisions: 54
-Total Elements: 611
-Total Collisions: 55
-Total Elements: 612
-Total Collisions: 55
-Total Elements: 613
-Total Collisions: 56
-Total Elements: 614
-Total Collisions: 57
-Total Elements: 615
-Total Collisions: 58
-Total Elements: 616
-Total Collisions: 59
-Total Elements: 617
-Total Collisions: 60
-Total Elements: 618
-Total Collisions: 60
-Total Elements: 619
-Total Collisions: 60
-Total Elements: 620
-Total Collisions: 60
-Total Elements: 621
-Total Collisions: 60
-Total Elements: 622
-Total Collisions: 61
-Total Elements: 623
-Total Collisions: 62
-Total Elements: 624
-Total Collisions: 62
-Total Elements: 625
-Total Collisions: 63
-Total Elements: 626
-Total Collisions: 64
 Rehashing for Insertion
-Total Probes: 126
-Avereage Probes: 0.126
-Total Elements: 627
-Total Collisions: 0
-Total Elements: 628
+Total Probes: 521
+Avereage Probes: 0.521
+Load Factor: 0.284909
+Maximum Chain Length: 3
+Total Elements: 456
 Total Collisions: 1
-Total Elements: 629
+Total Elements: 457
 Total Collisions: 1
-Total Elements: 630
+Total Elements: 458
+Total Collisions: 1
+Total Elements: 459
 Total Collisions: 2
-Total Elements: 631
+Total Elements: 460
 Total Collisions: 2
-Total Elements: 632
+Total Elements: 461
 Total Collisions: 2
-Total Elements: 633
+Total Elements: 462
+Total Collisions: 2
+Total Elements: 463
+Total Collisions: 2
+Total Elements: 464
+Total Collisions: 2
+Total Elements: 465
+Total Collisions: 2
+Total Elements: 466
+Total Collisions: 2
+Total Elements: 467
+Total Collisions: 2
+Total Elements: 468
+Total Collisions: 2
+Total Elements: 469
+Total Collisions: 2
+Total Elements: 470
+Total Collisions: 2
+Total Elements: 471
+Total Collisions: 2
+Total Elements: 472
+Total Collisions: 2
+Total Elements: 473
+Total Collisions: 2
+Total Elements: 474
+Total Collisions: 2
+Total Elements: 475
+Total Collisions: 2
+Total Elements: 476
+Total Collisions: 2
+Total Elements: 477
 Total Collisions: 3
-Total Elements: 634
+Total Elements: 478
 Total Collisions: 4
-Total Elements: 635
+Total Elements: 479
 Total Collisions: 4
-Total Elements: 636
-Total Collisions: 4
-Total Elements: 637
-Total Collisions: 4
-Total Elements: 638
-Total Collisions: 4
-Total Elements: 639
+Total Elements: 480
 Total Collisions: 5
-Total Elements: 640
+Total Elements: 481
 Total Collisions: 5
-Total Elements: 641
+Total Elements: 482
 Total Collisions: 5
-Total Elements: 642
+Total Elements: 483
 Total Collisions: 5
-Total Elements: 643
+Total Elements: 484
 Total Collisions: 5
-Total Elements: 644
+Total Elements: 485
 Total Collisions: 5
-Total Elements: 645
+Total Elements: 486
+Total Collisions: 5
+Total Elements: 487
+Total Collisions: 5
+Total Elements: 488
+Total Collisions: 5
+Total Elements: 489
+Total Collisions: 5
+Total Elements: 490
+Total Collisions: 5
+Total Elements: 491
 Total Collisions: 6
-Total Elements: 646
+Total Elements: 492
 Total Collisions: 6
-Total Elements: 647
+Total Elements: 493
+Total Collisions: 6
+Total Elements: 494
+Total Collisions: 6
+Total Elements: 495
+Total Collisions: 6
+Total Elements: 496
+Total Collisions: 6
+Total Elements: 497
 Total Collisions: 7
-Total Elements: 648
+Total Elements: 498
 Total Collisions: 7
-Total Elements: 649
+Total Elements: 499
 Total Collisions: 7
-Total Elements: 650
+Total Elements: 500
 Total Collisions: 7
-Total Elements: 651
+Total Elements: 501
 Total Collisions: 7
-Total Elements: 652
+Total Elements: 502
 Total Collisions: 7
-Total Elements: 653
+Total Elements: 503
+Total Collisions: 7
+Total Elements: 504
+Total Collisions: 7
+Total Elements: 505
+Total Collisions: 7
+Total Elements: 506
 Total Collisions: 8
-Total Elements: 654
+Total Elements: 507
 Total Collisions: 8
-Total Elements: 655
+Total Elements: 508
 Total Collisions: 8
-Total Elements: 656
+Total Elements: 509
 Total Collisions: 8
-Total Elements: 657
+Total Elements: 510
 Total Collisions: 8
-Total Elements: 658
+Total Elements: 511
 Total Collisions: 8
-Total Elements: 659
-Total Collisions: 8
-Total Elements: 660
-Total Collisions: 8
-Total Elements: 661
-Total Collisions: 8
-Total Elements: 662
-Total Collisions: 8
-Total Elements: 663
-Total Collisions: 8
-Total Elements: 664
-Total Collisions: 8
-Total Elements: 665
-Total Collisions: 8
-Total Elements: 666
-Total Collisions: 8
-Total Elements: 667
-Total Collisions: 8
-Total Elements: 668
+Total Elements: 512
 Total Collisions: 9
-Total Elements: 669
-Total Collisions: 9
-Total Elements: 670
-Total Collisions: 9
-Total Elements: 671
-Total Collisions: 9
-Total Elements: 672
+Total Elements: 513
 Total Collisions: 10
-Total Elements: 673
+Total Elements: 514
 Total Collisions: 10
-Total Elements: 674
+Total Elements: 515
 Total Collisions: 10
-Total Elements: 675
-Total Collisions: 10
-Total Elements: 676
-Total Collisions: 10
-Total Elements: 677
-Total Collisions: 10
-Total Elements: 678
-Total Collisions: 10
-Total Elements: 679
-Total Collisions: 10
-Total Elements: 680
-Total Collisions: 10
-Total Elements: 681
-Total Collisions: 10
-Total Elements: 682
-Total Collisions: 10
-Total Elements: 683
-Total Collisions: 10
-Total Elements: 684
-Total Collisions: 10
-Total Elements: 685
-Total Collisions: 10
-Total Elements: 686
-Total Collisions: 10
-Total Elements: 687
-Total Collisions: 10
-Total Elements: 688
-Total Collisions: 10
-Total Elements: 689
+Total Elements: 516
 Total Collisions: 11
-Total Elements: 690
+Total Elements: 517
 Total Collisions: 11
-Total Elements: 691
+Total Elements: 518
+Total Collisions: 11
+Total Elements: 519
+Total Collisions: 11
+Total Elements: 520
+Total Collisions: 11
+Total Elements: 521
+Total Collisions: 11
+Total Elements: 522
+Total Collisions: 11
+Total Elements: 523
+Total Collisions: 11
+Total Elements: 524
+Total Collisions: 11
+Total Elements: 525
+Total Collisions: 11
+Total Elements: 526
+Total Collisions: 11
+Total Elements: 527
+Total Collisions: 11
+Total Elements: 528
+Total Collisions: 11
+Total Elements: 529
 Total Collisions: 12
-Total Elements: 692
+Total Elements: 530
 Total Collisions: 12
-Total Elements: 693
+Total Elements: 531
 Total Collisions: 12
-Total Elements: 694
+Total Elements: 532
 Total Collisions: 12
-Total Elements: 695
-Total Collisions: 12
-Total Elements: 696
+Total Elements: 533
 Total Collisions: 13
-Total Elements: 697
+Total Elements: 534
 Total Collisions: 13
-Total Elements: 698
+Total Elements: 535
 Total Collisions: 13
-Total Elements: 699
+Total Elements: 536
 Total Collisions: 13
-Total Elements: 700
+Total Elements: 537
 Total Collisions: 13
-Total Elements: 701
+Total Elements: 538
+Total Collisions: 13
+Total Elements: 539
+Total Collisions: 13
+Total Elements: 540
+Total Collisions: 13
+Total Elements: 541
+Total Collisions: 13
+Total Elements: 542
+Total Collisions: 13
+Total Elements: 543
+Total Collisions: 13
+Total Elements: 544
+Total Collisions: 13
+Total Elements: 545
+Total Collisions: 13
+Total Elements: 546
 Total Collisions: 14
-Total Elements: 702
+Total Elements: 547
 Total Collisions: 14
-Total Elements: 703
+Total Elements: 548
 Total Collisions: 14
-Total Elements: 704
+Total Elements: 549
 Total Collisions: 14
-Total Elements: 705
+Total Elements: 550
+Total Collisions: 14
+Total Elements: 551
+Total Collisions: 14
+Total Elements: 552
+Total Collisions: 14
+Total Elements: 553
+Total Collisions: 14
+Total Elements: 554
 Total Collisions: 15
-Total Elements: 706
+Total Elements: 555
 Total Collisions: 15
-Total Elements: 707
+Total Elements: 556
 Total Collisions: 15
-Total Elements: 708
-Total Collisions: 15
-Total Elements: 709
-Total Collisions: 15
-Total Elements: 710
-Total Collisions: 15
-Total Elements: 711
-Total Collisions: 15
-Total Elements: 712
-Total Collisions: 15
-Total Elements: 713
+Total Elements: 557
 Total Collisions: 16
-Total Elements: 714
+Total Elements: 558
 Total Collisions: 16
-Total Elements: 715
+Total Elements: 559
 Total Collisions: 16
-Total Elements: 716
+Total Elements: 560
 Total Collisions: 16
-Total Elements: 717
+Total Elements: 561
 Total Collisions: 16
-Total Elements: 718
+Total Elements: 562
 Total Collisions: 16
-Total Elements: 719
+Total Elements: 563
 Total Collisions: 16
-Total Elements: 720
+Total Elements: 564
 Total Collisions: 16
-Total Elements: 721
+Total Elements: 565
 Total Collisions: 16
-Total Elements: 722
+Total Elements: 566
+Total Collisions: 16
+Total Elements: 567
+Total Collisions: 16
+Total Elements: 568
 Total Collisions: 17
-Total Elements: 723
-Total Collisions: 17
-Total Elements: 724
-Total Collisions: 17
-Total Elements: 725
-Total Collisions: 17
-Total Elements: 726
-Total Collisions: 17
-Total Elements: 727
-Total Collisions: 17
-Total Elements: 728
+Total Elements: 569
 Total Collisions: 18
-Total Elements: 729
+Total Elements: 570
 Total Collisions: 18
-Total Elements: 730
+Total Elements: 571
 Total Collisions: 18
-Total Elements: 731
+Total Elements: 572
 Total Collisions: 18
-Total Elements: 732
+Total Elements: 573
 Total Collisions: 18
-Total Elements: 733
+Total Elements: 574
 Total Collisions: 18
-Total Elements: 734
+Total Elements: 575
 Total Collisions: 18
-Total Elements: 735
+Total Elements: 576
 Total Collisions: 18
-Total Elements: 736
+Total Elements: 577
 Total Collisions: 18
-Total Elements: 737
+Total Elements: 578
 Total Collisions: 18
-Total Elements: 738
+Total Elements: 579
 Total Collisions: 18
-Total Elements: 739
+Total Elements: 580
 Total Collisions: 18
-Total Elements: 740
+Total Elements: 581
 Total Collisions: 18
-Total Elements: 741
+Total Elements: 582
+Total Collisions: 18
+Total Elements: 583
+Total Collisions: 18
+Total Elements: 584
+Total Collisions: 18
+Total Elements: 585
+Total Collisions: 18
+Total Elements: 586
+Total Collisions: 18
+Total Elements: 587
 Total Collisions: 19
-Total Elements: 742
+Total Elements: 588
+Total Collisions: 19
+Total Elements: 589
+Total Collisions: 19
+Total Elements: 590
+Total Collisions: 19
+Total Elements: 591
+Total Collisions: 19
+Total Elements: 592
+Total Collisions: 19
+Total Elements: 593
+Total Collisions: 19
+Total Elements: 594
+Total Collisions: 19
+Total Elements: 595
+Total Collisions: 19
+Total Elements: 596
+Total Collisions: 19
+Total Elements: 597
+Total Collisions: 19
+Total Elements: 598
+Total Collisions: 19
+Total Elements: 599
+Total Collisions: 19
+Total Elements: 600
+Total Collisions: 19
+Total Elements: 601
+Total Collisions: 19
+Total Elements: 602
+Total Collisions: 19
+Total Elements: 603
+Total Collisions: 19
+Total Elements: 604
 Total Collisions: 20
-Total Elements: 743
+Total Elements: 605
 Total Collisions: 20
-Total Elements: 744
+Total Elements: 606
 Total Collisions: 20
-Total Elements: 745
+Total Elements: 607
 Total Collisions: 20
-Total Elements: 746
+Total Elements: 608
 Total Collisions: 20
-Total Elements: 747
+Total Elements: 609
+Total Collisions: 20
+Total Elements: 610
+Total Collisions: 20
+Total Elements: 611
 Total Collisions: 21
-Total Elements: 748
+Total Elements: 612
 Total Collisions: 21
-Total Elements: 749
+Total Elements: 613
 Total Collisions: 21
-Total Elements: 750
-Total Collisions: 21
-Total Elements: 751
-Total Collisions: 21
-Total Elements: 752
-Total Collisions: 21
-Total Elements: 753
+Total Elements: 614
 Total Collisions: 22
-Total Elements: 754
+Total Elements: 615
 Total Collisions: 22
-Total Elements: 755
+Total Elements: 616
+Total Collisions: 22
+Total Elements: 617
+Total Collisions: 22
+Total Elements: 618
+Total Collisions: 22
+Total Elements: 619
+Total Collisions: 22
+Total Elements: 620
+Total Collisions: 22
+Total Elements: 621
 Total Collisions: 23
-Total Elements: 756
+Total Elements: 622
 Total Collisions: 23
-Total Elements: 757
+Total Elements: 623
 Total Collisions: 23
-Total Elements: 758
+Total Elements: 624
 Total Collisions: 23
-Total Elements: 759
+Total Elements: 625
 Total Collisions: 23
-Total Elements: 760
+Total Elements: 626
 Total Collisions: 24
-Total Elements: 761
+Total Elements: 627
+Total Collisions: 24
+Total Elements: 628
+Total Collisions: 24
+Total Elements: 629
 Total Collisions: 25
-Total Elements: 762
+Total Elements: 630
 Total Collisions: 25
-Total Elements: 763
+Total Elements: 631
 Total Collisions: 25
-Total Elements: 764
+Total Elements: 632
 Total Collisions: 25
-Total Elements: 765
+Total Elements: 633
 Total Collisions: 25
-Total Elements: 766
+Total Elements: 634
 Total Collisions: 25
-Total Elements: 767
+Total Elements: 635
 Total Collisions: 25
-Total Elements: 768
-Total Collisions: 25
-Total Elements: 769
-Total Collisions: 25
-Total Elements: 770
+Total Elements: 636
 Total Collisions: 26
-Total Elements: 771
+Total Elements: 637
+Total Collisions: 26
+Total Elements: 638
+Total Collisions: 26
+Total Elements: 639
+Total Collisions: 26
+Total Elements: 640
 Total Collisions: 27
-Total Elements: 772
+Total Elements: 641
 Total Collisions: 27
-Total Elements: 773
+Total Elements: 642
 Total Collisions: 28
-Total Elements: 774
+Total Elements: 643
 Total Collisions: 28
-Total Elements: 775
+Total Elements: 644
 Total Collisions: 29
-Total Elements: 776
-Total Collisions: 29
-Total Elements: 777
-Total Collisions: 29
-Total Elements: 778
-Total Collisions: 29
-Total Elements: 779
-Total Collisions: 29
-Total Elements: 780
-Total Collisions: 29
-Total Elements: 781
-Total Collisions: 29
-Total Elements: 782
-Total Collisions: 29
-Total Elements: 783
+Total Elements: 645
 Total Collisions: 30
-Total Elements: 784
+Total Elements: 646
+Total Collisions: 30
+Total Elements: 647
+Total Collisions: 30
+Total Elements: 648
+Total Collisions: 30
+Total Elements: 649
+Total Collisions: 30
+Total Elements: 650
+Total Collisions: 30
+Total Elements: 651
+Total Collisions: 30
+Total Elements: 652
+Total Collisions: 30
+Total Elements: 653
+Total Collisions: 30
+Total Elements: 654
+Total Collisions: 30
+Total Elements: 655
+Total Collisions: 30
+Total Elements: 656
+Total Collisions: 30
+Total Elements: 657
+Total Collisions: 30
+Total Elements: 658
+Total Collisions: 30
+Total Elements: 659
+Total Collisions: 30
+Total Elements: 660
 Total Collisions: 31
-Total Elements: 785
+Total Elements: 661
+Total Collisions: 31
+Total Elements: 662
+Total Collisions: 31
+Total Elements: 663
+Total Collisions: 31
+Total Elements: 664
+Total Collisions: 31
+Total Elements: 665
+Total Collisions: 31
+Total Elements: 666
+Total Collisions: 31
+Total Elements: 667
+Total Collisions: 31
+Total Elements: 668
+Total Collisions: 31
+Total Elements: 669
+Total Collisions: 31
+Total Elements: 670
+Total Collisions: 31
+Total Elements: 671
+Total Collisions: 31
+Total Elements: 672
+Total Collisions: 31
+Total Elements: 673
+Total Collisions: 31
+Total Elements: 674
 Total Collisions: 32
-Total Elements: 786
+Total Elements: 675
 Total Collisions: 32
-Total Elements: 787
+Total Elements: 676
+Total Collisions: 32
+Total Elements: 677
+Total Collisions: 32
+Total Elements: 678
+Total Collisions: 32
+Total Elements: 679
+Total Collisions: 32
+Total Elements: 680
 Total Collisions: 33
-Total Elements: 788
+Total Elements: 681
+Total Collisions: 33
+Total Elements: 682
+Total Collisions: 33
+Total Elements: 683
+Total Collisions: 33
+Total Elements: 684
+Total Collisions: 33
+Total Elements: 685
+Total Collisions: 33
+Total Elements: 686
+Total Collisions: 33
+Total Elements: 687
+Total Collisions: 33
+Total Elements: 688
 Total Collisions: 34
-Total Elements: 789
+Total Elements: 689
 Total Collisions: 34
-Total Elements: 790
+Total Elements: 690
 Total Collisions: 34
-Total Elements: 791
+Total Elements: 691
 Total Collisions: 34
-Total Elements: 792
+Total Elements: 692
+Total Collisions: 34
+Total Elements: 693
+Total Collisions: 34
+Total Elements: 694
+Total Collisions: 34
+Total Elements: 695
+Total Collisions: 34
+Total Elements: 696
+Total Collisions: 34
+Total Elements: 697
+Total Collisions: 34
+Total Elements: 698
+Total Collisions: 34
+Total Elements: 699
+Total Collisions: 34
+Total Elements: 700
+Total Collisions: 34
+Total Elements: 701
+Total Collisions: 34
+Total Elements: 702
+Total Collisions: 34
+Total Elements: 703
+Total Collisions: 34
+Total Elements: 704
+Total Collisions: 34
+Total Elements: 705
+Total Collisions: 34
+Total Elements: 706
+Total Collisions: 34
+Total Elements: 707
+Total Collisions: 34
+Total Elements: 708
+Total Collisions: 34
+Total Elements: 709
 Total Collisions: 35
-Total Elements: 793
+Total Elements: 710
 Total Collisions: 35
-Total Elements: 794
+Total Elements: 711
 Total Collisions: 35
-Total Elements: 795
+Total Elements: 712
+Total Collisions: 35
+Total Elements: 713
+Total Collisions: 35
+Total Elements: 714
+Total Collisions: 35
+Total Elements: 715
+Total Collisions: 35
+Total Elements: 716
+Total Collisions: 35
+Total Elements: 717
+Total Collisions: 35
+Total Elements: 718
+Total Collisions: 35
+Total Elements: 719
 Total Collisions: 36
-Total Elements: 796
+Total Elements: 720
 Total Collisions: 36
-Total Elements: 797
+Total Elements: 721
+Total Collisions: 36
+Total Elements: 722
+Total Collisions: 36
+Total Elements: 723
+Total Collisions: 36
+Total Elements: 724
+Total Collisions: 36
+Total Elements: 725
 Total Collisions: 37
-Total Elements: 798
+Total Elements: 726
 Total Collisions: 37
-Total Elements: 799
+Total Elements: 727
 Total Collisions: 37
-Total Elements: 800
+Total Elements: 728
 Total Collisions: 37
-Total Elements: 801
+Total Elements: 729
 Total Collisions: 38
-Total Elements: 802
-Total Collisions: 38
-Total Elements: 803
-Total Collisions: 38
-Total Elements: 804
-Total Collisions: 38
-Total Elements: 805
-Total Collisions: 38
-Total Elements: 806
-Total Collisions: 38
-Total Elements: 807
-Total Collisions: 38
-Total Elements: 808
+Total Elements: 730
 Total Collisions: 39
-Total Elements: 809
-Total Collisions: 39
-Total Elements: 810
-Total Collisions: 39
-Total Elements: 811
-Total Collisions: 39
-Total Elements: 812
-Total Collisions: 39
-Total Elements: 813
+Total Elements: 731
 Total Collisions: 40
-Total Elements: 814
+Total Elements: 732
 Total Collisions: 40
-Total Elements: 815
+Total Elements: 733
 Total Collisions: 40
-Total Elements: 816
+Total Elements: 734
+Total Collisions: 40
+Total Elements: 735
+Total Collisions: 40
+Total Elements: 736
 Total Collisions: 41
-Total Elements: 817
+Total Elements: 737
 Total Collisions: 42
-Total Elements: 818
-Total Collisions: 42
-Total Elements: 819
-Total Collisions: 42
-Total Elements: 820
+Total Elements: 738
 Total Collisions: 43
-Total Elements: 821
+Total Elements: 739
 Total Collisions: 43
-Total Elements: 822
+Total Elements: 740
 Total Collisions: 43
-Total Elements: 823
+Total Elements: 741
 Total Collisions: 43
-Total Elements: 824
+Total Elements: 742
 Total Collisions: 43
-Total Elements: 825
+Total Elements: 743
 Total Collisions: 43
-Total Elements: 826
+Total Elements: 744
 Total Collisions: 43
-Total Elements: 827
+Total Elements: 745
 Total Collisions: 43
-Total Elements: 828
-Total Collisions: 43
-Total Elements: 829
-Total Collisions: 43
-Total Elements: 830
-Total Collisions: 43
-Total Elements: 831
-Total Collisions: 43
-Total Elements: 832
+Total Elements: 746
 Total Collisions: 44
-Total Elements: 833
+Total Elements: 747
 Total Collisions: 44
-Total Elements: 834
+Total Elements: 748
 Total Collisions: 44
-Total Elements: 835
+Total Elements: 749
 Total Collisions: 44
-Total Elements: 836
+Total Elements: 750
 Total Collisions: 44
-Total Elements: 837
+Total Elements: 751
 Total Collisions: 45
-Total Elements: 838
+Total Elements: 752
 Total Collisions: 45
-Total Elements: 839
+Total Elements: 753
 Total Collisions: 46
-Total Elements: 840
+Total Elements: 754
 Total Collisions: 46
-Total Elements: 841
+Total Elements: 755
 Total Collisions: 46
-Total Elements: 842
+Total Elements: 756
 Total Collisions: 46
-Total Elements: 843
+Total Elements: 757
 Total Collisions: 46
-Total Elements: 844
+Total Elements: 758
 Total Collisions: 46
-Total Elements: 845
+Total Elements: 759
 Total Collisions: 46
-Total Elements: 846
+Total Elements: 760
 Total Collisions: 47
-Total Elements: 847
-Total Collisions: 47
-Total Elements: 848
-Total Collisions: 47
-Total Elements: 849
-Total Collisions: 47
-Total Elements: 850
+Total Elements: 761
 Total Collisions: 48
-Total Elements: 851
+Total Elements: 762
+Total Collisions: 48
+Total Elements: 763
+Total Collisions: 48
+Total Elements: 764
+Total Collisions: 48
+Total Elements: 765
+Total Collisions: 48
+Total Elements: 766
+Total Collisions: 48
+Total Elements: 767
+Total Collisions: 48
+Total Elements: 768
+Total Collisions: 48
+Total Elements: 769
+Total Collisions: 48
+Total Elements: 770
+Total Collisions: 48
+Total Elements: 771
 Total Collisions: 49
-Total Elements: 852
+Total Elements: 772
+Total Collisions: 49
+Total Elements: 773
+Total Collisions: 49
+Total Elements: 774
+Total Collisions: 49
+Total Elements: 775
+Total Collisions: 49
+Total Elements: 776
+Total Collisions: 49
+Total Elements: 777
+Total Collisions: 49
+Total Elements: 778
+Total Collisions: 49
+Total Elements: 779
+Total Collisions: 49
+Total Elements: 780
+Total Collisions: 49
+Total Elements: 781
 Total Collisions: 50
-Total Elements: 853
+Total Elements: 782
 Total Collisions: 50
-Total Elements: 854
+Total Elements: 783
+Total Collisions: 50
+Total Elements: 784
 Total Collisions: 51
-Total Elements: 855
+Total Elements: 785
 Total Collisions: 51
-Total Elements: 856
+Total Elements: 786
 Total Collisions: 51
-Total Elements: 857
-Total Collisions: 51
-Total Elements: 858
-Total Collisions: 51
-Total Elements: 859
-Total Collisions: 51
-Total Elements: 860
-Total Collisions: 51
-Total Elements: 861
-Total Collisions: 51
-Total Elements: 862
-Total Collisions: 51
-Total Elements: 863
-Total Collisions: 51
-Total Elements: 864
-Total Collisions: 51
-Total Elements: 865
-Total Collisions: 51
-Total Elements: 866
-Total Collisions: 51
-Total Elements: 867
-Total Collisions: 51
-Total Elements: 868
+Total Elements: 787
 Total Collisions: 52
-Total Elements: 869
+Total Elements: 788
 Total Collisions: 52
-Total Elements: 870
-Total Collisions: 52
-Total Elements: 871
+Total Elements: 789
 Total Collisions: 53
-Total Elements: 872
+Total Elements: 790
 Total Collisions: 53
-Total Elements: 873
+Total Elements: 791
 Total Collisions: 53
-Total Elements: 874
+Total Elements: 792
+Total Collisions: 53
+Total Elements: 793
+Total Collisions: 53
+Total Elements: 794
+Total Collisions: 53
+Total Elements: 795
+Total Collisions: 53
+Total Elements: 796
+Total Collisions: 53
+Total Elements: 797
+Total Collisions: 53
+Total Elements: 798
+Total Collisions: 53
+Total Elements: 799
 Total Collisions: 54
-Total Elements: 875
+Total Elements: 800
 Total Collisions: 55
-Total Elements: 876
+Total Elements: 801
 Total Collisions: 55
-Total Elements: 877
+Total Elements: 802
+Total Collisions: 55
+Total Elements: 803
+Total Collisions: 55
+Total Elements: 804
+Total Collisions: 55
+Total Elements: 805
+Total Collisions: 55
+Total Elements: 806
 Total Collisions: 56
-Total Elements: 878
+Total Elements: 807
 Total Collisions: 56
-Total Elements: 879
-Total Collisions: 56
-Total Elements: 880
-Total Collisions: 56
-Total Elements: 881
-Total Collisions: 56
-Total Elements: 882
-Total Collisions: 56
-Total Elements: 883
-Total Collisions: 56
-Total Elements: 884
+Total Elements: 808
 Total Collisions: 57
-Total Elements: 885
+Total Elements: 809
 Total Collisions: 57
-Total Elements: 886
+Total Elements: 810
 Total Collisions: 57
-Total Elements: 887
+Total Elements: 811
 Total Collisions: 57
-Total Elements: 888
-Total Collisions: 57
-Total Elements: 889
-Total Collisions: 57
-Total Elements: 890
-Total Collisions: 57
-Total Elements: 891
-Total Collisions: 57
-Total Elements: 892
+Total Elements: 812
 Total Collisions: 58
-Total Elements: 893
-Total Collisions: 58
-Total Elements: 894
-Total Collisions: 58
-Total Elements: 895
+Total Elements: 813
 Total Collisions: 59
-Total Elements: 896
+Total Elements: 814
 Total Collisions: 59
-Total Elements: 897
+Total Elements: 815
 Total Collisions: 59
-Total Elements: 898
+Total Elements: 816
 Total Collisions: 59
-Total Elements: 899
-Total Collisions: 59
-Total Elements: 900
-Total Collisions: 59
-Total Elements: 901
-Total Collisions: 59
-Total Elements: 902
-Total Collisions: 59
-Total Elements: 903
-Total Collisions: 59
-Total Elements: 904
-Total Collisions: 59
-Total Elements: 905
-Total Collisions: 59
-Total Elements: 906
-Total Collisions: 59
-Total Elements: 907
-Total Collisions: 59
-Total Elements: 908
-Total Collisions: 59
-Total Elements: 909
-Total Collisions: 59
-Total Elements: 910
-Total Collisions: 59
-Total Elements: 911
-Total Collisions: 59
-Total Elements: 912
-Total Collisions: 59
-Total Elements: 913
-Total Collisions: 59
-Total Elements: 914
-Total Collisions: 59
-Total Elements: 915
-Total Collisions: 59
-Total Elements: 916
-Total Collisions: 59
-Total Elements: 917
+Total Elements: 817
 Total Collisions: 60
-Total Elements: 918
+Total Elements: 818
 Total Collisions: 60
-Total Elements: 919
+Total Elements: 819
+Total Collisions: 60
+Total Elements: 820
 Total Collisions: 61
-Total Elements: 920
+Total Elements: 821
+Total Collisions: 61
+Total Elements: 822
+Total Collisions: 61
+Total Elements: 823
+Total Collisions: 61
+Total Elements: 824
+Total Collisions: 61
+Total Elements: 825
+Total Collisions: 61
+Total Elements: 826
+Total Collisions: 61
+Total Elements: 827
+Total Collisions: 61
+Total Elements: 828
+Total Collisions: 61
+Total Elements: 829
+Total Collisions: 61
+Total Elements: 830
+Total Collisions: 61
+Total Elements: 831
+Total Collisions: 61
+Total Elements: 832
+Total Collisions: 61
+Total Elements: 833
+Total Collisions: 61
+Total Elements: 834
 Total Collisions: 62
-Total Elements: 921
+Total Elements: 835
 Total Collisions: 62
-Total Elements: 922
+Total Elements: 836
+Total Collisions: 62
+Total Elements: 837
 Total Collisions: 63
-Total Elements: 923
+Total Elements: 838
 Total Collisions: 63
-Total Elements: 924
+Total Elements: 839
+Total Collisions: 63
+Total Elements: 840
 Total Collisions: 64
-Total Elements: 925
+Total Elements: 841
+Total Collisions: 64
+Total Elements: 842
+Total Collisions: 64
+Total Elements: 843
+Total Collisions: 64
+Total Elements: 844
 Total Collisions: 65
-Total Elements: 926
+Total Elements: 845
 Total Collisions: 65
-Total Elements: 927
+Total Elements: 846
 Total Collisions: 65
-Total Elements: 928
+Total Elements: 847
 Total Collisions: 66
-Total Elements: 929
+Total Elements: 848
 Total Collisions: 66
-Total Elements: 930
+Total Elements: 849
 Total Collisions: 67
-Total Elements: 931
+Total Elements: 850
 Total Collisions: 68
-Total Elements: 932
+Total Elements: 851
 Total Collisions: 68
-Total Elements: 933
+Total Elements: 852
 Total Collisions: 68
-Total Elements: 934
+Total Elements: 853
 Total Collisions: 68
-Total Elements: 935
+Total Elements: 854
 Total Collisions: 68
-Total Elements: 936
+Total Elements: 855
+Total Collisions: 68
+Total Elements: 856
 Total Collisions: 69
-Total Elements: 937
+Total Elements: 857
 Total Collisions: 70
-Total Elements: 938
+Total Elements: 858
 Total Collisions: 70
-Total Elements: 939
+Total Elements: 859
 Total Collisions: 71
-Total Elements: 940
+Total Elements: 860
+Total Collisions: 71
+Total Elements: 861
+Total Collisions: 71
+Total Elements: 862
 Total Collisions: 72
-Total Elements: 941
+Total Elements: 863
+Total Collisions: 72
+Total Elements: 864
+Total Collisions: 72
+Total Elements: 865
+Total Collisions: 72
+Total Elements: 866
+Total Collisions: 72
+Total Elements: 867
+Total Collisions: 72
+Total Elements: 868
+Total Collisions: 72
+Total Elements: 869
+Total Collisions: 72
+Total Elements: 870
+Total Collisions: 72
+Total Elements: 871
+Total Collisions: 72
+Total Elements: 872
 Total Collisions: 73
-Total Elements: 942
-Total Collisions: 73
-Total Elements: 943
-Total Collisions: 74
-Total Elements: 944
-Total Collisions: 74
-Total Elements: 945
-Total Collisions: 74
-Total Elements: 946
-Total Collisions: 75
-Total Elements: 947
-Total Collisions: 75
-Total Elements: 948
-Total Collisions: 75
-Total Elements: 949
-Total Collisions: 75
-Total Elements: 950
-Total Collisions: 75
-Total Elements: 951
-Total Collisions: 75
-Total Elements: 952
-Total Collisions: 76
-Total Elements: 953
-Total Collisions: 76
-Total Elements: 954
-Total Collisions: 76
-Total Elements: 955
-Total Collisions: 76
-Total Elements: 956
-Total Collisions: 76
-Total Elements: 957
-Total Collisions: 76
-Total Elements: 958
-Total Collisions: 76
-Total Elements: 959
-Total Collisions: 76
-Total Elements: 960
-Total Collisions: 76
-Total Elements: 961
-Total Collisions: 76
-Total Elements: 962
-Total Collisions: 76
-Total Elements: 963
-Total Collisions: 77
-Total Elements: 964
-Total Collisions: 77
-Total Elements: 965
-Total Collisions: 77
-Total Elements: 966
-Total Collisions: 77
-Total Elements: 967
-Total Collisions: 77
-Total Elements: 968
-Total Collisions: 77
-Total Elements: 969
-Total Collisions: 77
-Total Elements: 970
-Total Collisions: 77
-Total Elements: 971
-Total Collisions: 77
-Total Elements: 972
-Total Collisions: 77
-Total Elements: 973
-Total Collisions: 77
-Total Elements: 974
-Total Collisions: 77
-Total Elements: 975
-Total Collisions: 78
-Total Elements: 976
-Total Collisions: 78
-Total Elements: 977
-Total Collisions: 78
-Total Elements: 978
-Total Collisions: 79
-Total Elements: 979
-Total Collisions: 80
-Total Elements: 980
-Total Collisions: 80
-Total Elements: 981
-Total Collisions: 80
-Total Elements: 982
-Total Collisions: 81
-Total Elements: 983
-Total Collisions: 81
-Total Elements: 984
-Total Collisions: 81
-Total Elements: 985
-Total Collisions: 82
-Total Elements: 986
-Total Collisions: 82
-Total Elements: 987
-Total Collisions: 82
-Total Elements: 988
-Total Collisions: 82
-Total Elements: 989
-Total Collisions: 83
-Total Elements: 990
-Total Collisions: 84
-Total Elements: 991
-Total Collisions: 84
-Total Elements: 992
-Total Collisions: 85
-Total Elements: 993
-Total Collisions: 86
-Total Elements: 994
-Total Collisions: 86
-Total Elements: 995
-Total Collisions: 86
-Total Elements: 996
-Total Collisions: 86
-Total Elements: 997
-Total Collisions: 86
-Total Elements: 998
-Total Collisions: 87
-Total Elements: 999
-Total Collisions: 88
-Total Elements: 1000
-Total Collisions: 89
-Deleting hqghumeayl
-Rehashing for Deletion
-Total Probes: 169
-Avereage Probes: 0.169
-Total Elements: 999
-Total Collisions: 0
-Deleting lfdxfircvs
-Rehashing for Deletion
-Total Probes: 317
-Avereage Probes: 0.317
-Total Elements: 998
-Total Collisions: 0
-Deleting xggbwkf
-Total Elements: 997
-Total Collisions: 0
-Deleting qduxwfnfoz
-Total Elements: 996
-Total Collisions: 0
-Deleting srtkjpre
-Total Elements: 995
-Total Collisions: 0
-Deleting ggxrpnrvys
-Total Elements: 994
-Total Collisions: 0
-Deleting mwcysyycqp
-Total Elements: 993
-Total Collisions: 0
-Deleting vikeffm
-Total Elements: 992
-Total Collisions: 0
-Deleting nimkkasv
-Total Elements: 991
-Total Collisions: 0
-Deleting srenzkycx
-Total Elements: 990
-Total Collisions: 0
-Deleting xtlsgypsfa
-Total Elements: 989
-Total Collisions: 0
-Deleting pooefxzbco
-Total Elements: 988
-Total Collisions: 0
-Deleting juvpv
-Total Elements: 987
-Total Collisions: 0
-Deleting boygpoeyl
-Total Elements: 986
-Total Collisions: 0
-Deleting pbnpljvrvi
-Total Elements: 985
-Total Collisions: 0
-Deleting yamyehwqnq
-Total Elements: 984
-Total Collisions: 0
-Deleting qpmxujjloo
-Total Elements: 983
-Total Collisions: 0
-Deleting aowuxw
-Total Elements: 982
-Total Collisions: 0
-Deleting msncbxco
-Total Elements: 981
-Total Collisions: 0
-Deleting sfzkv
-Total Elements: 980
-Total Collisions: 0
-Deleting txdkn
-Total Elements: 979
-Total Collisions: 0
-Deleting yjyhfi
-Total Elements: 978
-Total Collisions: 0
-Deleting jswnkkufnu
-Total Elements: 977
-Total Collisions: 0
-Deleting xzrzbmnm
-Total Elements: 976
-Total Collisions: 0
-Deleting qooke
-Total Elements: 975
-Total Collisions: 0
-Deleting lyhnkoaugz
-Total Elements: 974
-Total Collisions: 0
-Deleting rcddiutei
-Total Elements: 973
-Total Collisions: 0
-Deleting jwayyzp
-Total Elements: 972
-Total Collisions: 0
-Deleting scmpsa
-Total Elements: 971
-Total Collisions: 0
-Deleting lfvgubfa
-Total Elements: 970
-Total Collisions: 0
-Deleting ovlzyln
-Total Elements: 969
-Total Collisions: 0
-Deleting rkdcpwsr
-Total Elements: 968
-Total Collisions: 0
-Deleting esjwhdiz
-Total Elements: 967
-Total Collisions: 0
-Deleting obzcnfwlq
-Total Elements: 966
-Total Collisions: 0
-Deleting jtvdwvxhr
-Total Elements: 965
-Total Collisions: 0
-Deleting bldvg
-Total Elements: 964
-Total Collisions: 0
-Deleting lwgbusb
-Total Elements: 963
-Total Collisions: 0
-Deleting borxtlh
-Total Elements: 962
-Total Collisions: 0
-Deleting smpxo
-Total Elements: 961
-Total Collisions: 0
-Deleting gmgnke
-Total Elements: 960
-Total Collisions: 0
-Deleting fdxotog
-Total Elements: 959
-Total Collisions: 0
-Deleting gxpeyanfet
-Total Elements: 958
-Total Collisions: 0
-Deleting ukepzshkl
-Total Elements: 957
-Total Collisions: 0
-Deleting ugggekjdqz
-Total Elements: 956
-Total Collisions: 0
-Deleting enpevq
-Total Elements: 955
-Total Collisions: 0
-Deleting xiepjsr
-Total Elements: 954
-Total Collisions: 0
-Deleting zjazujllch
-Total Elements: 953
-Total Collisions: 0
-Deleting bfqmkimwzo
-Total Elements: 952
-Total Collisions: 0
-Deleting iwybxduu
-Total Elements: 951
-Total Collisions: 0
-Deleting fsksrsrtek
-Total Elements: 950
-Total Collisions: 0
-Deleting qdcyzje
-Total Elements: 949
-Total Collisions: 0
-Deleting uhmsrqcoz
-Total Elements: 948
-Total Collisions: 0
-Deleting jipfionee
-Total Elements: 947
-Total Collisions: 0
-Deleting dpszrnav
-Total Elements: 946
-Total Collisions: 0
-Deleting mmtatbd
-Total Elements: 945
-Total Collisions: 0
-Deleting qsoemuvnpp
-Total Elements: 944
-Total Collisions: 0
-Deleting suacbazu
-Total Elements: 943
-Total Collisions: 0
-Deleting mhecthlegr
-Total Elements: 942
-Total Collisions: 0
-Deleting unkdmbppwe
-Total Elements: 941
-Total Collisions: 0
-Deleting tgjop
-Total Elements: 940
-Total Collisions: 0
-Deleting rmowz
-Total Elements: 939
-Total Collisions: 0
-Deleting qyoxyt
-Total Elements: 938
-Total Collisions: 0
-Deleting bbhawdyd
-Total Elements: 937
-Total Collisions: 0
-Deleting prjbx
-Total Elements: 936
-Total Collisions: 0
-Deleting hoohpkwqyu
-Total Elements: 935
-Total Collisions: 0
-Deleting rqzhnb
-Total Elements: 934
-Total Collisions: 0
-Deleting fuvqnq
-Total Elements: 933
-Total Collisions: 0
-Deleting lrzjp
-Total Elements: 932
-Total Collisions: 0
-Deleting iogvliexdz
-Total Elements: 931
-Total Collisions: 0
-Deleting zosrkru
-Total Elements: 930
-Total Collisions: 0
-Deleting vojbr
-Total Elements: 929
-Total Collisions: 0
-Deleting mwzpowkj
-Total Elements: 928
-Total Collisions: 0
-Deleting lefra
-Total Elements: 927
-Total Collisions: 0
-Deleting mdigpnp
-Total Elements: 926
-Total Collisions: 0
-Deleting uhgxp
-Total Elements: 925
-Total Collisions: 0
-Deleting njwjmwaxx
-Total Elements: 924
-Total Collisions: 0
-Deleting nsnhhlq
-Total Elements: 923
-Total Collisions: 0
-Deleting rzudl
-Total Elements: 922
-Total Collisions: 0
-Deleting fzotcjtnzx
-Total Elements: 921
-Total Collisions: 0
-Deleting glsdsmzcn
-Total Elements: 920
-Total Collisions: 0
-Deleting ckvfa
-Total Elements: 919
-Total Collisions: 0
-Deleting frmxothowk
-Total Elements: 918
-Total Collisions: 0
-Deleting jzwucwljfr
-Total Elements: 917
-Total Collisions: 0
-Deleting mpmyhchzr
-Total Elements: 916
-Total Collisions: 0
-Deleting wkbarxb
-Total Elements: 915
-Total Collisions: 0
-Deleting fcbceyh
-Total Elements: 914
-Total Collisions: 0
-Deleting ugixwtbv
-Total Elements: 913
-Total Collisions: 0
-Deleting rehbbcpxif
-Total Elements: 912
-Total Collisions: 0
-Deleting xvfbcg
-Total Elements: 911
-Total Collisions: 0
-Deleting cfqckco
-Total Elements: 910
-Total Collisions: 0
-Deleting zgkubmjrmb
-Total Elements: 909
-Total Collisions: 0
-Deleting ztssh
-Total Elements: 908
-Total Collisions: 0
-Deleting roefwsjrxj
-Total Elements: 907
-Total Collisions: 0
-Deleting guzyup
-Total Elements: 906
-Total Collisions: 0
-Deleting wweiqurp
-Total Elements: 905
-Total Collisions: 0
-Deleting xiqflduuv
-Total Elements: 904
-Total Collisions: 0
-Deleting oowqcudhn
-Total Elements: 903
-Total Collisions: 0
-Deleting fnjhaim
-Total Elements: 902
-Total Collisions: 0
-Deleting czfskuidu
-Total Elements: 901
-Total Collisions: 0
-Deleting uriswt
-Total Elements: 900
-Total Collisions: 0
-Deleting recuyk
-Total Elements: 899
-Total Collisions: 0
-Deleting bfcvkdz
-Total Elements: 898
-Total Collisions: 0
-Deleting ztoidukuh
-Total Elements: 897
-Total Collisions: 0
-Deleting zefczzzb
-Total Elements: 896
-Total Collisions: 0
-Deleting kqdpqz
-Total Elements: 895
-Total Collisions: 0
-Deleting kfobucd
-Total Elements: 894
-Total Collisions: 0
-Deleting thxdjgkjel
-Total Elements: 893
-Total Collisions: 0
-Deleting lpaxamce
-Total Elements: 892
-Total Collisions: 0
-Deleting oswitdptpc
-Total Elements: 891
-Total Collisions: 0
-Deleting lifkelj
-Total Elements: 890
-Total Collisions: 0
-Deleting tihrc
-Total Elements: 889
-Total Collisions: 0
-Deleting aybnefx
-Total Elements: 888
-Total Collisions: 0
-Deleting xvgzed
-Total Elements: 887
-Total Collisions: 0
-Deleting yhngy
-Total Elements: 886
-Total Collisions: 0
-Deleting drudm
-Total Elements: 885
-Total Collisions: 0
-Deleting hmeckotr
-Total Elements: 884
-Total Collisions: 0
-Deleting ospofgh
-Total Elements: 883
-Total Collisions: 0
-Deleting ozqvlqfx
-Total Elements: 882
-Total Collisions: 0
-Deleting wkmfx
-Total Elements: 881
-Total Collisions: 0
-Deleting yygmdcas
-Total Elements: 880
-Total Collisions: 0
-Deleting sgovsodkjg
-Total Elements: 879
-Total Collisions: 0
-Deleting cwmbmxrmhu
-Total Elements: 878
-Total Collisions: 0
-Deleting fyqga
-Total Elements: 877
-Total Collisions: 0
-Deleting qkcklznayx
-Total Elements: 876
-Total Collisions: 0
-Deleting kqoyz
-Total Elements: 875
-Total Collisions: 0
-Deleting myubzazcp
-Total Elements: 874
-Total Collisions: 0
-Deleting hktkydz
+Rehashing for Insertion
+Total Probes: 984
+Avereage Probes: 0.984
+Load Factor: 0.272245
+Maximum Chain Length: 3
 Total Elements: 873
 Total Collisions: 0
-Deleting vcuypurfm
+Total Elements: 874
+Total Collisions: 0
+Total Elements: 875
+Total Collisions: 0
+Total Elements: 876
+Total Collisions: 0
+Total Elements: 877
+Total Collisions: 0
+Total Elements: 878
+Total Collisions: 1
+Total Elements: 879
+Total Collisions: 1
+Total Elements: 880
+Total Collisions: 2
+Total Elements: 881
+Total Collisions: 2
+Total Elements: 882
+Total Collisions: 2
+Total Elements: 883
+Total Collisions: 2
+Total Elements: 884
+Total Collisions: 2
+Total Elements: 885
+Total Collisions: 2
+Total Elements: 886
+Total Collisions: 2
+Total Elements: 887
+Total Collisions: 3
+Total Elements: 888
+Total Collisions: 3
+Total Elements: 889
+Total Collisions: 3
+Total Elements: 890
+Total Collisions: 4
+Total Elements: 891
+Total Collisions: 5
+Total Elements: 892
+Total Collisions: 5
+Total Elements: 893
+Total Collisions: 5
+Total Elements: 894
+Total Collisions: 5
+Total Elements: 895
+Total Collisions: 5
+Total Elements: 896
+Total Collisions: 5
+Total Elements: 897
+Total Collisions: 5
+Total Elements: 898
+Total Collisions: 5
+Total Elements: 899
+Total Collisions: 5
+Total Elements: 900
+Total Collisions: 5
+Total Elements: 901
+Total Collisions: 5
+Total Elements: 902
+Total Collisions: 6
+Total Elements: 903
+Total Collisions: 7
+Total Elements: 904
+Total Collisions: 7
+Total Elements: 905
+Total Collisions: 8
+Total Elements: 906
+Total Collisions: 8
+Total Elements: 907
+Total Collisions: 8
+Total Elements: 908
+Total Collisions: 8
+Total Elements: 909
+Total Collisions: 8
+Total Elements: 910
+Total Collisions: 8
+Total Elements: 911
+Total Collisions: 9
+Total Elements: 912
+Total Collisions: 9
+Total Elements: 913
+Total Collisions: 9
+Total Elements: 914
+Total Collisions: 9
+Total Elements: 915
+Total Collisions: 9
+Total Elements: 916
+Total Collisions: 9
+Total Elements: 917
+Total Collisions: 9
+Total Elements: 918
+Total Collisions: 9
+Total Elements: 919
+Total Collisions: 9
+Total Elements: 920
+Total Collisions: 9
+Total Elements: 921
+Total Collisions: 9
+Total Elements: 922
+Total Collisions: 10
+Total Elements: 923
+Total Collisions: 11
+Total Elements: 924
+Total Collisions: 11
+Total Elements: 925
+Total Collisions: 11
+Total Elements: 926
+Total Collisions: 11
+Total Elements: 927
+Total Collisions: 11
+Total Elements: 928
+Total Collisions: 12
+Total Elements: 929
+Total Collisions: 12
+Total Elements: 930
+Total Collisions: 13
+Total Elements: 931
+Total Collisions: 13
+Total Elements: 932
+Total Collisions: 13
+Total Elements: 933
+Total Collisions: 14
+Total Elements: 934
+Total Collisions: 14
+Total Elements: 935
+Total Collisions: 15
+Total Elements: 936
+Total Collisions: 15
+Total Elements: 937
+Total Collisions: 15
+Total Elements: 938
+Total Collisions: 15
+Total Elements: 939
+Total Collisions: 15
+Total Elements: 940
+Total Collisions: 15
+Total Elements: 941
+Total Collisions: 15
+Total Elements: 942
+Total Collisions: 15
+Total Elements: 943
+Total Collisions: 15
+Total Elements: 944
+Total Collisions: 15
+Total Elements: 945
+Total Collisions: 15
+Total Elements: 946
+Total Collisions: 15
+Total Elements: 947
+Total Collisions: 15
+Total Elements: 948
+Total Collisions: 15
+Total Elements: 949
+Total Collisions: 15
+Total Elements: 950
+Total Collisions: 15
+Total Elements: 951
+Total Collisions: 15
+Total Elements: 952
+Total Collisions: 15
+Total Elements: 953
+Total Collisions: 15
+Total Elements: 954
+Total Collisions: 16
+Total Elements: 955
+Total Collisions: 16
+Total Elements: 956
+Total Collisions: 16
+Total Elements: 957
+Total Collisions: 17
+Total Elements: 958
+Total Collisions: 17
+Total Elements: 959
+Total Collisions: 17
+Total Elements: 960
+Total Collisions: 17
+Total Elements: 961
+Total Collisions: 17
+Total Elements: 962
+Total Collisions: 17
+Total Elements: 963
+Total Collisions: 17
+Total Elements: 964
+Total Collisions: 17
+Total Elements: 965
+Total Collisions: 17
+Total Elements: 966
+Total Collisions: 17
+Total Elements: 967
+Total Collisions: 18
+Total Elements: 968
+Total Collisions: 18
+Total Elements: 969
+Total Collisions: 18
+Total Elements: 970
+Total Collisions: 18
+Total Elements: 971
+Total Collisions: 19
+Total Elements: 972
+Total Collisions: 19
+Total Elements: 973
+Total Collisions: 19
+Total Elements: 974
+Total Collisions: 19
+Total Elements: 975
+Total Collisions: 19
+Total Elements: 976
+Total Collisions: 19
+Total Elements: 977
+Total Collisions: 19
+Total Elements: 978
+Total Collisions: 19
+Total Elements: 979
+Total Collisions: 19
+Total Elements: 980
+Total Collisions: 19
+Total Elements: 981
+Total Collisions: 19
+Total Elements: 982
+Total Collisions: 19
+Total Elements: 983
+Total Collisions: 19
+Total Elements: 984
+Total Collisions: 19
+Total Elements: 985
+Total Collisions: 19
+Total Elements: 986
+Total Collisions: 19
+Total Elements: 987
+Total Collisions: 19
+Total Elements: 988
+Total Collisions: 20
+Total Elements: 989
+Total Collisions: 20
+Total Elements: 990
+Total Collisions: 20
+Total Elements: 991
+Total Collisions: 20
+Total Elements: 992
+Total Collisions: 21
+Total Elements: 993
+Total Collisions: 22
+Total Elements: 994
+Total Collisions: 22
+Total Elements: 995
+Total Collisions: 22
+Total Elements: 996
+Total Collisions: 22
+Total Elements: 997
+Total Collisions: 22
+Total Elements: 998
+Total Collisions: 22
+Total Elements: 999
+Total Collisions: 22
+Total Elements: 1000
+Total Collisions: 22
+
+
+
+
+
+
+
+mpmvuf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gogyitku 
+txxyd 
+
+
+uhqripz 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bpageqpv 
+
+
+
+
+
+
+
+
+
+
+
+
+
+hgckld 
+
+
+
+
+bsgejexsur 
+
+hwxcfj 
+
+pboxk txait 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gnfukgsaol 
+
+
+
+
+
+
+flvkjuhyfc 
+
+ybwqcywr 
+ztgiz 
+
+
+
+
+
+
+
+
+
+ouujxvquvx 
+
+
+
+
+
+mfraqqdilo unxkhgc 
+
+
+
+
+
+
+
+
+
+
+zljogha 
+
+
+
+gghpibl cgpccu 
+
+
+
+
+
+
+
+
+
+
+
+
+xunyom 
+
+pmefldsqg 
+
+kszgzscqv 
+
+
+aolekpi 
+
+
+
+
+
+
+ttpakfumzu 
+
+
+ribhobooo 
+
+
+
+
+cqywa 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nafwowse 
+vrulqfq 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uwavjmg 
+
+
+lbgwzd 
+
+
+jwijk 
+lkded 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+acfyhgndu 
+
+
+nenvsmn 
+
+xgqtacpi 
+
+
+
+
+
+
+
+ohftzsz 
+
+itfdcarogt 
+dqelyiphe 
+
+
+
+
+
+
+yzgxwsy 
+
+
+wzybnpkww 
+
+detovw 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+thchzxuytz mggmc 
+
+lqpzc 
+
+cuslxo 
+
+zqugisvojb 
+
+orirwxrfd 
+
+
+
+
+
+
+
+
+wbxarxgdd 
+
+
+
+
+jsddfv 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yswufmgk 
+
+
+
+
+
+
+
+
+
+
+rkfgwktbqj junzbeirg 
+
+
+tagblb 
+
+zmufjadpg 
+
+
+
+aemxjgapom 
+
+
+
+
+
+bchrn 
+
+
+
+evrtpmr 
+
+
+quprhszhmv 
+
+
+quefli 
+
+
+
+
+
+fubfsgxgo 
+
+
+
+
+
+
+
+
+
+ignti 
+
+qohdsy xdtfbhaba 
+
+ycvapzher 
+
+qktdsbhml 
+
+
+
+
+
+
+
+
+
+eytyljz 
+
+
+
+utohwkko 
+wlzolq 
+
+
+
+
+
+
+
+
+
+
+
+
+fcwlotetb 
+
+
+
+tijwkaqi 
+
+eilbnwjoj 
+
+
+
+
+
+
+
+
+
+
+jhnddqd 
+
+nekxy 
+
+
+
+
+
+
+
+stacybuc 
+
+
+eobpv 
+
+
+
+rgseons 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ovbmz 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zckrgrqzad 
+
+
+
+
+
+
+
+
+ouihcbsbh 
+brynmwah 
+
+
+
+
+
+
+nzxukytqsf 
+
+
+
+
+fjbiyrf 
+
+mhlrpcb 
+
+
+
+
+dysdqddse 
+
+
+
+
+sbvoptzb 
+yqxgb 
+
+
+
+
+ifqgkhgl 
+
+vrbywntqif 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tbdszjw 
+
+
+
+
+
+
+
+
+hejhuvpvy 
+
+xrttteovy 
+
+
+waapguu lppkans 
+
+lybhxza 
+
+neiolyivo 
+
+gfxruwoz 
+
+
+
+
+
+
+wmbii 
+
+
+mexiiqpgu 
+
+
+
+gnxbnvrcvb 
+
+
+arwide 
+
+
+
+
+
+
+
+
+
+
+
+
+
+jskwzaqrp 
+edgxwy 
+
+
+
+
+
+
+bxphrhsus 
+
+
+
+zrvrmcvroz 
+wzrpt 
+
+
+
+vouxmnyfw 
+
+tscdttktqu 
+
+
+
+
+gyqsbsub qyqznaq 
+vxwvleie 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mlkclkumu 
+
+
+uhhkohw 
+
+
+
+gyoqpsccip 
+
+hlutgvsb 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nsodoj 
+
+
+
+
+
+
+
+
+emtetiev 
+
+eromkp 
+
+
+
+
+
+
+
+xyjgkmlhe 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nxgzq 
+
+
+
+
+xrcfltr 
+hcexxk 
+
+wcfmsjhbb 
+
+rzfezfdc nirxa 
+
+
+bzyqd ppwpb 
+
+
+
+sxohx 
+
+
+
+srpjuygxt 
+
+
+
+
+rwapdxvdb 
+
+
+
+kgcrvdnbh 
+
+epzwp 
+
+
+sdlmfzl 
+
+
+
+
+
+
+
+nqdombpfyl 
+
+
+uffcrwkt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+luxayka 
+
+
+
+
+
+
+
+
+
+
+zxlghs 
+
+
+ynizcx 
+
+
+
+rvvnvdzzrs 
+
+
+
+
+
+
+
+
+
+
+
+lnzhtiq 
+
+
+
+futrd 
+
+
+heiamabf 
+
+
+
+
+
+
+
+
+
+
+
+fpjknmuo 
+
+girjbkro 
+
+
+
+ufyzmp 
+
+yodwcuz 
+
+
+
+
+
+
+avrhb 
+
+
+
+
+
+
+
+cyreot bkqrnm 
+
+
+
+zojlmhrlu 
+
+
+vvoxxzjhag 
+
+
+
+
+
+
+
+qottoqk 
+
+
+
+
+
+
+
+
+
+
+
+
+
+xtxqjbtp 
+
+
+
+hkgjtbmw 
+
+srlhn xfkzzfl 
+
+
+jrrfxr 
+
+
+
+
+
+
+bipzx 
+
+
+bvwtwuq 
+
+
+
+
+
+
+hgjfhc 
+
+
+ggwcehhga 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sgpdbv 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pkwcfyrxxz fauhptijlv 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iejnumzcog 
+
+
+
+fdsjncf 
+pkwfnmegj 
+
+
+
+
+
+
+
+
+wgmrb 
+
+
+ccngz 
+
+
+
+
+
+
+
+
+
+
+
+
+hlitabm 
+
+
+
+
+zymnsqxff 
+
+
+
+
+
+
+
+urvhhm 
+
+
+
+
+
+hwkoocrubk 
+
+
+zcqzbguxt 
+
+
+
+
+ulxni qlopgdxpm 
+
+
+lvfmnkc 
+
+
+
+iepyghbb 
+
+
+lvaniwbp 
+
+
+
+
+fekowb 
+
+
+
+
+
+
+
+
+xcduzamknw 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uirnqxgbxu 
+
+
+
+
+
+
+
+
+
+
+qowcvrn 
+
+
+
+seciokji 
+
+
+aphyqys 
+
+
+dtgcnwr 
+lwmirvmnmx 
+
+
+
+
+ifehqxvoho 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jxzbprqhx 
+
+
+
+
+
+
+
+
+
+
+
+
+rjqao qebobx 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xudsojjux 
+
+
+
+
+
+
+
+
+
+
+
+
+ioqybpfe 
+
+
+
+
+
+
+gpngovfago arbzzo 
+
+
+
+
+
+
+
+
+akldtl 
+
+
+
+
+esrlykx 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ohifvzhlel 
+
+
+
+
+skthkxvsxr 
+
+
+
+waprrliwda 
+vlawm 
+
+
+
+
+xenxgepeo myhpsz 
+
+
+
+
+
+
+
+cltdmtn 
+ksmpbzmhd 
+
+ernathrq 
+zzrjyvcsp 
+
+qcbohfxfio 
+
+
+
+
+
+
+
+
+
+
+
+agjxy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+nxhxjkx 
+
+
+
+
+
+
+
+
+uphdxr 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+reyogx 
+
+pqsnye 
+tqrfgrb 
+
+
+
+
+
+
+
+
+
+
+
+
+
+osorb 
+
+
+rtyaytg wpkxrb 
+
+
+
+
+
+
+camob 
+
+
+
+
+tmkorael 
+cdspgoa 
+dxpvq omnzsm 
+
+vaxdh 
+
+
+
+
+
+
+givhsgjank 
+
+
+
+
+
+hgiwdlrhii 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iklxi 
+
+
+
+
+
+
+
+ekenaa 
+
+
+ejlloeagds 
+wvgsz 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dqjrqdqjx 
+hyems 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hrahcf 
+
+
+
+
+
+
+zmdyqb 
+
+
+
+
+ojoleybv 
+
+
+
+
+
+
+
+
+zqunkziyjj 
+lavdqsf 
+
+
+
+lsaybpw 
+
+
+
+
+
+
+yekvtr 
+
+
+
+
+
+
+
+
+
+rcwrucrwhd 
+ppjdrnmz 
+
+
+
+
+
+
+
+
+hikec wjoop 
+
+
+
+tamapwmisa 
+
+
+
+gktshdqb 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ymibvi 
+
+
+
+
+
+
+
+saovbmbefy 
+
+
+rgbeddox 
+
+
+
+
+
+
+
+
+zwuquwadc 
+
+
+hmhbuovbil 
+
+phxtc 
+
+
+
+
+
+
+pybeqiqku 
+
+
+
+
+vecxopb 
+
+hjpucefyo 
+
+
+
+
+
+quwghc 
+
+
+asudxh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ofyakzqjs 
+kjxgktaevc 
+vawiagn 
+
+rxoka 
+
+
+
+
+
+
+
+
+
+
+
+
+
+qcyuvp 
+
+
+
+
+
+
+upcpp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vjzcxa 
+oyvitc 
+nqacxtuejb 
+
+
+ungtjmynhy 
+
+
+
+
+skqmlnyk 
+
+
+
+
+
+
+
+
+
+
+
+
+
+dacjfw 
+
+
+
+krwhrmuca xlcch 
+fkbmlzgu 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vbyvfuh tehgkxit 
+
+
+
+
+
+
+
+
+qikxz hftkauppc 
+
+
+nupif 
+
+
+awzecvfxpg 
+
+
+
+
+
+
+
+
+
+
+ihopmexkt mlbwxsdxjg 
+
+
+
+
+gejueerb 
+
+
+
+
+
+
+
+
+viwhazrj cldwepp 
+
+
+
+
+
+
+
+
+taqdwlie 
+
+
+
+
+
+
+
+
+
+
+vhiilxl 
+
+
+xjtcwqb orzbikkfy 
+
+nmwisziwf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+efmuupkzdl 
+lyhfwiubw 
+
+ewljf 
+
+
+
+
+
+
+
+
+nfhsyiulz 
+lwjvtldu 
+
+
+ylmdf 
+
+
+ktmqjf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pwvppfgx 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tmzfaa 
+
+
+
+zdhpnyz 
+
+
+gqwjvkz 
+
+
+
+
+
+ksmwp snoss 
+gviftksza 
+
+
+
+
+kjlyim 
+
+
+
+
+
+bpfhxpvuab 
+
+
+
+
+
+
+
+
+
+mjkzosrid maxea 
+aatluwbf vgnemdhf 
+eievmbudqx 
+
+
+
+
+
+
+
+
+opnehfo 
+
+
+
+
+snffq 
+
+
+
+
+
+btjxiftbj 
+
+
+
+
+
+
+
+
+tkgeiutv 
+
+
+
+
+
+
+
+
+
+ktzkesdmmr 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bjsrrsbjey pzftwlxag 
+
+
+
+
+
+
+
+cxbow 
+vqqzua tkqragu 
+
+
+pauokqu 
+
+
+tsvjpqa 
+
+
+
+
+
+
+gwwfwl 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pmpqlsjhe 
+
+
+
+
+
+
+
+ievoqgo 
+mhsmbakab 
+
+
+
+
+
+
+
+
+
+
+
+
+gscrfwkss 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xdttle 
+dxzbug 
+muppcfo 
+
+
+
+
+
+
+
+
+
+
+tqhguteftb 
+
+onpqqoyv 
+xkiwgtopxa 
+obzmao 
+
+
+
+
+
+
+fpxoakinto 
+
+
+
+
+
+
+
+
+
+
+
+
+
+lldjaerljs bpbxkwlipu 
+
+
+
+
+
+
+
+
+
+sjhqtlxdm rpimifhuds 
+
+
+
+ozkybjjtkp 
+
+qlxkdbxqnu 
+
+
+
+
+
+
+
+
+
+
+
+
+phapjzue 
+ggejk limtsdp 
+
+dnisxxpla 
+ldekubtbkn 
+
+
+ncpsd 
+gptewidw 
+
+
+
+
+pcvlr 
+siddqe rgalansh 
+
+
+
+xiwwlwfoxs 
+
+
+
+
+
+
+
+
+
+
+
+
+
+oofejr 
+
+
+
+
+matwvgjupy 
+
+kpzlh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lnriqo 
+
+egnulbhoh 
+
+
+guurrzpcq 
+
+mvwyvibwqa 
+
+aygaez 
+
+
+
+uqincvyyey 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+irokwigonv 
+
+iftivorwj 
+
+
+
+
+
+
+
+mzujsu 
+
+
+
+
+
+
+
+sjsyberwe 
+
+
+
+
+dwgwbaiq magcwnwvmf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mnzrh 
+
+
+
+
+
+
+
+
+
+
+romtclbvmk 
+
+
+
+yrgtircw 
+iwyikoqh 
+
+
+hedwwzl qsrbfbyfoz 
+
+xldvevbyr 
+
+
+
+
+
+
+
+
+
+
+
+
+cmfjndttd 
+jugsffmn 
+
+
+
+
+gghmqh 
+
+
+
+
+vsqkgwdv gqcgda 
+
+femgf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mkprkg 
+
+
+
+
+pfapnigpog 
+
+
+
+
+
+grclng 
+
+
+
+xsbsn 
+
+
+
+
+zgmrav 
+
+rpagwfxr 
+
+
+
+
+
+rmwpibx 
+
+
+
+alzpaxf 
+
+
+
+
+
+ooudjlov 
+
+
+
+
+
+
+
+qvqrsposd 
+
+
+
+
+
+
+
+
+
+
+egnpflfzpv 
+
+
+
+
+ptanqichi 
+
+rxidbtkj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cepja 
+
+
+
+
+
+
+
+
+
+sfthrxg 
+
+
+
+
+ttxnyzpkso 
+lfatzmkcwd 
+
+
+
+
+
+ddgpzye 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+oszdullu 
+
+
+
+
+
+vwvlq 
+
+
+
+
+
+ihfmhhvbdq 
+
+tpwwjwdkl 
+
+
+
+bamvilk kcxqi 
+ymbvrqbqtf 
+
+
+
+
+
+
+cfbtmd 
+
+
+iegbussln 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+qkmkcy 
+hdwifox 
+foaqqqm pqllmmtz 
+
+
+
+gsxqntqa 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+oqasjntdtu 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nsxyfhomfp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+disaf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nvlza 
+
+
+
+
+kpmofek 
+
+
+
+
+
+
+zdoguecqvo 
+
+
+
+
+
+
+
+
+ajduyot 
+
+
+
+
+
+
+
+
+
+
+niyjcm 
+
+
+
+
+
+
+
+
+
+
+vkyqiic 
+
+
+
+yxbcqmlk 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uflpfl 
+
+
+
+
+
+
+
+anxzf 
+
+
+xapuyi 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wqrmytkym 
+xesrczmac 
+
+
+
+wkgkft 
+agpykyepe 
+
+
+
+
+exwtjirkb 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ysbpraswny 
+
+gacevzv 
+
+
+
+
+
+vrxtydivpj 
+fttgutyip 
+oqbuwuku 
+mkanfhw 
+
+
+urejk 
+
+
+
+nmzpkung 
+xjxlhe 
+
+fvylqlbu 
+yatbprzhd 
+
+ejvrjiuijk 
+uwzxn vdujgwy 
+
+
+
+
+
+
+hrkjomn 
+
+
+
+
+
+
+tgeezdutq 
+
+
+knazoff 
+
+
+
+
+
+ufpyklam 
+dubznk 
+
+
+
+
+qhcixplcx 
+
+
+
+
+
+
+
+
+
+dfbvcik 
+
+
+
+
+zffghlwnc 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cgortp 
+
+
+jiinkaryoc 
+
+cdyxqumns 
+
+
+
+
+
+
+kampyf 
+
+
+
+
+
+
+
+
+
+
+
+
+smluzrjcdp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+goekd qmottzoa 
+vbyaplsiql 
+
+
+
+
+
+
+
+ecumr 
+
+
+
+
+
+
+
+
+
+
+dcgkbrotyt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yvsdo 
+
+
+
+
+
+
+
+
+ucvogh 
+
+
+ukdjkf 
+
+
+
+
+
+
+
+
+
+
+
+
+tnvsla 
+dhhhokmaar 
+
+
+
+
+
+
+
+
+lnuzr 
+peaqhvjwl 
+
+
+
+orawyr 
+jymtjpucvf 
+
+
+kdvdnz 
+qaswfmfohz 
+zmaoup 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eafkv 
+
+
+
+
+
+
+spedosfzj 
+
+
+
+
+
+
+
+
+
+
+gdbidt kcjlmyp 
+
+
+nbukd 
+
+
+
+
+eqsna 
+
+
+
+
+
+
+cmmpli 
+
+wnhjxwgeyh 
+tmhreneafk 
+
+
+fgjap 
+cekebdsm 
+wditqqf 
+
+
+
+
+fikcj 
+
+
+
+
+
+uovahbjk 
+
+
+
+vsgqiumg 
+
+
+
+
+
+sgykqlmdcd 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jhacbf 
+
+
+
+xzsnev 
+
+
+
+
+
+lxcuh 
+
+
+zxkqa 
+
+
+
+
+
+
+
+
+
+
+
+
+wwcvmxcgu 
+
+
+
+
+
+
+
+
+
+
+
+padmfl 
+
+
+
+
+
+
+
+
+
+
+scrymwiqj 
+roatheg 
+
+xjchhbr 
+
+
+
+
+mlume 
+
+ccpyytve 
+
+
+
+
+
+
+
+
+
+
+amthyzsd 
+
+
+sfyydcmwma uvhjwhdj 
+
+
+
+
+
+lpigfuj mruyoy 
+
+qranbccj 
+
+
+
+zajibej 
+
+
+xlywdlg 
+
+
+
+
+qvwdgw 
+
+
+
+
+
+ypytc 
+
+
+
+
+djjuy 
+
+
+
+
+kriszq 
+
+
+
+
+
+izqdijnb bdlshwhdfr 
+
+
+
+
+
+
+xgrsyqc 
+
+
+
+
+
+
+flcwhhwkd 
+
+
+xmbldj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cioubocb aswzwjpq 
+gtpvqgnmt 
+pgseze 
+
+
+
+
+
+
+
+
+
+
+nsyxd vwxtoo 
+
+
+
+
+
+
+
+
+oosognfjl 
+
+
+
+
+
+
+
+
+
+
+
+
+
+wivkhckgfo 
+
+guytedd 
+
+
+
+ijjpjhqya 
+
+
+
+
+
+
+
+sxqak 
+
+
+
+
+
+ugwmi 
+rmbtmcslxq 
+
+
+
+
+
+axaufmu 
+
+
+
+
+
+
+
+
+qfqckmt 
+
+
+
+
+
+
+msczpzthfi 
+morxwwsi hyqnqcwguy 
+gcaqwo 
+
+
+xhcqwehrj 
+nspkrl 
+
+mhebxst 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xgtgtoo 
+
+rixotcjl 
+
+
+
+
+
+sppskphj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+kqmewnbj 
+
+
+
+
+
+
+qudpyuizgw 
+flnwhamc qudvclhfg 
+tlmopxwdk 
+
+
+rvybonbt 
+
+
+
+pviyb 
+swpuq 
+olwltgtk 
+
+
+
+oikzi 
+
+
+
+
+
+
+jugshrhcyr 
+
+
+
+
+
+
+
+
+
+
+mtwzuntko 
+
+
+
+qlxvhjxhwg 
+pqrayzze 
+
+
+
+
+yaxvwmaxy qlgpwmkgth 
+
+
+
+
+fjzmiqvx 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ddoffoglwv 
+
+
+
+
+
+
+zshekuabo 
+
+
+
+
+
+
+unjqofw 
+
+
+cipnhbpn 
+jsceubyqtk 
+
+
+
+
+
+uzcdsv 
+
+
+wmrbfexb 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ffugeri 
+
+
+
+
+opopq 
+
+
+
+ebnfmnscq 
+
+
+
+
+aetuu 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ftxrbitvo 
+cuhruj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ajwhd 
+
+oulcnk 
+
+
+
+
+
+
+
+
+
+lqrurm 
+
+
+xairzov 
+
+vnhmuvjzzt hzuabr 
+
+buqyszszkf 
+
+
+
+
+
+lxeevyqjg 
+
+rxsuhbkky 
+
+
+xzgab 
+
+
+hdkpka 
+
+
+
+
+
+
+
+gtaajozu 
+
+
+
+yexdwumtm 
+
+
+
+
+
+yemlimae rvcyqmp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zvpjfp 
+
+
+
+
+
+
+cdzckirtbk 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hhldk 
+
+
+
+
+
+
+
+lomlv xpzovcuua 
+
+
+
+
+
+
+
+
+
+
+
+uihzywmk 
+oczeibhh 
+
+
+
+
+
+dhqddsjz 
+
+
+qeowy 
+
+ybdplbha 
+
+
+ucvlerxu yyznyfkodr 
+
+
+
+gjhasqcn 
+
+
+
+qjnbrd 
+
+
+
+yydyvzd 
+zeyojqqj eaqkgmq 
+
+
+
+
+ahlwne 
+
+tufoeacqe 
+
+
+
+lwidafg 
+
+
+
+
+ixpns 
+
+nfwawxwvd 
+
+eqmoqxkzm 
+
+
+
+
+
+
+otrnxyu 
+jtebjqms 
+
+
+
+
+
+
+
+
+
+
+
+uhichftn 
+
+
+
+
+
+
+
+
+bcgneabcb 
+
+
+
+
+gjqmo 
+
+qzzxr 
+
+
+
+odwdzvl 
+
+
+
+
+
+nakuynw 
+
+byauirav 
+kvugs 
+
+
+
+tumoftbeoj 
+
+iyzls 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uatus 
+
+
+
+
+svixqrzs 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lahaizq 
+
+
+airjiibinf 
+
+
+
+
+
+
+
+srcggzsg 
+zvgsyy 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+etlhudfqhy 
+juwwfsqg 
+
+
+
+
+
+
+
+
+
+
+
+
+irvuazs 
+
+
+kwwpdiw 
+
+mguxor 
+
+
+
+
+
+
+
+pmxuuqakbe 
+
+
+
+mwnimgs 
+
+zcdxtwu 
+fajxhe 
+
+amrucoarcq 
+cbotqbndg 
+
+wdqwjbq 
+dgwuz 
+
+
+
+
+
+
+kcrmzvmeym 
+
+
+
+
+
+
+
+
+pyczzz 
+
+
+
+
+
+
+
+hqfptu 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cnzzn 
+clukyxszg 
+
+
+
+
+
+
+
+ifyhku 
+
+
+iulmguo 
+
+
+
+
+
+ekkejglqvp 
+zgaeqng 
+
+
+xmegq 
+cryrtgjoi 
+
+
+cvvtvaofxp 
+wdxqiuzm 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+olcvgzfhk 
+
+
+
+jfkpsqdooc 
+
+pjhsz 
+
+foxnmkoi 
+
+
+
+
+
+lszcxt 
+
+
+
+
+
+
+
+
+
+
+abocae 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tawxugkheg 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lexcsraj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xdrrxac 
+
+
+
+
+
+gdmbrlmo znbix 
+
+
+
+
+nijvaz 
+okmqpe 
+
+
+
+
+
+
+
+
+
+
+
+
+zieohady 
+vingyavtd 
+
+
+
+wtkvrljj 
+
+entiptr 
+
+
+
+
+
+
+
+
+tnvfck 
+
+
+
+
+
+
+
+
+xszvsauzo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vfshokh 
+
+
+
+
+
+
+
+
+zdmmvexbw 
+
+cezesbh 
+
+
+
+
+
+
+
+
+
+gtfatuz 
+
+
+
+
+
+
+
+
+
+
+
+
+
+irhtpz 
+
+
+
+
+
+
+zmoduxsvcp 
+
+
+
+
+uvgejsmkqr cdsintxwht 
+
+
+
+
+
+
+
+asmqjdhqtc 
+
+
+
+
+
+
+kpmiettvgs 
+
+
+
+
+
+
+qusbkt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lfyraemex 
+
+
+
+
+
+
+fmqpbogpk 
+
+
+
+
+
+
+ooaikkccso 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bfcqz 
+
+
+
+
+
+
+
+nrqabph igydpqbiut 
+
+
+
+
+
+
+
+
+
+
+
+
+
+btgqqcwsy 
+
+
+
+
+
+
+
+vsmmlqhpr 
+
+
+
+
+
+
+
+lbumpmxka 
+
+
+
+
+
+lralt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+phjjngl 
+
+
+
+sbsgoku yryfnx 
+
+
+
+wqkzz 
+
+
+
+ublem 
+
+
+
+
+
+
+
+
+
+
+
+ruwdkqg 
+
+
+
+
+
+
+
+
+rjkpikfp 
+asmxieluot 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vggtodcwk 
+
+
+
+
+ntepgmhqt qxggin 
+rpvcjl 
+
+yrgkdb pggmhnkla qkwseakgx 
+
+
+
+
+
+
+
+
+
+
+aksjry 
+olmooyp xbigb 
+
+
+
+
+
+gnkyfm 
+
+
+
+
+
+
+
+
+rsgufchewz 
+
+
+
+
+skyswnin 
+
+
+
+htnjy lcstbky 
+zdxrsoflk 
+
+
+
+
+icjxz 
+
+qxxzrws 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+kyumyifv 
+
+
+
+
+
+
+
+weznkn 
+
+
+
+gssdbz rzwwoyax 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+huzaznjnr 
+
+
+
+
+
+
+
+
+
+
+
+
+ilnctmll qfbzy 
+
+
+
+
+
+
+ijoztalh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gxxnhp 
+
+
+
+
+
+
+
+
+
+xbgmcksqa 
+
+
+
+
+
+
+
+
+
+fsswzkdh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xcfyzjrgx 
+
+
+
+
+
+
+gaijkjp 
+
+
+
+
+
+
+
+nocveu 
+
+
+
+
+
+
+
+
+
+
+
+
+
+nakzbhrz 
+
+
+
+
+
+
+
+
+
+zmbndoyvkt 
+
+
+
+
+
+
+
+
+
+
+
+
+ifgyh 
+
+
+
+lsxqft 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lslpzgspo leslpsl pxzojz 
+
+
+
+
+
+jpzlpkyf 
+
+
+
+
+
+seuvbvi 
+
+
+
+
+
+
+
+gkwja 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bptnqiqg 
+
+
+zckmspz 
+
+
+
+
+
+
+
+
+
+
+
+rohdiuh 
+hsodhm 
+
+
+
+
+
+
+
+vppqmiupw 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wwkcxafkj 
+kafjj 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vlbvvw 
+
+
+dpwvwwolnf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dhtcz 
+
+
+
+
+
+jzvpat 
+
+
+
+
+
+
+
+
+
+
+
+
+
+klypvmkj 
+
+qxzok 
+
+atjkfj 
+
+
+
+
+
+
+euvzkt 
+
+
+
+idmflbg 
+
+znlgn 
+
+
+
+
+
+
+bsccinu 
+
+
+
+
+kycezwhruw 
+
+
+
+
+
+ksyec 
+
+krvzsvhlgo 
+
+
+
+qaaitqcqd 
+kiabkn 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+imiieeil 
+
+
+
+relvutuuvu 
+
+
+
+
+
+
+
+
+
+
+
+zxggtq 
+
+
+
+
+
+
+cvejcrh 
+
+
+bevohrckbt 
+
+
+
+
+
+
+
+
+
+vwcjye jmmpiyy 
+sxdjhm jhuveofl 
+
+
+ujgmt 
+
+
+
+
+
+
+qtpwikk 
+
+
+
+
+
+
+
+
+tmirziekhb vlverrgsv 
+
+
+
+
+
+pjchwgf 
+
+
+
+
+
+fsgvspw 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tcizug 
+
+iliscdwnt 
+owoslpjy 
+
+
+
+
+anfcleas 
+
+
+
+
+
+
+
+
+
+
+
+
+notey 
+
+
+
+
+omlkxqmf wwtrdtohro 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+xtsibhl 
+
+
+
+
+xqpylaz 
+
+
+
+
+
+
+
+
+wamif 
+
+
+
+
+
+
+luqrivcl 
+
+
+uwnbbkpclt 
+
+
+
+
+pfvtkwlah 
+rpnchiygc 
+
+
+
+
+
+
+
+
+
+obwmd 
+
+
+
+
+
+
+
+
+
+kqczizzba 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+rtuioupw 
+
+
+
+
+
+
+
+
+ablztmbdr 
+
+
+
+
+feugpvdhug 
+
+
+
+
+
+
+
+
+fjpbgxapa 
+
+dqcdyacobb 
+
+ljwqcemwut 
+
+
+
+qwznzuuwge 
+
+kzflieo ssofour 
+
+fuxtjb 
+
+
+
+
+
+
+
+
+
+
+esdvfzs 
+
+atteaxsfsa 
+
+
+
+
+qdcehsfo 
+
+
+
+xwehrcqc 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tahudtpgz nlabwgjyo 
+
+
+
+hemxzyg 
+
+
+
+fionrygfz 
+
+
+hzsocks 
+
+
+nqxgywzj 
+
+xyazyltx 
+
+
+yqfhbhvvf 
+bjizdp 
+
+
+
+
+
+
+
+
+
+shpiurazzz 
+
+
+
+
+
+
+
+
+
+
+
+
+ojriw 
+feybqjtw 
+
+
+
+
+
+
+nflzzqxfal 
+
+ujwxwynuf 
+
+
+
+
+
+
+
+caqmzoohoo 
+
+
+
+htrjttj 
+
+qstddqe 
+
+
+
+
+
+
+
+lirouygmje 
+
+
+
+pkqwvpk 
+
+
+msjsmui 
+
+
+
+
+eiteclptti ohgdco 
+igczilv 
+
+
+
+dpwvnfl 
+
+
+
+
+
+
+
+
+hbxim 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+imbsgbmv 
+
+qcvrsiaf 
+
+
+
+rkzzxd 
+
+
+
+
+
+
+
+
+
+
+
+
+
+uojxquj 
+
+
+
+
+
+
+gklojc 
+
+
+
+
+
+
+
+
+sjuzaqv eoydxdsm 
+
+
+
+yammxqh 
+
+
+
+
+
+
+ysypruu 
+
+
+
+xemrqubfba 
+
+
+
+woekkus 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vuzwgso 
+ninhslh 
+
+nskbvafoz 
+
+
+
+
+
+
+
+
+
+ebqmnx 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+kpqfmwefc xfpyc 
+
+
+
+
+
+
+ionhzm 
+
+
+aofrhahnv 
+
+
+zwzyw 
+
+
+
+
+
+
+tgafgn 
+
+
+
+
+
+
+
+
+
+dyfyqryy 
+
+
+
+
+mpdgys 
+
+
+
+ddjlpwzt 
+
+skfloyzus 
+
+
+
+
+
+
+
+lecqspyvnz 
+
+
+
+
+
+
+
+wpzkmiznel 
+
+
+
+
+
+
+
+
+kkzch 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+yuuyvp 
+
+
+
+
+
+
+
+dmpwrsyxyp 
+
+
+ieekocaoz 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+uwrpodapr 
+
+liriyhnca 
+
+
+
+
+
+
+
+
+
+
+
+
+rtoehqhkmc 
+
+
+tsssndtlkq 
+
+
+
+
+
+
+
+
+
+
+
+
+dhtxq 
+
+
+
+
+
+
+
+
+
+oogbs 
+
+wderjbkuf 
+
+
+
+
+
+
+soaref 
+
+
+
+gbftqvqiaf 
+
+
+
+
+
+
+
+
+brytsj 
+
+
+
+
+issjiprp 
+tvsahydwv 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ijihew 
+
+
+
+szqlqudha 
+
+
+
+
+
+
+
+
+
+
+
+ejhiw 
+
+
+
+zmljh 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hrdqnh 
+xkdrst 
+
+
+
+lkvzqe 
+
+
+
+gxlan 
+
+
+
+
+
+
+
+
+awhej tyopsocun 
+
+
+
+
+
+
+
+
+
+
+
+
+lsnkbmmmiq 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cuctx 
+qurhwozt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scofotge 
+
+
+mkwadwk bzbnwevwr 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jckurs 
+wprimtuvl 
+
+
+
+
+
+
+qncehp 
+
+
+
+xufaclcypo 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pqpcsvu 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ugtrrt 
+jrpngkg 
+
+
+
+
+cpdvotcsqw 
+
+
+
+
+
+
+cbmzik 
+
+
+
+
+
+eukfkxj 
+
+
+wsunhmoq 
+
+
+
+
+
+
+
+
+
+
+
+
+ibwvayhk fvafh 
+
+qbczgvzv hyqmommd 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pkxzua 
+
+
+
+
+
+kairancxbd 
+
+
+
+
+
+
+
+ewxahbqm 
+
+
+nihlellkxg eqrnbdx 
+
+
+
+
+
+
+
+zkkoc 
+
+
+
+
+
+
+
+
+xvwikhms 
+
+
+
+
+btqblfvx 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fhtzwhxm 
+rxmzt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+khpobl 
+pnklel wuovjlpqpi 
+
+
+
+
+
+uthgxrrkmp 
+
+
+
+
+
+fzdlnihb 
+
+
+
+
+
+
+
+
+
+
+
+gmrumthg 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+islbvwx 
+
+
+
+
+
+
+
+
+
+uwzilot 
+
+
+
+
+
+irvjqkln 
+
+
+
+
+
+nmdaxrvt ncdsvvaqx 
+
+
+
+
+
+
+
+
+
+jwxpjs 
+zstmu 
+
+
+
+
+
+xlzlibqmgf 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jqwtlqg 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pqacbxvty 
+
+ytfjx 
+
+
+
+
+
+
+mbxzneosip 
+
+
+
+ilkxzr 
+
+
+
+uohzkr 
+
+
+
+
+
+
+
+
+uqnztwvutp 
+
+
+
+bkawff 
+
+
+
+
+
+
+
+cuvbqbe 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+wyqaoyv 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+gdgkffhvmk 
+vzoastq 
+
+
+xphnc 
+
+
+
+
+
+
+
+
+
+yntlht 
+
+
+
+
+
+
+
+
+
+
+
+
+gljvsxoi 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ckvdm ptovqw 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+clhuw 
+buclx 
+
+
+
+
+
+ltjdrpucs 
+
+
+
+
+
+xndykd 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tomctfyw 
+nlajwokd 
+kxympfisv 
+cujfqrox 
+
+moyga 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+eyylpj 
+
+
+oucledvb 
+
+
+
+
+
+nbqgtzx 
+
+
+
+wnpjf bvwhzojgul 
+
+
+
+
+
+
+
+
+
+ienvsc 
+
+
+
+
+
+opiodf 
+
+
+clqidbj 
+
+
+
+eqspezpbu 
+
+
+atvnazdddo 
+
+
+nyrmpb nmonw 
+
+
+
+
+
+
+
+jdyizixzat 
+
+
+
+czslqcc 
+
+
+
+
+
+
+
+
+
+mrosgiag 
+
+vhzyp 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+crkkfc 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ongeu bcvhm 
+
+yokwkcjo 
+
+
+
+
+
+lbvxc 
+
+gydocr 
+
+
+
+ccqnkru 
+
+
+
+
+
+
+
+gugnvjx 
+
+
+
+
+
+
+
+
+
+
+
+
+jcohodp 
+
+xmpol 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vygrm 
+
+uchxsh 
+
+
+
+sbltz 
+
+
+
+
+
+
+
+ozavffyfln idjwayk 
+
+rgbezenr 
+
+eztjso 
+
+
+
+
+
+
+
+placqech 
+
+cdxlbdisr 
+
+
+
+
+qqnvc 
+
+
+
+
+rftcuazkti hbyes 
+
+
+
+
+wzgqyi 
+
+bmkzmmkwy 
+
+
+
+
+
+
+qcxfqyb 
+
+Deleting ddgpzye
+Rehashing for Deletion
+Total Probes: 1092
+Avereage Probes: 1.092
+Load Factor: 0.155583
+Maximum Chain Length: 3
+Total Elements: 999
+Total Collisions: 0
+Deleting nflzzqxfal
+Rehashing for Deletion
+Total Probes: 1159
+Avereage Probes: 1.159
+Load Factor: 0.310227
+Maximum Chain Length: 3
+Total Elements: 998
+Total Collisions: 0
+Deleting lwjvtldu
+Rehashing for Deletion
+Total Probes: 1294
+Avereage Probes: 1.294
+Load Factor: 0.61964
+Maximum Chain Length: 5
+Total Elements: 997
+Total Collisions: 0
+Deleting vjzcxa
+Total Elements: 996
+Total Collisions: 0
+Deleting zstmu
+Total Elements: 995
+Total Collisions: 0
+Deleting rxmzt
+Total Elements: 994
+Total Collisions: 0
+Deleting wzrpt
+Total Elements: 993
+Total Collisions: 0
+Deleting vygrm
+Total Elements: 992
+Total Collisions: 0
+Deleting hsodhm
+Total Elements: 991
+Total Collisions: 0
+Deleting ojoleybv
+Total Elements: 990
+Total Collisions: 0
+Deleting awzecvfxpg
+Total Elements: 989
+Total Collisions: 0
+Deleting oyvitc
+Total Elements: 988
+Total Collisions: 0
+Deleting hejhuvpvy
+Total Elements: 987
+Total Collisions: 0
+Deleting wyqaoyv
+Total Elements: 986
+Total Collisions: 0
+Deleting xphnc
+Total Elements: 985
+Total Collisions: 0
+Deleting kcrmzvmeym
+Total Elements: 984
+Total Collisions: 0
+Deleting tlmopxwdk
+Total Elements: 983
+Total Collisions: 0
+Deleting orzbikkfy
+Total Elements: 982
+Total Collisions: 0
+Deleting ftxrbitvo
+Total Elements: 981
+Total Collisions: 0
+Deleting irokwigonv
+Total Elements: 980
+Total Collisions: 0
+Deleting xmpol
+Total Elements: 979
+Total Collisions: 0
+Deleting idjwayk
+Total Elements: 978
+Total Collisions: 0
+Deleting givhsgjank
+Total Elements: 977
+Total Collisions: 0
+Deleting qstddqe
+Total Elements: 976
+Total Collisions: 0
+Deleting nqacxtuejb
+Total Elements: 975
+Total Collisions: 0
+Deleting fkbmlzgu
+Total Elements: 974
+Total Collisions: 0
+Deleting sjuzaqv
+Total Elements: 973
+Total Collisions: 0
+Deleting jwxpjs
+Total Elements: 972
+Total Collisions: 0
+Deleting wgmrb
+Total Elements: 971
+Total Collisions: 0
+Deleting vlawm
+Total Elements: 970
+Total Collisions: 0
+Deleting pgseze
+Total Elements: 969
+Total Collisions: 0
+Deleting vecxopb
+Total Elements: 968
+Total Collisions: 0
+Deleting pzftwlxag
+Total Elements: 967
+Total Collisions: 0
+Deleting disaf
+Total Elements: 966
+Total Collisions: 0
+Deleting fvylqlbu
+Total Elements: 965
+Total Collisions: 0
+Deleting txxyd
+Total Elements: 964
+Total Collisions: 0
+Deleting cdyxqumns
+Total Elements: 963
+Total Collisions: 0
+Deleting xyazyltx
+Total Elements: 962
+Total Collisions: 0
+Deleting opnehfo
+Total Elements: 961
+Total Collisions: 0
+Deleting jckurs
+Total Elements: 960
+Total Collisions: 0
+Deleting zmaoup
+Total Elements: 959
+Total Collisions: 0
+Deleting kriszq
+Total Elements: 958
+Total Collisions: 0
+Deleting imbsgbmv
+Total Elements: 957
+Total Collisions: 0
+Deleting skfloyzus
+Total Elements: 956
+Total Collisions: 0
+Deleting qfbzy
+Total Elements: 955
+Total Collisions: 0
+Deleting ioqybpfe
+Total Elements: 954
+Total Collisions: 0
+Deleting nupif
+Total Elements: 953
+Total Collisions: 0
+Deleting neiolyivo
+Total Elements: 952
+Total Collisions: 0
+Deleting zckmspz
+Total Elements: 951
+Total Collisions: 0
+Deleting zxggtq
+Total Elements: 950
+Total Collisions: 0
+Deleting lomlv
+Total Elements: 949
+Total Collisions: 0
+Deleting sbltz
+Total Elements: 948
+Total Collisions: 0
+Deleting mlume
+Total Elements: 947
+Total Collisions: 0
+Deleting arwide
+Total Elements: 946
+Total Collisions: 0
+Deleting clqidbj
+Total Elements: 945
+Total Collisions: 0
+Deleting qkwseakgx
+Total Elements: 944
+Total Collisions: 0
+Deleting zxlghs
+Total Elements: 943
+Total Collisions: 0
+Deleting vouxmnyfw
+Total Elements: 942
+Total Collisions: 0
+Deleting euvzkt
+Total Elements: 941
+Total Collisions: 0
+Deleting awhej
+Total Elements: 940
+Total Collisions: 0
+Deleting qudvclhfg
+Total Elements: 939
+Total Collisions: 0
+Deleting bpageqpv
+Total Elements: 938
+Total Collisions: 0
+Deleting rgalansh
+Total Elements: 937
+Total Collisions: 0
+Deleting cuslxo
+Total Elements: 936
+Total Collisions: 0
+Deleting hedwwzl
+Total Elements: 935
+Total Collisions: 0
+Deleting skyswnin
+Total Elements: 934
+Total Collisions: 0
+Deleting xemrqubfba
+Total Elements: 933
+Total Collisions: 0
+Deleting xdttle
+Total Elements: 932
+Total Collisions: 0
+Deleting kqczizzba
+Total Elements: 931
+Total Collisions: 0
+Deleting kampyf
+Total Elements: 930
+Total Collisions: 0
+Deleting wnhjxwgeyh
+Total Elements: 929
+Total Collisions: 0
+Deleting eqmoqxkzm
+Total Elements: 928
+Total Collisions: 0
+Deleting yokwkcjo
+Total Elements: 927
+Total Collisions: 0
+Deleting fjbiyrf
+Total Elements: 926
+Total Collisions: 0
+Deleting gacevzv
+Total Elements: 925
+Total Collisions: 0
+Deleting vgnemdhf
+Total Elements: 924
+Total Collisions: 0
+Deleting eqspezpbu
+Total Elements: 923
+Total Collisions: 0
+Deleting swpuq
+Total Elements: 922
+Total Collisions: 0
+Deleting jqwtlqg
+Total Elements: 921
+Total Collisions: 0
+Deleting fpxoakinto
+Total Elements: 920
+Total Collisions: 0
+Deleting wditqqf
+Total Elements: 919
+Total Collisions: 0
+Deleting zmljh
+Total Elements: 918
+Total Collisions: 0
+Deleting xszvsauzo
+Total Elements: 917
+Total Collisions: 0
+Deleting jugsffmn
+Total Elements: 916
+Total Collisions: 0
+Deleting gtfatuz
+Total Elements: 915
+Total Collisions: 0
+Deleting rohdiuh
+Total Elements: 914
+Total Collisions: 0
+Deleting xfkzzfl
+Total Elements: 913
+Total Collisions: 0
+Deleting xtxqjbtp
+Total Elements: 912
+Total Collisions: 0
+Deleting cvvtvaofxp
+Total Elements: 911
+Total Collisions: 0
+Deleting cbmzik
+Total Elements: 910
+Total Collisions: 0
+Deleting pwvppfgx
+Total Elements: 909
+Total Collisions: 0
+Deleting wnpjf
+Total Elements: 908
+Total Collisions: 0
+Deleting ribhobooo
+Total Elements: 907
+Total Collisions: 0
+Deleting ysypruu
+Total Elements: 906
+Total Collisions: 0
+Deleting aygaez
+Total Elements: 905
+Total Collisions: 0
+Deleting pboxk
+Total Elements: 904
+Total Collisions: 0
+Deleting qzzxr
+Total Elements: 903
+Total Collisions: 0
+Deleting nvlza
+Total Elements: 902
+Total Collisions: 0
+Deleting weznkn
+Total Elements: 901
+Total Collisions: 0
+Deleting ssofour
+Total Elements: 900
+Total Collisions: 0
+Deleting junzbeirg
+Total Elements: 899
+Total Collisions: 0
+Deleting maxea
+Total Elements: 898
+Total Collisions: 0
+Deleting lvaniwbp
+Total Elements: 897
+Total Collisions: 0
+Deleting omnzsm
+Total Elements: 896
+Total Collisions: 0
+Deleting matwvgjupy
+Total Elements: 895
+Total Collisions: 0
+Deleting fsswzkdh
+Total Elements: 894
+Total Collisions: 0
+Deleting lybhxza
+Total Elements: 893
+Total Collisions: 0
+Deleting esdvfzs
+Total Elements: 892
+Total Collisions: 0
+Deleting jrpngkg
+Total Elements: 891
+Total Collisions: 0
+Deleting jmmpiyy
+Total Elements: 890
+Total Collisions: 0
+Deleting wwcvmxcgu
+Total Elements: 889
+Total Collisions: 0
+Deleting ekkejglqvp
+Total Elements: 888
+Total Collisions: 0
+Deleting zmdyqb
+Total Elements: 887
+Total Collisions: 0
+Deleting gtpvqgnmt
+Total Elements: 886
+Total Collisions: 0
+Deleting aolekpi
+Total Elements: 885
+Total Collisions: 0
+Deleting pfapnigpog
+Total Elements: 884
+Total Collisions: 0
+Deleting zshekuabo
+Total Elements: 883
+Total Collisions: 0
+Deleting oczeibhh
+Total Elements: 882
+Total Collisions: 0
+Deleting xjchhbr
+Total Elements: 881
+Total Collisions: 0
+Deleting ulxni
+Total Elements: 880
+Total Collisions: 0
+Deleting lkded
+Total Elements: 879
+Total Collisions: 0
+Deleting pyczzz
+Total Elements: 878
+Total Collisions: 0
+Deleting gptewidw
+Total Elements: 877
+Total Collisions: 0
+Deleting rvvnvdzzrs
+Total Elements: 876
+Total Collisions: 0
+Deleting qyqznaq
+Total Elements: 875
+Total Collisions: 0
+Deleting bevohrckbt
+Total Elements: 874
+Total Collisions: 0
+Deleting hzsocks
+Total Elements: 873
+Total Collisions: 0
+Deleting arbzzo
 Total Elements: 872
 Total Collisions: 0
-Deleting isgekyrgzv
+Deleting feugpvdhug
 Total Elements: 871
 Total Collisions: 0
-Deleting dhpoamvafy
+Deleting gpngovfago
 Total Elements: 870
 Total Collisions: 0
-Deleting arxsvk
+Deleting tvsahydwv
 Total Elements: 869
 Total Collisions: 0
-Deleting tqdihersig
+Deleting tqhguteftb
 Total Elements: 868
 Total Collisions: 0
-Deleting hzjzuj
+Deleting opopq
 Total Elements: 867
 Total Collisions: 0
-Deleting mmyspn
+Deleting wkgkft
 Total Elements: 866
 Total Collisions: 0
-Deleting raewkeg
+Deleting qurhwozt
 Total Elements: 865
 Total Collisions: 0
-Deleting ccvhhrjv
+Deleting fauhptijlv
 Total Elements: 864
 Total Collisions: 0
-Deleting jtsqdjoo
+Deleting hlitabm
 Total Elements: 863
 Total Collisions: 0
-Deleting gpknfpfy
+Deleting ejhiw
 Total Elements: 862
 Total Collisions: 0
-Deleting gfieowqrw
+Deleting ofyakzqjs
 Total Elements: 861
 Total Collisions: 0
-Deleting wpzsqme
+Deleting lwidafg
 Total Elements: 860
 Total Collisions: 0
-Deleting ogepsp
+Deleting ukdjkf
 Total Elements: 859
 Total Collisions: 0
-Deleting nvjiup
+Deleting ymibvi
 Total Elements: 858
 Total Collisions: 0
-Deleting lyynmkmnu
+Deleting ptovqw
 Total Elements: 857
 Total Collisions: 0
-Deleting klhsecdwra
+Deleting bvwtwuq
 Total Elements: 856
 Total Collisions: 0
-Deleting gfmzk
+Deleting anfcleas
 Total Elements: 855
 Total Collisions: 0
-Deleting ipdfodkjm
+Deleting lirouygmje
 Total Elements: 854
 Total Collisions: 0
-Deleting qwiqpuoq
+Deleting jsddfv
 Total Elements: 853
 Total Collisions: 0
-Deleting imvfvuzw
+Deleting dysdqddse
 Total Elements: 852
 Total Collisions: 0
-Deleting vijgf
+Deleting ijihew
 Total Elements: 851
 Total Collisions: 0
-Deleting llkjduh
+Deleting jiinkaryoc
 Total Elements: 850
 Total Collisions: 0
-Deleting jafbtlkmf
+Deleting xdtfbhaba
 Total Elements: 849
 Total Collisions: 0
-Deleting rmyjfjnhh
+Deleting xvwikhms
 Total Elements: 848
 Total Collisions: 0
-Deleting sqctydtea
+Deleting sbsgoku
 Total Elements: 847
 Total Collisions: 0
-Deleting dcjbp
+Deleting alzpaxf
 Total Elements: 846
 Total Collisions: 0
-Deleting htnegy
+Deleting vsqkgwdv
 Total Elements: 845
 Total Collisions: 0
-Deleting wxgcj
+Deleting knazoff
 Total Elements: 844
 Total Collisions: 0
-Deleting lgrsmea
+Deleting nmdaxrvt
 Total Elements: 843
 Total Collisions: 0
-Deleting arwtv
+Deleting caqmzoohoo
 Total Elements: 842
 Total Collisions: 0
-Deleting sjbaoi
+Deleting mkwadwk
 Total Elements: 841
 Total Collisions: 0
-Deleting jlwhy
+Deleting jymtjpucvf
 Total Elements: 840
 Total Collisions: 0
-Deleting nvruih
+Deleting sbvoptzb
 Total Elements: 839
 Total Collisions: 0
-Deleting swkifyg
+Deleting xapuyi
 Total Elements: 838
 Total Collisions: 0
-Deleting ydhacw
+Deleting ovbmz
 Total Elements: 837
 Total Collisions: 0
-Deleting hsgew
+Deleting sfyydcmwma
 Total Elements: 836
 Total Collisions: 0
-Deleting mtgonz
+Deleting rtoehqhkmc
 Total Elements: 835
 Total Collisions: 0
-Deleting tjhgau
+Deleting ddoffoglwv
 Total Elements: 834
 Total Collisions: 0
-Deleting nihreq
+Deleting bchrn
 Total Elements: 833
 Total Collisions: 0
-Deleting jfwkj
+Deleting vfshokh
 Total Elements: 832
 Total Collisions: 0
-Deleting mtpjh
+Deleting bxphrhsus
 Total Elements: 831
 Total Collisions: 0
-Deleting efqza
+Deleting ckvdm
 Total Elements: 830
 Total Collisions: 0
-Deleting uldrc
+Deleting qcvrsiaf
 Total Elements: 829
 Total Collisions: 0
-Deleting jccdyr
+Deleting qjnbrd
 Total Elements: 828
 Total Collisions: 0
-Deleting vvrivuyeeg
+Deleting dmpwrsyxyp
 Total Elements: 827
 Total Collisions: 0
-Deleting ivdrcygurq
+Deleting mlkclkumu
 Total Elements: 826
 Total Collisions: 0
-Deleting redakubn
+Deleting hyqmommd
 Total Elements: 825
 Total Collisions: 0
-Deleting guproqyl
+Deleting xqpylaz
 Total Elements: 824
 Total Collisions: 0
-Deleting bcwqxkzma
+Deleting zeyojqqj
 Total Elements: 823
 Total Collisions: 0
-Deleting sjgmh
+Deleting phapjzue
 Total Elements: 822
 Total Collisions: 0
-Deleting mhgdnmp
+Deleting romtclbvmk
 Total Elements: 821
 Total Collisions: 0
-Deleting nqkamhurkt
+Deleting ojriw
 Total Elements: 820
 Total Collisions: 0
-Deleting ffaclvgrzk
+Deleting gjhasqcn
 Total Elements: 819
 Total Collisions: 0
-Deleting ldacllteo
+Deleting dxpvq
 Total Elements: 818
 Total Collisions: 0
-Deleting omonxrqyjz
+Deleting uhichftn
 Total Elements: 817
 Total Collisions: 0
-Deleting inrnnzwac
+Deleting yntlht
 Total Elements: 816
 Total Collisions: 0
-Deleting xaedrw
+Deleting yqxgb
 Total Elements: 815
 Total Collisions: 0
-Deleting dxzrf
+Deleting kqmewnbj
 Total Elements: 814
 Total Collisions: 0
-Deleting sewjtbo
+Deleting idmflbg
 Total Elements: 813
 Total Collisions: 0
-Deleting vynfhkstce
+Deleting cvejcrh
 Total Elements: 812
 Total Collisions: 0
-Deleting aumnddxfdm
+Deleting ijoztalh
 Total Elements: 811
 Total Collisions: 0
-Deleting zcautd
+Deleting bmkzmmkwy
 Total Elements: 810
 Total Collisions: 0
-Deleting ckxaayd
+Deleting qlxvhjxhwg
 Total Elements: 809
 Total Collisions: 0
-Deleting sxttobbgqn
+Deleting qowcvrn
 Rehashing for Deletion
-Total Probes: 592
-Avereage Probes: 0.592
+Total Probes: 1537
+Avereage Probes: 1.537
+Load Factor: 0.998764
+Maximum Chain Length: 5
 Total Elements: 808
 Total Collisions: 0
-Deleting vvpjgojog
+Deleting egnulbhoh
 Total Elements: 807
 Total Collisions: 0
-Deleting mkxgbfcp
+Deleting muppcfo
 Total Elements: 806
 Total Collisions: 0
-Deleting pckqchb
+Deleting iejnumzcog
 Total Elements: 805
 Total Collisions: 0
-Deleting dzwrxbzm
+Deleting qlopgdxpm
 Total Elements: 804
 Total Collisions: 0
-Deleting rlxvobt
+Deleting tomctfyw
 Total Elements: 803
 Total Collisions: 0
-Deleting hxginfg
+Deleting igczilv
 Total Elements: 802
 Total Collisions: 0
-Deleting rcclmznm
+Deleting tbdszjw
 Total Elements: 801
 Total Collisions: 0
-Deleting ugwwbs
+Deleting qtpwikk
 Total Elements: 800
 Total Collisions: 0
-Deleting fcihu
+Deleting aatluwbf
 Total Elements: 799
 Total Collisions: 0
-Deleting sjollm
+Deleting xkiwgtopxa
 Total Elements: 798
 Total Collisions: 0
-Deleting qsghm
+Deleting pkxzua
 Total Elements: 797
 Total Collisions: 0
-Deleting phels
+Deleting ufpyklam
 Total Elements: 796
 Total Collisions: 0
-Deleting tflbgsfnp
+Deleting txait
 Total Elements: 795
 Total Collisions: 0
-Deleting uzsrupchy
+Deleting xldvevbyr
 Total Elements: 794
 Total Collisions: 0
-Deleting vzhcpq
+Deleting evrtpmr
 Total Elements: 793
 Total Collisions: 0
-Deleting griwniqxd
+Deleting qcyuvp
 Total Elements: 792
 Total Collisions: 0
-Deleting jpwpxfbl
+Deleting xfpyc
 Total Elements: 791
 Total Collisions: 0
-Deleting pnpeelfjm
+Deleting qxzok
 Total Elements: 790
 Total Collisions: 0
-Deleting kuqpzo
+Deleting fttgutyip
 Total Elements: 789
 Total Collisions: 0
-Deleting wnlmb
+Deleting gdgkffhvmk
 Total Elements: 788
 Total Collisions: 0
-Deleting pmktl
+Deleting urejk
 Total Elements: 787
 Total Collisions: 0
-Deleting tndmpd
+Deleting cuvbqbe
 Total Elements: 786
 Total Collisions: 0
-Deleting ydsgv
+Deleting qudpyuizgw
 Total Elements: 785
 Total Collisions: 0
-Deleting penemw
+Deleting gxxnhp
 Total Elements: 784
 Total Collisions: 0
-Deleting orifsuqh
+Deleting bpbxkwlipu
 Total Elements: 783
 Total Collisions: 0
-Deleting eskmkhs
+Deleting rvybonbt
 Total Elements: 782
 Total Collisions: 0
-Deleting mvnonwa
+Deleting cgortp
 Total Elements: 781
 Total Collisions: 0
-Deleting xwhgbibabv
+Deleting snoss
 Total Elements: 780
 Total Collisions: 0
-Deleting opqfovius
+Deleting cqywa
 Total Elements: 779
 Total Collisions: 0
-Deleting qfqweht
+Deleting hikec
 Total Elements: 778
 Total Collisions: 0
-Deleting dzujtl
+Deleting reyogx
 Total Elements: 777
 Total Collisions: 0
-Deleting txmrjxxwtl
+Deleting woekkus
 Total Elements: 776
 Total Collisions: 0
-Deleting gkytbio
+Deleting wderjbkuf
 Total Elements: 775
 Total Collisions: 0
-Deleting ydnilqadoj
+Deleting ignti
 Total Elements: 774
 Total Collisions: 0
-Deleting kkvfxah
+Deleting ifqgkhgl
 Total Elements: 773
 Total Collisions: 0
-Deleting jmboclja
+Deleting ublem
 Total Elements: 772
 Total Collisions: 0
-Deleting intdwcldvd
+Deleting btjxiftbj
 Total Elements: 771
 Total Collisions: 0
-Deleting ropbyjzw
+Deleting uhhkohw
 Total Elements: 770
 Total Collisions: 0
-Deleting yojuo
+Deleting bkqrnm
 Total Elements: 769
 Total Collisions: 0
-Deleting hwmlvr
+Deleting crkkfc
 Total Elements: 768
 Total Collisions: 0
-Deleting lfzdzdbtu
+Deleting quwghc
 Total Elements: 767
 Total Collisions: 0
-Deleting xuoffvnc
+Deleting zmbndoyvkt
 Total Elements: 766
 Total Collisions: 0
-Deleting swsaznmo
+Deleting nirxa
 Total Elements: 765
 Total Collisions: 0
-Deleting joivv
+Deleting esrlykx
 Total Elements: 764
 Total Collisions: 0
-Deleting obqpnck
+Deleting zzrjyvcsp
 Total Elements: 763
 Total Collisions: 0
-Deleting vnhke
+Deleting pcvlr
 Total Elements: 762
 Total Collisions: 0
-Deleting mtdhvygkji
+Deleting scrymwiqj
 Total Elements: 761
 Total Collisions: 0
-Deleting uxhat
+Deleting qxggin
 Total Elements: 760
 Total Collisions: 0
-Deleting uudqb
+Deleting bpfhxpvuab
 Total Elements: 759
 Total Collisions: 0
-Deleting mknhfxax
+Deleting yexdwumtm
 Total Elements: 758
 Total Collisions: 0
-Deleting xkjlzzqts
+Deleting jpzlpkyf
 Total Elements: 757
 Total Collisions: 0
-Deleting faeedf
+Deleting ooudjlov
 Total Elements: 756
 Total Collisions: 0
-Deleting ujkolxjoq
+Deleting orirwxrfd
 Total Elements: 755
 Total Collisions: 0
-Deleting dvfepvl
+Deleting sjhqtlxdm
 Total Elements: 754
 Total Collisions: 0
-Deleting vhrwtfdukx
+Deleting sxqak
 Total Elements: 753
 Total Collisions: 0
-Deleting fjpsswyxli
+Deleting eqrnbdx
 Total Elements: 752
 Total Collisions: 0
-Deleting jhevryxozb
+Deleting lxeevyqjg
 Total Elements: 751
 Total Collisions: 0
-Deleting fpfmo
+Deleting fajxhe
 Total Elements: 750
 Total Collisions: 0
-Deleting grgonuatd
+Deleting magcwnwvmf
 Total Elements: 749
 Total Collisions: 0
-Deleting lahyggy
+Deleting owoslpjy
 Total Elements: 748
 Total Collisions: 0
-Deleting jddjhmlted
+Deleting cgpccu
 Total Elements: 747
 Total Collisions: 0
-Deleting lodsrkeu
+Deleting dubznk
 Total Elements: 746
 Total Collisions: 0
-Deleting gtnkntarjk
+Deleting zffghlwnc
 Total Elements: 745
 Total Collisions: 0
-Deleting xinovgzd
+Deleting iftivorwj
 Total Elements: 744
 Total Collisions: 0
-Deleting hunwooxvjj
+Deleting eiteclptti
 Total Elements: 743
 Total Collisions: 0
-Deleting psvknhk
+Deleting uatus
 Total Elements: 742
 Total Collisions: 0
-Deleting jopmmle
+Deleting yodwcuz
 Total Elements: 741
 Total Collisions: 0
-Deleting ksucvz
+Deleting wzybnpkww
 Total Elements: 740
 Total Collisions: 0
-Deleting lyqnwcm
+Deleting zgmrav
 Total Elements: 739
 Total Collisions: 0
-Deleting vbhrml
+Deleting ejlloeagds
 Total Elements: 738
 Total Collisions: 0
-Deleting wpjbw
+Deleting pjchwgf
 Total Elements: 737
 Total Collisions: 0
-Deleting vwtgt
+Deleting uflpfl
 Total Elements: 736
 Total Collisions: 0
-Deleting qnmicxapz
+Deleting nxgzq
 Total Elements: 735
 Total Collisions: 0
-Deleting rknnxtuuf
+Deleting relvutuuvu
 Total Elements: 734
 Total Collisions: 0
-Deleting rzrosdqws
+Deleting rpimifhuds
 Total Elements: 733
 Total Collisions: 0
-Deleting tcjghecqu
+Deleting epzwp
 Total Elements: 732
 Total Collisions: 0
-Deleting osrtjxyaay
+Deleting lszcxt
 Total Elements: 731
 Total Collisions: 0
-Deleting qrxyc
+Deleting gktshdqb
 Total Elements: 730
 Total Collisions: 0
-Deleting xuwjxnpqjn
+Deleting nzxukytqsf
 Total Elements: 729
 Total Collisions: 0
-Deleting kcpdmokalx
+Deleting okmqpe
 Total Elements: 728
 Total Collisions: 0
-Deleting pemvb
+Deleting vrbywntqif
 Total Elements: 727
 Total Collisions: 0
-Deleting lzsvx
+Deleting futrd
 Total Elements: 726
 Total Collisions: 0
-Deleting kutapp
+Deleting tumoftbeoj
 Total Elements: 725
 Total Collisions: 0
-Deleting gzpdpyzkz
+Deleting cipnhbpn
 Total Elements: 724
 Total Collisions: 0
-Deleting vbntcvfxs
+Deleting ybdplbha
 Total Elements: 723
 Total Collisions: 0
-Deleting pjaoxt
+Deleting ppjdrnmz
 Total Elements: 722
 Total Collisions: 0
-Deleting hvxxytgokr
+Deleting stacybuc
 Total Elements: 721
 Total Collisions: 0
-Deleting xaetauqgn
+Deleting jskwzaqrp
 Total Elements: 720
 Total Collisions: 0
-Deleting mphwzyiaya
+Deleting uwnbbkpclt
 Total Elements: 719
 Total Collisions: 0
-Deleting jrqgeppx
+Deleting soaref
 Total Elements: 718
 Total Collisions: 0
-Deleting jstty
+Deleting cdxlbdisr
 Total Elements: 717
 Total Collisions: 0
-Deleting uvldvybs
+Deleting ionhzm
 Total Elements: 716
 Total Collisions: 0
-Deleting xkbmfzv
+Deleting bvwhzojgul
 Total Elements: 715
 Total Collisions: 0
-Deleting tnovid
+Deleting gyqsbsub
 Total Elements: 714
 Total Collisions: 0
-Deleting npghozvafm
+Deleting gqcgda
 Total Elements: 713
 Total Collisions: 0
-Deleting nsnqivmvu
+Deleting tmzfaa
 Total Elements: 712
 Total Collisions: 0
-Deleting cwtfsr
+Deleting sxohx
 Total Elements: 711
 Total Collisions: 0
-Deleting tmknepbho
+Deleting nmonw
 Total Elements: 710
 Total Collisions: 0
-Deleting ejazhkw
+Deleting uphdxr
 Total Elements: 709
 Total Collisions: 0
-Deleting mmtpi
+Deleting wpkxrb
 Total Elements: 708
 Total Collisions: 0
-Deleting xxlzqysxtw
+Deleting dtgcnwr
 Total Elements: 707
 Total Collisions: 0
-Deleting taidyax
+Deleting flvkjuhyfc
 Total Elements: 706
 Total Collisions: 0
-Deleting qleprxibe
+Deleting bamvilk
 Total Elements: 705
 Total Collisions: 0
-Deleting xyfvsd
+Deleting lldjaerljs
 Total Elements: 704
 Total Collisions: 0
-Deleting ygthcu
+Deleting hkgjtbmw
 Total Elements: 703
 Total Collisions: 0
-Deleting yfwpj
+Deleting qottoqk
 Total Elements: 702
 Total Collisions: 0
-Deleting fybglgz
+Deleting uohzkr
 Total Elements: 701
 Total Collisions: 0
-Deleting bintattnh
+Deleting kcxqi
 Total Elements: 700
 Total Collisions: 0
-Deleting dtonpyzwo
+Deleting wvgsz
 Total Elements: 699
 Total Collisions: 0
-Deleting kgnguphp
+Deleting uchxsh
 Total Elements: 698
 Total Collisions: 0
-Deleting xeatowzab
+Deleting ffugeri
 Total Elements: 697
 Total Collisions: 0
-Deleting dnvqhkfcm
+Deleting lfyraemex
 Total Elements: 696
 Total Collisions: 0
-Deleting fisfrfqgv
+Deleting wjoop
 Total Elements: 695
 Total Collisions: 0
-Deleting mvorpjfzsl
+Deleting juwwfsqg
 Total Elements: 694
 Total Collisions: 0
-Deleting mpjjnehr
+Deleting bipzx
 Total Elements: 693
 Total Collisions: 0
-Deleting kxjzubuac
+Deleting ptanqichi
 Total Elements: 692
 Total Collisions: 0
-Deleting lfkcyzobg
+Deleting obwmd
 Total Elements: 691
 Total Collisions: 0
-Deleting tuoxrajvpr
+Deleting jfkpsqdooc
 Total Elements: 690
 Total Collisions: 0
-Deleting cwgxxps
+Deleting rxsuhbkky
 Total Elements: 689
 Total Collisions: 0
-Deleting cgmmved
+Deleting ltjdrpucs
 Total Elements: 688
 Total Collisions: 0
-Deleting wdmfnqwcu
+Deleting aemxjgapom
 Total Elements: 687
 Total Collisions: 0
-Deleting dscil
+Deleting clhuw
 Total Elements: 686
 Total Collisions: 0
-Deleting qecih
+Deleting rpvcjl
 Total Elements: 685
 Total Collisions: 0
-Deleting uilgmfcs
+Deleting bptnqiqg
 Total Elements: 684
 Total Collisions: 0
-Deleting twkkx
+Deleting xlcch
 Total Elements: 683
 Total Collisions: 0
-Deleting cbhqkv
+Deleting gdmbrlmo
 Total Elements: 682
 Total Collisions: 0
-Deleting swjebkr
+Deleting ksyec
 Total Elements: 681
 Total Collisions: 0
-Deleting lpgfgratzb
+Deleting bdlshwhdfr
 Total Elements: 680
 Total Collisions: 0
-Deleting guvzi
+Deleting nlajwokd
 Total Elements: 679
 Total Collisions: 0
-Deleting nhyxwj
+Deleting dhqddsjz
 Total Elements: 678
 Total Collisions: 0
-Deleting javwauxpa
+Deleting phjjngl
 Total Elements: 677
 Total Collisions: 0
-Deleting namxjdvz
+Deleting vwcjye
 Total Elements: 676
 Total Collisions: 0
-Deleting hnaczyhep
+Deleting ohgdco
 Total Elements: 675
 Total Collisions: 0
-Deleting zolhu
+Deleting uovahbjk
 Total Elements: 674
 Total Collisions: 0
-Deleting lrkvwpnvg
+Deleting msczpzthfi
 Total Elements: 673
 Total Collisions: 0
-Deleting miizwu
+Deleting asudxh
 Total Elements: 672
 Total Collisions: 0
-Deleting wdfzlktbqd
+Deleting aofrhahnv
 Total Elements: 671
 Total Collisions: 0
-Deleting gyyiud
+Deleting vhiilxl
 Total Elements: 670
 Total Collisions: 0
-Deleting jvezkmesb
+Deleting vwvlq
 Total Elements: 669
 Total Collisions: 0
-Deleting lkyert
+Deleting xhcqwehrj
 Total Elements: 668
 Total Collisions: 0
-Deleting hnexhuqmj
+Deleting fhtzwhxm
 Total Elements: 667
 Total Collisions: 0
-Deleting cbmusqd
+Deleting hlutgvsb
 Total Elements: 666
 Total Collisions: 0
-Deleting lasolwjxp
+Deleting wdxqiuzm
 Total Elements: 665
 Total Collisions: 0
-Deleting xxeumzfw
+Deleting gscrfwkss
 Total Elements: 664
 Total Collisions: 0
-Deleting ucpabqsef
+Deleting cdzckirtbk
 Total Elements: 663
 Total Collisions: 0
-Deleting unqpkf
+Deleting mkprkg
 Total Elements: 662
 Total Collisions: 0
-Deleting nbecbbcjpd
+Deleting iwyikoqh
 Total Elements: 661
 Total Collisions: 0
-Deleting jlibi
+Deleting zojlmhrlu
 Total Elements: 660
 Total Collisions: 0
-Deleting llplxe
+Deleting lkvzqe
 Total Elements: 659
 Total Collisions: 0
-Deleting rdkexdtquv
+Deleting cdsintxwht
 Total Elements: 658
 Total Collisions: 0
-Deleting tteyht
+Deleting oszdullu
 Total Elements: 657
 Total Collisions: 0
-Deleting qlbbbvoq
+Deleting uwzilot
 Total Elements: 656
 Total Collisions: 0
-Deleting zkyna
+Deleting fdsjncf
 Total Elements: 655
 Total Collisions: 0
-Deleting yrbaqmy
+Deleting lavdqsf
 Total Elements: 654
 Total Collisions: 0
-Deleting hzxndsiy
+Deleting msjsmui
 Total Elements: 653
 Total Collisions: 0
-Deleting sexwbioewq
+Deleting sppskphj
 Total Elements: 652
 Total Collisions: 0
-Deleting qrtcdlpqmv
+Deleting saovbmbefy
 Total Elements: 651
 Total Collisions: 0
-Deleting ifvgymkg
+Deleting niyjcm
 Total Elements: 650
 Total Collisions: 0
-Deleting tzjmnzq
+Deleting nlabwgjyo
 Total Elements: 649
 Total Collisions: 0
-Deleting mrpnde
+Deleting ienvsc
 Total Elements: 648
 Total Collisions: 0
-Deleting nmthji
+Deleting yatbprzhd
 Total Elements: 647
 Total Collisions: 0
-Deleting sspaqn
+Deleting atjkfj
 Total Elements: 646
 Total Collisions: 0
-Deleting rdoyjwpyat
+Deleting qaswfmfohz
 Total Elements: 645
 Total Collisions: 0
-Deleting leyqs
+Deleting smluzrjcdp
 Total Elements: 644
 Total Collisions: 0
-Deleting kpamsvbm
+Deleting pmxuuqakbe
 Total Elements: 643
 Total Collisions: 0
-Deleting xrllivfedk
+Deleting zqugisvojb
 Total Elements: 642
 Total Collisions: 0
-Deleting igavyxjveq
+Deleting djjuy
 Total Elements: 641
 Total Collisions: 0
-Deleting rbacui
+Deleting nyrmpb
 Total Elements: 640
 Total Collisions: 0
-Deleting aipyh
+Deleting rjkpikfp
 Total Elements: 639
 Total Collisions: 0
-Deleting bxipbz
+Deleting qqnvc
 Total Elements: 638
 Total Collisions: 0
-Deleting cwhrbliriz
+Deleting cujfqrox
 Total Elements: 637
 Total Collisions: 0
-Deleting oqptqqweaa
+Deleting anxzf
 Total Elements: 636
 Total Collisions: 0
-Deleting jeqiozpy
+Deleting ujwxwynuf
 Total Elements: 635
 Total Collisions: 0
-Deleting auuqmv
+Deleting scofotge
 Total Elements: 634
 Total Collisions: 0
-Deleting xkmnxmsy
+Deleting tkqragu
 Total Elements: 633
 Total Collisions: 0
-Deleting mptlzan
+Deleting znlgn
 Total Elements: 632
 Total Collisions: 0
-Deleting tlslwuhtf
+Deleting avrhb
 Total Elements: 631
 Total Collisions: 0
-Deleting jrrwb
+Deleting nspkrl
 Total Elements: 630
 Total Collisions: 0
-Deleting hmqhz
+Deleting vkyqiic
 Total Elements: 629
 Total Collisions: 0
-Deleting hdkcr
+Deleting qaaitqcqd
 Total Elements: 628
 Total Collisions: 0
-Deleting vbeiyi
+Deleting ylmdf
 Total Elements: 627
 Total Collisions: 0
-Deleting vfvpzhyu
+Deleting btqblfvx
 Total Elements: 626
 Total Collisions: 0
-Deleting abtqwwtb
+Deleting rxoka
 Total Elements: 625
 Total Collisions: 0
-Deleting dogke
+Deleting tpwwjwdkl
 Total Elements: 624
 Total Collisions: 0
-Deleting hibyx
+Deleting qmottzoa
 Total Elements: 623
 Total Collisions: 0
-Deleting nxsxrz
+Deleting axaufmu
 Total Elements: 622
 Total Collisions: 0
-Deleting etbqex
+Deleting xndykd
 Total Elements: 621
 Total Collisions: 0
-Deleting rqoiern
+Deleting pqsnye
 Total Elements: 620
 Total Collisions: 0
-Deleting plqyjpq
+Deleting tqrfgrb
 Total Elements: 619
 Total Collisions: 0
-Deleting ubvjseb
+Deleting lnriqo
 Total Elements: 618
 Total Collisions: 0
-Deleting lwnksvl
+Deleting xgtgtoo
 Total Elements: 617
 Total Collisions: 0
-Deleting idzfpirwy
+Deleting vvoxxzjhag
 Total Elements: 616
 Total Collisions: 0
-Deleting ztwzz
+Deleting hgckld
 Total Elements: 615
 Total Collisions: 0
-Deleting ewxotaku
+Deleting ooaikkccso
 Total Elements: 614
 Total Collisions: 0
-Deleting kpedup
+Deleting htrjttj
 Total Elements: 613
 Total Collisions: 0
-Deleting czlhwuskd
+Deleting vlbvvw
 Total Elements: 612
 Total Collisions: 0
-Deleting evdcplbk
+Deleting wivkhckgfo
 Total Elements: 611
 Total Collisions: 0
-Deleting pjmpfd
+Deleting ktzkesdmmr
 Total Elements: 610
 Total Collisions: 0
-Deleting yqtrc
+Deleting kjxgktaevc
 Total Elements: 609
 Total Collisions: 0
-Deleting vvtrffvp
+Deleting gnfukgsaol
 Total Elements: 608
 Total Collisions: 0
-Deleting kkqmcupry
+Deleting ongeu
 Total Elements: 607
 Total Collisions: 0
-Deleting auteuvczvi
+Deleting rkzzxd
 Total Elements: 606
 Total Collisions: 0
-Deleting thrxsxclp
+Deleting zcdxtwu
 Total Elements: 605
 Total Collisions: 0
-Deleting gdlwxfaiga
+Deleting kszgzscqv
 Total Elements: 604
 Total Collisions: 0
-Deleting rueicuf
+Deleting zvgsyy
 Total Elements: 603
 Total Collisions: 0
-Deleting iamhtkbx
+Deleting jdyizixzat
 Total Elements: 602
 Total Collisions: 0
-Deleting tdirxxgvz
+Deleting girjbkro
 Total Elements: 601
 Total Collisions: 0
-Deleting meyrovfic
+Deleting yammxqh
 Total Elements: 600
 Total Collisions: 0
-Deleting qnivfjzauq
+Deleting dxzbug
 Total Elements: 599
 Total Collisions: 0
-Deleting dftgmops
+Deleting ujgmt
 Total Elements: 598
 Total Collisions: 0
-Deleting gpugxtuh
+Deleting hqfptu
 Total Elements: 597
 Total Collisions: 0
-Deleting cvspihaz
+Deleting gugnvjx
 Total Elements: 596
 Total Collisions: 0
-Deleting ssfszwxb
+Deleting svixqrzs
 Total Elements: 595
 Total Collisions: 0
-Deleting murwmxc
+Deleting zrvrmcvroz
 Total Elements: 594
 Total Collisions: 0
-Deleting bhumrgjq
+Deleting skthkxvsxr
 Total Elements: 593
 Total Collisions: 0
-Deleting vnkyrtnsj
+Deleting zajibej
 Total Elements: 592
 Total Collisions: 0
-Deleting wzxssqxn
+Deleting amrucoarcq
 Total Elements: 591
 Total Collisions: 0
-Deleting omuyjnju
+Deleting omlkxqmf
 Total Elements: 590
 Total Collisions: 0
-Deleting rsyxwqy
+Deleting pqpcsvu
 Total Elements: 589
 Total Collisions: 0
-Deleting xcszpoklw
+Deleting kjlyim
 Total Elements: 588
 Total Collisions: 0
-Deleting drltbscied
+Deleting tgafgn
 Total Elements: 587
 Total Collisions: 0
-Deleting iwlaqi
+Deleting orawyr
 Total Elements: 586
 Total Collisions: 0
-Deleting esjsqhs
+Deleting eztjso
 Total Elements: 585
 Total Collisions: 0
-Deleting lrglmw
+Deleting hdwifox
 Total Elements: 584
 Total Collisions: 0
-Deleting nrxrfnwak
+Deleting xesrczmac
 Total Elements: 583
 Total Collisions: 0
-Deleting tgjhxaunfq
+Deleting hbyes
 Total Elements: 582
 Total Collisions: 0
-Deleting vxiohn
+Deleting fuxtjb
 Total Elements: 581
 Total Collisions: 0
-Deleting qrjshy
+Deleting xbgmcksqa
 Total Elements: 580
 Total Collisions: 0
-Deleting dovwgefhj
+Deleting unjqofw
 Total Elements: 579
 Total Collisions: 0
-Deleting svhti
+Deleting tnvfck
 Total Elements: 578
 Total Collisions: 0
-Deleting iojljdpm
+Deleting ysbpraswny
 Total Elements: 577
 Total Collisions: 0
-Deleting xbyuyopqj
+Deleting xlzlibqmgf
 Total Elements: 576
 Total Collisions: 0
-Deleting ztvjgkw
+Deleting kairancxbd
 Total Elements: 575
 Total Collisions: 0
-Deleting kewpzhbj
+Deleting rmbtmcslxq
 Total Elements: 574
 Total Collisions: 0
-Deleting uthsyoe
+Deleting ccngz
 Total Elements: 573
 Total Collisions: 0
-Deleting jgwwyeoz
+Deleting rgseons
 Total Elements: 572
 Total Collisions: 0
-Deleting uhmgab
+Deleting lyhfwiubw
 Total Elements: 571
 Total Collisions: 0
-Deleting sqrhcrtxmj
+Deleting zvpjfp
 Total Elements: 570
 Total Collisions: 0
-Deleting caxxsufahy
+Deleting aphyqys
 Total Elements: 569
 Total Collisions: 0
-Deleting ayzkhuh
+Deleting wwtrdtohro
 Total Elements: 568
 Total Collisions: 0
-Deleting rjsvoq
+Deleting fionrygfz
 Total Elements: 567
 Total Collisions: 0
-Deleting tydwpbszxs
+Deleting ajduyot
 Total Elements: 566
 Total Collisions: 0
-Deleting ziyrvgqmlu
+Deleting qncehp
 Total Elements: 565
 Total Collisions: 0
-Deleting wscpir
+Deleting ugtrrt
 Total Elements: 564
 Total Collisions: 0
-Deleting fcbtseplkg
+Deleting kwwpdiw
 Total Elements: 563
 Total Collisions: 0
-Deleting fkhrouoys
+Deleting uhqripz
 Total Elements: 562
 Total Collisions: 0
-Deleting wmqoja
+Deleting spedosfzj
 Total Elements: 561
 Total Collisions: 0
-Deleting yqmfev
+Deleting cuctx
 Total Elements: 560
 Total Collisions: 0
-Deleting dcomr
+Deleting iulmguo
 Total Elements: 559
 Total Collisions: 0
-Deleting hgdmlxukw
+Deleting asmqjdhqtc
 Total Elements: 558
 Total Collisions: 0
-Deleting zcprskwgx
+Deleting edgxwy
 Total Elements: 557
 Total Collisions: 0
-Deleting lsuck
+Deleting etlhudfqhy
 Total Elements: 556
 Total Collisions: 0
-Deleting sepjeiszsg
+Deleting rxidbtkj
 Total Elements: 555
 Total Collisions: 0
-Deleting ezwap
+Deleting qfqckmt
 Total Elements: 554
 Total Collisions: 0
-Deleting rvlwigrov
+Deleting kcjlmyp
 Total Elements: 553
 Total Collisions: 0
-Deleting cdzxxp
+Deleting rvcyqmp
 Total Elements: 552
 Total Collisions: 0
-Deleting qlsrzihm
+Deleting klypvmkj
 Total Elements: 551
 Total Collisions: 0
-Deleting zrioqrq
+Deleting zwuquwadc
 Total Elements: 550
 Total Collisions: 0
-Deleting tkzfbld
+Deleting aetuu
 Total Elements: 549
 Total Collisions: 0
-Deleting iemsfzbhzf
+Deleting xjtcwqb
 Total Elements: 548
 Total Collisions: 0
-Deleting wywmxxgd
+Deleting xcduzamknw
 Total Elements: 547
 Total Collisions: 0
-Deleting ylraxg
+Deleting bzyqd
 Total Elements: 546
 Total Collisions: 0
-Deleting mtbiylbhcw
+Deleting ksmpbzmhd
 Total Elements: 545
 Total Collisions: 0
-Deleting lsyoyhgmgo
+Deleting nakzbhrz
 Total Elements: 544
 Total Collisions: 0
-Deleting przaxq
+Deleting dfbvcik
 Total Elements: 543
 Total Collisions: 0
-Deleting omsyhgagi
+Deleting pnklel
 Total Elements: 542
 Total Collisions: 0
-Deleting pjqbzxt
+Deleting ekenaa
 Total Elements: 541
 Total Collisions: 0
-Deleting topotm
+Deleting xdrrxac
 Total Elements: 540
 Total Collisions: 0
-Deleting tnqwt
+Deleting utohwkko
 Total Elements: 539
 Total Collisions: 0
-Deleting etonx
+Deleting nfwawxwvd
 Total Elements: 538
 Total Collisions: 0
-Deleting zghut
+Deleting snffq
 Total Elements: 537
 Total Collisions: 0
-Deleting fklgklr
+Deleting skqmlnyk
 Total Elements: 536
 Total Collisions: 0
-Deleting uwkmsy
+Deleting flcwhhwkd
 Total Elements: 535
 Total Collisions: 0
-Deleting cpuiv
+Deleting eaqkgmq
 Total Elements: 534
 Total Collisions: 0
-Deleting hqatmsckm
+Deleting ytfjx
 Total Elements: 533
 Total Collisions: 0
-Deleting alkic
+Deleting gbftqvqiaf
 Total Elements: 532
 Total Collisions: 0
-Deleting nxucovtyk
+Deleting agpykyepe
 Total Elements: 531
 Total Collisions: 0
-Deleting xawzadjx
+Deleting oosognfjl
 Total Elements: 530
 Total Collisions: 0
-Deleting xqmnd
+Deleting qlgpwmkgth
 Total Elements: 529
 Total Collisions: 0
-Deleting ldttxsknxt
+Deleting efmuupkzdl
 Total Elements: 528
 Total Collisions: 0
-Deleting znjsqtfbc
+Deleting oulcnk
 Total Elements: 527
 Total Collisions: 0
-Deleting fqmwh
+Deleting kyumyifv
 Total Elements: 526
 Total Collisions: 0
-Deleting vssiigvijs
+Deleting shpiurazzz
 Total Elements: 525
 Total Collisions: 0
-Deleting xiicaahmk
+Deleting wmbii
 Total Elements: 524
 Total Collisions: 0
-Deleting ywttj
+Deleting nfhsyiulz
 Total Elements: 523
 Total Collisions: 0
-Deleting ppkwlb
+Deleting qcxfqyb
 Total Elements: 522
 Total Collisions: 0
-Deleting jahtputie
+Deleting oofejr
 Total Elements: 521
 Total Collisions: 0
-Deleting pbbmuegy
+Deleting zwzyw
 Total Elements: 520
 Total Collisions: 0
-Deleting hlthxw
+Deleting fikcj
 Total Elements: 519
 Total Collisions: 0
-Deleting jprwvhshz
+Deleting pjhsz
 Total Elements: 518
 Total Collisions: 0
-Deleting avqye
+Deleting ugwmi
 Total Elements: 517
 Total Collisions: 0
-Deleting ztozo
+Deleting vawiagn
 Total Elements: 516
 Total Collisions: 0
-Deleting bnanh
+Deleting ihopmexkt
 Total Elements: 515
 Total Collisions: 0
-Deleting rbddnd
+Deleting huzaznjnr
 Total Elements: 514
 Total Collisions: 0
-Deleting dxeui
+Deleting ucvogh
 Total Elements: 513
 Total Collisions: 0
-Deleting zioiuoz
+Deleting bzbnwevwr
 Total Elements: 512
 Total Collisions: 0
-Deleting qtihwa
+Deleting waapguu
 Total Elements: 511
 Total Collisions: 0
-Deleting roqrdqwcv
+Deleting lqrurm
 Total Elements: 510
 Total Collisions: 0
-Deleting xzipod
+Deleting nbukd
 Total Elements: 509
 Total Collisions: 0
-Deleting ispqnzo
+Deleting bsgejexsur
 Total Elements: 508
 Total Collisions: 0
-Deleting cwvaptg
+Deleting lwmirvmnmx
 Total Elements: 507
 Total Collisions: 0
-Deleting gdfnyytkww
+Deleting zxkqa
 Total Elements: 506
 Total Collisions: 0
-Deleting qtmiuuyvg
+Deleting qusbkt
 Total Elements: 505
 Total Collisions: 0
-Deleting ihfshcc
+Deleting mguxor
 Total Elements: 504
 Total Collisions: 0
-Deleting huuyyh
+Deleting dwgwbaiq
 Total Elements: 503
 Total Collisions: 0
-Deleting gdglfc
+Deleting oikzi
 Total Elements: 502
 Total Collisions: 0
-Deleting ebdut
+Deleting fjzmiqvx
 Total Elements: 501
 Total Collisions: 0
-Deleting eunfhda
+Deleting qohdsy
 Total Elements: 500
 Total Collisions: 0
-Deleting phbsywzt
+Deleting ohifvzhlel
 Total Elements: 499
 Total Collisions: 0
-Deleting wjngjncp
+Deleting hftkauppc
 Total Elements: 498
 Total Collisions: 0
-Deleting rjvbvcce
+Deleting mrosgiag
 Total Elements: 497
 Total Collisions: 0
-Deleting kbemgsdy
+Deleting fzdlnihb
 Total Elements: 496
 Total Collisions: 0
-Deleting zmmkwde
+Deleting seciokji
 Total Elements: 495
 Total Collisions: 0
-Deleting fkruqbyvec
+Deleting sfthrxg
 Total Elements: 494
 Total Collisions: 0
-Deleting pesromdxl
+Deleting ncdsvvaqx
 Total Elements: 493
 Total Collisions: 0
-Deleting ubryye
+Deleting moyga
 Total Elements: 492
 Total Collisions: 0
-Deleting hqlzmrewq
+Deleting hemxzyg
 Total Elements: 491
 Total Collisions: 0
-Deleting kqitxg
+Deleting wqkzz
 Total Elements: 490
 Total Collisions: 0
-Deleting igqus
+Deleting qranbccj
 Total Elements: 489
 Total Collisions: 0
-Deleting wtcznlt
+Deleting nocveu
 Total Elements: 488
 Total Collisions: 0
-Deleting rxbltzy
+Deleting ppwpb
 Total Elements: 487
 Total Collisions: 0
-Deleting yzvahnkixj
+Deleting lfatzmkcwd
 Total Elements: 486
 Total Collisions: 0
-Deleting zztdjpqsu
+Deleting vrxtydivpj
 Total Elements: 485
 Total Collisions: 0
-Deleting wkvfcco
+Deleting rzfezfdc
 Total Elements: 484
 Total Collisions: 0
-Deleting kvrjb
+Deleting iegbussln
 Total Elements: 483
 Total Collisions: 0
-Deleting rjpcgdjdrw
+Deleting mfraqqdilo
 Total Elements: 482
 Total Collisions: 0
-Deleting nposrjgd
+Deleting kdvdnz
 Total Elements: 481
 Total Collisions: 0
-Deleting qrvqtv
+Deleting wprimtuvl
 Total Elements: 480
 Total Collisions: 0
-Deleting pazhltjq
+Deleting ufyzmp
 Total Elements: 479
 Total Collisions: 0
-Deleting cclpezts
+Deleting fjpbgxapa
 Total Elements: 478
 Total Collisions: 0
-Deleting pynzfrot
+Deleting lsaybpw
 Total Elements: 477
 Total Collisions: 0
-Deleting poxmwhhwe
+Deleting mpdgys
 Total Elements: 476
 Total Collisions: 0
-Deleting nvcbv
+Deleting rjqao
 Total Elements: 475
 Total Collisions: 0
-Deleting kuzifi
+Deleting rzwwoyax
 Total Elements: 474
 Total Collisions: 0
-Deleting rtwqqeoj
+Deleting flnwhamc
 Total Elements: 473
 Total Collisions: 0
-Deleting eqbnskw
+Deleting mtwzuntko
 Total Elements: 472
 Total Collisions: 0
-Deleting eewzkaoj
+Deleting hyqnqcwguy
 Total Elements: 471
 Total Collisions: 0
-Deleting rsqgsczvh
+Deleting padmfl
 Total Elements: 470
 Total Collisions: 0
-Deleting ujzumigo
+Deleting rpagwfxr
 Total Elements: 469
 Total Collisions: 0
-Deleting hwbkkf
+Deleting gjqmo
 Total Elements: 468
 Total Collisions: 0
-Deleting uwzkct
+Deleting izqdijnb
 Total Elements: 467
 Total Collisions: 0
-Deleting agxksmf
+Deleting fekowb
 Total Elements: 466
 Total Collisions: 0
-Deleting uwinsjlso
+Deleting pfvtkwlah
 Total Elements: 465
 Total Collisions: 0
-Deleting trxhwmhl
+Deleting lcstbky
 Total Elements: 464
 Total Collisions: 0
-Deleting bypecj
+Deleting cezesbh
 Total Elements: 463
 Total Collisions: 0
-Deleting iwwstneui
+Deleting guytedd
 Total Elements: 462
 Total Collisions: 0
-Deleting ubpgu
+Deleting xgrsyqc
 Total Elements: 461
 Total Collisions: 0
-Deleting wgnmikd
+Deleting jhuveofl
 Total Elements: 460
 Total Collisions: 0
-Deleting ickdils
+Deleting hmhbuovbil
 Total Elements: 459
 Total Collisions: 0
-Deleting pdqsvmte
+Deleting tnvsla
 Total Elements: 458
 Total Collisions: 0
-Deleting dfblhw
+Deleting zdmmvexbw
 Total Elements: 457
 Total Collisions: 0
-Deleting afbgarcsfi
+Deleting sxdjhm
 Total Elements: 456
 Total Collisions: 0
-Deleting ylbiimof
+Deleting gfxruwoz
 Total Elements: 455
 Total Collisions: 0
-Deleting xeirp
+Deleting gssdbz
 Total Elements: 454
 Total Collisions: 0
-Deleting tywqzapk
+Deleting ttpakfumzu
 Total Elements: 453
 Total Collisions: 0
-Deleting cafco
+Deleting uqnztwvutp
 Total Elements: 452
 Total Collisions: 0
-Deleting vntmd
+Deleting pkwcfyrxxz
 Total Elements: 451
 Total Collisions: 0
-Deleting zxlefppyeb
+Deleting waprrliwda
 Total Elements: 450
 Total Collisions: 0
-Deleting oeqznbhyc
+Deleting znbix
 Total Elements: 449
 Total Collisions: 0
-Deleting mfyaqqi
+Deleting hwxcfj
 Total Elements: 448
 Total Collisions: 0
-Deleting nnyhqou
+Deleting rtuioupw
 Total Elements: 447
 Total Collisions: 0
-Deleting zveavgz
+Deleting guurrzpcq
 Total Elements: 446
 Total Collisions: 0
-Deleting woblsg
+Deleting qkmkcy
 Total Elements: 445
 Total Collisions: 0
-Deleting nkvjlni
+Deleting mexiiqpgu
 Total Elements: 444
 Total Collisions: 0
-Deleting qcwvzxtc
+Deleting entiptr
 Total Elements: 443
 Total Collisions: 0
-Deleting hynmux
+Deleting irhtpz
 Total Elements: 442
 Total Collisions: 0
-Deleting kwwmtfisg
+Deleting ztgiz
 Total Elements: 441
 Total Collisions: 0
-Deleting lgcoxpipy
+Deleting lqpzc
 Total Elements: 440
 Total Collisions: 0
-Deleting dbamrykb
+Deleting kkzch
 Total Elements: 439
 Total Collisions: 0
-Deleting kmwgsddpq
+Deleting wamif
 Total Elements: 438
 Total Collisions: 0
-Deleting rzyjchz
+Deleting cnzzn
 Total Elements: 437
 Total Collisions: 0
-Deleting miepag
+Deleting vwxtoo
 Total Elements: 436
 Total Collisions: 0
-Deleting hroqkhwud
+Deleting btgqqcwsy
 Total Elements: 435
 Total Collisions: 0
-Deleting cihpqw
+Deleting cuhruj
 Total Elements: 434
 Total Collisions: 0
-Deleting qzxugkvak
+Deleting qktdsbhml
 Total Elements: 433
 Total Collisions: 0
-Deleting lavkswfz
+Deleting qxxzrws
 Total Elements: 432
 Total Collisions: 0
-Deleting dbvqidhtb
+Deleting lnuzr
 Total Elements: 431
 Total Collisions: 0
-Deleting deytmpphk
+Deleting tscdttktqu
 Total Elements: 430
 Total Collisions: 0
-Deleting hsxor
+Deleting ouujxvquvx
 Total Elements: 429
 Total Collisions: 0
-Deleting ufwhjr
+Deleting ernathrq
 Total Elements: 428
 Total Collisions: 0
-Deleting tkssl
+Deleting gljvsxoi
 Total Elements: 427
 Total Collisions: 0
-Deleting lrxlyd
+Deleting wbxarxgdd
 Total Elements: 426
 Total Collisions: 0
-Deleting vkosaggm
+Deleting ggejk
 Total Elements: 425
 Total Collisions: 0
-Deleting bgzvba
+Deleting dpwvnfl
 Total Elements: 424
 Total Collisions: 0
-Deleting azjohqss
+Deleting ungtjmynhy
 Total Elements: 423
 Total Collisions: 0
-Deleting torckqaxs
+Deleting roatheg
 Total Elements: 422
 Total Collisions: 0
-Deleting ehnrlyjiwt
+Deleting qeowy
 Total Elements: 421
 Total Collisions: 0
-Deleting hglkozfkm
+Deleting vrulqfq
 Total Elements: 420
 Total Collisions: 0
-Deleting xtyvoxhfk
+Deleting uzcdsv
 Total Elements: 419
 Total Collisions: 0
-Deleting opvybj
+Deleting femgf
 Total Elements: 418
 Total Collisions: 0
-Deleting oxhzubdnto
+Deleting mggmc
 Total Elements: 417
 Total Collisions: 0
-Deleting mzottcj
+Deleting yekvtr
 Total Elements: 416
 Total Collisions: 0
-Deleting uegmpqkcdb
+Deleting myhpsz
 Total Elements: 415
 Total Collisions: 0
-Deleting gckjqteb
+Deleting foxnmkoi
 Total Elements: 414
 Total Collisions: 0
-Deleting chznp
+Deleting ttxnyzpkso
 Total Elements: 413
 Total Collisions: 0
-Deleting rqiswb
+Deleting tcizug
 Total Elements: 412
 Total Collisions: 0
-Deleting hoyncsae
+Deleting pauokqu
 Total Elements: 411
 Total Collisions: 0
-Deleting lgbfvi
+Deleting xbigb
 Total Elements: 410
 Total Collisions: 0
-Deleting cfwxwdr
+Deleting srpjuygxt
 Total Elements: 409
 Total Collisions: 0
-Deleting lffbfhvyxz
+Deleting iepyghbb
 Rehashing for Deletion
-Total Probes: 750
-Avereage Probes: 0.75
+Total Probes: 1497
+Avereage Probes: 1.497
+Load Factor: 0.997555
+Maximum Chain Length: 4
 Total Elements: 408
 Total Collisions: 0
-Deleting kjwocyhzq
+Deleting lnzhtiq
 Total Elements: 407
 Total Collisions: 0
-Deleting zdhtbrrrll
+Deleting bsccinu
 Total Elements: 406
 Total Collisions: 0
-Deleting tchfnct
+Deleting luxayka
 Total Elements: 405
 Total Collisions: 0
-Deleting irnawonydw
+Deleting irvjqkln
 Total Elements: 404
 Total Collisions: 0
-Deleting vuabuqc
+Deleting seuvbvi
 Total Elements: 403
 Total Collisions: 0
-Deleting mcnlhqode
+Deleting xudsojjux
 Total Elements: 402
 Total Collisions: 0
-Deleting akmunmaxi
+Deleting phxtc
 Total Elements: 401
 Total Collisions: 0
-Deleting mkeywcofq
+Deleting tijwkaqi
 Total Elements: 400
 Total Collisions: 0
-Deleting kdmzoi
+Deleting sgpdbv
 Total Elements: 399
 Total Collisions: 0
-Deleting gqipzayixr
+Deleting eievmbudqx
 Total Elements: 398
 Total Collisions: 0
-Deleting dwsovhztk
+Deleting dyfyqryy
 Total Elements: 397
 Total Collisions: 0
-Deleting zskwp
+Deleting xlywdlg
 Total Elements: 396
 Total Collisions: 0
-Deleting kqcexrnnxs
+Deleting eukfkxj
 Total Elements: 395
 Total Collisions: 0
-Deleting ywndqiz
+Deleting xzgab
 Total Elements: 394
 Total Collisions: 0
-Deleting zklnissamq
+Deleting lbvxc
 Total Elements: 393
 Total Collisions: 0
-Deleting zhlnd
+Deleting mruyoy
 Total Elements: 392
 Total Collisions: 0
-Deleting viltko
+Deleting ilnctmll
 Total Elements: 391
 Total Collisions: 0
-Deleting afmeicg
+Deleting quprhszhmv
 Total Elements: 390
 Total Collisions: 0
-Deleting uzxhrdjzz
+Deleting mhlrpcb
 Total Elements: 389
 Total Collisions: 0
-Deleting eruswa
+Deleting uirnqxgbxu
 Total Elements: 388
 Total Collisions: 0
-Deleting nvslonoasr
+Deleting xgqtacpi
 Total Elements: 387
 Total Collisions: 0
-Deleting drnldkldk
+Deleting nihlellkxg
 Total Elements: 386
 Total Collisions: 0
-Deleting ztagie
+Deleting xyjgkmlhe
 Total Elements: 385
 Total Collisions: 0
-Deleting atjzwxcl
+Deleting vlverrgsv
 Total Elements: 384
 Total Collisions: 0
-Deleting kulncaq
+Deleting fubfsgxgo
 Total Elements: 383
 Total Collisions: 0
-Deleting toneqlnbto
+Deleting cryrtgjoi
 Total Elements: 382
 Total Collisions: 0
-Deleting dbmivazx
+Deleting uthgxrrkmp
 Total Elements: 381
 Total Collisions: 0
-Deleting mcojdhis
+Deleting hrahcf
 Total Elements: 380
 Total Collisions: 0
-Deleting kaxiagt
+Deleting yemlimae
 Total Elements: 379
 Total Collisions: 0
-Deleting tafrs
+Deleting luqrivcl
 Total Elements: 378
 Total Collisions: 0
-Deleting pphura
+Deleting kafjj
 Total Elements: 377
 Total Collisions: 0
-Deleting aixztwd
+Deleting ebnfmnscq
 Total Elements: 376
 Total Collisions: 0
-Deleting ruumqad
+Deleting kzflieo
 Total Elements: 375
 Total Collisions: 0
-Deleting epvvcv
+Deleting ebqmnx
 Total Elements: 374
 Total Collisions: 0
-Deleting idwmt
+Deleting srlhn
 Total Elements: 373
 Total Collisions: 0
-Deleting bnmquiopiw
+Deleting uwzxn
 Total Elements: 372
 Total Collisions: 0
-Deleting uwczdapdzg
+Deleting ifgyh
 Total Elements: 371
 Total Collisions: 0
-Deleting avviyi
+Deleting qlxkdbxqnu
 Total Elements: 370
 Total Collisions: 0
-Deleting ojnolsow
+Deleting mnzrh
 Total Elements: 369
 Total Collisions: 0
-Deleting mvvjiqsw
+Deleting vdujgwy
 Total Elements: 368
 Total Collisions: 0
-Deleting icmzsxav
+Deleting yyznyfkodr
 Total Elements: 367
 Total Collisions: 0
-Deleting qamnfhwf
+Deleting ohftzsz
 Total Elements: 366
 Total Collisions: 0
-Deleting eohsk
+Deleting zmoduxsvcp
 Total Elements: 365
 Total Collisions: 0
-Deleting efutx
+Deleting onpqqoyv
 Total Elements: 364
 Total Collisions: 0
-Deleting ibhpulnlwx
+Deleting zljogha
 Total Elements: 363
 Total Collisions: 0
-Deleting wwzdgdjge
+Deleting egnpflfzpv
 Total Elements: 362
 Total Collisions: 0
-Deleting wapbhlpud
+Deleting wwkcxafkj
 Total Elements: 361
 Total Collisions: 0
-Deleting emnnt
+Deleting bjsrrsbjey
 Total Elements: 360
 Total Collisions: 0
-Deleting ouahgx
+Deleting tsssndtlkq
 Total Elements: 359
 Total Collisions: 0
-Deleting hzjbeplt
+Deleting gydocr
 Total Elements: 358
 Total Collisions: 0
-Deleting riabwu
+Deleting fsgvspw
 Total Elements: 357
 Total Collisions: 0
-Deleting rjmbvbo
+Deleting zqunkziyjj
 Total Elements: 356
 Total Collisions: 0
-Deleting vmxoba
+Deleting gdbidt
 Total Elements: 355
 Total Collisions: 0
-Deleting khqsqchlht
+Deleting amthyzsd
 Total Elements: 354
 Total Collisions: 0
-Deleting ofuikw
+Deleting hrdqnh
 Total Elements: 353
 Total Collisions: 0
-Deleting fkcowuunt
+Deleting itfdcarogt
 Total Elements: 352
 Total Collisions: 0
-Deleting hpkdeyho
+Deleting xrttteovy
 Total Elements: 351
 Total Collisions: 0
-Deleting quwqv
+Deleting gmrumthg
 Total Elements: 350
 Total Collisions: 0
-Deleting tthhh
+Deleting ccpyytve
 Total Elements: 349
 Total Collisions: 0
-Deleting gjzmfeu
+Deleting kpqfmwefc
 Total Elements: 348
 Total Collisions: 0
-Deleting nipbn
+Deleting ozkybjjtkp
 Total Elements: 347
 Total Collisions: 0
-Deleting izockaa
+Deleting exwtjirkb
 Total Elements: 346
 Total Collisions: 0
-Deleting alljreqtkh
+Deleting hzuabr
 Total Elements: 345
 Total Collisions: 0
-Deleting dblpr
+Deleting fpjknmuo
 Total Elements: 344
 Total Collisions: 0
-Deleting lsrwxocc
+Deleting icjxz
 Total Elements: 343
 Total Collisions: 0
-Deleting lutwqzsqt
+Deleting olcvgzfhk
 Total Elements: 342
 Total Collisions: 0
-Deleting jvcwnpf
+Deleting yzgxwsy
 Total Elements: 341
 Total Collisions: 0
-Deleting rlukdiaohq
+Deleting dacjfw
 Total Elements: 340
 Total Collisions: 0
-Deleting hraglgriyk
+Deleting dqjrqdqjx
 Total Elements: 339
 Total Collisions: 0
-Deleting dkdfrdrx
+Deleting iliscdwnt
 Total Elements: 338
 Total Collisions: 0
-Deleting stcwrsxgyw
+Deleting qcbohfxfio
 Total Elements: 337
 Total Collisions: 0
-Deleting nhcbkpme
+Deleting cpdvotcsqw
 Total Elements: 336
 Total Collisions: 0
-Deleting upmtr
+Deleting jrrfxr
 Total Elements: 335
 Total Collisions: 0
-Deleting ipfbktbwzf
+Deleting ewxahbqm
 Total Elements: 334
 Total Collisions: 0
-Deleting hoevnhxbr
+Deleting krvzsvhlgo
 Total Elements: 333
 Total Collisions: 0
-Deleting hfobgywcvh
+Deleting mhebxst
 Total Elements: 332
 Total Collisions: 0
-Deleting tdoxq
+Deleting bcgneabcb
 Total Elements: 331
 Total Collisions: 0
-Deleting ekiwwu
+Deleting cltdmtn
 Total Elements: 330
 Total Collisions: 0
-Deleting zblmldlf
+Deleting yryfnx
 Total Elements: 329
 Total Collisions: 0
-Deleting bdvemun
+Deleting htnjy
 Total Elements: 328
 Total Collisions: 0
-Deleting lxubyk
+Deleting ljwqcemwut
 Total Elements: 327
 Total Collisions: 0
-Deleting vrgktrer
+Deleting cepja
 Total Elements: 326
 Total Collisions: 0
-Deleting tisizx
+Deleting fvafh
 Total Elements: 325
 Total Collisions: 0
-Deleting revnxquezx
+Deleting vaxdh
 Total Elements: 324
 Total Collisions: 0
-Deleting ugroohrhu
+Deleting gklojc
 Total Elements: 323
 Total Collisions: 0
-Deleting idgvhtjhye
+Deleting eilbnwjoj
 Total Elements: 322
 Total Collisions: 0
-Deleting kyhpfxwgpr
+Deleting xkdrst
 Total Elements: 321
 Total Collisions: 0
-Deleting seaccxkw
+Deleting cbotqbndg
 Total Elements: 320
 Total Collisions: 0
-Deleting ixvfhqfa
+Deleting uojxquj
 Total Elements: 319
 Total Collisions: 0
-Deleting kfdjpyeev
+Deleting ixpns
 Total Elements: 318
 Total Collisions: 0
-Deleting ggatfiek
+Deleting zdoguecqvo
 Total Elements: 317
 Total Collisions: 0
-Deleting xeyrf
+Deleting uffcrwkt
 Total Elements: 316
 Total Collisions: 0
-Deleting pxscjkc
+Deleting uvhjwhdj
 Total Elements: 315
 Total Collisions: 0
-Deleting gqmyhjmjti
+Deleting oqbuwuku
 Total Elements: 314
 Total Collisions: 0
-Deleting dspizhw
+Deleting dhhhokmaar
 Total Elements: 313
 Total Collisions: 0
-Deleting izcyuceg
+Deleting xmegq
 Total Elements: 312
 Total Collisions: 0
-Deleting mmbgygfv
+Deleting mwnimgs
 Total Elements: 311
 Total Collisions: 0
-Deleting qvzqatxlgi
+Deleting wuovjlpqpi
 Total Elements: 310
 Total Collisions: 0
-Deleting yzzkiajxmb
+Deleting kpzlh
 Total Elements: 309
 Total Collisions: 0
-Deleting mkqlwhqngh
+Deleting tgeezdutq
 Total Elements: 308
 Total Collisions: 0
-Deleting vlzgpp
+Deleting xtsibhl
 Total Elements: 307
 Total Collisions: 0
-Deleting ooeoqxppbp
+Deleting gcaqwo
 Total Elements: 306
 Total Collisions: 0
-Deleting blxnkeo
+Deleting kiabkn
 Total Elements: 305
 Total Collisions: 0
-Deleting mniumj
+Deleting iklxi
 Total Elements: 304
 Total Collisions: 0
-Deleting afcuy
+Deleting lbgwzd
 Total Elements: 303
 Total Collisions: 0
-Deleting dcuete
+Deleting kvugs
 Total Elements: 302
 Total Collisions: 0
-Deleting qpjjwa
+Deleting cfbtmd
 Total Elements: 301
 Total Collisions: 0
-Deleting nkxtlzqfl
+Deleting issjiprp
 Total Elements: 300
 Total Collisions: 0
-Deleting nwkxgk
+Deleting buclx
 Total Elements: 299
 Total Collisions: 0
-Deleting ylnukbiy
+Deleting gsxqntqa
 Total Elements: 298
 Total Collisions: 0
-Deleting plkhjucfu
+Deleting gnkyfm
 Total Elements: 297
 Total Collisions: 0
-Deleting ohzvphjbj
+Deleting tmirziekhb
 Total Elements: 296
 Total Collisions: 0
-Deleting ovdlnbf
+Deleting brynmwah
 Total Elements: 295
 Total Collisions: 0
-Deleting kvbemwytfj
+Deleting obzmao
 Total Elements: 294
 Total Collisions: 0
-Deleting nqmgzagbk
+Deleting dhtxq
 Total Elements: 293
 Total Collisions: 0
-Deleting ekkouxdcy
+Deleting xjxlhe
 Total Elements: 292
 Total Collisions: 0
-Deleting khtosf
+Deleting mzujsu
 Total Elements: 291
 Total Collisions: 0
-Deleting tlucent
+Deleting oucledvb
 Total Elements: 290
 Total Collisions: 0
-Deleting ilful
+Deleting lecqspyvnz
 Total Elements: 289
 Total Collisions: 0
-Deleting vrxlon
+Deleting urvhhm
 Total Elements: 288
 Total Collisions: 0
-Deleting kxzecxepkm
+Deleting rtyaytg
 Total Elements: 287
 Total Collisions: 0
-Deleting zgxlua
+Deleting asmxieluot
 Total Elements: 286
 Total Collisions: 0
-Deleting mjyecsld
+Deleting emtetiev
 Total Elements: 285
 Total Collisions: 0
-Deleting esdcpj
+Deleting cdspgoa
 Total Elements: 284
 Total Collisions: 0
-Deleting kvpaudv
+Deleting grclng
 Total Elements: 283
 Total Collisions: 0
-Deleting xglli
+Deleting eafkv
 Total Elements: 282
 Total Collisions: 0
-Deleting aambovjkd
+Deleting xzsnev
 Total Elements: 281
 Total Collisions: 0
-Deleting rkdor
+Deleting vbyaplsiql
 Total Elements: 280
 Total Collisions: 0
-Deleting fnyghhhptz
+Deleting osorb
 Total Elements: 279
 Total Collisions: 0
-Deleting fawftzq
+Deleting unxkhgc
 Total Elements: 278
 Total Collisions: 0
-Deleting emnhp
+Deleting uwrpodapr
 Total Elements: 277
 Total Collisions: 0
-Deleting yictmoy
+Deleting hcexxk
 Total Elements: 276
 Total Collisions: 0
-Deleting pcvkcaodak
+Deleting peaqhvjwl
 Total Elements: 275
 Total Collisions: 0
-Deleting acqauz
+Deleting ccqnkru
 Total Elements: 274
 Total Collisions: 0
-Deleting owdzsfq
+Deleting kxympfisv
 Total Elements: 273
 Total Collisions: 0
-Deleting kplfbyzm
+Deleting morxwwsi
 Total Elements: 272
 Total Collisions: 0
-Deleting imdlxm
+Deleting ucvlerxu
 Total Elements: 271
 Total Collisions: 0
-Deleting ydaxyjne
+Deleting wmrbfexb
 Total Elements: 270
 Total Collisions: 0
-Deleting xsjjbhi
+Deleting tkgeiutv
 Total Elements: 269
 Total Collisions: 0
-Deleting nvocdenqm
+Deleting cmfjndttd
 Total Elements: 268
 Total Collisions: 0
-Deleting ilxxzoq
+Deleting zdxrsoflk
 Total Elements: 267
 Total Collisions: 0
-Deleting otpikpqu
+Deleting iyzls
 Total Elements: 266
 Total Collisions: 0
-Deleting momikp
+Deleting ninhslh
 Total Elements: 265
 Total Collisions: 0
-Deleting zhdhfqsgbx
+Deleting eobpv
 Total Elements: 264
 Total Collisions: 0
-Deleting isyzwnh
+Deleting pqrayzze
 Total Elements: 263
 Total Collisions: 0
-Deleting yfvydfmp
+Deleting opiodf
 Total Elements: 262
 Total Collisions: 0
-Deleting womciudc
+Deleting zkkoc
 Total Elements: 261
 Total Collisions: 0
-Deleting yndgcn
+Deleting ybwqcywr
 Total Elements: 260
 Total Collisions: 0
-Deleting jitppmymxi
+Deleting rgbeddox
 Total Elements: 259
 Total Collisions: 0
-Deleting snebpyw
+Deleting wqrmytkym
 Total Elements: 258
 Total Collisions: 0
-Deleting gqsxd
+Deleting xpzovcuua
 Total Elements: 257
 Total Collisions: 0
-Deleting plwzfm
+Deleting lralt
 Total Elements: 256
 Total Collisions: 0
-Deleting oopyyifv
+Deleting limtsdp
 Total Elements: 255
 Total Collisions: 0
-Deleting mwwpg
+Deleting gviftksza
 Total Elements: 254
 Total Collisions: 0
-Deleting ljeawpva
+Deleting gnxbnvrcvb
 Total Elements: 253
 Total Collisions: 0
-Deleting ihoxuu
+Deleting jtebjqms
 Total Elements: 252
 Total Collisions: 0
-Deleting fbrwhpev
+Deleting qvwdgw
 Total Elements: 251
 Total Collisions: 0
-Deleting oqrgr
+Deleting tmhreneafk
 Total Elements: 250
 Total Collisions: 0
-Deleting wzhibnork
+Deleting qhcixplcx
 Total Elements: 249
 Total Collisions: 0
-Deleting zmlbzf
+Deleting szqlqudha
 Total Elements: 248
 Total Collisions: 0
-Deleting xunrkl
+Deleting pmpqlsjhe
 Total Elements: 247
 Total Collisions: 0
-Deleting bvpszznop
+Deleting gogyitku
 Total Elements: 246
 Total Collisions: 0
-Deleting gaxzgfltls
+Deleting dnisxxpla
 Total Elements: 245
 Total Collisions: 0
-Deleting btumiloclt
+Deleting upcpp
 Total Elements: 244
 Total Collisions: 0
-Deleting cozgt
+Deleting gghpibl
 Total Elements: 243
 Total Collisions: 0
-Deleting iufuzimxee
+Deleting xufaclcypo
 Total Elements: 242
 Total Collisions: 0
-Deleting wnysbicrf
+Deleting ievoqgo
 Total Elements: 241
 Total Collisions: 0
-Deleting diogcseo
+Deleting pkwfnmegj
 Total Elements: 240
 Total Collisions: 0
-Deleting pscrhjot
+Deleting imiieeil
 Total Elements: 239
 Total Collisions: 0
-Deleting czcwmba
+Deleting olmooyp
 Total Elements: 238
 Total Collisions: 0
-Deleting olsvubp
+Deleting hgjfhc
 Total Elements: 237
 Total Collisions: 0
-Deleting lonmwajgx
+Deleting vqqzua
 Total Elements: 236
 Total Collisions: 0
-Deleting gyzaoven
+Deleting wdqwjbq
 Total Elements: 235
 Total Collisions: 0
-Deleting vocikqjt
+Deleting rgbezenr
 Total Elements: 234
 Total Collisions: 0
-Deleting gvenkspp
+Deleting rmwpibx
 Total Elements: 233
 Total Collisions: 0
-Deleting wplhxtgyb
+Deleting mhsmbakab
 Total Elements: 232
 Total Collisions: 0
-Deleting majeyfaxeg
+Deleting cyreot
 Total Elements: 231
 Total Collisions: 0
-Deleting eijikcm
+Deleting fmqpbogpk
 Total Elements: 230
 Total Collisions: 0
-Deleting uclaai
+Deleting uwavjmg
 Total Elements: 229
 Total Collisions: 0
-Deleting issisiy
+Deleting ecumr
 Total Elements: 228
 Total Collisions: 0
-Deleting pnzdubpt
+Deleting tehgkxit
 Total Elements: 227
 Total Collisions: 0
-Deleting avesz
+Deleting lvfmnkc
 Total Elements: 226
 Total Collisions: 0
-Deleting ippqmot
+Deleting irvuazs
 Total Elements: 225
 Total Collisions: 0
-Deleting hkudnv
+Deleting zieohady
 Total Elements: 224
 Total Collisions: 0
-Deleting zbkatne
+Deleting eoydxdsm
 Total Elements: 223
 Total Collisions: 0
-Deleting ulgexk
+Deleting dqcdyacobb
 Total Elements: 222
 Total Collisions: 0
-Deleting rmhddaps
+Deleting pxzojz
 Total Elements: 221
 Total Collisions: 0
-Deleting ptfvo
+Deleting nsodoj
 Total Elements: 220
 Total Collisions: 0
-Deleting ujiuwb
+Deleting hjpucefyo
 Total Elements: 219
 Total Collisions: 0
-Deleting ibructt
+Deleting nxhxjkx
 Total Elements: 218
 Total Collisions: 0
-Deleting rvznjrc
+Deleting hhldk
 Total Elements: 217
 Total Collisions: 0
-Deleting jwzwmo
+Deleting vnhmuvjzzt
 Total Elements: 216
 Total Collisions: 0
-Deleting ecrznjkfrv
+Deleting vingyavtd
 Total Elements: 215
 Total Collisions: 0
-Deleting rmrdwroao
+Deleting jhnddqd
 Total Elements: 214
 Total Collisions: 0
-Deleting qpktlmw
+Deleting ruwdkqg
 Total Elements: 213
 Total Collisions: 0
-Deleting wtnuamqelr
+Deleting nmzpkung
 Total Elements: 212
 Total Collisions: 0
-Deleting bgbijil
+Deleting vsmmlqhpr
 Total Elements: 211
 Total Collisions: 0
-Deleting hiiullto
+Deleting yvsdo
 Rehashing for Deletion
-Total Probes: 889
-Avereage Probes: 0.889
+Total Probes: 1587
+Avereage Probes: 1.587
+Load Factor: 0.995261
+Maximum Chain Length: 5
 Total Elements: 210
 Total Collisions: 0
-Deleting beflwlpb
+Deleting nbqgtzx
 Total Elements: 209
 Total Collisions: 0
-Deleting yffhbavhfu
+Deleting qwznzuuwge
 Total Elements: 208
 Total Collisions: 0
-Deleting hlind
+Deleting notey
 Total Elements: 207
 Total Collisions: 0
-Deleting dfpekxglix
+Deleting xcfyzjrgx
 Total Elements: 206
 Total Collisions: 0
-Deleting axxtolhg
+Deleting cekebdsm
 Total Elements: 205
 Total Collisions: 0
-Deleting vwxkyvul
+Deleting mkanfhw
 Total Elements: 204
 Total Collisions: 0
-Deleting yjefl
+Deleting ynizcx
 Total Elements: 203
 Total Collisions: 0
-Deleting oqzhltmg
+Deleting qebobx
 Total Elements: 202
 Total Collisions: 0
-Deleting ujdcuugn
+Deleting camob
 Total Elements: 201
 Total Collisions: 0
-Deleting otlotcpbny
+Deleting bjizdp
 Total Elements: 200
 Total Collisions: 0
-Deleting hejegcmfpt
+Deleting nqxgywzj
 Total Elements: 199
 Total Collisions: 0
-Deleting mveghmf
+Deleting tawxugkheg
 Total Elements: 198
 Total Collisions: 0
-Deleting mvklsqfu
+Deleting vzoastq
 Total Elements: 197
 Total Collisions: 0
-Deleting vxctep
+Deleting buqyszszkf
 Total Elements: 196
 Total Collisions: 0
-Deleting mljohzxxoo
+Deleting cmmpli
 Total Elements: 195
 Total Collisions: 0
-Deleting nvlayguokq
+Deleting qsrbfbyfoz
 Total Elements: 194
 Total Collisions: 0
-Deleting auptyvjafz
+Deleting zcqzbguxt
 Total Elements: 193
 Total Collisions: 0
-Deleting kqtaxjlr
+Deleting uihzywmk
 Total Elements: 192
 Total Collisions: 0
-Deleting rukkki
+Deleting ddjlpwzt
 Total Elements: 191
 Total Collisions: 0
-Deleting jmxqr
+Deleting ycvapzher
 Total Elements: 190
 Total Collisions: 0
-Deleting azlpdevpez
+Deleting oqasjntdtu
 Total Elements: 189
 Total Collisions: 0
-Deleting bwshvpckld
+Deleting yaxvwmaxy
 Total Elements: 188
 Total Collisions: 0
-Deleting givlq
+Deleting oogbs
 Total Elements: 187
 Total Collisions: 0
-Deleting irqvwq
+Deleting yrgtircw
 Total Elements: 186
 Total Collisions: 0
-Deleting uyxpixqir
+Deleting eqsna
 Total Elements: 185
 Total Collisions: 0
-Deleting uqamffs
+Deleting olwltgtk
 Total Elements: 184
 Total Collisions: 0
-Deleting vntguxes
+Deleting sdlmfzl
 Total Elements: 183
 Total Collisions: 0
-Deleting drnww
+Deleting sjsyberwe
 Total Elements: 182
 Total Collisions: 0
-Deleting qkdozfpkdu
+Deleting wtkvrljj
 Total Elements: 181
 Total Collisions: 0
-Deleting lifzdpohc
+Deleting wsunhmoq
 Total Elements: 180
 Total Collisions: 0
-Deleting ubkurehrq
+Deleting qvqrsposd
 Total Elements: 179
 Total Collisions: 0
-Deleting bxajefbf
+Deleting pmefldsqg
 Total Elements: 178
 Total Collisions: 0
-Deleting kzbpkapbsz
+Deleting qikxz
 Total Elements: 177
 Total Collisions: 0
-Deleting spdaaoxra
+Deleting xsbsn
 Total Elements: 176
 Total Collisions: 0
-Deleting jotjufstu
+Deleting yydyvzd
 Total Elements: 175
 Total Collisions: 0
-Deleting tjhudpetsg
+Deleting mbxzneosip
 Total Elements: 174
 Total Collisions: 0
-Deleting zuigusnwly
+Deleting nakuynw
 Total Elements: 173
 Total Collisions: 0
-Deleting vfnkkmsdbu
+Deleting jwijk
 Total Elements: 172
 Total Collisions: 0
-Deleting vhfqtd
+Deleting sgykqlmdcd
 Total Elements: 171
 Total Collisions: 0
-Deleting tnlewf
+Deleting vuzwgso
 Total Elements: 170
 Total Collisions: 0
-Deleting uuhtainke
+Deleting leslpsl
 Total Elements: 169
 Total Collisions: 0
-Deleting bvzhtqbkdb
+Deleting odwdzvl
 Total Elements: 168
 Total Collisions: 0
-Deleting vhbsnjbtv
+Deleting eytyljz
 Total Elements: 167
 Total Collisions: 0
-Deleting tqnbchiw
+Deleting pybeqiqku
 Total Elements: 166
 Total Collisions: 0
-Deleting uqlzsmxv
+Deleting mlbwxsdxjg
 Total Elements: 165
 Total Collisions: 0
-Deleting jtvquiti
+Deleting ewljf
 Total Elements: 164
 Total Collisions: 0
-Deleting yhzpxc
+Deleting jcohodp
 Total Elements: 163
 Total Collisions: 0
-Deleting jwikfa
+Deleting bfcqz
 Total Elements: 162
 Total Collisions: 0
-Deleting canchxssjl
+Deleting gejueerb
 Total Elements: 161
 Total Collisions: 0
-Deleting hlyoebc
+Deleting gaijkjp
 Total Elements: 160
 Total Collisions: 0
-Deleting nsqfzxx
+Deleting aksjry
 Total Elements: 159
 Total Collisions: 0
-Deleting gliue
+Deleting zymnsqxff
 Total Elements: 158
 Total Collisions: 0
-Deleting obcfpv
+Deleting tahudtpgz
 Total Elements: 157
 Total Collisions: 0
-Deleting yrrpkege
+Deleting ihfmhhvbdq
 Total Elements: 156
 Total Collisions: 0
-Deleting pvlhx
+Deleting bcvhm
 Total Elements: 155
 Total Collisions: 0
-Deleting eocmerjmz
+Deleting quefli
 Total Elements: 154
 Total Collisions: 0
-Deleting udtsq
+Deleting rixotcjl
 Total Elements: 153
 Total Collisions: 0
-Deleting ozvejnrti
+Deleting nskbvafoz
 Total Elements: 152
 Total Collisions: 0
-Deleting vnjepfqd
+Deleting wzgqyi
 Total Elements: 151
 Total Collisions: 0
-Deleting mvstmmwww
+Deleting rcwrucrwhd
 Total Elements: 150
 Total Collisions: 0
-Deleting knnrmqm
+Deleting ibwvayhk
 Total Elements: 149
 Total Collisions: 0
-Deleting ccpaow
+Deleting lppkans
 Total Elements: 148
 Total Collisions: 0
-Deleting zfeurgpbf
+Deleting jhacbf
 Total Elements: 147
 Total Collisions: 0
-Deleting yedqjr
+Deleting mvwyvibwqa
 Total Elements: 146
 Total Collisions: 0
-Deleting tmymhyso
+Deleting kycezwhruw
 Total Elements: 145
 Total Collisions: 0
-Deleting cwuoh
+Deleting cxbow
 Total Elements: 144
 Total Collisions: 0
-Deleting erebeacazu
+Deleting islbvwx
 Total Elements: 143
 Total Collisions: 0
-Deleting joxyipmsgu
+Deleting aswzwjpq
 Total Elements: 142
 Total Collisions: 0
-Deleting jiwlcf
+Deleting fgjap
 Total Elements: 141
 Total Collisions: 0
-Deleting wxteyyqdh
+Deleting eromkp
 Total Elements: 140
 Total Collisions: 0
-Deleting wjhiud
+Deleting rpnchiygc
 Total Elements: 139
 Total Collisions: 0
-Deleting hyxyoxbsc
+Deleting yswufmgk
 Total Elements: 138
 Total Collisions: 0
-Deleting ftdrqelxf
+Deleting lsxqft
 Total Elements: 137
 Total Collisions: 0
-Deleting cfbbjjyfsv
+Deleting agjxy
 Total Elements: 136
 Total Collisions: 0
-Deleting vsapd
+Deleting tyopsocun
 Total Elements: 135
 Total Collisions: 0
-Deleting hakgdvh
+Deleting ieekocaoz
 Total Elements: 134
 Total Collisions: 0
-Deleting fmcez
+Deleting kpmiettvgs
 Total Elements: 133
 Total Collisions: 0
-Deleting gjcmhxlh
+Deleting goekd
 Total Elements: 132
 Total Collisions: 0
-Deleting sqkauqlnf
+Deleting pkqwvpk
 Total Elements: 131
 Total Collisions: 0
-Deleting ggtagrnffm
+Deleting lbumpmxka
 Total Elements: 130
 Total Collisions: 0
-Deleting pinwle
+Deleting uqincvyyey
 Total Elements: 129
 Total Collisions: 0
-Deleting rqxisbfn
+Deleting xairzov
 Total Elements: 128
 Total Collisions: 0
-Deleting jzqvoxku
+Deleting vhzyp
 Total Elements: 127
 Total Collisions: 0
-Deleting ylzcrupmi
+Deleting zckrgrqzad
 Total Elements: 126
 Total Collisions: 0
-Deleting acpjzsna
+Deleting wcfmsjhbb
 Total Elements: 125
 Total Collisions: 0
-Deleting lmnuqnbdi
+Deleting pqllmmtz
 Total Elements: 124
 Total Collisions: 0
-Deleting zlujqvnfjx
+Deleting nijvaz
 Total Elements: 123
 Total Collisions: 0
-Deleting vkczfkzzjq
+Deleting foaqqqm
 Total Elements: 122
 Total Collisions: 0
-Deleting aqpohygjsj
+Deleting srcggzsg
 Total Elements: 121
 Total Collisions: 0
-Deleting akzrsosy
+Deleting krwhrmuca
 Total Elements: 120
 Total Collisions: 0
-Deleting hquhkjcjy
+Deleting xmbldj
 Total Elements: 119
 Total Collisions: 0
-Deleting gtedogfur
+Deleting feybqjtw
 Total Elements: 118
 Total Collisions: 0
-Deleting xiyqufoti
+Deleting rsgufchewz
 Total Elements: 117
 Total Collisions: 0
-Deleting jmwhyilth
+Deleting zdhpnyz
 Total Elements: 116
 Total Collisions: 0
-Deleting oevlwlr
+Deleting bkawff
 Total Elements: 115
 Total Collisions: 0
-Deleting pwpzhsvb
+Deleting ifehqxvoho
 Total Elements: 114
 Total Collisions: 0
-Deleting zvtvhwycfz
+Deleting rftcuazkti
 Total Elements: 113
 Total Collisions: 0
-Deleting maomafsy
+Deleting gtaajozu
 Total Elements: 112
 Total Collisions: 0
-Deleting yrqpizte
+Deleting placqech
 Total Elements: 111
 Total Collisions: 0
-Deleting oxgth
+Deleting lslpzgspo
 Total Elements: 110
 Total Collisions: 0
-Deleting xsmxjrwp
+Deleting uvgejsmkqr
 Total Elements: 109
 Total Collisions: 0
-Deleting ursgwth
+Deleting yuuyvp
 Total Elements: 108
 Total Collisions: 0
-Deleting ilgdhzfz
+Deleting pqacbxvty
 Total Elements: 107
 Total Collisions: 0
-Deleting xadtklh
+Deleting airjiibinf
 Rehashing for Deletion
-Total Probes: 954
-Avereage Probes: 0.954
+Total Probes: 1616
+Avereage Probes: 1.616
+Load Factor: 0.990654
+Maximum Chain Length: 6
 Total Elements: 106
 Total Collisions: 0
-Deleting hqzfd
+Deleting yxbcqmlk
 Total Elements: 105
 Total Collisions: 0
-Deleting msrueec
+Deleting jzvpat
 Total Elements: 104
 Total Collisions: 0
-Deleting kqkrud
+Deleting hgiwdlrhii
 Total Elements: 103
 Total Collisions: 0
-Deleting mzgdtnhmiv
+Deleting acfyhgndu
 Total Elements: 102
 Total Collisions: 0
-Deleting nkclga
+Deleting fcwlotetb
 Total Elements: 101
 Total Collisions: 0
-Deleting ygydqdhl
+Deleting gqwjvkz
 Total Elements: 100
 Total Collisions: 0
-Deleting rsthidzyqa
+Deleting taqdwlie
 Total Elements: 99
 Total Collisions: 0
-Deleting fnovktqc
+Deleting thchzxuytz
 Total Elements: 98
 Total Collisions: 0
-Deleting tchcoli
+Deleting nsyxd
 Total Elements: 97
 Total Collisions: 0
-Deleting eiytymrj
+Deleting vsgqiumg
 Total Elements: 96
 Total Collisions: 0
-Deleting cyoeivd
+Deleting pggmhnkla
 Total Elements: 95
 Total Collisions: 0
-Deleting hphlj
+Deleting eyylpj
 Total Elements: 94
 Total Collisions: 0
-Deleting hezohmiu
+Deleting ymbvrqbqtf
 Total Elements: 93
 Total Collisions: 0
-Deleting cpblvw
+Deleting vppqmiupw
 Total Elements: 92
 Total Collisions: 0
-Deleting ajiqugtao
+Deleting xwehrcqc
 Total Elements: 91
 Total Collisions: 0
-Deleting memjl
+Deleting tsvjpqa
 Total Elements: 90
 Total Collisions: 0
-Deleting goxprurt
+Deleting ksmwp
 Total Elements: 89
 Total Collisions: 0
-Deleting mkktdbn
+Deleting gghmqh
 Total Elements: 88
 Total Collisions: 0
-Deleting xwttg
+Deleting xrcfltr
 Total Elements: 87
 Total Collisions: 0
-Deleting eqimlhczt
+Deleting jxzbprqhx
 Total Elements: 86
 Total Collisions: 0
-Deleting typhm
+Deleting hbxim
 Total Elements: 85
 Total Collisions: 0
-Deleting qdsuyvk
+Deleting tagblb
 Total Elements: 84
 Total Collisions: 0
-Deleting joplmzd
+Deleting rwapdxvdb
 Total Elements: 83
 Total Collisions: 0
-Deleting akpjvozim
+Deleting kpmofek
 Total Elements: 82
 Total Collisions: 0
-Deleting xxqhduiq
+Deleting pviyb
 Total Elements: 81
 Total Collisions: 0
-Deleting dlngwgo
+Deleting igydpqbiut
 Total Elements: 80
 Total Collisions: 0
-Deleting oupne
+Deleting vggtodcwk
 Total Elements: 79
 Total Collisions: 0
-Deleting ksdgpmhh
+Deleting vbyvfuh
 Total Elements: 78
 Total Collisions: 0
-Deleting aqbsqrfpdr
+Deleting qbczgvzv
 Total Elements: 77
 Total Collisions: 0
-Deleting ykhbutsnu
+Deleting yqfhbhvvf
 Total Elements: 76
 Total Collisions: 0
-Deleting jppgdee
+Deleting tamapwmisa
 Total Elements: 75
 Total Collisions: 0
-Deleting jgsdyfoe
+Deleting ahlwne
 Total Elements: 74
 Total Collisions: 0
-Deleting qqnlemkim
+Deleting cldwepp
 Total Elements: 73
 Total Collisions: 0
-Deleting pecehlbtm
+Deleting rkfgwktbqj
 Total Elements: 72
 Total Collisions: 0
-Deleting wnkdxymecl
+Deleting byauirav
 Total Elements: 71
 Total Collisions: 0
-Deleting shvkm
+Deleting yrgkdb
 Total Elements: 70
 Total Collisions: 0
-Deleting wjxes
+Deleting hyems
 Total Elements: 69
 Total Collisions: 0
-Deleting oihmlg
+Deleting ejvrjiuijk
 Total Elements: 68
 Total Collisions: 0
-Deleting xiljvwll
+Deleting viwhazrj
 Total Elements: 67
 Total Collisions: 0
-Deleting pnjzywcpam
+Deleting heiamabf
 Total Elements: 66
 Total Collisions: 0
-Deleting vwtyg
+Deleting xenxgepeo
 Total Elements: 65
 Total Collisions: 0
-Deleting phifubtt
+Deleting jsceubyqtk
 Total Elements: 64
 Total Collisions: 0
-Deleting wnphdbyt
+Deleting hdkpka
 Total Elements: 63
 Total Collisions: 0
-Deleting odclrjprs
+Deleting akldtl
 Total Elements: 62
 Total Collisions: 0
-Deleting qwrdwsvyn
+Deleting ggwcehhga
 Total Elements: 61
 Total Collisions: 0
-Deleting gfraz
+Deleting zgaeqng
 Total Elements: 60
 Total Collisions: 0
-Deleting aodggxww
+Deleting ncpsd
 Total Elements: 59
 Total Collisions: 0
-Deleting tjqujrmcdp
-Rehashing for Deletion
-Total Probes: 953
-Avereage Probes: 0.953
+Deleting nmwisziwf
 Total Elements: 58
 Total Collisions: 0
-Deleting mjryledhu
+Deleting abocae
 Total Elements: 57
 Total Collisions: 0
-Deleting hwkhzktn
+Deleting ifyhku
 Total Elements: 56
 Total Collisions: 0
-Deleting ytgjpmmgv
+Deleting detovw
 Total Elements: 55
 Total Collisions: 0
-Deleting jcnjgzuh
+Deleting lahaizq
 Total Elements: 54
 Total Collisions: 0
-Deleting qqsld
+Deleting nafwowse
 Total Elements: 53
 Total Collisions: 0
-Deleting csfojswrqc
+Deleting dpwvwwolnf
+Rehashing for Deletion
+Total Probes: 1603
+Avereage Probes: 1.603
+Load Factor: 0.981132
+Maximum Chain Length: 3
 Total Elements: 52
 Total Collisions: 0
-Deleting bqyxaagi
+Deleting nsxyfhomfp
 Total Elements: 51
 Total Collisions: 0
-Deleting pvtxdo
+Deleting czslqcc
 Total Elements: 50
 Total Collisions: 0
-Deleting peashnro
+Deleting ldekubtbkn
 Total Elements: 49
 Total Collisions: 0
-Deleting uvogldxh
+Deleting qdcehsfo
 Total Elements: 48
 Total Collisions: 0
-Deleting prngsoq
+Deleting hrkjomn
 Total Elements: 47
 Total Collisions: 0
-Deleting jfqtex
+Deleting mjkzosrid
 Total Elements: 46
 Total Collisions: 0
-Deleting rwizzoeow
+Deleting dqelyiphe
 Total Elements: 45
 Total Collisions: 0
-Deleting qezdlmw
+Deleting ouihcbsbh
 Total Elements: 44
 Total Collisions: 0
-Deleting fcozv
+Deleting ntepgmhqt
 Total Elements: 43
 Total Collisions: 0
-Deleting ciewgke
+Deleting gxlan
 Total Elements: 42
 Total Collisions: 0
-Deleting fgrcy
+Deleting nqdombpfyl
 Total Elements: 41
 Total Collisions: 0
-Deleting zsahpszo
+Deleting gwwfwl
 Total Elements: 40
 Total Collisions: 0
-Deleting rixwxk
+Deleting liriyhnca
 Total Elements: 39
 Total Collisions: 0
-Deleting iclqljtk
+Deleting mpmvuf
 Total Elements: 38
 Total Collisions: 0
-Deleting nbimpdkyeb
+Deleting atteaxsfsa
 Total Elements: 37
 Total Collisions: 0
-Deleting wlfkffrlz
+Deleting ilkxzr
 Total Elements: 36
 Total Collisions: 0
-Deleting mkvmhnlc
+Deleting dhtcz
 Total Elements: 35
 Total Collisions: 0
-Deleting vwhwztz
+Deleting lsnkbmmmiq
 Total Elements: 34
 Total Collisions: 0
-Deleting bxjcrtuvtx
+Deleting ozavffyfln
 Total Elements: 33
 Total Collisions: 0
-Deleting kidxhoafye
+Deleting dcgkbrotyt
 Total Elements: 32
 Total Collisions: 0
-Deleting yvizvoz
+Deleting gkwja
 Total Elements: 31
 Total Collisions: 0
-Deleting qorqmql
-Rehashing for Deletion
-Total Probes: 924
-Avereage Probes: 0.924
+Deleting dgwuz
 Total Elements: 30
 Total Collisions: 0
-Deleting sixrn
+Deleting nrqabph
 Total Elements: 29
 Total Collisions: 0
-Deleting rzoowrv
+Deleting kgcrvdnbh
+Rehashing for Deletion
+Total Probes: 1609
+Avereage Probes: 1.609
+Load Factor: 0.965517
+Maximum Chain Length: 4
 Total Elements: 28
 Total Collisions: 0
-Deleting pmibh
+Deleting brytsj
 Total Elements: 27
 Total Collisions: 0
-Deleting yffuvkoukd
+Deleting gyoqpsccip
 Total Elements: 26
 Total Collisions: 0
-Deleting jcvxqgl
+Deleting xunyom
 Total Elements: 25
 Total Collisions: 0
-Deleting chjag
+Deleting jugshrhcyr
 Total Elements: 24
 Total Collisions: 0
-Deleting uehpnhkyc
+Deleting ijjpjhqya
 Total Elements: 23
 Total Collisions: 0
-Deleting mjtglu
+Deleting tufoeacqe
 Total Elements: 22
 Total Collisions: 0
-Deleting hrbefjjfyt
+Deleting ablztmbdr
 Total Elements: 21
 Total Collisions: 0
-Deleting xlbnvmdws
+Deleting tmkorael
 Total Elements: 20
 Total Collisions: 0
-Deleting xhgsc
+Deleting zmufjadpg
 Total Elements: 19
 Total Collisions: 0
-Deleting hyjgdfgnwf
+Deleting ajwhd
 Total Elements: 18
 Total Collisions: 0
-Deleting dtlkhpek
+Deleting otrnxyu
 Total Elements: 17
 Total Collisions: 0
-Deleting jncylcqm
+Deleting xiwwlwfoxs
 Rehashing for Deletion
-Total Probes: 905
-Avereage Probes: 0.905
+Total Probes: 1493
+Avereage Probes: 1.493
+Load Factor: 0.941176
+Maximum Chain Length: 3
 Total Elements: 16
 Total Collisions: 0
-Deleting syghw
+Deleting ktmqjf
 Total Elements: 15
 Total Collisions: 0
-Deleting vaeqjkzm
+Deleting atvnazdddo
 Total Elements: 14
 Total Collisions: 0
-Deleting iydlxdjo
+Deleting vxwvleie
 Total Elements: 13
 Total Collisions: 0
-Deleting nscghbtu
+Deleting lpigfuj
 Total Elements: 12
 Total Collisions: 0
-Deleting wzums
+Deleting nenvsmn
 Total Elements: 11
 Total Collisions: 0
-Deleting oykiidfwf
+Deleting lxcuh
 Rehashing for Deletion
-Total Probes: 888
-Avereage Probes: 0.888
+Total Probes: 1560
+Avereage Probes: 1.56
+Load Factor: 0.909091
+Maximum Chain Length: 3
 Total Elements: 10
 Total Collisions: 0
-Deleting yaaaymoivf
+Deleting nekxy
 Total Elements: 9
 Total Collisions: 0
-Deleting jlrwyaxawg
+Deleting siddqe
 Total Elements: 8
 Total Collisions: 0
-Deleting urbrnbera
+Deleting cioubocb
 Total Elements: 7
 Total Collisions: 0
-Deleting sxtkaque
-Rehashing for Deletion
-Total Probes: 859
-Avereage Probes: 0.859
+Deleting hwkoocrubk
 Total Elements: 6
 Total Collisions: 0
-Deleting jfcewctb
+Deleting ypytc
 Total Elements: 5
 Total Collisions: 0
-Deleting jtpqdljh
+Deleting lexcsraj
 Rehashing for Deletion
-Total Probes: 794
-Avereage Probes: 0.794
+Total Probes: 1392
+Avereage Probes: 1.392
+Load Factor: 0.8
+Maximum Chain Length: 2
 Total Elements: 4
 Total Collisions: 0
-Deleting hjobmar
+Deleting khpobl
+Rehashing for Deletion
+Total Probes: 2509
+Avereage Probes: 2.509
+Load Factor: 1.5
+Maximum Chain Length: 2
 Total Elements: 3
 Total Collisions: 0
-Deleting uqwsokldz
+Deleting wpzkmiznel
 Rehashing for Deletion
-Total Probes: 677
-Avereage Probes: 0.677
+Total Probes: 1998
+Avereage Probes: 1.998
+Load Factor: 1
+Maximum Chain Length: 1
 Total Elements: 2
 Total Collisions: 0
-Deleting csfacxfzx
+Deleting clukyxszg
 Rehashing for Deletion
-Total Probes: 506
-Avereage Probes: 0.506
+Total Probes: 1025
+Avereage Probes: 1.025
+Load Factor: 0.5
+Maximum Chain Length: 1
 Total Elements: 1
 Total Collisions: 0
-Deleting jqoverscjz
+Deleting wlzolq
 Rehashing for Deletion
 Total Probes: 0
 Avereage Probes: 0
+Load Factor: 0
+Maximum Chain Length: 0
 Total Elements: 0
 Total Collisions: 0
-
-
 
 

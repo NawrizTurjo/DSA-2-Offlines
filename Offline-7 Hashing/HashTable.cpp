@@ -50,9 +50,9 @@ class HashTable
 
     int nextPrime(int N)
     {
-        if (isPrime(N + 1))
+        if (isPrime(N))
         {
-            return N + 1;
+            return N;
         }
         return nextPrime(N + 1);
     }
@@ -68,6 +68,11 @@ class HashTable
             }
         }
         return max;
+    }
+
+    double LoadFactor()
+    {
+        return (double)elements / currentTableSize;
     }
 
 public:
@@ -88,7 +93,10 @@ public:
         int index = stringToInt(str);
         // cout << "insert--checking" << endl;
         // cout << index << endl;
-        if (hash[index].size() >= maxChainLength)
+        if (hash[index].size() >= maxChainLength
+            // || elements / currentTableSize > 0.2
+            // || probes / (0.1 * currentTableSize) > 2
+            || currentTableSize > 100 && probes / (0.1 * currentTableSize) > 2)
         {
             reHash(true);
             index = stringToInt(str);
@@ -130,7 +138,7 @@ public:
             //     reHash(false);
             // }
 
-            if(elements/currentTableSize < 0.2)
+            if (elements / currentTableSize < 0.2 || currMaxLength() < maxChainLength * 0.8)
             {
                 reHash(false);
             }
@@ -154,6 +162,7 @@ public:
             return false; // search failed
 
         // cout << "search2" << endl;
+        probes++;
         for (auto s : currList)
         {
             if (s == str)
@@ -193,6 +202,8 @@ public:
         }
         cout << "Total Probes: " << probes << endl;
         cout << "Avereage Probes: " << (double)probes / 1000 << endl;
+        cout << "Load Factor: " << (double)elements / currentTableSize << endl;
+        cout << "Maximum Chain Length: " << currMaxLength() << endl;
 
         // fclose(stdin);
         collisions = 0; // as new Hash
@@ -246,6 +257,10 @@ public:
 string randomWordGenerator()
 {
     // srand(500);
+    static int counter = 0; // Static variable to keep track of the number of calls
+    srand(time(nullptr) + counter * counter); // Seed the random number generator with current time + counter
+    counter++; // Increment the counter for the next call
+
     int len = (rand() % (10 - 5 + 1)) + 5;
     // cout << len << endl;
 
@@ -274,6 +289,7 @@ int main()
         v[i] = s;
         h.insert(s);
     }
+    h.printHash();
 
     for (int i = 0; i < 1000; i++)
     {
@@ -282,6 +298,5 @@ int main()
 
     cout << endl
          << endl;
-    h.printHash();
     fclose(stdout);
 }
