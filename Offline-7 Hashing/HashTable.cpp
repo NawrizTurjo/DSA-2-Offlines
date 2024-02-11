@@ -12,7 +12,7 @@ class HashTable
     int minTableSize;
     int elements;
     int maxChainLength;
-    pair<int, int> currMax;
+    // pair<int, int> currMax;
 
     int stringToInt(string str)
     {
@@ -57,12 +57,25 @@ class HashTable
         return nextPrime(N + 1);
     }
 
+    int currMaxLength()
+    {
+        int max = 0;
+        for (auto i : hash)
+        {
+            if (i.size() > max)
+            {
+                max = i.size();
+            }
+        }
+        return max;
+    }
+
 public:
     HashTable(int size = DEFAULT_SIZE, int maxChainLength = DEFAULT_CHAIN) : currentTableSize(nextPrime(size)), elements(0), maxChainLength(maxChainLength), probes(0), collisions(0)
     {
         hash.resize(currentTableSize);
         minTableSize = currentTableSize;
-        currMax = {0, 0};
+        // currMax = {0, 0};
     }
     void insert(string str)
     {
@@ -86,10 +99,10 @@ public:
             collisions++;
         }
 
-        if (hash[index].size() > currMax.second)
-        {
-            currMax = {index, hash[index].size()};
-        }
+        // if (hash[index].size() > currMax.second)
+        // {
+        //     currMax = {index, hash[index].size()};
+        // }
 
         hash[index].push_front(str);
         elements++;
@@ -112,17 +125,14 @@ public:
             hash[index].erase(it);
             elements--;
 
-            // Check if maximum chain length has fallen below 0.8 * currentTableSize
-            if (maxChainLength < 0.8 * currentTableSize)
-            {
-                // Calculate new table size (approximately half the size)
-                int newSize = max(currentTableSize / 2, minTableSize);
+            // if (currMaxLength() < maxChainLength * 0.8 && elements >= minTableSize)
+            // {
+            //     reHash(false);
+            // }
 
-                // Rehash if the new table size is different from the current size
-                if (newSize != currentTableSize)
-                {
-                    reHash(false); // Rehash with the new table size
-                }
+            if(elements/currentTableSize < 0.2)
+            {
+                reHash(false);
             }
 
             cout << "Total Elements: " << elements << endl;
@@ -165,22 +175,24 @@ public:
 
     void reHash(bool state)
     {
-        cout << "reHashing" << endl
-             << endl;
-        printHash();
+        if (state)
+            cout << "Rehashing for Insertion" << endl;
+        else
+            cout << "Rehashing for Deletion" << endl;
+        // printHash();
         // freopen("string.txt", "r", stdin);
 
-        // int x = 0;
-        // probes = 0;
-        // while (x < 1000)
-        // {
-        //     string s;
-        //     s = v[x];
-        //     search(s);
-        //     x++;
-        // }
-        // cout << "Total Probes: " << probes << endl;
-        // cout << "Avereage Probes: " << (double)probes / 1000 << endl;
+        int x = 0;
+        probes = 0;
+        while (x < 1000)
+        {
+            string s;
+            s = v[x];
+            search(s);
+            x++;
+        }
+        cout << "Total Probes: " << probes << endl;
+        cout << "Avereage Probes: " << (double)probes / 1000 << endl;
 
         // fclose(stdin);
         collisions = 0; // as new Hash
@@ -252,18 +264,18 @@ string randomWordGenerator()
 int main()
 {
     // srand(500);
-    // freopen("output.txt", "w", stdout);
+    freopen("output.txt", "w", stdout);
     // freopen("string.txt", "w", stdout);
     HashTable h;
 
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 1000; i++)
     {
         string s = randomWordGenerator();
         v[i] = s;
         h.insert(s);
     }
 
-    for (int i = 0; i < 9; i++)
+    for (int i = 0; i < 1000; i++)
     {
         h.Delete(v[i]);
     }
@@ -271,5 +283,5 @@ int main()
     cout << endl
          << endl;
     h.printHash();
-    // fclose(stdout);
+    fclose(stdout);
 }
