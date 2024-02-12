@@ -2,10 +2,10 @@
 using namespace std;
 #define DEFAULT_SIZE 10
 #define DEFAULT_CHAIN 3
-vector<string> v(1010);
+vector<string> v(10010);
 class HashTable
 {
-    vector<list<string>> hash;
+    vector<list<pair<int, string>>> hash;
     int currentTableSize;
     int probes;
     int collisions;
@@ -13,6 +13,7 @@ class HashTable
     int elements;
     int maxChainLength;
     // pair<int, int> currMax;
+    int order;
 
     int stringToInt(string str)
     {
@@ -76,7 +77,7 @@ class HashTable
     }
 
 public:
-    HashTable(int size = DEFAULT_SIZE, int maxChainLength = DEFAULT_CHAIN) : currentTableSize(nextPrime(size)), elements(0), maxChainLength(maxChainLength), probes(0), collisions(0)
+    HashTable(int size = DEFAULT_SIZE, int maxChainLength = DEFAULT_CHAIN) : currentTableSize(nextPrime(size)), elements(0), maxChainLength(maxChainLength), probes(0), collisions(0), order(0)
     {
         hash.resize(currentTableSize);
         minTableSize = currentTableSize;
@@ -111,42 +112,42 @@ public:
         // {
         //     currMax = {index, hash[index].size()};
         // }
+        ++order;
 
-        hash[index].push_front(str);
+        hash[index].push_front({order, str});
         elements++;
 
-        cout << "Total Elements: " << elements << endl;
-        cout << "Total Collisions: " << collisions << endl;
+        // cout << "Total Elements: " << elements << endl;
+        // cout << "Total Collisions: " << collisions << endl;
     }
 
     bool Delete(string str)
     {
-        cout << "Deleting " << str << endl;
+        // cout << "Deleting " << str << endl;
         if (search(str) == false)
         {
             return false;
         }
         int index = stringToInt(str);
-        auto it = find(hash[index].begin(), hash[index].end(), str);
-        if (it != hash[index].end())
+        auto it = hash[index].begin();
+        while (it != hash[index].end())
         {
-            hash[index].erase(it);
-            elements--;
-
-            // if (currMaxLength() < maxChainLength * 0.8 && elements >= minTableSize)
-            // {
-            //     reHash(false);
-            // }
-
-            if (elements / currentTableSize < 0.2 || currMaxLength() < maxChainLength * 0.8)
+            if (it->second == str)
             {
-                reHash(false);
+                hash[index].erase(it);
+                elements--;
+
+                if (elements / currentTableSize < 0.2 || currMaxLength() < maxChainLength * 0.8)
+                {
+                    reHash(false);
+                }
+
+                // cout << "Total Elements: " << elements << endl;
+                // cout << "Total Collisions: " << collisions << endl;
+
+                return true;
             }
-
-            cout << "Total Elements: " << elements << endl;
-            cout << "Total Collisions: " << collisions << endl;
-
-            return true;
+            it++;
         }
         return false;
     }
@@ -156,7 +157,7 @@ public:
         // cout << "search" << endl;
         int index = stringToInt(str);
 
-        list<string> currList = hash[index];
+        list<pair<int, string>> currList = hash[index];
         // cout << currList.size() << endl;
         if (currList.size() == 0)
             return false; // search failed
@@ -165,7 +166,7 @@ public:
         probes++;
         for (auto s : currList)
         {
-            if (s == str)
+            if (s.second == str)
             {
                 return true;
             }
@@ -184,12 +185,14 @@ public:
 
     void reHash(bool state)
     {
-        if (state)
-            cout << "Rehashing for Insertion" << endl;
-        else
-            cout << "Rehashing for Deletion" << endl;
+        // if (state)
+        //     cout << "Rehashing for Insertion" << endl;
+        // else
+        //     cout << "Rehashing for Deletion" << endl;
+
         // printHash();
-        // freopen("string.txt", "r", stdin);
+        fclose(stdout);
+        freopen("CON", "w", stdin);
 
         int x = 0;
         probes = 0;
@@ -205,7 +208,8 @@ public:
         cout << "Load Factor: " << (double)elements / currentTableSize << endl;
         cout << "Maximum Chain Length: " << currMaxLength() << endl;
 
-        // fclose(stdin);
+        fclose(stdout);
+        freopen("output.txt", "w", stdout);
         collisions = 0; // as new Hash
         probes = 0;     // as new Hash
         if (state)      // T means insertion reHash
@@ -227,18 +231,31 @@ public:
         //     }
         // }
 
-        vector<list<string>> newHash(currentTableSize);
+        vector<list<pair<int, string>>> newHash(currentTableSize);
 
         for (auto i : hash)
         {
             for (auto j : i)
             {
-                int index = stringToInt(j);
+                int index = stringToInt(j.second);
                 newHash[index].push_front(j);
             }
         }
         hash.resize(0);
         hash = newHash;
+    }
+
+    double getAverageProbes(int num)
+    {
+        probes = 0;
+        for (int i = 0; i < num; i++)
+        {
+            search(v[i]);
+        }
+
+        cout << "probes -> " << probes << endl;
+
+        return (double)probes / (1.0 * num);
     }
 
     void printHash()
@@ -248,7 +265,7 @@ public:
 
             for (auto j : i)
             {
-                cout << j << " ";
+                cout << j.second << "-> " << j.first << " ";
             }
             cout << endl;
         }
@@ -257,9 +274,9 @@ public:
 string randomWordGenerator()
 {
     // srand(500);
-    static int counter = 0; // Static variable to keep track of the number of calls
-    srand(time(nullptr) + counter * counter); // Seed the random number generator with current time + counter
-    counter++; // Increment the counter for the next call
+    static int counter = 0;          // Static variable to keep track of the number of calls
+    srand(1000 + counter * counter); // Seed the random number generator with current time + counter
+    counter++;                       // Increment the counter for the next call
 
     int len = (rand() % (10 - 5 + 1)) + 5;
     // cout << len << endl;
@@ -283,20 +300,26 @@ int main()
     // freopen("string.txt", "w", stdout);
     HashTable h;
 
-    for (int i = 0; i < 1000; i++)
+    for (int i = 0; i < 10000; i++)
     {
         string s = randomWordGenerator();
         v[i] = s;
         h.insert(s);
     }
-    h.printHash();
 
-    for (int i = 0; i < 1000; i++)
-    {
-        h.Delete(v[i]);
-    }
+    cout << "Average Probes From Main:  " << h.getAverageProbes(1000) << endl;
+    // h.printHash();
 
-    cout << endl
-         << endl;
+    // for (int i = 0; i < 10000; i++)
+    // {
+    //     h.Delete(v[i]);
+    // }
+
+    // cout << endl
+    //      << endl;
     fclose(stdout);
+
+    // HashTable h1;
+    // h1.insert("abc");
+    // h1.printHash();
 }

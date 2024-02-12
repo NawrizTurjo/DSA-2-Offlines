@@ -1,11 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
-vector<string> v(1010);
+vector<string> v(20010);
 #define C1 32
 #define C2 115
 class DoubleHash
 {
-    vector<string> hash;
+    vector<pair<int, string>> hash;
     int minTableSize;
     int collisions;
     int elements;
@@ -13,6 +13,7 @@ class DoubleHash
     bool func;
     int probes;
     bool isCustom;
+    int order;
 
     int stringToInt(string str)
     {
@@ -106,7 +107,7 @@ class DoubleHash
     }
 
 public:
-    DoubleHash(int size = 10, bool func = true, string type = "double") : tableSize(nextPrime(max(size, 10))), elements(0), probes(0), collisions(0), func(func)
+    DoubleHash(int size = 10, bool func = true, string type = "double") : tableSize(nextPrime(max(size, 10))), elements(0), probes(0), collisions(0), func(func), order(0)
     {
         hash.resize(tableSize);
         if (type == "custom")
@@ -144,9 +145,11 @@ public:
                 index = (index + i * auxHash(s)) % tableSize;
             else
                 index = (index + C1 * i * auxHash(s) + C2 * i * i) % tableSize;
-            if (hash[index] == "")
+            if (hash[index].second == "")
             {
-                hash[index] = s;
+                ++order;
+                hash[index].first = order;
+                hash[index].second = s;
                 elements++;
                 return;
             }
@@ -177,9 +180,9 @@ public:
                 index = (index + i * auxHash(s)) % tableSize;
             else
                 index = (index + C1 * i * auxHash(s) + C2 * i * i) % tableSize;
-            if (hash[index] == s)
+            if (hash[index].second == s)
             {
-                hash[index] = "";
+                hash[index].second = "";
                 elements--;
                 return;
             }
@@ -199,27 +202,43 @@ public:
         //         return false;
         // }
 
+        probes++;
+
         for (int i = 0; i < tableSize; i++)
         {
             if (!isCustom)
                 index = (index + i * auxHash(s)) % tableSize;
             else
                 index = (index + C1 * i * auxHash(s) + C2 * i * i) % tableSize;
-            if (hash[index] == s)
+            if (hash[index].second == s)
                 return true;
+            probes++;
         }
         // return true;
         return false;
+    }
+
+    double getAverageProbes(int num)
+    {
+        probes = 0;
+        for (int i = 0; i < num; i++)
+        {
+            search(v[i]);
+        }
+
+        cout<<"probes -> "<<probes<<endl;
+
+        return (double) probes / (1.0 * num);
     }
 
     void printHash()
     {
         for (auto i : hash)
         {
-            if (i == "")
+            if (i.second == "")
                 cout << "empty slot" << endl;
             else
-                cout << i << endl;
+                cout << i.first << "-> " << i.second << " " << endl;
         }
     }
 };
@@ -249,47 +268,54 @@ string randomWordGenerator()
 
 int main()
 {
-    freopen("D_out.txt", "w", stdout);
-    DoubleHash h(15, false);
+    freopen("D_H1_out.txt", "w", stdout);
+    DoubleHash Dh1(10000, false);
 
-    for (int i = 0; i < 15; i++)
+    for (int i = 0; i < 10000; i++)
     {
         string s = randomWordGenerator();
         v[i] = s;
-        h.insert(s);
+        Dh1.insert(s);
 
         // h.printHash();
         // cout << endl
         //      << endl;
     }
 
-    h.printHash();
+    // h.printHash();
 
-    for (int i = 0; i < 15; i++)
-    {
-        // cout << "deleting----" << v[i] << endl;
-        h.Delete(v[i]);
-        // h.printHash();
-        // cout << endl
-        //      << endl;
-    }
+    // for (int i = 0; i < 1000; i++)
+    // {
+    //     h.search(v[i]);
+    // }
+    cout << Dh1.getAverageProbes(1000) << endl;
+
+
+    // for (int i = 0; i < 1000; i++)
+    // {
+    //     // cout << "deleting----" << v[i] << endl;
+    //     h.Delete(v[i]);
+    //     // h.printHash();
+    //     // cout << endl
+    //     //      << endl;
+    // }
     fclose(stdout);
 
-    freopen("C_out.txt", "w", stdout);
-    DoubleHash h1(15, false, "custom");
+    // freopen("C_out.txt", "w", stdout);
+    // DoubleHash h1(1000, false, "custom");
 
-    for (int i = 0; i < 15; i++)
-    {
-        h1.insert(v[i]);
-    }
+    // for (int i = 0; i < 100; i++)
+    // {
+    //     h1.insert(v[i]);
+    // }
 
-    h1.printHash();
+    // h1.printHash();
 
-    for (int i = 0; i < 15; i++)
-    {
-        h1.Delete(v[i]);
-    }
-    fclose(stdout);
+    // for (int i = 0; i < 1000; i++)
+    // {
+    //     h1.Delete(v[i]);
+    // }
+    // fclose(stdout);
 
     // h.insert("abc");
     // h.insert("def");
@@ -302,4 +328,42 @@ int main()
     // h.Delete("def");
     // h.Delete("ghi");
     // h.Delete("abc");
+    freopen("D_H2_out.txt", "w", stdout);
+    DoubleHash Dh2(10000, true);
+
+    for (int i = 0; i < 10000; i++)
+    {
+        Dh2.insert(v[i]);
+
+        // h.printHash();
+        // cout << endl
+        //      << endl;
+    }
+    cout << Dh2.getAverageProbes(1000) << endl;
+    freopen("C_H1_out.txt", "w", stdout);
+    DoubleHash CH1(10000, false,"custom");
+
+    for (int i = 0; i < 10000; i++)
+    {
+        CH1.insert(v[i]);
+
+        // h.printHash();
+        // cout << endl
+        //      << endl;
+    }
+    cout << CH1.getAverageProbes(1000) << endl;
+    freopen("C_H2_out.txt", "w", stdout);
+    DoubleHash CH2(10000, true);
+
+    for (int i = 0; i < 10000; i++)
+    {
+        CH2.insert(v[i]);
+
+        // h.printHash();
+        // cout << endl
+        //      << endl;
+    }
+    cout << CH2.getAverageProbes(1000) << endl;
+ 
+
 }
