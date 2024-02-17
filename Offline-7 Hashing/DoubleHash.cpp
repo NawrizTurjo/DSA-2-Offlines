@@ -33,35 +33,45 @@ class DoubleHash
         return hashVal;
     }
 
-    int flodingString(string str)
-    {
-        vector<int> v;
-        int total = 0;
-        int chunk = str.length() / 4;
-        int index = 0;
-        for (int i = 0; i < 4; i++)
-        {
-            int sum = 0;
-            int p = chunk - 1;
-            for (int j = index; j < index + chunk; j++)
-            {
-                sum += pow(10, p) * (str[j] - '0');
-                p--;
-            }
-            total += sum;
-        }
-        int extra = str.size() - chunk * 4;
-        int p = extra - 1;
-        int sum = 0;
-        for (int i = chunk * 4; i < str.size(); i++)
-        {
-            sum = 0;
-            sum += pow(10, p) * (str[i] - '0');
-            p--;
-        }
-        total += sum;
+    // int flodingString(string str)
+    // {
+    //     vector<int> v;
+    //     int total = 0;
+    //     int chunk = str.length() / 4;
+    //     int index = 0;
+    //     for (int i = 0; i < 4; i++)
+    //     {
+    //         int sum = 0;
+    //         int p = chunk - 1;
+    //         for (int j = index; j < index + chunk; j++)
+    //         {
+    //             sum += pow(10, p) * (str[j] - '0');
+    //             p--;
+    //         }
+    //         total += sum;
+    //     }
+    //     int extra = str.size() - chunk * 4;
+    //     int p = extra - 1;
+    //     int sum = 0;
+    //     for (int i = chunk * 4; i < str.size(); i++)
+    //     {
+    //         sum = 0;
+    //         sum += pow(10, p) * (str[i] - '0');
+    //         p--;
+    //     }
+    //     total += sum;
 
-        return total % tableSize;
+    //     return total % tableSize;
+    // }
+
+    int flodingString(const std::string &str)
+    {
+        unsigned int hash = 5381; // Initial value, chosen as a prime number
+        for (char c : str)
+        {
+            hash = ((hash << 5) + hash) + c; // Bitwise left shift by 5 and add current character
+        }
+        return hash % tableSize;
     }
 
     int auxHash(string s)
@@ -138,6 +148,7 @@ public:
         // }
         // hash[index] = s;
         // elements++;
+        bool isCollision = false;
 
         for (int i = 0; i < tableSize; i++)
         {
@@ -153,7 +164,11 @@ public:
                 elements++;
                 return;
             }
-            collisions++;
+            if (!isCollision)
+            {
+                collisions++;
+                isCollision = true;
+            }
         }
         cout << "insertion failed---" << s << endl;
     }
@@ -218,6 +233,11 @@ public:
         return false;
     }
 
+    int getCollisions()
+    {
+        return collisions;
+    }
+
     double getAverageProbes(int num)
     {
         probes = 0;
@@ -226,9 +246,9 @@ public:
             search(v[i]);
         }
 
-        cout<<"probes -> "<<probes<<endl;
+        cout << "probes -> " << probes << endl;
 
-        return (double) probes / (1.0 * num);
+        return (double)probes / (1.0 * num);
     }
 
     void printHash()
@@ -269,9 +289,9 @@ string randomWordGenerator()
 int main()
 {
     freopen("D_H1_out.txt", "w", stdout);
-    DoubleHash Dh1(10000, false);
+    DoubleHash Dh1(20000, false); // folding string
 
-    for (int i = 0; i < 10000; i++)
+    for (int i = 0; i < 20000; i++)
     {
         string s = randomWordGenerator();
         v[i] = s;
@@ -288,8 +308,8 @@ int main()
     // {
     //     h.search(v[i]);
     // }
-    cout << Dh1.getAverageProbes(1000) << endl;
-
+    cout << Dh1.getCollisions() << endl;
+    cout << Dh1.getAverageProbes(2000) << endl;
 
     // for (int i = 0; i < 1000; i++)
     // {
@@ -339,9 +359,10 @@ int main()
         // cout << endl
         //      << endl;
     }
+    cout << Dh2.getCollisions() << endl;
     cout << Dh2.getAverageProbes(1000) << endl;
     freopen("C_H1_out.txt", "w", stdout);
-    DoubleHash CH1(10000, false,"custom");
+    DoubleHash CH1(10000, false, "custom");
 
     for (int i = 0; i < 10000; i++)
     {
@@ -351,6 +372,7 @@ int main()
         // cout << endl
         //      << endl;
     }
+    cout << CH1.getCollisions() << endl;
     cout << CH1.getAverageProbes(1000) << endl;
     freopen("C_H2_out.txt", "w", stdout);
     DoubleHash CH2(10000, true);
@@ -363,7 +385,6 @@ int main()
         // cout << endl
         //      << endl;
     }
+    cout << CH2.getCollisions() << endl;
     cout << CH2.getAverageProbes(1000) << endl;
- 
-
 }
