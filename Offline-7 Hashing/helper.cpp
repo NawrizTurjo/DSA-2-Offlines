@@ -101,12 +101,16 @@ int main()
     //     x = nextPrime(i);
     //     cout << "nextPrime of " << i << " is " << x << endl;
     // }
-    Size = nextPrime(10);
-    for (int i = 0; i < 10; i++)
-    {
-        string s = randomWordGenerator();
-        cout << stringToInt(s) << " " << flodingString(s) << endl;
-    }
+    // Size = nextPrime(10);
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     string s = randomWordGenerator();
+    //     cout << stringToInt(s) << " " << flodingString(s) << endl;
+    // }
+
+    cout << nextPrime(5000) << endl;
+    cout << nextPrime(10000) << endl;
+    cout << nextPrime(20000) << endl;
 
     return 0;
 }
