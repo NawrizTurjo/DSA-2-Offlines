@@ -523,14 +523,45 @@ public:
 
     double getAverageProbes(long long num)
     {
-        num = elements;
-        probes = 0;
-        for (long long i = 0; i < num; i++)
-        {
-            search(v[i]);
-        }
+        // num = elements;
+        // probes = 0;
+        // for (long long i = 0; i < num; i++)
+        // {
+        //     search(v[i]);
+        // }
 
         // cout << "probes -> " << probes << endl;
+        
+        const int totalNumbers = 10000;
+        const int percentage = 10;
+        const int rangeStart = 1;
+        const int rangeEnd = 10000;
+
+        int numElements = totalNumbers * percentage / 100;
+        long seed = 2105032;
+        mt19937 gen(seed);
+
+        uniform_int_distribution<> dis(rangeStart, rangeEnd);
+        unordered_map<int, int> mp;
+
+        for (int i = 0; i < numElements; ++i)
+        {
+            int randomNumber = dis(gen);
+            mp.insert({randomNumber, i});
+        }
+        cout << "Size of the map: " << mp.size() << endl;
+
+        while (mp.size() < numElements)
+        {
+            int randomNumber = dis(gen);
+            mp.insert({randomNumber, -1});
+        }
+        cout << "Size of the map: " << mp.size() << endl;
+
+        for (auto it : mp)
+        {
+            cout << it.first << " " << endl;
+        }
 
         return (double)probes / (1.0 * num);
     }
@@ -606,7 +637,7 @@ int main()
 {
     long long size = 10000;
 
-    long long tableSize = 5000;
+    long long tableSize = 20000;
     // then 10000 and 20000
 
     long long probeCnt = 1000;
