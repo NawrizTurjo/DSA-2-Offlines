@@ -11,7 +11,7 @@ using namespace std;
 #define C1 32
 #define C2 115
 
-vector<string> v(20010);
+vector<string> v(10010);
 
 class Hashing
 {
@@ -213,11 +213,11 @@ public:
                 cout << "Hash Table is Full" << endl;
                 return;
             }
-            if (search(s))
-            {
-                cout << "already exists" << endl;
-                return;
-            }
+            // if (search(s))
+            // {
+            //     cout << "already exists" << endl;
+            //     return;
+            // }
 
             bool isCollision = false;
 
@@ -254,11 +254,11 @@ public:
                 cout << "Hash Table is Full" << endl;
                 return;
             }
-            if (search(s))
-            {
-                cout << "already exists" << endl;
-                return;
-            }
+            // if (search(s))
+            // {
+            //     cout << "already exists" << endl;
+            //     return;
+            // }
             bool isCollision = false;
 
             for (int i = 0; i < currentTableSize; i++)
@@ -268,6 +268,7 @@ public:
                 if (customHash[index].second == "")
                 {
                     ++order;
+                    cout << "order: " << order << endl;
                     customHash[index].first = order;
                     customHash[index].second = s;
                     elements++;
@@ -316,6 +317,10 @@ public:
             {
 
                 index = (index + i * auxHash(str)) % currentTableSize;
+                if (index < 0 || index >= currentTableSize)
+                {
+                    cout << "index: " << index << endl;
+                }
                 if (doubleHash[index].second == str)
                 {
                     doubleHash[index].second = "";
@@ -331,6 +336,10 @@ public:
             {
 
                 index = (index + C1 * i * auxHash(str) + C2 * i * i) % currentTableSize;
+                if (index < 0 || index >= currentTableSize)
+                {
+                    cout << "index: " << index << endl;
+                }
                 if (customHash[index].second == str)
                 {
                     customHash[index].second = "";
@@ -537,7 +546,7 @@ string randomWordGenerator()
 
 int main()
 {
-    // freopen("chaining_1.txt", "w", stdout);
+    freopen("chaining_1.txt", "w", stdout);
 
     Hashing CH1(CHAINING, 1, 20000, 3);
     for (int i = 0; i < 20000; i++)
@@ -551,12 +560,13 @@ int main()
     cout << "Average Probes From Main:  " << CH1.getAverageProbes(2000) << endl;
     cout << "Load Factor: " << CH1.LoadFactor() << endl;
     cout << "Total Elements: " << CH1.getElements() << endl;
+    // CH1.~Hashing();
 
-    // fclose(stdout);
+    fclose(stdout);
     // v.clear();
     // cout << v.size() << endl;
 
-    // freopen("chaining_2.txt", "w", stdout);
+    freopen("chaining_2.txt", "w", stdout);
 
     Hashing CH2(CHAINING, 2, 20000, 3);
     for (int i = 0; i < 20000; i++)
@@ -571,11 +581,13 @@ int main()
     cout << "Average Probes From Main:  " << CH2.getAverageProbes(2000) << endl;
     cout << "Load Factor: " << CH2.LoadFactor() << endl;
     cout << "Total Elements: " << CH2.getElements() << endl;
+    // CH2.~Hashing();
+    ;
 
     // v.clear();
-    // fclose(stdout);
+    fclose(stdout);
 
-    // freopen("double_1.txt", "w", stdout);
+    freopen("double_1.txt", "w", stdout);
 
     Hashing D1(DOUBLE, 1, 20000, 3);
     for (int i = 0; i < 20000; i++)
@@ -590,11 +602,12 @@ int main()
     cout << "Average Probes From Main:  " << D1.getAverageProbes(2000) << endl;
     cout << "Load Factor: " << D1.LoadFactor() << endl;
     cout << "Total Elements: " << D1.getElements() << endl;
+    // D1.~Hashing();
 
     // v.clear();
-    // fclose(stdout);
+    fclose(stdout);
 
-    // freopen("double_2.txt", "w", stdout);
+    freopen("double_2.txt", "w", stdout);
 
     Hashing D2(DOUBLE, 2, 20000, 3);
     for (int i = 0; i < 20000; i++)
@@ -609,11 +622,12 @@ int main()
     cout << "Average Probes From Main:  " << D2.getAverageProbes(2000) << endl;
     cout << "Load Factor: " << D2.LoadFactor() << endl;
     cout << "Total Elements: " << D2.getElements() << endl;
+    // D2.~Hashing();
 
     // v.clear();
-    // fclose(stdout);
+    fclose(stdout);
 
-    // freopen("custom_1.txt", "w", stdout);
+    freopen("custom_1.txt", "w", stdout);
 
     Hashing CUS1(CUSTOM, 1, 20000, 3);
     for (int i = 0; i < 20000; i++)
@@ -628,11 +642,12 @@ int main()
     cout << "Average Probes From Main:  " << CUS1.getAverageProbes(2000) << endl;
     cout << "Load Factor: " << CUS1.LoadFactor() << endl;
     cout << "Total Elements: " << CUS1.getElements() << endl;
+    // CUS1.~Hashing();
 
     // v.clear();
-    // fclose(stdout);
+    fclose(stdout);
 
-    // freopen("custom_2.txt", "w", stdout);
+    freopen("custom_2.txt", "w", stdout);
 
     Hashing CUS2(CUSTOM, 2, 20000, 3);
     for (int i = 0; i < 20000; i++)
@@ -647,7 +662,8 @@ int main()
     cout << "Average Probes From Main:  " << CUS2.getAverageProbes(2000) << endl;
     cout << "Load Factor: " << CUS2.LoadFactor() << endl;
     cout << "Total Elements: " << CUS2.getElements() << endl;
+    // CUS2.~Hashing();
 
     // v.clear();
-    // fclose(stdout);
+    fclose(stdout);
 }
