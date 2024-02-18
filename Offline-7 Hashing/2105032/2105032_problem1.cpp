@@ -25,8 +25,6 @@ int main()
     bool flag = false;
     for (int i = 0; i < 3; i++)
     {
-        // for (int j = 1; j <= 2; j++)
-        // {
         for (int m = 0; m < 3; m++)
         {
             H.reInitialize(collisionRes[m], 1, tableSize[i], 3);
@@ -43,7 +41,6 @@ int main()
             {
                 cout << "|            ";
             }
-            // cout << "| N = " << tableSize[i] << "   ";
 
             switch (collisionRes[m])
             {
@@ -67,36 +64,15 @@ int main()
                 H.insert(v[k], k + 1);
             }
 
-            // cout << "| N = " << tableSize[i] << "   ";
 
-            // switch (collisionRes[m])
-            // {
-            // case CHAINING:
-            //     cout << "| Separate Chaining";
-            //     break;
-            // case DOUBLE:
-            //     cout << "| Double Hashing   ";
-            //     break;
-            // case CUSTOM:
-            //     cout << "| Custom Probing   ";
-            //     break;
-            // default:
-            //     break;
-            // }
 
             cout << " |  " << setw(5) << H.getCollisions() << "   " << setw(6) << H.getAverageProbes(totalNumbers) << "  |";
 
-            // if(!flag)
-            // {
             cout << endl;
-            //     flag = true;
-            // }
 
             H.clear();
         }
         cout << "|_______________________________________________________________________________|" << endl;
-        // flag = false;
-        // }
     }
 
     fclose(stdout);
