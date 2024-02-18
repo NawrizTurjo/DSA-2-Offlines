@@ -55,10 +55,10 @@ class Hashing
 
     long long hash2(const string &str)
     {
-        unsigned long long hash = 5381; 
+        unsigned long long hash = 5381;
         for (char c : str)
         {
-            hash = ((hash << 5) + hash) + c; 
+            hash = ((hash << 5) + hash) + c;
         }
         hash = hash % currentTableSize;
         if (hash < 0)
@@ -199,7 +199,7 @@ public:
 
         if (type == CHAINING)
         {
-            chaining.assign(currentTableSize, list<pair<long long, string>>()); 
+            chaining.assign(currentTableSize, list<pair<long long, string>>());
             doubleHash.clear();
             customHash.clear();
             hashType = CHAINING;
@@ -242,8 +242,7 @@ public:
         insertCount++;
         if (hashType == CHAINING)
         {
-            if (insertCount == 100 && chaining[index].size() >= maxChainLength
-                || currentTableSize > 100 && probes / (0.1 * currentTableSize) > 2)
+            if (insertCount == 100 && chaining[index].size() >= maxChainLength || currentTableSize > 100 && probes / (0.1 * currentTableSize) > 2)
             {
                 insertCount = 0;
                 reHash(true);
@@ -255,13 +254,11 @@ public:
                 collisions++;
             }
 
-
             chaining[index].push_front({key, s});
             elements++;
         }
         else if (hashType == DOUBLE)
         {
-
 
             bool isCollision = false;
             long long prev = collisions;
@@ -269,7 +266,6 @@ public:
             for (long long i = 0; i < currentTableSize; i++)
             {
                 index = (index + i * auxHash(s)) % currentTableSize;
-
 
                 if (isElement[index] == false)
                 {
@@ -296,7 +292,6 @@ public:
             for (long long i = 0; i < currentTableSize; i++)
             {
                 index = (index + C1 * i * auxHash(s) + C2 * i * i) % currentTableSize;
-
 
                 if (index < 0 || index >= currentTableSize)
                 {
@@ -384,11 +379,12 @@ public:
     bool search(string s)
     {
         long long index = getHash(s);
+        long long oldProbes = probes;
         if (hashType == CHAINING)
         {
             list<pair<long long, string>> currList = chaining[index];
             if (currList.size() == 0)
-                return false; 
+                return false;
 
             probes++;
             for (auto i : currList)
@@ -399,7 +395,8 @@ public:
                 }
                 probes++;
             }
-            return false; 
+            probes = ++oldProbes;
+            return false;
         }
         else if (hashType == DOUBLE)
         {
@@ -413,6 +410,7 @@ public:
                     return true;
                 probes++;
             }
+            probes = ++oldProbes;
             return false;
         }
         else if (hashType == CUSTOM)
@@ -427,8 +425,10 @@ public:
                     return true;
                 probes++;
             }
+            probes = ++oldProbes;
             return false;
         }
+        probes = ++oldProbes;
         return false;
     }
 
@@ -459,9 +459,9 @@ public:
              << endl;
 
         file.close();
-        elements = 0; 
-        probes = 0; 
-        if (state)  
+        elements = 0;
+        probes = 0;
+        if (state)
             currentTableSize = nextPrime(currentTableSize * 2);
         else
             currentTableSize = nextPrime(currentTableSize / 2);
@@ -488,7 +488,6 @@ public:
     {
         probes = 0;
 
-
         const int totalNumbers = num;
         const int percentage = 10;
         const int rangeStart = 0;
@@ -496,7 +495,7 @@ public:
 
         int numElements = totalNumbers * percentage / 100;
 
-        mt19937 gen(SEED1);
+        mt19937 gen(SEED2);
 
         uniform_int_distribution<> dis(rangeStart, rangeEnd);
         unordered_map<int, int> mp;
@@ -567,9 +566,9 @@ public:
 
 string randomWordGenerator()
 {
-    static long long counter = 0;    
-    srand(2000 + counter * counter); 
-    counter++;                       
+    static long long counter = 0;
+    srand(2000 + counter * counter);
+    counter++;
 
     long long len = (rand() % (10 - 5 + 1)) + 5;
 
@@ -580,7 +579,6 @@ string randomWordGenerator()
     {
         word += 'a' + (rand() % 26);
     }
-
 
     return word;
 }

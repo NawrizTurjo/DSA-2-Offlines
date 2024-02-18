@@ -1,0 +1,378 @@
+-------Rehashing------
+Total Probes: 2509
+Avereage Probes: 1.2545
+Load Factor: 0.476714
+Maximum Chain Length: 4
+Total Collisions: 470
+Total Elements: 2385
+----------------------
+
+-------Rehashing------
+Total Probes: 2698
+Avereage Probes: 1.349
+Load Factor: 0.459578
+Maximum Chain Length: 4
+Total Collisions: 1398
+Total Elements: 4599
+----------------------
+
+-------Rehashing------
+Total Probes: 2665
+Avereage Probes: 1.3325
+Load Factor: 0.462764
+Maximum Chain Length: 5
+Total Collisions: 3259
+Total Elements: 9265
+----------------------
+
+-------Rehashing------
+Total Probes: 2530
+Avereage Probes: 1.265
+Load Factor: 0.458925
+Maximum Chain Length: 5
+Total Collisions: 461
+Total Elements: 2296
+----------------------
+
+-------Rehashing------
+Total Probes: 2684
+Avereage Probes: 1.342
+Load Factor: 0.472769
+Maximum Chain Length: 5
+Total Collisions: 1396
+Total Elements: 4731
+----------------------
+
+-------Rehashing------
+Total Probes: 2700
+Avereage Probes: 1.35
+Load Factor: 0.462315
+Maximum Chain Length: 5
+Total Collisions: 3265
+Total Elements: 9256
+----------------------
+
+-------Rehashing------
+Total Probes: 2723
+Avereage Probes: 1.3615
+Load Factor: 0.459578
+Maximum Chain Length: 4
+Total Collisions: 928
+Total Elements: 4599
+----------------------
+
+-------Rehashing------
+Total Probes: 2665
+Avereage Probes: 1.3325
+Load Factor: 0.462764
+Maximum Chain Length: 5
+Total Collisions: 2789
+Total Elements: 9265
+----------------------
+
+-------Rehashing------
+Total Probes: 2720
+Avereage Probes: 1.36
+Load Factor: 0.472769
+Maximum Chain Length: 5
+Total Collisions: 935
+Total Elements: 4731
+----------------------
+
+-------Rehashing------
+Total Probes: 2700
+Avereage Probes: 1.35
+Load Factor: 0.462315
+Maximum Chain Length: 5
+Total Collisions: 2804
+Total Elements: 9256
+----------------------
+
+-------Rehashing------
+Total Probes: 2825
+Avereage Probes: 1.4125
+Load Factor: 0.464445
+Maximum Chain Length: 5
+Total Collisions: 1847
+Total Elements: 9294
+----------------------
+
+-------Rehashing------
+Total Probes: 2787
+Avereage Probes: 1.3935
+Load Factor: 0.466643
+Maximum Chain Length: 5
+Total Collisions: 1859
+Total Elements: 9338
+----------------------
+
+-------Rehashing------
+Total Probes: 2961
+Avereage Probes: 1.4805
+Load Factor: 0.709774
+Maximum Chain Length: 5
+Total Collisions: 1000
+Total Elements: 3551
+----------------------
+
+-------Rehashing------
+Total Probes: 3063
+Avereage Probes: 1.5315
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 3001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3043
+Avereage Probes: 1.5215
+Load Factor: 0.712173
+Maximum Chain Length: 6
+Total Collisions: 1000
+Total Elements: 3563
+----------------------
+
+-------Rehashing------
+Total Probes: 3019
+Avereage Probes: 1.5095
+Load Factor: 0.7136
+Maximum Chain Length: 6
+Total Collisions: 3002
+Total Elements: 7141
+----------------------
+
+-------Rehashing------
+Total Probes: 3219
+Avereage Probes: 1.6095
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 2001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3185
+Avereage Probes: 1.5925
+Load Factor: 0.713501
+Maximum Chain Length: 6
+Total Collisions: 2001
+Total Elements: 7140
+----------------------
+
+-------Rehashing------
+Total Probes: 2961
+Avereage Probes: 1.4805
+Load Factor: 0.709774
+Maximum Chain Length: 5
+Total Collisions: 1000
+Total Elements: 3551
+----------------------
+
+-------Rehashing------
+Total Probes: 3063
+Avereage Probes: 1.5315
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 3001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3043
+Avereage Probes: 1.5215
+Load Factor: 0.712173
+Maximum Chain Length: 6
+Total Collisions: 1000
+Total Elements: 3563
+----------------------
+
+-------Rehashing------
+Total Probes: 3019
+Avereage Probes: 1.5095
+Load Factor: 0.7136
+Maximum Chain Length: 6
+Total Collisions: 3002
+Total Elements: 7141
+----------------------
+
+-------Rehashing------
+Total Probes: 3219
+Avereage Probes: 1.6095
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 2001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3185
+Avereage Probes: 1.5925
+Load Factor: 0.713501
+Maximum Chain Length: 6
+Total Collisions: 2001
+Total Elements: 7140
+----------------------
+
+-------Rehashing------
+Total Probes: 2961
+Avereage Probes: 1.4805
+Load Factor: 0.709774
+Maximum Chain Length: 5
+Total Collisions: 1000
+Total Elements: 3551
+----------------------
+
+-------Rehashing------
+Total Probes: 3063
+Avereage Probes: 1.5315
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 3001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3043
+Avereage Probes: 1.5215
+Load Factor: 0.712173
+Maximum Chain Length: 6
+Total Collisions: 1000
+Total Elements: 3563
+----------------------
+
+-------Rehashing------
+Total Probes: 3019
+Avereage Probes: 1.5095
+Load Factor: 0.7136
+Maximum Chain Length: 6
+Total Collisions: 3002
+Total Elements: 7141
+----------------------
+
+-------Rehashing------
+Total Probes: 3219
+Avereage Probes: 1.6095
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 2001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3185
+Avereage Probes: 1.5925
+Load Factor: 0.713501
+Maximum Chain Length: 6
+Total Collisions: 2001
+Total Elements: 7140
+----------------------
+
+-------Rehashing------
+Total Probes: 2961
+Avereage Probes: 1.4805
+Load Factor: 0.709774
+Maximum Chain Length: 5
+Total Collisions: 1000
+Total Elements: 3551
+----------------------
+
+-------Rehashing------
+Total Probes: 3063
+Avereage Probes: 1.5315
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 3001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3043
+Avereage Probes: 1.5215
+Load Factor: 0.712173
+Maximum Chain Length: 6
+Total Collisions: 1000
+Total Elements: 3563
+----------------------
+
+-------Rehashing------
+Total Probes: 3019
+Avereage Probes: 1.5095
+Load Factor: 0.7136
+Maximum Chain Length: 6
+Total Collisions: 3002
+Total Elements: 7141
+----------------------
+
+-------Rehashing------
+Total Probes: 3219
+Avereage Probes: 1.6095
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 2001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3185
+Avereage Probes: 1.5925
+Load Factor: 0.713501
+Maximum Chain Length: 6
+Total Collisions: 2001
+Total Elements: 7140
+----------------------
+
+-------Rehashing------
+Total Probes: 2961
+Avereage Probes: 1.4805
+Load Factor: 0.709774
+Maximum Chain Length: 5
+Total Collisions: 1000
+Total Elements: 3551
+----------------------
+
+-------Rehashing------
+Total Probes: 3063
+Avereage Probes: 1.5315
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 3001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3043
+Avereage Probes: 1.5215
+Load Factor: 0.712173
+Maximum Chain Length: 6
+Total Collisions: 1000
+Total Elements: 3563
+----------------------
+
+-------Rehashing------
+Total Probes: 3019
+Avereage Probes: 1.5095
+Load Factor: 0.7136
+Maximum Chain Length: 6
+Total Collisions: 3002
+Total Elements: 7141
+----------------------
+
+-------Rehashing------
+Total Probes: 3219
+Avereage Probes: 1.6095
+Load Factor: 0.704807
+Maximum Chain Length: 5
+Total Collisions: 2001
+Total Elements: 7053
+----------------------
+
+-------Rehashing------
+Total Probes: 3185
+Avereage Probes: 1.5925
+Load Factor: 0.713501
+Maximum Chain Length: 6
+Total Collisions: 2001
+Total Elements: 7140
+----------------------
+

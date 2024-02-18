@@ -5,18 +5,23 @@ using namespace std;
 int main()
 {
     long long totalNumbers = 10000;
+    int max_chain = 4;
     for (int i = 0; i < totalNumbers; i++)
     {
         v[i] = randomWordGenerator();
     }
 
-    Hashing H(CHAINING, 1, 10000, 3);
+    Hashing H(CHAINING, 1, 10000, max_chain);
 
     long long tableSize[3] = {5000, 10000, 20000};
     bool tableSizeFlag[3] = {false};
     int collisionRes[3] = {CHAINING, DOUBLE, CUSTOM};
 
     freopen("output.txt", "w", stdout);
+
+    cout << "C1=>" << C1 << "\tC2=>" << C2 << endl;
+    cout << "Current Seed for Average probes count=>" << SEED2 << endl;
+    cout << "Maximum Chain length=>" << max_chain << endl;
 
     cout << " ________________________________________________________________________________ " << endl;
     cout << "| Hash       | Collision         | Hash Function 1       | Hash Function 2       |" << endl;
@@ -27,7 +32,7 @@ int main()
     {
         for (int m = 0; m < 3; m++)
         {
-            H.reInitialize(collisionRes[m], 1, tableSize[i], 3);
+            H.reInitialize(collisionRes[m], 1, tableSize[i], max_chain);
             for (int k = 0; k < totalNumbers; k++)
             {
                 H.insert(v[k], k + 1);
@@ -63,8 +68,6 @@ int main()
             {
                 H.insert(v[k], k + 1);
             }
-
-
 
             cout << " |  " << setw(5) << H.getCollisions() << "   " << setw(6) << H.getAverageProbes(totalNumbers) << "  |";
 
