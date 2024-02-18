@@ -1,0 +1,99 @@
+
+Table Size: 5000
+
+Separate Chaining (function 1)
+Total Collisions: 4365
+Average Probes From Main:  1.141
+Load Factor: 0.249607
+Total Elements: 10000
+Double Hashing (function 1)
+Total Collisions: 7514
+Average Probes From Main:  2576.55
+Load Factor: 1
+Total Elements: 5003
+Custom Hashing (function 1)
+Total Collisions: 7486
+Average Probes From Main:  2575.43
+Load Factor: 1
+Total Elements: 5003
+Separate Chaining (function 2)
+Total Collisions: 4465
+Average Probes From Main:  1.135
+Load Factor: 0.249607
+Total Elements: 10000
+Double Hashing (function 2)
+Total Collisions: 7510
+Average Probes From Main:  2574.44
+Load Factor: 1
+Total Elements: 5003
+Custom Hashing (function 2)
+Total Collisions: 7504
+Average Probes From Main:  2574.95
+Load Factor: 1
+Total Elements: 5003
+
+Table Size: 10000
+
+Separate Chaining (function 1)
+Total Collisions: 3895
+Average Probes From Main:  1.141
+Load Factor: 0.249607
+Total Elements: 10000
+Double Hashing (function 1)
+Total Collisions: 5024
+Average Probes From Main:  6.52
+Load Factor: 0.9993
+Total Elements: 10000
+Custom Hashing (function 1)
+Total Collisions: 5017
+Average Probes From Main:  6.335
+Load Factor: 0.9993
+Total Elements: 10000
+Separate Chaining (function 2)
+Total Collisions: 4004
+Average Probes From Main:  1.135
+Load Factor: 0.249607
+Total Elements: 10000
+Double Hashing (function 2)
+Total Collisions: 4937
+Average Probes From Main:  7.127
+Load Factor: 0.9993
+Total Elements: 10000
+Custom Hashing (function 2)
+Total Collisions: 4943
+Average Probes From Main:  8.871
+Load Factor: 0.9993
+Total Elements: 10000
+
+Table Size: 20000
+
+Separate Chaining (function 1)
+Total Collisions: 3006
+Average Probes From Main:  1.129
+Load Factor: 0.249806
+Total Elements: 10000
+Double Hashing (function 1)
+Total Collisions: 2461
+Average Probes From Main:  1.397
+Load Factor: 0.499725
+Total Elements: 10000
+Custom Hashing (function 1)
+Total Collisions: 2475
+Average Probes From Main:  1.423
+Load Factor: 0.499725
+Total Elements: 10000
+Separate Chaining (function 2)
+Total Collisions: 3025
+Average Probes From Main:  1.118
+Load Factor: 0.249806
+Total Elements: 10000
+Double Hashing (function 2)
+Total Collisions: 2459
+Average Probes From Main:  1.337
+Load Factor: 0.499725
+Total Elements: 10000
+Custom Hashing (function 2)
+Total Collisions: 2464
+Average Probes From Main:  1.375
+Load Factor: 0.499725
+Total Elements: 10000

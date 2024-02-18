@@ -8,8 +8,11 @@ using namespace std;
 #define DEFAULT_SIZE 10
 #define DEFAULT_CHAIN 3
 
-#define C1 31
-#define C2 117
+#define C1 32
+#define C2 115
+
+#define SEED1 2105032
+#define SEED2 12103115
 
 vector<string> v(20050);
 
@@ -184,23 +187,25 @@ public:
     void reInitialize(long long type, long long hashFunction, long long size = DEFAULT_SIZE, long long maxChainLength = DEFAULT_CHAIN)
     {
         clear();
-        currentTableSize = nextPrime(size);
+        this->currentTableSize = nextPrime(size);
         elements = 0;
-        maxChainLength = maxChainLength;
+        this->maxChainLength = maxChainLength;
         probes = 0;
         collisions = 0;
         order = 0;
-        hashFunction = hashFunction;
+        this->hashFunction = hashFunction;
         insertCount = 0;
         deleteCount = 0;
+        this->hashType = type;
 
         if (type == CHAINING)
         {
-            chaining.resize(currentTableSize);
-            doubleHash.resize(0);
-            customHash.resize(0);
+            chaining.assign(currentTableSize, list<pair<long long, string>>()); // Resetting elements to empty lists
+            doubleHash.clear();
+            customHash.clear();
             hashType = CHAINING;
         }
+
         else if (type == DOUBLE)
         {
             doubleHash.resize(currentTableSize);
@@ -228,7 +233,7 @@ public:
         // cout << load;
         if (elements >= currentTableSize)
         {
-            cout << "Hash Table is Full" << endl;
+            // cout << "Hash Table is Full" << endl;
             collisions++;
             return;
         }
@@ -304,7 +309,7 @@ public:
                     isCollision = true;
                 }
             }
-            cout << "insertion failed---" << s << endl;
+            // cout << "insertion failed---" << s << endl;
             collisions = prev;
             return;
         }
@@ -321,7 +326,7 @@ public:
 
                 if (index < 0 || index >= currentTableSize)
                 {
-                    cout << "index Error" << endl;
+                    // cout << "index Error" << endl;
                     return;
                 }
 
@@ -341,7 +346,7 @@ public:
                     isCollision = true;
                 }
             }
-            cout << "insertion failed---" << s << endl;
+            // cout << "insertion failed---" << s << endl;
             collisions = prev;
             return;
         }
@@ -524,22 +529,23 @@ public:
     double getAverageProbes(long long num)
     {
         // num = elements;
-        // probes = 0;
+        probes = 0;
         // for (long long i = 0; i < num; i++)
         // {
         //     search(v[i]);
         // }
 
         // cout << "probes -> " << probes << endl;
-        
-        const int totalNumbers = 10000;
+
+        const int totalNumbers = num;
         const int percentage = 10;
-        const int rangeStart = 1;
-        const int rangeEnd = 10000;
+        const int rangeStart = 0;
+        const int rangeEnd = 9999;
 
         int numElements = totalNumbers * percentage / 100;
-        long seed = 2105032;
-        mt19937 gen(seed);
+        // long seed = 2105032;
+
+        mt19937 gen(SEED1);
 
         uniform_int_distribution<> dis(rangeStart, rangeEnd);
         unordered_map<int, int> mp;
@@ -549,21 +555,22 @@ public:
             int randomNumber = dis(gen);
             mp.insert({randomNumber, i});
         }
-        cout << "Size of the map: " << mp.size() << endl;
+        // cout << "Size of the map: " << mp.size() << endl;
 
         while (mp.size() < numElements)
         {
             int randomNumber = dis(gen);
             mp.insert({randomNumber, -1});
         }
-        cout << "Size of the map: " << mp.size() << endl;
+        // cout << "Size of the map: " << mp.size() << endl;
 
         for (auto it : mp)
         {
-            cout << it.first << " " << endl;
+            // cout << it.first << " " << endl;
+            search(v[it.first]);
         }
 
-        return (double)probes / (1.0 * num);
+        return (double)probes / (1.0 * numElements);
     }
 
     long long getElements()
@@ -632,7 +639,7 @@ string randomWordGenerator()
 
     return word;
 }
-
+/*
 int main()
 {
     long long size = 10000;
@@ -669,108 +676,164 @@ int main()
     cout << "Average Probes From Main:  " << CH1.getAverageProbes(probeCnt) << endl;
     cout << "Load Factor: " << CH1.LoadFactor() << endl;
     cout << "Total Elements: " << CH1.getElements() << endl;
-    CH1.clear();
 
-    // // fclose(stdout);
-    // // v.clear();
-    // // cout << v.size() << endl;
+    CH1.reInitialize(DOUBLE, 1, tableSize, 3);
 
-    // // freopen("chaining_2.txt", "w", stdout);
-
-    Hashing CH2(CHAINING, 2, tableSize, 3);
     for (long long i = 0; i < size; i++)
     {
-        CH2.insert(v[i], i + 1);
+        CH1.insert(v[i], i + 1);
     }
-
-    cout << "Chiaining 2" << endl;
-    cout << "Total Collisions: " << CH2.getCollisions() << endl;
-    cout << "Average Probes From Main:  " << CH2.getAverageProbes(probeCnt) << endl;
-    cout << "Load Factor: " << CH2.LoadFactor() << endl;
-    cout << "Total Elements: " << CH2.getElements() << endl;
-    CH2.clear();
-
-    // v.clear();
-    // fclose(stdout);
-
-    // freopen("double_1.txt", "w", stdout);
-
-    Hashing D1(DOUBLE, 1, tableSize, 3);
-    for (long long i = 0; i < size; i++)
-    {
-        // string s = randomWordGenerator();
-        // v[i] = s;
-        D1.insert(v[i], i + 1);
-    }
-
     cout << "Double 1" << endl;
-    cout << "Total Collisions: " << D1.getCollisions() << endl;
-    cout << "Average Probes From Main:  " << D1.getAverageProbes(probeCnt) << endl;
-    cout << "Load Factor: " << D1.LoadFactor() << endl;
-    cout << "Total Elements: " << D1.getElements() << endl;
-    D1.clear();
+    cout << "Total Collisions: " << CH1.getCollisions() << endl;
+    cout << "Average Probes From Main:  " << CH1.getAverageProbes(probeCnt) << endl;
+    cout << "Load Factor: " << CH1.LoadFactor() << endl;
+    cout << "Total Elements: " << CH1.getElements() << endl;
 
-    // // // v.clear();
+    CH1.reInitialize(CUSTOM, 1, tableSize, 3);
+
+    for (long long i = 0; i < size; i++)
+    {
+        CH1.insert(v[i], i + 1);
+    }
+    cout << "Custom 1" << endl;
+    cout << "Total Collisions: " << CH1.getCollisions() << endl;
+    cout << "Average Probes From Main:  " << CH1.getAverageProbes(probeCnt) << endl;
+    cout << "Load Factor: " << CH1.LoadFactor() << endl;
+    cout << "Total Elements: " << CH1.getElements() << endl;
+
+    // fclose(stdout);
+    // v.clear();
+    // cout << v.size() << endl;
+
+    // freopen("chaining_2.txt", "w", stdout);
+
+    // Hashing CH2(CHAINING, 2, tableSize, 3);
+    // for (long long i = 0; i < size; i++)
+    // {
+    //     CH2.insert(v[i], i + 1);
+    // }
+
+    // cout << "Chiaining 2" << endl;
+    // cout << "Total Collisions: " << CH2.getCollisions() << endl;
+    // cout << "Average Probes From Main:  " << CH2.getAverageProbes(probeCnt) << endl;
+    // cout << "Load Factor: " << CH2.LoadFactor() << endl;
+    // cout << "Total Elements: " << CH2.getElements() << endl;
+    // CH2.clear();
+
+    // // v.clear();
     // // fclose(stdout);
 
-    // // freopen("double_2.txt", "w", stdout);
+    // // freopen("double_1.txt", "w", stdout);
 
-    Hashing D2(DOUBLE, 2, tableSize, 3);
-    for (long long i = 0; i < size; i++)
-    {
-        // string s = randomWordGenerator();
-        // v[i] = s;
-        D2.insert(v[i], i + 1);
-    }
+    // Hashing D1(DOUBLE, 1, tableSize, 3);
+    // for (long long i = 0; i < size; i++)
+    // {
+    //     // string s = randomWordGenerator();
+    //     // v[i] = s;
+    //     D1.insert(v[i], i + 1);
+    // }
 
-    cout << "Double 2" << endl;
-    cout << "Total Collisions: " << D2.getCollisions() << endl;
-    cout << "Average Probes From Main:  " << D2.getAverageProbes(probeCnt) << endl;
-    cout << "Load Factor: " << D2.LoadFactor() << endl;
-    cout << "Total Elements: " << D2.getElements() << endl;
-    D2.clear();
+    // cout << "Double 1" << endl;
+    // cout << "Total Collisions: " << D1.getCollisions() << endl;
+    // cout << "Average Probes From Main:  " << D1.getAverageProbes(probeCnt) << endl;
+    // cout << "Load Factor: " << D1.LoadFactor() << endl;
+    // cout << "Total Elements: " << D1.getElements() << endl;
+    // D1.clear();
 
-    // v.clear();
-    // fclose(stdout);
+    // // // // v.clear();
+    // // // fclose(stdout);
 
-    // freopen("custom_1.txt", "w", stdout);
+    // // // freopen("double_2.txt", "w", stdout);
 
-    Hashing CUS1(CUSTOM, 1, tableSize, 3);
-    for (long long i = 0; i < size; i++)
-    {
-        // string s = randomWordGenerator();
-        // v[i] = s;
-        CUS1.insert(v[i], i + 1);
-    }
+    // Hashing D2(DOUBLE, 2, tableSize, 3);
+    // for (long long i = 0; i < size; i++)
+    // {
+    //     // string s = randomWordGenerator();
+    //     // v[i] = s;
+    //     D2.insert(v[i], i + 1);
+    // }
 
-    cout << "Custom 1" << endl;
-    cout << "Total Collisions: " << CUS1.getCollisions() << endl;
-    cout << "Average Probes From Main:  " << CUS1.getAverageProbes(probeCnt) << endl;
-    cout << "Load Factor: " << CUS1.LoadFactor() << endl;
-    cout << "Total Elements: " << CUS1.getElements() << endl;
-    CUS1.clear();
+    // cout << "Double 2" << endl;
+    // cout << "Total Collisions: " << D2.getCollisions() << endl;
+    // cout << "Average Probes From Main:  " << D2.getAverageProbes(probeCnt) << endl;
+    // cout << "Load Factor: " << D2.LoadFactor() << endl;
+    // cout << "Total Elements: " << D2.getElements() << endl;
+    // D2.clear();
 
-    // v.clear();
-    // fclose(stdout);
+    // // v.clear();
+    // // fclose(stdout);
 
-    // freopen("custom_2.txt", "w", stdout);
+    // // freopen("custom_1.txt", "w", stdout);
 
-    Hashing CUS2(CUSTOM, 2, tableSize, 3);
-    for (long long i = 0; i < size; i++)
-    {
-        // string s = randomWordGenerator();
-        // v[i] = s;
-        CUS2.insert(v[i], i + 1);
-        // cout << i << endl;
-    }
+    // Hashing CUS1(CUSTOM, 1, tableSize, 3);
+    // for (long long i = 0; i < size; i++)
+    // {
+    //     // string s = randomWordGenerator();
+    //     // v[i] = s;
+    //     CUS1.insert(v[i], i + 1);
+    // }
 
-    cout << "Custom 2" << endl;
-    cout << "Total Collisions: " << CUS2.getCollisions() << endl;
-    cout << "Average Probes From Main:  " << CUS2.getAverageProbes(probeCnt) << endl;
-    cout << "Load Factor: " << CUS2.LoadFactor() << endl;
-    cout << "Total Elements: " << CUS2.getElements() << endl;
-    CUS2.clear();
+    // cout << "Custom 1" << endl;
+    // cout << "Total Collisions: " << CUS1.getCollisions() << endl;
+    // cout << "Average Probes From Main:  " << CUS1.getAverageProbes(probeCnt) << endl;
+    // cout << "Load Factor: " << CUS1.LoadFactor() << endl;
+    // cout << "Total Elements: " << CUS1.getElements() << endl;
+    // CUS1.clear();
 
-    // v.clear();
+    // // v.clear();
+    // // fclose(stdout);
+
+    // // freopen("custom_2.txt", "w", stdout);
+
+    // Hashing CUS2(CUSTOM, 2, tableSize, 3);
+    // for (long long i = 0; i < size; i++)
+    // {
+    //     // string s = randomWordGenerator();
+    //     // v[i] = s;
+    //     CUS2.insert(v[i], i + 1);
+    //     // cout << i << endl;
+    // }
+
+    // cout << "Custom 2" << endl;
+    // cout << "Total Collisions: " << CUS2.getCollisions() << endl;
+    // cout << "Average Probes From Main:  " << CUS2.getAverageProbes(probeCnt) << endl;
+    // cout << "Load Factor: " << CUS2.LoadFactor() << endl;
+    // cout << "Total Elements: " << CUS2.getElements() << endl;
+    // CUS2.clear();
+
+    // // v.clear();
+    // // fclose(stdout);
+
+    // long long totalNumbers = 10000;
+    // for (int i = 0; i < totalNumbers; i++)
+    // {
+    //     v[i] = randomWordGenerator();
+    // }
+
+    // Hashing H(CHAINING, 1, 10000, 3);
+
+    // long long tableSize[3] = {5000, 10000, 20000};
+    // int collisionRes[3] = {CHAINING,DOUBLE,CUSTOM};
+
+    // freopen("output.txt", "w", stdout);
+
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     for (int j = 1; j <= 2; j++)
+    //     {
+    //         H.reInitialize(collisionRes[i], j, tableSize[i], 3);
+    //         for (int k = 0; k < totalNumbers; k++)
+    //         {
+    //             H.insert(v[k], k + 1);
+    //         }
+    //         // cout << "Chiaining 1" << endl;
+    //         cout << "Total Collisions: " << H.getCollisions() << endl;
+    //         cout << "Average Probes From Main:  " << H.getAverageProbes(totalNumbers) << endl;
+    //         cout << "Load Factor: " << H.LoadFactor() << endl;
+    //         cout << "Total Elements: " << H.getElements() << endl;
+    //     }
+    // }
+
     // fclose(stdout);
 }
+*/
