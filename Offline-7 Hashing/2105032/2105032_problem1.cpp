@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     long long totalNumbers = 10000;
-    int max_chain = 4;
+    int max_chain = 3;
     for (int i = 0; i < totalNumbers; i++)
     {
         v[i] = randomWordGenerator();
@@ -17,15 +17,16 @@ int main()
     bool tableSizeFlag[3] = {false};
     int collisionRes[3] = {CHAINING, DOUBLE, CUSTOM};
 
-    freopen("output.txt", "w", stdout);
+    freopen("report.txt", "w", stdout);
 
-    cout << "C1=>" << C1 << "\tC2=>" << C2 << endl;
-    cout << "Current Seed for Average probes count=>" << SEED2 << endl;
-    cout << "Maximum Chain length=>" << max_chain << endl;
+    cout << "C1 => " << C1 << "\tC2 => " << C2 << endl;
+    cout << "Current Seed for Average probes count => " << SEED2 << endl;
+    cout << "Maximum Chain length => " << max_chain << endl;
 
     cout << " ________________________________________________________________________________ " << endl;
     cout << "| Hash       | Collision         | Hash Function 1       | Hash Function 2       |" << endl;
-    cout << "| Table Size | Resolution Method | Colls.    | Probes    | Colls.    | Probes    |" << endl;
+    cout << "| Table      | Resolution        | # of      | Average   | # of      | Average   |" << endl;
+    cout << "| Size       | Method            | Collisions| Probes    | Collisions| Probes    |" << endl;
     cout << "|________________________________________________________________________________|" << endl;
     bool flag = false;
     for (int i = 0; i < 3; i++)
@@ -39,7 +40,7 @@ int main()
             }
             if (tableSizeFlag[i] == false)
             {
-                cout << "| N = " << tableSize[i] << "   ";
+                cout << "| N = " << setw(7) << left << tableSize[i];
                 tableSizeFlag[i] = true;
             }
             else
@@ -62,20 +63,21 @@ int main()
                 break;
             }
 
-            cout << " |  " << setw(5) << H.getCollisions() << "   " << setw(6) << H.getAverageProbes(totalNumbers) << "   ";
+            cout << " |  " << setw(9) << left << H.getCollisions() << "| " << setw(6) << left << H.getAverageProbes(totalNumbers) << "   ";
             H.reInitialize(collisionRes[m], 2, tableSize[i], 3);
             for (int k = 0; k < totalNumbers; k++)
             {
                 H.insert(v[k], k + 1);
             }
 
-            cout << " |  " << setw(5) << H.getCollisions() << "   " << setw(6) << H.getAverageProbes(totalNumbers) << "  |";
+            // cout << " |  " << setw(5) << H.getCollisions() << "   " << setw(6) << H.getAverageProbes(totalNumbers) << "  |";
+            cout << " |  " << setw(9) << left << H.getCollisions() << "| " << setw(8) << left << H.getAverageProbes(totalNumbers) << "  |";
 
             cout << endl;
 
             H.clear();
         }
-        cout << "|_______________________________________________________________________________|" << endl;
+        cout << "|________________________________________________________________________________|" << endl;
     }
 
     fclose(stdout);
