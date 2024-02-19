@@ -495,7 +495,7 @@ public:
 
         int numElements = totalNumbers * percentage / 100;
 
-        mt19937 gen(SEED2);
+        mt19937 gen(SEED1);
 
         uniform_int_distribution<> dis(rangeStart, rangeEnd);
         unordered_map<int, int> mp;

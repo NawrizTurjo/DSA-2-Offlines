@@ -20,7 +20,7 @@ int main()
     freopen("report.txt", "w", stdout);
 
     cout << "C1 => " << C1 << "\tC2 => " << C2 << endl;
-    cout << "Current Seed for Average probes count => " << SEED2 << endl;
+    cout << "Current Seed for Average probes count => " << SEED1 << endl;
     cout << "Maximum Chain length => " << max_chain << endl;
 
     cout << " ________________________________________________________________________________ " << endl;
