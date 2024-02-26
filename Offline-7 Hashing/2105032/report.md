@@ -178,3 +178,13 @@
 </table>
 
 N.B.: These Seeds are for Choosing the Random Words in average probe calculation.
+
+## Hash Functions
+
+### Hash Function 1
+
+<img src = "hash1.png"> </img>
+
+### Hash Function 2
+
+<img src = "hash2.png"> </img>

@@ -5,13 +5,30 @@ using namespace std;
 int main()
 {
     long long totalNumbers = 10000;
-    int max_chain = 3;
+    int max_chain = 5;
     for (int i = 0; i < totalNumbers; i++)
     {
         v[i] = randomWordGenerator();
     }
+    // cout << 1 << endl;
 
-    Hashing H(CHAINING, 1, 10000, max_chain);
+    // freopen("out.txt","w",stdout);
+
+    Hashing H(CHAINING, 1, totalNumbers * 2, max_chain);
+
+    // for (int i = 0; i < totalNumbers; i++)
+    // {
+    //     H.insert(v[i], i + 1);
+    // }
+    // cout << H.getCollisions() << " " << H.getAverageProbes(totalNumbers) << " " << H.getElements() << endl;
+
+    // for (int i = 0; i < totalNumbers / 2; i++)
+    // {
+    //     // cout << i + 1 << endl;
+    //     H.Delete(v[i]);
+    // }
+
+    // cout << H.getCollisions() << " " << H.getAverageProbes(totalNumbers) << " " << H.getElements() << endl;
 
     long long tableSize[3] = {5000, 10000, 20000};
     bool tableSizeFlag[3] = {false};
