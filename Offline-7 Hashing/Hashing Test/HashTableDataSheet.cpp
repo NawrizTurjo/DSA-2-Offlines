@@ -14,7 +14,7 @@ using namespace std;
 #define SEED1 2105032
 #define SEED2 12103115
 
-vector<string> v(20050);
+vector<string> v(30050);
 
 class Hashing
 {
@@ -461,6 +461,7 @@ public:
         file.close();
         elements = 0;
         probes = 0;
+        collisions = 0;
         if (state)
             currentTableSize = nextPrime(currentTableSize * 2);
         else
