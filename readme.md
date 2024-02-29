@@ -20,6 +20,8 @@ Feel free to navigate through the well-organized folders and files to discover i
    - Implementation of Fibonacci Heap and its application(specs in the folder)
 7. [Hashing](./Offline-7%20Hashing)
    - Implementation of Hash Table and its application(specs in the folder)
+8. [Intractability](./Offline-8%20Intractability/)
+   - Solving KnapSack problem using Dynamic Programming and Branch and Bound
 
 ## How to Use
 
