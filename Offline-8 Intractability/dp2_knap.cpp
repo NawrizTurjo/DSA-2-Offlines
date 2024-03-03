@@ -40,80 +40,166 @@ ostream &operator<<(ostream &os, const vector<T> &v)
     return os;
 }
 
-int dp[10000][10000];
+// int dp[10000][10000];
 
-int knapsack(vi &value, vi &weigth, int index, int maxWeigth)
+// int knapsack(vi &value, vi &weight, int index, int maxweight)
+// {
+//     if (maxweight == 0)
+//         return 0;
+//     if (index < 0)
+//         return 0;
+//     if (dp[index][maxweight] != -1)
+//         return dp[index][maxweight];
+//     int ans = knapsack(value, weight, index - 1, maxweight);
+//     if (maxweight - weight[index] >= 0)
+//         ans = max(ans, knapsack(value, weight, index - 1, maxweight - weight[index]) + value[index]);
+
+//     return dp[index][maxweight] = ans;
+// }
+
+// ll dp2[10000][10000];
+
+// ll knapsack3(vi &value, vi &weight, ll index, ll val_left, ll capacity)
+// {
+//     if (index < 0)
+//         return INF;
+//     if (val_left <= 0)
+//         return 0;
+//     if (dp[index][val_left] != -1)
+//         return dp[index][val_left];
+
+//     ll ans = knapsack3(value, weight, index - 1, val_left, capacity); // NOT CHOOSE
+
+//     if (val_left - value[index] >= 0)
+//     {
+//         ans = min(ans, knapsack3(value, weight, index - 1, val_left - value[index], capacity));
+//     }
+
+//     if (ans == INF)
+//     {
+//         return INF;
+//     }
+
+//     if (ans <= capacity)
+//     {
+//         if (og_wt == -1)
+//         {
+//             og_wt = weight[index];
+//             og_ans = value[index];
+//         }
+//         else
+//         {
+//             og_wt += weight[index];
+//             og_ans += value[index];
+//         }
+//     }
+
+//     return dp[index][val_left] = ans;
+// }
+
+bool solved = false;
+ll og_wt = -1;
+ll og_ans = -1;
+
+void og_solve(vi &value, vi &weight, ll n, ll capacity)
 {
-    if (maxWeigth == 0)
-        return 0;
-    if (index < 0)
-        return 0;
-    if (dp[index][maxWeigth] != -1)
-        return dp[index][maxWeigth];
-    int ans = knapsack(value, weigth, index - 1, maxWeigth);
-    if (maxWeigth - weigth[index] >= 0)
-        ans = max(ans, knapsack(value, weigth, index - 1, maxWeigth - weigth[index]) + value[index]);
-
-    return dp[index][maxWeigth] = ans;
-}
-
-ll dp2[10000][10000];
-
-ll knapsack2(vi &value, vi &weight, ll index, ll val_left)
-{
-    if (index < 0)
-        return INF;
-    if (val_left <= 0)
-        return 0;
-    if (dp[index][val_left] != -1)
-        return dp[index][val_left];
-
-    ll ans = knapsack2(value, weight, index - 1, val_left); // NOT CHOOSE
-
-    if (val_left - value[index] >= 0)
+    if (solved)
     {
-        ans = min(ans, knapsack2(value, weight, index - 1, val_left - value[index]));
+        // cout << og_ans << endl;
+        // cout << og_wt << endl;
+        return;
     }
-
-    return dp[index][val_left] = ans;
-}
-
-void solve(double epsilon)
-{
-    memset(dp, -1, sizeof(dp));
-    // memset(dp2, INF, sizeof(dp2));
-    freopen("in.txt", "r", stdin);
-
-    int capacity;
-    int n;
-    cin >> n;
-    cin >> capacity;
-    vi value(n);
-    vi value_r(n);
-    vi weigth(n);
-    REP(i, n)
-    {
-        cin >> value[i] >> weigth[i];
-    }
-
+    cout << "Original Instance: " << endl;
     int max_v = *max_element(value.begin(), value.end());
 
-    cout << epsilon << endl;
+    vector<vector<int>> dp(n + 1, vector<int>(max_v * n + 1, INF));
+    vector<vector<bool>> selected(n + 1, vector<bool>(max_v * n + 1, false));
+    dp[0][0] = 0;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j <= max_v * n; j++)
+        {
+            if (j < value[i])
+            {
+                dp[i + 1][j] = dp[i][j];
+                selected[i + 1][j] = false;
+                // cout << "1" << endl;
+            }
+            else
+            {
+                if (dp[i][j] < dp[i][j - value[i]] + weight[i])
+                {
+                    dp[i + 1][j] = dp[i][j];
+                    selected[i + 1][j] = false;
+                    // cout << "2 " << i << " " << j << endl;
+                }
+                else
+                {
+                    // cout << "3 " << i << " " << j << endl;
+                    // cout << dp[i][j] << " " << dp[i][j - value_r[i]] + weight[i] << endl;
+                    dp[i + 1][j] = dp[i][j - value[i]] + weight[i];
+                    selected[i + 1][j] = true;
+                }
+            }
+        }
+    }
+    og_ans = 0;
+    for (int i = 0; i <= max_v * n; i++)
+    {
+        if (dp[n][i] <= capacity)
+        {
+            og_ans = i;
+        }
+    }
+    cout << "Answer: " << og_ans << endl;
+    og_wt = 0;
+    vi indices;
+    for (int i = n; i > 0; i--)
+    {
+        if (selected[i][og_ans])
+        {
+            // cout << i << " ";
+            indices.pb(i);
+            og_wt += weight[i - 1];
+            og_ans -= value[i - 1];
+        }
+    }
+    // cout << endl;
+    cout << "Indices: ";
+    for (auto i : indices)
+        cout << i << " ";
+    cout << endl;
+    cout << "Used Weight: " << og_wt << endl
+         << endl
+         << endl;
+    cout << "----------------------------------------------------------------------------"
+         << endl
+         << endl
+         << endl;
+    solved = true;
+}
+
+void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
+{
+    vi value_r(n);
+    int max_v = *max_element(value.begin(), value.end());
+
+    cout << "Rounded Instance with Eps: " << epsilon << endl;
     double theta = (epsilon * (double)max_v) / (double)(2 * n);
 
-    cout << theta << endl;
+    cout << "Theta: " << theta << endl;
 
     for (int i = 0; i < n; i++)
     {
-        value_r[i] = (ceil)((double)value[i] / theta);
+        value_r[i] = (ceil)((double)value[i] / (double)theta);
+        // value[i] = (ceil)((double)value_r[i] * theta);
     }
 
-    // for (auto i : value_r)
-    // {
-    //     cout << i << endl;
-    // }
-
     int max_vr = *max_element(value.begin(), value.end());
+
+    int t = *max_element(value_r.begin(), value_r.end());
+    max_vr = t;
+
     vector<vector<int>> dp(n + 1, vector<int>(max_vr * n + 1, INF));
     vector<vector<bool>> selected(n + 1, vector<bool>(max_vr * n + 1, false));
     dp[0][0] = 0;
@@ -125,17 +211,21 @@ void solve(double epsilon)
             {
                 dp[i + 1][j] = dp[i][j];
                 selected[i + 1][j] = false;
+                // cout << "1" << endl;
             }
             else
             {
-                if (dp[i][j] < dp[i][j - value_r[i]] + weigth[i])
+                if (dp[i][j] < dp[i][j - value_r[i]] + weight[i])
                 {
                     dp[i + 1][j] = dp[i][j];
                     selected[i + 1][j] = false;
+                    // cout << "2 " << i << " " << j << endl;
                 }
                 else
                 {
-                    dp[i + 1][j] = dp[i][j - value_r[i]] + weigth[i];
+                    // cout << "3 " << i << " " << j << endl;
+                    // cout << dp[i][j] << " " << dp[i][j - value_r[i]] + weight[i] << endl;
+                    dp[i + 1][j] = dp[i][j - value_r[i]] + weight[i];
                     selected[i + 1][j] = true;
                 }
             }
@@ -143,7 +233,7 @@ void solve(double epsilon)
     }
 
     int ans = 0;
-    for (int i = 0; i <= max_v * n; i++)
+    for (int i = 0; i <= max_vr * n; i++)
     {
         if (dp[n][i] <= capacity)
         {
@@ -151,94 +241,138 @@ void solve(double epsilon)
         }
     }
 
-    cout << ans << endl;
+    cout << "Answer of reduced instance: " << ans << endl;
     double x = ans;
     double ans_og = x * theta;
-    cout << ans_og << endl;
+    cout << "Answer of reduced instance multiplied by theta: " << ans_og << endl;
 
     ll takewt = 0;
-
+    ll og_val = 0;
+    cout << "Indices: ";
     for (int i = n; i > 0; i--)
     {
         if (selected[i][ans])
         {
             cout << i << " ";
-            takewt += weigth[i - 1];
+            takewt += weight[i - 1];
             ans -= value_r[i - 1];
+            og_val += value[i - 1];
         }
     }
     cout << endl;
-    cout << takewt << endl;
+    cout << "Answer of original instance (rounded up): " << og_val << endl;
+    cout << "Used Weight: " << takewt << endl;
+    double ratio = (double)ans_og / (double)og_val;
+    cout << "Ratio: " << ratio << endl;
+    cout << endl
+         << endl;
+}
 
-    
+void solve(double epsilon)
+{
+    // memset(dp, -1, sizeof(dp));
+    // memset(dp2, INF, sizeof(dp2));
+    freopen("in.txt", "r", stdin);
+    // epsilon = 0.5;
 
-    // auto it = max_element(value.begin(), value.end());
-    // ll max_val = *it;
+    int capacity;
+    int n;
+    cin >> n;
+    cin >> capacity;
+    vi value(n);
+    vi value_r(n);
+    vi weight(n);
+    REP(i, n)
+    {
+        cin >> value[i] >> weight[i];
+    }
 
-    // cout << max_val << endl;
+    og_solve(value, weight, n, capacity);
+    solve_knapsack(value, weight, n, capacity, epsilon);
 
-    // for (int i = max_val; i >= 0; i--)
-    // {
-    //     if (knapsack2(value, weigth, n - 1, i) <= capacity)
-    //     {
-    //         cout << i << endl;
-    //         break;
-    //     }
-    // }
+    // og_solve(value, weight, n, capacity);
+    // int max_v = *max_element(value.begin(), value.end());
+
+    // cout << epsilon << endl;
+    // double theta = (epsilon * (double)max_v) / (double)(2 * n);
+
+    // cout << theta << endl;
 
     // for (int i = 0; i < n; i++)
     // {
-    //     for (int j = 0; j <= max_val * n; j++)
+    //     value_r[i] = (ceil)((double)value[i] / (double)theta);
+    //     // value[i] = (ceil)((double)value_r[i] * theta);
+    // }
+
+    // int max_vr = *max_element(value.begin(), value.end());
+
+    // int t = *max_element(value_r.begin(), value_r.end());
+    // max_vr = t;
+
+    // vector<vector<int>> dp(n + 1, vector<int>(max_vr * n + 1, INF));
+    // vector<vector<bool>> selected(n + 1, vector<bool>(max_vr * n + 1, false));
+    // dp[0][0] = 0;
+    // for (int i = 0; i < n; i++)
+    // {
+    //     for (int j = 0; j <= max_vr * n; j++)
     //     {
-    //         if (j < value[i])
+    //         if (j < value_r[i])
     //         {
-    //             dp2[i + 1][j] = dp2[i][j];
+    //             dp[i + 1][j] = dp[i][j];
+    //             selected[i + 1][j] = false;
+    //             // cout << "1" << endl;
     //         }
     //         else
     //         {
-    //             if (dp2[i][j] < dp2[i][j - value[i]] + weigth[i])
+    //             if (dp[i][j] < dp[i][j - value_r[i]] + weight[i])
     //             {
-    //                 dp2[i + 1][j] = dp2[i][j];
+    //                 dp[i + 1][j] = dp[i][j];
+    //                 selected[i + 1][j] = false;
+    //                 // cout << "2 " << i << " " << j << endl;
     //             }
     //             else
     //             {
-    //                 dp2[i + 1][j] = dp2[i][j - value[i]] + weigth[i];
+    //                 // cout << "3 " << i << " " << j << endl;
+    //                 // cout << dp[i][j] << " " << dp[i][j - value_r[i]] + weight[i] << endl;
+    //                 dp[i + 1][j] = dp[i][j - value_r[i]] + weight[i];
+    //                 selected[i + 1][j] = true;
     //             }
     //         }
     //     }
     // }
 
-    // cout << "answer: " << knapsack(value, weigth, n, capacity) << endl;
+    // int ans = 0;
+    // for (int i = 0; i <= max_vr * n; i++)
+    // {
+    //     if (dp[n][i] <= capacity)
+    //     {
+    //         ans = i;
+    //     }
+    // }
 
-    // vi take2;
-    // int j = capacity;
+    // cout << ans << endl;
+    // double x = ans;
+    // double ans_og = x * theta;
+    // cout << ans_og << endl;
+
+    // ll takewt = 0;
+    // ll og_val = 0;
+
     // for (int i = n; i > 0; i--)
     // {
-    //     if (i == 1 && dp[i][j] != -1)
+    //     if (selected[i][ans])
     //     {
-    //         take2.push_back(1);
+    //         cout << i << " ";
+    //         takewt += weight[i - 1];
+    //         ans -= value_r[i - 1];
+    //         og_val += value[i - 1];
     //     }
-
-    //     if (dp[i][j] != dp[i - 1][j])
-    //     {
-    //         take2.push_back(i + 1);
-    //         j -= weigth[i];
-    //     }
-    //     if (j < 1)
-    //         break;
     // }
-    // // reverse(take2.begin(), take2.end());
-    // sort(take2.begin(), take2.end());
-
-    // ll used_wt = 0;
-    // for (auto i : take2)
-    // {
-    //     used_wt += weigth[i - 1];
-    // }
-
-    // cout << "Used Weigth: " << used_wt << endl;
-    // cout << "Indices: " << take2;
     // cout << endl;
+    // cout << og_val << endl;
+    // cout << takewt << endl;
+
+    // og_solve(value, weight, n, capacity);
 }
 
 int main()
@@ -246,11 +380,21 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    int t = 1;
+    // int t = 1;
+    freopen("out.txt", "w", stdout);
+    vector<double> eps = {0.5, 0.2, 0.1, 0.05};
 
-    while (t--)
+    for (auto i : eps)
     {
-        solve(0.5);
+        solve(i);
+        cout << "----------------------------------------------------------------------------" << endl
+             << endl
+             << endl;
     }
+
+    // while (t--)
+    // {
+    //     solve(0.5);
+    // }
     return 0;
 }
