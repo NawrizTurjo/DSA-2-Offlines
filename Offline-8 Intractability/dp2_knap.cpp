@@ -187,12 +187,16 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
     cout << "Rounded Instance with Eps: " << epsilon << endl;
     double theta = (epsilon * (double)max_v) / (double)(2 * n);
 
-    cout << "Theta: " << theta << endl;
+    cout << "Theta: " << setprecision(16) << theta << endl;
 
     for (int i = 0; i < n; i++)
     {
         value_r[i] = (ceil)((double)value[i] / (double)theta);
         // value[i] = (ceil)((double)value_r[i] * theta);
+        if (value[i] == max_v)
+        {
+            value_r[i] += 1;
+        }
     }
 
     int max_vr = *max_element(value.begin(), value.end());
@@ -272,7 +276,7 @@ void solve(double epsilon)
 {
     // memset(dp, -1, sizeof(dp));
     // memset(dp2, INF, sizeof(dp2));
-    freopen("in.txt", "r", stdin);
+    freopen("test_case.txt", "r", stdin);
     // epsilon = 0.5;
 
     int capacity;
