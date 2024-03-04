@@ -287,7 +287,7 @@ void solve(double epsilon)
 {
     // memset(dp, -1, sizeof(dp));
     // memset(dp2, INF, sizeof(dp2));
-    freopen("test3.txt", "r", stdin);
+    freopen("in.txt", "r", stdin);
     // epsilon = 0.5;
 
     int capacity;
@@ -312,7 +312,7 @@ int main()
     cin.tie(NULL);
 
     // int t = 1;
-    freopen("out_test3.txt", "w", stdout);
+    freopen("out.txt", "w", stdout);
     vector<double> eps = {0.5, 0.2, 0.1, 0.05};
 
     for (auto i : eps)
