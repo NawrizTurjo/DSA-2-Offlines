@@ -4,17 +4,17 @@
 
 int main()
 {
-    int n = 100;  // Number of items
-    int W = 1020; // Maximum weight capacity
+    int n = 1000; // Number of items
+    int W = 2200; // Maximum weight capacity
 
     std::random_device rd;
     std::mt19937 gen(rd());
 
     // Value range and weight range
-    std::uniform_int_distribution<int> val_dist(555, 565);
-    std::uniform_int_distribution<int> weight_dist(25, 30);
+    std::uniform_int_distribution<int> val_dist(23012, 24035);
+    std::uniform_int_distribution<int> weight_dist(60, 80);
 
-    std::ofstream outFile("test_case.txt");
+    std::ofstream outFile("test3.txt");
     if (!outFile.is_open())
     {
         std::cerr << "Unable to create file!" << std::endl;

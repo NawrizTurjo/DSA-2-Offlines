@@ -113,7 +113,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
     int max_v = *max_element(value.begin(), value.end());
 
     vector<vector<int>> dp(n + 1, vector<int>(max_v * n + 1, INF));
-    vector<vector<bool>> selected(n + 1, vector<bool>(max_v * n + 1, false));
+    vector<vector<bool>> isSelected(n + 1, vector<bool>(max_v * n + 1, false));
     dp[0][0] = 0;
     for (int i = 0; i < n; i++)
     {
@@ -122,7 +122,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
             if (j < value[i])
             {
                 dp[i + 1][j] = dp[i][j];
-                selected[i + 1][j] = false;
+                isSelected[i + 1][j] = false;
                 // cout << "1" << endl;
             }
             else
@@ -130,7 +130,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
                 if (dp[i][j] < dp[i][j - value[i]] + weight[i])
                 {
                     dp[i + 1][j] = dp[i][j];
-                    selected[i + 1][j] = false;
+                    isSelected[i + 1][j] = false;
                     // cout << "2 " << i << " " << j << endl;
                 }
                 else
@@ -138,7 +138,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
                     // cout << "3 " << i << " " << j << endl;
                     // cout << dp[i][j] << " " << dp[i][j - value_r[i]] + weight[i] << endl;
                     dp[i + 1][j] = dp[i][j - value[i]] + weight[i];
-                    selected[i + 1][j] = true;
+                    isSelected[i + 1][j] = true;
                 }
             }
         }
@@ -157,7 +157,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
     vi indices;
     for (int i = n; i > 0; i--)
     {
-        if (selected[i][og_ans])
+        if (isSelected[i][og_ans])
         {
             // cout << i << " ";
             indices.pb(i);
@@ -207,7 +207,7 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
     max_vr = t;
 
     vector<vector<int>> dp(n + 1, vector<int>(max_vr * n + 1, INF));
-    vector<vector<bool>> selected(n + 1, vector<bool>(max_vr * n + 1, false));
+    vector<vector<bool>> isSelected(n + 1, vector<bool>(max_vr * n + 1, false));
     dp[0][0] = 0;
     for (int i = 0; i < n; i++)
     {
@@ -216,7 +216,7 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
             if (j < value_r[i])
             {
                 dp[i + 1][j] = dp[i][j];
-                selected[i + 1][j] = false;
+                isSelected[i + 1][j] = false;
                 // cout << "1" << endl;
             }
             else
@@ -224,7 +224,7 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
                 if (dp[i][j] < dp[i][j - value_r[i]] + weight[i])
                 {
                     dp[i + 1][j] = dp[i][j];
-                    selected[i + 1][j] = false;
+                    isSelected[i + 1][j] = false;
                     // cout << "2 " << i << " " << j << endl;
                 }
                 else
@@ -232,7 +232,7 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
                     // cout << "3 " << i << " " << j << endl;
                     // cout << dp[i][j] << " " << dp[i][j - value_r[i]] + weight[i] << endl;
                     dp[i + 1][j] = dp[i][j - value_r[i]] + weight[i];
-                    selected[i + 1][j] = true;
+                    isSelected[i + 1][j] = true;
                 }
             }
         }
@@ -257,7 +257,7 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
     cout << "Indices: ";
     for (int i = n; i > 0; i--)
     {
-        if (selected[i][ans])
+        if (isSelected[i][ans])
         {
             cout << i << " ";
             takewt += weight[i - 1];
@@ -287,7 +287,7 @@ void solve(double epsilon)
 {
     // memset(dp, -1, sizeof(dp));
     // memset(dp2, INF, sizeof(dp2));
-    freopen("in.txt", "r", stdin);
+    freopen("test3.txt", "r", stdin);
     // epsilon = 0.5;
 
     int capacity;
@@ -325,7 +325,7 @@ void solve(double epsilon)
     // max_vr = t;
 
     // vector<vector<int>> dp(n + 1, vector<int>(max_vr * n + 1, INF));
-    // vector<vector<bool>> selected(n + 1, vector<bool>(max_vr * n + 1, false));
+    // vector<vector<bool>> isSelected(n + 1, vector<bool>(max_vr * n + 1, false));
     // dp[0][0] = 0;
     // for (int i = 0; i < n; i++)
     // {
@@ -334,7 +334,7 @@ void solve(double epsilon)
     //         if (j < value_r[i])
     //         {
     //             dp[i + 1][j] = dp[i][j];
-    //             selected[i + 1][j] = false;
+    //             isSelected[i + 1][j] = false;
     //             // cout << "1" << endl;
     //         }
     //         else
@@ -342,7 +342,7 @@ void solve(double epsilon)
     //             if (dp[i][j] < dp[i][j - value_r[i]] + weight[i])
     //             {
     //                 dp[i + 1][j] = dp[i][j];
-    //                 selected[i + 1][j] = false;
+    //                 isSelected[i + 1][j] = false;
     //                 // cout << "2 " << i << " " << j << endl;
     //             }
     //             else
@@ -350,7 +350,7 @@ void solve(double epsilon)
     //                 // cout << "3 " << i << " " << j << endl;
     //                 // cout << dp[i][j] << " " << dp[i][j - value_r[i]] + weight[i] << endl;
     //                 dp[i + 1][j] = dp[i][j - value_r[i]] + weight[i];
-    //                 selected[i + 1][j] = true;
+    //                 isSelected[i + 1][j] = true;
     //             }
     //         }
     //     }
@@ -375,7 +375,7 @@ void solve(double epsilon)
 
     // for (int i = n; i > 0; i--)
     // {
-    //     if (selected[i][ans])
+    //     if (isSelected[i][ans])
     //     {
     //         cout << i << " ";
     //         takewt += weight[i - 1];
@@ -396,7 +396,7 @@ int main()
     cin.tie(NULL);
 
     // int t = 1;
-    freopen("out.txt", "w", stdout);
+    freopen("out_test3.txt", "w", stdout);
     vector<double> eps = {0.5, 0.2, 0.1, 0.05};
 
     for (auto i : eps)

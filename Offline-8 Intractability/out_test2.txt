@@ -1,0 +1,61 @@
+Original Instance: 
+Answer: 54097
+Indices: 6 5 3 
+Used Weight: 190
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.5
+Theta: 450.875
+Answer of reduced instance: 121
+Answer of reduced instance multiplied by theta: 54555.875
+Indices: 10 6 5 
+Answer of original instance (rounded up): 54080
+Used Weight: 184
+Ratio: 1.000314349112426
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.2
+Theta: 180.35
+Answer of reduced instance: 301
+Answer of reduced instance multiplied by theta: 54285.35
+Indices: 10 6 5 
+Answer of original instance (rounded up): 54080
+Used Weight: 184
+Ratio: 1.000314349112426
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.1
+Theta: 90.175
+Answer of reduced instance: 601
+Answer of reduced instance multiplied by theta: 54195.175
+Indices: 10 6 5 
+Answer of original instance (rounded up): 54080
+Used Weight: 184
+Ratio: 1.000314349112426
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.05
+Theta: 45.0875
+Answer of reduced instance: 1201
+Answer of reduced instance multiplied by theta: 54150.0875
+Indices: 10 6 5 
+Answer of original instance (rounded up): 54080
+Used Weight: 184
+Ratio: 1.000314349112426
+
+
+----------------------------------------------------------------------------
+
+
