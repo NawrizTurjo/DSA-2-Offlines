@@ -2,19 +2,21 @@
 #include <fstream>
 #include <random>
 
-int main() {
-    int n = 1000; // Number of items
+int main()
+{
+    int n = 100;  // Number of items
     int W = 1020; // Maximum weight capacity
 
     std::random_device rd;
     std::mt19937 gen(rd());
 
     // Value range and weight range
-    std::uniform_int_distribution<int> val_dist(561,563);
-    std::uniform_int_distribution<int> weight_dist(27,29);
+    std::uniform_int_distribution<int> val_dist(555, 565);
+    std::uniform_int_distribution<int> weight_dist(25, 30);
 
     std::ofstream outFile("test_case.txt");
-    if (!outFile.is_open()) {
+    if (!outFile.is_open())
+    {
         std::cerr << "Unable to create file!" << std::endl;
         return 1;
     }
@@ -24,7 +26,8 @@ int main() {
     outFile << W << std::endl;
 
     // Generate and write n lines with random vi and wi values
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
+    {
         int vi = val_dist(gen);
         int wi = weight_dist(gen);
         outFile << vi << " " << wi << std::endl;

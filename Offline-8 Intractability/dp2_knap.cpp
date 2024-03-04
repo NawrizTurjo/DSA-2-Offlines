@@ -59,7 +59,7 @@ ostream &operator<<(ostream &os, const vector<T> &v)
 
 // ll dp2[10000][10000];
 
-// ll knapsack3(vi &value, vi &weight, ll index, ll val_left, ll capacity)
+// ll knapsack2(vi &value, vi &weight, ll index, ll val_left, ll capacity)
 // {
 //     if (index < 0)
 //         return INF;
@@ -151,6 +151,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
             og_ans = i;
         }
     }
+    ll ans = og_ans;
     cout << "Answer: " << og_ans << endl;
     og_wt = 0;
     vi indices;
@@ -176,6 +177,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
          << endl
          << endl
          << endl;
+    og_ans = ans;
     solved = true;
 }
 
@@ -266,8 +268,17 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
     cout << endl;
     cout << "Answer of original instance (rounded up): " << og_val << endl;
     cout << "Used Weight: " << takewt << endl;
-    double ratio = (double)ans_og / (double)og_val;
-    cout << "Ratio: " << ratio << endl;
+    // cout << og_ans << endl;
+    cout << "Ratio: ";
+    if (og_val == og_ans)
+    {
+        cout << "1.0" << endl;
+    }
+    else
+    {
+        double ratio = (double)og_ans / (double)og_val;
+        cout << ratio << endl;
+    }
     cout << endl
          << endl;
 }
@@ -276,7 +287,7 @@ void solve(double epsilon)
 {
     // memset(dp, -1, sizeof(dp));
     // memset(dp2, INF, sizeof(dp2));
-    freopen("test_case.txt", "r", stdin);
+    freopen("in.txt", "r", stdin);
     // epsilon = 0.5;
 
     int capacity;

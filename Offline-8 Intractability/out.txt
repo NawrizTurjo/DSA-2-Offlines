@@ -1,24 +1,61 @@
 Original Instance: 
-Answer: 20831
-Indices: 996 994 983 955 943 925 905 863 861 859 851 844 834 833 831 826 811 802 777 776 774 771 766 762 748 740 709 706 682 679 674 642 629 627 602 594 586 
-Used Weight: 999
+Answer: 12701
+Indices: 41 37 34 29 24 17 13 12 1 
+Used Weight: 659
 
 
 ----------------------------------------------------------------------------
 
 
 Rounded Instance with Eps: 0.5
-Theta: 0.14075
-Answer of reduced instance: 148074
-Answer of reduced instance multiplied by theta: 20841.4155
-Indices: 996 994 983 955 943 925 905 863 861 859 851 844 834 833 831 826 811 802 777 776 774 771 766 762 748 740 709 706 682 679 674 642 629 627 602 594 586 
-Answer of original instance (rounded up): 20831
-Used Weight: 999
-Ratio: 1.0005
+Theta: 8.404761904761905
+Answer of reduced instance: 1514
+Answer of reduced instance multiplied by theta: 12724.80952380952
+Indices: 41 39 27 24 19 12 11 10 4 
+Answer of original instance (rounded up): 12680
+Used Weight: 649
+Ratio: 1.001656151419558
 
 
 ----------------------------------------------------------------------------
 
 
 Rounded Instance with Eps: 0.2
-Theta: 0.0563
+Theta: 3.361904761904762
+Answer of reduced instance: 3782
+Answer of reduced instance multiplied by theta: 12714.72380952381
+Indices: 41 37 34 30 28 24 21 12 10 
+Answer of original instance (rounded up): 12694
+Used Weight: 654
+Ratio: 1.000551441625965
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.1
+Theta: 1.680952380952381
+Answer of reduced instance: 7562
+Answer of reduced instance multiplied by theta: 12711.36190476191
+Indices: 41 37 34 29 24 17 13 12 1 
+Answer of original instance (rounded up): 12701
+Used Weight: 659
+Ratio: 1.0
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.05
+Theta: 0.8404761904761906
+Answer of reduced instance: 15115
+Answer of reduced instance multiplied by theta: 12703.79761904762
+Indices: 41 37 34 29 24 17 13 12 1 
+Answer of original instance (rounded up): 12701
+Used Weight: 659
+Ratio: 1.0
+
+
+----------------------------------------------------------------------------
+
+
