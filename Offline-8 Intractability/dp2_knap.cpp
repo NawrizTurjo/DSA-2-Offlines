@@ -2,9 +2,9 @@
 using namespace std;
 
 #define ll long long
-#define vi vector<int>
+#define vi vector<ll>
 #define vl vector<ll>
-#define pii pair<int, int>
+#define pii pair<ll, ll>
 #define pll pair<ll, ll>
 #define pb push_back
 #define eb emplace_back
@@ -12,10 +12,10 @@ using namespace std;
 #define fi first
 #define se second
 
-#define FOR(i, a, b) for (int i = (a); i <= (b); ++i)
-#define REP(i, n) for (int i = 0; i < (n); ++i)
-#define REPN(i, n) for (int i = 1; i <= (n); ++i)
-#define REPR(i, n) for (int i = (n)-1; i >= 0; --i)
+#define FOR(i, a, b) for (ll i = (a); i <= (b); ++i)
+#define REP(i, n) for (ll i = 0; i < (n); ++i)
+#define REPN(i, n) for (ll i = 1; i <= (n); ++i)
+#define REPR(i, n) for (ll i = (n)-1; i >= 0; --i)
 
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
@@ -27,8 +27,8 @@ using namespace std;
 #define ps cout << " " << endl;
 #define r return;
 
-const int MOD = 1e9 + 7;
-const int INF = 1e9;
+const ll MOD = 1e9 + 7;
+const ll INF = 1e9;
 
 template <typename T>
 ostream &operator<<(ostream &os, const vector<T> &v)
@@ -40,9 +40,9 @@ ostream &operator<<(ostream &os, const vector<T> &v)
     return os;
 }
 
-// int dp[10000][10000];
+// ll dp[10000][10000];
 
-// int knapsack(vi &value, vi &weight, int index, int maxweight)
+// ll knapsack(vi &value, vi &weight, ll index, ll maxweight)
 // {
 //     if (maxweight == 0)
 //         return 0;
@@ -50,7 +50,7 @@ ostream &operator<<(ostream &os, const vector<T> &v)
 //         return 0;
 //     if (dp[index][maxweight] != -1)
 //         return dp[index][maxweight];
-//     int ans = knapsack(value, weight, index - 1, maxweight);
+//     ll ans = knapsack(value, weight, index - 1, maxweight);
 //     if (maxweight - weight[index] >= 0)
 //         ans = max(ans, knapsack(value, weight, index - 1, maxweight - weight[index]) + value[index]);
 
@@ -110,14 +110,14 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
         return;
     }
     cout << "Original Instance: " << endl;
-    int max_v = *max_element(value.begin(), value.end());
+    ll max_v = *max_element(value.begin(), value.end());
 
-    vector<vector<int>> dp(n + 1, vector<int>(max_v * n + 1, INF));
+    vector<vector<ll>> dp(n + 1, vector<ll>(max_v * n + 1, INF));
     vector<vector<bool>> isSelected(n + 1, vector<bool>(max_v * n + 1, false));
     dp[0][0] = 0;
-    for (int i = 0; i < n; i++)
+    for (ll i = 0; i < n; i++)
     {
-        for (int j = 0; j <= max_v * n; j++)
+        for (ll j = 0; j <= max_v * n; j++)
         {
             if (j < value[i])
             {
@@ -143,8 +143,18 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
             }
         }
     }
+
+    // for (ll i = 0; i <= n; i++)
+    // {
+    //     for (ll j = 0; j <= max_v * n; j++)
+    //     {
+    //         cout << dp[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+
     og_ans = 0;
-    for (int i = 0; i <= max_v * n; i++)
+    for (ll i = 0; i <= max_v * n; i++)
     {
         if (dp[n][i] <= capacity)
         {
@@ -155,7 +165,7 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
     cout << "Answer: " << og_ans << endl;
     og_wt = 0;
     vi indices;
-    for (int i = n; i > 0; i--)
+    for (ll i = n; i > 0; i--)
     {
         if (isSelected[i][og_ans])
         {
@@ -181,17 +191,17 @@ void og_solve(vi &value, vi &weight, ll n, ll capacity)
     solved = true;
 }
 
-void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
+void solve_knapsack(vi value, vi weight, ll n, ll capacity, double epsilon)
 {
     vi value_r(n);
-    int max_v = *max_element(value.begin(), value.end());
+    ll max_v = *max_element(value.begin(), value.end());
 
     cout << "Rounded Instance with Eps: " << epsilon << endl;
     double theta = (epsilon * (double)max_v) / (double)(2 * n);
 
     cout << "Theta: " << setprecision(16) << theta << endl;
 
-    for (int i = 0; i < n; i++)
+    for (ll i = 0; i < n; i++)
     {
         value_r[i] = (ceil)((double)value[i] / (double)theta);
         // value[i] = (ceil)((double)value_r[i] * theta);
@@ -201,17 +211,17 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
         }
     }
 
-    int max_vr = *max_element(value.begin(), value.end());
+    ll max_vr = *max_element(value.begin(), value.end());
 
-    int t = *max_element(value_r.begin(), value_r.end());
+    ll t = *max_element(value_r.begin(), value_r.end());
     max_vr = t;
 
-    vector<vector<int>> dp(n + 1, vector<int>(max_vr * n + 1, INF));
+    vector<vector<ll>> dp(n + 1, vector<ll>(max_vr * n + 1, INF));
     vector<vector<bool>> isSelected(n + 1, vector<bool>(max_vr * n + 1, false));
     dp[0][0] = 0;
-    for (int i = 0; i < n; i++)
+    for (ll i = 0; i < n; i++)
     {
-        for (int j = 0; j <= max_vr * n; j++)
+        for (ll j = 0; j <= max_vr * n; j++)
         {
             if (j < value_r[i])
             {
@@ -238,8 +248,8 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
         }
     }
 
-    int ans = 0;
-    for (int i = 0; i <= max_vr * n; i++)
+    ll ans = 0;
+    for (ll i = 0; i <= max_vr * n; i++)
     {
         if (dp[n][i] <= capacity)
         {
@@ -255,7 +265,7 @@ void solve_knapsack(vi value, vi weight, int n, ll capacity, double epsilon)
     ll takewt = 0;
     ll og_val = 0;
     cout << "Indices: ";
-    for (int i = n; i > 0; i--)
+    for (ll i = n; i > 0; i--)
     {
         if (isSelected[i][ans])
         {
@@ -287,11 +297,11 @@ void solve(double epsilon)
 {
     // memset(dp, -1, sizeof(dp));
     // memset(dp2, INF, sizeof(dp2));
-    freopen("test3.txt", "r", stdin);
+    freopen("in2.txt", "r", stdin);
     // epsilon = 0.5;
 
-    int capacity;
-    int n;
+    ll capacity;
+    ll n;
     cin >> n;
     cin >> capacity;
     vi value(n);
@@ -311,8 +321,8 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    // int t = 1;
-    freopen("out_test3.txt", "w", stdout);
+    // ll t = 1;
+    freopen("out_in2.txt", "w", stdout);
     vector<double> eps = {0.5, 0.2, 0.1, 0.05};
 
     for (auto i : eps)

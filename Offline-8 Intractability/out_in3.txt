@@ -1,0 +1,65 @@
+Original Instance: 
+0 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 
+0 4 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 
+0 4 5 9 1000000000 1000000000 1000000000 1000000000 1000000000 1000000000 
+0 4 5 6 10 11 15 1000000000 1000000000 1000000000 
+Answer: 1
+Indices: 1 
+Used Weight: 4
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.5
+Theta: 0.25
+Answer of reduced instance: 4
+Answer of reduced instance multiplied by theta: 1
+Indices: 1 
+Answer of original instance (rounded up): 1
+Used Weight: 4
+Ratio: 1.0
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.2
+Theta: 0.1
+Answer of reduced instance: 10
+Answer of reduced instance multiplied by theta: 1
+Indices: 1 
+Answer of original instance (rounded up): 1
+Used Weight: 4
+Ratio: 1.0
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.1
+Theta: 0.05000000000000001
+Answer of reduced instance: 20
+Answer of reduced instance multiplied by theta: 1
+Indices: 1 
+Answer of original instance (rounded up): 1
+Used Weight: 4
+Ratio: 1.0
+
+
+----------------------------------------------------------------------------
+
+
+Rounded Instance with Eps: 0.05
+Theta: 0.025
+Answer of reduced instance: 40
+Answer of reduced instance multiplied by theta: 1
+Indices: 1 
+Answer of original instance (rounded up): 1
+Used Weight: 4
+Ratio: 1.0
+
+
+----------------------------------------------------------------------------
+
+
